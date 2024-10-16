@@ -38,27 +38,27 @@
     />
 
     <style>
-      .widget-brand-logo {
+      #widget-brand-logo {
     display: flex;
-    justify-content: center; /* Center the entire widget */
+    justify-content: center; 
 }
 
-.swiper-wrapper {
-    display: flex; /* Ensure the slides are in a flex container */
-}
-
-.swiper-slide {
+#swiper-wrapper {
     display: flex;
-    justify-content: center; /* Center the images within the slide */
-    align-items: center; /* Vertically center the images */
-    height: 150px; /* Set a fixed height for slides */
 }
 
-.widget-brand-logo img {
-    width: auto; /* Allow width to adjust */
-    height: 100%; /* Fill the height of the slide */
-    max-width: 150px; /* Set a maximum width for the images */
-    object-fit: contain; /* Ensure images fit well within the defined size */
+#swiper-slide {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 150px; 
+}
+
+#widget-brand-logo img {
+    width: auto; 
+    height: 100%; 
+    max-width: 150px; 
+    object-fit: contain; 
 }
 
     </style>
@@ -4687,10 +4687,10 @@
                   <div class="line"></div>
                   <p class="line-text">We’ve been mentioned in Below Brands</p>
                 </div>
-                <div class="col-lg-12 widget-brand-logo">
+                <div id="widget-brand-logo" class="col-lg-12 widget-brand-logo">
                   <div class="swiper brand-logo overflow-hidden">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
+                    <div id="swiper-wrapper" class="swiper-wrapper">
+                      <div id="swiper-slide" class="swiper-slide">
                         <img src="./assets/images/company1.png" alt="Company 1" />
                       </div>
                       <div class="swiper-slide">
@@ -5501,14 +5501,14 @@
                         <div class="swiper-slide">
                           <div class="testimonial-content relative">
                             <div class="profile mb-15">
-                              <h3 class="name">Piter Bowman</h3>
-                              <span class="job">Business CEO</span>
+                              <h3 class="name">Shafek Gobran</h3>
+                              <span class="job">Owner & CEO</span>
                             </div>
                             <p class="tes">
-                              Leverage agile frameworks to provide a robust
-                              synopsis for high level overviews. Iterative in
-                              approaches to corporate strategy data foster go to
-                              collaborative thinking.
+                              "At Marvelous Egypt Travel, we are dedicated to crafting
+                              unforgettable experiences, blending rich history with modern
+                              hospitality. Your journey is our passion, and we are honored to
+                              guide you through the wonders of Egypt."
                             </p>
                             <span class="line"></span>
                             <div class="icon-tes flex-five">
@@ -5519,14 +5519,14 @@
                         <div class="swiper-slide">
                           <div class="testimonial-content relative">
                             <div class="profile mb-15">
-                              <h3 class="name">Piter Bowman</h3>
-                              <span class="job">Business CEO</span>
+                              <h3 class="name">Operations Team</h3>
+                              <span class="job">Team Member</span>
                             </div>
                             <p class="tes">
-                              Leverage agile frameworks to provide a robust
-                              synopsis for high level overviews. Iterative in
-                              approaches to corporate strategy data foster go to
-                              collaborative thinking.
+                              "Our commitment to excellence ensures that every detail of your
+                              trip is meticulously planned. We are here to make your adventure
+                              seamless and enriching, allowing you to focus on creating
+                              lasting memories."
                             </p>
                             <span class="line"></span>
                             <div class="icon-tes flex-five">
@@ -5537,14 +5537,14 @@
                         <div class="swiper-slide">
                           <div class="testimonial-content relative">
                             <div class="profile mb-15">
-                              <h3 class="name">Piter Bowman</h3>
-                              <span class="job">Business CEO</span>
+                              <h3 class="name">Ground Team</h3>
+                              <span class="job">Team Member</span>
                             </div>
                             <p class="tes">
-                              Leverage agile frameworks to provide a robust
-                              synopsis for high level overviews. Iterative in
-                              approaches to corporate strategy data foster go to
-                              collaborative thinking.
+                              "Our knowledgeable guides are eager to share Egypt’s treasures
+                              with you, bringing the past to life through engaging stories
+                              and experiences. Together, we will explore the beauty and
+                              culture that make this land truly extraordinary."
                             </p>
                             <span class="line"></span>
                             <div class="icon-tes flex-five">
@@ -5579,6 +5579,7 @@
                   </div>
                 </div>
               </div>
+              
             </div>
           </section>
           <!-- Widget Testimonial -->
