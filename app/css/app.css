@@ -5993,9 +5993,11 @@
 }
 
 /*----------------------Slide-home 01--------------------*/
-.slider-home1 .silider-image::before {
-  background: url(../../assets/images/hero.jpg);
-  background-size:auto;
+/* .slider-home1 .silider-image::before {
+  background: url(../../assets/hero.jpg);
+  background-size:100% 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
   top: 0;
   right: 0;
   left: 0;
@@ -6003,7 +6005,7 @@
   position: absolute;
   content: "";
   z-index: 2;
-}
+} */
 .slider-home1 .silider-image img {
   position: absolute;
 }
@@ -12351,6 +12353,5 @@ body .dribbble img {
 }
 
 /*# sourceMappingURL=app.css.map */
-
 
 /* Edits */
