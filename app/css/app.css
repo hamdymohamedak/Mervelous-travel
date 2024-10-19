@@ -8753,12 +8753,10 @@
   letter-spacing: -0.02em;
 }
 .widget-testimonial .testimonial-content .tes {
-  font-size: 29px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 57px;
   color: #081e2a;
   text-transform: capitalize;
-  letter-spacing: -0.02em;
 }
 .widget-testimonial .testimonial-content .line {
   width: 50px;
@@ -8769,15 +8767,6 @@
   border-radius: 2px;
   margin-top: 31px;
   margin-bottom: 17px;
-}
-.widget-testimonial .testimonial-content .icon-tes {
-  width: 92px;
-  height: 86px;
-  background-color: #ffffff;
-  border: 1px solid rgba(122, 134, 151, 0.15);
-  position: absolute;
-  bottom: -19%;
-  right: 11%;
 }
 .widget-testimonial .testimonial-content .icon-tes i {
   font-size: 27px;

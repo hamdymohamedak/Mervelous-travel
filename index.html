@@ -63,6 +63,8 @@
       position: absolute;
       top: 0;
       right: 0;
+      filter: brightness(0.5); 
+
     }
     #heroSecTitle{
       position: absolute;
@@ -74,16 +76,70 @@
       width: auto; 
     }
     @media (max-width:1193px) {
-      .ownHeroBG{
-        width: 100%;
-      }
+        .ownHeroBG {
+    width: 100%;
+    filter: brightness(0.5); 
+  
+
+}
     }
     @media (max-width:728px) {
       #heroSecTitle{
         position: absolute;
         left: 0;
       }
+
     }
+    #destinationsTitle {
+  font-size: 2rem;
+  width: 100%; 
+  max-width: 89rem; 
+  margin: 0 auto; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  #destinationsTitle {
+    font-size: 1.5rem;
+  }
+  @media (max-width:498px) {
+    #destinationsTitle {
+    font-size: 1rem;
+  }
+      }
+
+
+}
+.contact-us-wrap .title {
+    font-size: 1.5rem; 
+}
+
+.contact-us-wrap .des {
+    font-size: 0.9rem; 
+}
+
+.input-wrap input,
+.input-wrap select,
+.input-wrap textarea {
+    height: 40px; 
+    font-size: 0.9rem;
+}
+
+.row.mb-3 {
+    margin-bottom: 1rem; 
+}
+
+.btn-submit-contact {
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+}
+
+@media (max-width:447px) {
+  summary{
+    font-size: 11px;
+  }
+}
 
   </style>
 </head>
@@ -135,7 +191,7 @@
               <div class="header-top-left flex-two">
                 <a href="contact-us.html" class="booking">
                   <i class="icon-19"></i>
-                  <span>Booking Now</span>
+                  <span>Inquire Now</span>
                 </a>
                 <div style="display: flex; justify-content: space-between">
                   <button aria-label="Booking" onclick="goToChat()" style="
@@ -299,7 +355,7 @@
             <div class="swiper-wrapper">
               <div class="slider-home1 relative overflow-hidden swiper-slide">
                 <div class="silider-image">
-                  <img class="ownHeroBG" src="./assets/hero.jpg" alt="hero Image"/>
+                  <img class="ownHeroBG" src="./assets/newHero.jpg" alt="hero Image"/>
                   <img id="rightImgCover";
   opacity: 1;" src="./assets/images/slide/mask-slide.webp" alt="Image" class="mask-slide" />
                   <img src="./assets/images/slide/mask-fly.webp" alt="Image" class="mask-flane" />
@@ -342,7 +398,7 @@
               </div>
               <div class="slider-home1 relative overflow-hidden swiper-slide">
                 <div class="silider-image">
-                  <img class="ownHeroBG" src="./assets/hero.jpg" alt="hero Image"/>
+                  <img class="ownHeroBG" src="./assets/newHero.jpg" alt="hero Image"/>
                   <img id="rightImgCover";
   opacity: 1;" src="./assets/images/slide/mask-slide.webp" alt="Image" class="mask-slide" />
                   <img src="./assets/images/slide/mask-fly.webp" alt="Image" class="mask-flane" />
@@ -383,7 +439,7 @@
               </div>
               <div class="slider-home1 relative overflow-hidden swiper-slide">
                 <div class="silider-image">
-                  <img class="ownHeroBG" src="./assets/hero.jpg" alt="hero Image"/>
+                  <img class="ownHeroBG" src="./assets/newHero.jpg" alt="hero Image"/>
                   <img id="rightImgCover";
   opacity: 1;" src="./assets/images/slide/mask-slide.webp" alt="Image" class="mask-slide" />
                   <img src="./assets/images/slide/mask-fly.webp" alt="Image" class="mask-flane" />
@@ -686,7 +742,7 @@
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 class="title-tour-list"><a href="tour-single.html">Cairo Tour Packages</a>
+                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html">Cairo Tour Packages</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -757,14 +813,14 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Aswan_Images/img1.webp"
+  object-fit: cover;" src="./assets/images/Luxor_Images/img6.webp"
                                   alt="Image Listing">
 
                           </a>
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 class="title-tour-list"><a href="tour-single.html">Essential Egypt</a>
+                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html">Essential Egypt</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -842,7 +898,7 @@
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 style="min-width: 17rem;" class="title-tour-list"><a href="tour-single.html"> Cairo, Giza, Luxor & Aswan Tour</a>
+                              <h3 style="min-width: 17rem;font-size: 16px;" class="title-tour-list"><a href="tour-single.html"> Cairo, Giza, Luxor & Aswan Tour</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -920,7 +976,7 @@
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 class="title-tour-list"><a href="tour-single.html"> Luxury Cairo, Giza, Aswan, Kom Ombo, Edfu, Luxor and Hurghada Tour</a>
+                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html">Cleopatra Egypt Tour Package</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -967,8 +1023,8 @@
                               </div>
                               <div class="flex-two">
                                   <div class="price-box flex-three">
-                                      <p>From <span class="price-sale">unknown</span></p>
-                                      <span class="price">unknown</span>
+                                      <p>From <span class="price-sale">$1530</span></p>
+                                      <span class="price">$1530</span>
                                   </div>
                                   <div class="icon-bookmark">
                                       <i class="icon-Vector-151"></i>
@@ -1006,7 +1062,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Giza_Images/img18.webp"
+  object-fit: cover;" src="./assets/images/Luxor_Images/img17.jpeg"
                                   alt="Image Listing">
 
                           </a>
@@ -1242,7 +1298,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Aswan_Images/img5.webp"
+  object-fit: cover;" src="./assets/images/Luxor_Images/img19.jpeg"
                                   alt="Image Listing">
 
                           </a>
@@ -1415,7 +1471,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Aswan_Images/img3.webp"
+  object-fit: cover;" src="./assets/images/Luxor_Images/img20.JPG"
                                   alt="Image Listing">
 
                           </a>
@@ -1668,7 +1724,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Giza_Images/img16.webp"
+  object-fit: cover;" src="./assets/images/Cairo_Images/img10.jpeg"
                                   alt="Image Listing">  
 
                           </a>
@@ -1824,7 +1880,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Giza_Images/img15.webp"
+  object-fit: cover;" src="./assets/images/Cairo_Images/img9.jpeg"
                                   alt="Image Listing">
 
                           </a>
@@ -1902,7 +1958,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Luxor_Images/img4.webp"
+  object-fit: cover;" src="./assets/images/Aswan_Images/Cyrille Fremont (2).jpeg"
                                   alt="Image Listing">
 
                           </a>
@@ -1995,7 +2051,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Giza_Images/img1.webp"
+  object-fit: cover;" src="./assets/images/Aswan_Images/François Henry Christolhomme (2).jpeg"
                                   alt="Image Listing">
 
                           </a>
@@ -2073,7 +2129,7 @@
                                   </div>
                               </div>
                               <img style="height: 16rem;
-  object-fit: cover;" src="./assets/images/Aswan_Images/img2.webp"
+  object-fit: cover;" src="./assets/images/Aswan_Images/GUEST-5.jpg"
                                   alt="Image Listing">
 
                           </a>
@@ -2436,7 +2492,7 @@
                     <div class="tabs-activities-content flex">
                       <div class="activities-image">
                         <img style="height: 27rem;
-  object-fit: cover;" loading="lazy" src="./assets/images/Couple.jpeg" alt="Image" />
+  object-fit: cover;" loading="lazy" src="./assets/images/Activeties (1).jpg" alt="Image" />
                       </div>
 
 
@@ -2490,7 +2546,7 @@
                     <div class="tabs-activities-content flex">
                       <div class="activities-image">
                         <img style="height: 27rem;
-  object-fit: cover;" loading="lazy" src="./assets/images/Active2.webp" alt="Image" />
+  object-fit: cover;" loading="lazy" src="./assets/images/Activeties (4).jpeg" alt="Image" />
                       </div>
                       <div class="activities-content relative">
                         <span class="sub-title text-white">Unveil the Wonders of Egypt</span>
@@ -2538,7 +2594,7 @@
                     <div class="tabs-activities-content flex">
                       <div class="activities-image">
                         <img style="height: 27rem;
-  object-fit: cover;" loading="lazy" src="./assets/images/Active3.webp" alt="Image" />
+  object-fit: cover;" loading="lazy" src="./assets/images/Activeties (3).jpeg" alt="Image" />
                       </div>
                       <div class="activities-content relative">
                         <span class="sub-title text-white">Unveil the Wonders of Egypt</span>
@@ -2585,7 +2641,7 @@
                     <div class="tabs-activities-content flex">
                       <div class="activities-image">
                         <img style="height: 27rem;
-  object-fit: cover;" loading="lazy" src="./assets/images/Active4.webp" alt="Image" />
+  object-fit: cover;" loading="lazy" src="./assets/images/Activeties (2).jpeg" alt="Image" />
                       </div>
                       <div class="activities-content relative">
                         <span class="sub-title text-white">Unveil the Wonders of Egypt</span>
@@ -2630,7 +2686,7 @@
                     <div class="tabs-activities-content flex">
                       <div class="activities-image">
                         <img style="height: 27rem;
-  object-fit: cover;" loading="lazy" src="./assets/images/Active5.webp" alt="Image" />
+  object-fit: cover;" loading="lazy" src="./assets/images/Activeties (1).jpeg" alt="Image" />
                       </div>
                       <div class="activities-content relative">
                         <span class="sub-title text-white">Unveil the Wonders of Egypt</span>
@@ -2799,7 +2855,7 @@ object-fit: cover;" src="./assets/images/Nile.jpeg"
                               <div class="flex-two">
                                 <div class="price-box flex-three">
                                     <p>From <span class="price-sale">$1980</span></p>
-                                    <span class="price">$1350</span>
+                                    <span class="price">$2475</span>
                                 </div>
                                 <div class="icon-bookmark">
                                     <i class="icon-Vector-151"></i>
@@ -2877,7 +2933,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
                             <div class="flex-two">
                                 <div class="price-box flex-three">
                                     <p>From <span class="price-sale">$1250</span></p>
-                                    <span class="price">$1250</span>
+                                    <span class="price">$1562</span>
                                 </div>
                                 <div class="icon-bookmark">
                                     <i class="icon-Vector-151"></i>
@@ -3039,17 +3095,17 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
               <div class="col-lg-12">
                 <div class="center m0-auto w-text-heading mb-40">
                   <span class="sub-title-heading text-main mb-15 fadeInUp wow">Explore the Wonders of Egypt</span>
-                  <h2 style="font-size: 2rem;
-  width: 41rem;" class="title-heading fadeInUp wow">
+                  <h2 id="destinationsTitle" class="fadeInUp wow">
                     Discover Our Premier Tourist Destinations
                   </h2>
+                  
                 </div>
               </div>
             </div>
             <div class="grid-three-destination">
               <div class="tf-widget-destination wow fadeInUp animated" data-wow-delay="0.1s">
                 <a style="height: 16rem;" href="single-destination.html" class="destination-imgae">
-                  <img loading="lazy" src="./assets/images/Pyramids and Sphinx, Egypt.jpeg" alt="img" />
+                  <img loading="lazy" src="./assets/images/Destinations_Images/Pyramids of Giza.jpeg" alt="img" />
                 </a>
                 <div class="destination-content">
                   <span class="nation">Cairo</span>
@@ -3065,7 +3121,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
               </div>
               <div class="tf-widget-destination wow fadeInUp animated" data-wow-delay="0.2s">
                 <a style="height: 16rem;" href="single-destination.html" class="destination-imgae">
-                  <img loading="lazy" src="./assets/images/Alexandria.jpg" alt="img" />
+                  <img loading="lazy" src="./assets/images/Destinations_Images/Sightseeing in Alexandria, Egypt.jpeg" alt="img" />
                 </a>
                 <div class="destination-content">
                   <span class="nation">Alexandria</span>
@@ -3081,7 +3137,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
               </div>
               <div class="tf-widget-destination wow fadeInUp animated" data-wow-delay="0.3s">
                 <a style="height: 16rem;" href="single-destination.html" class="destination-imgae">
-                  <img loading="lazy" src="./assets/images/Luxor, Egypt.jpeg" alt="img" />
+                  <img loading="lazy" src="./assets/images/Destinations_Images/Luxor Temple, Luxor, Egypt.jpeg" alt="img" />
                 </a>
                 <div class="destination-content">
                   <span class="nation">Luxor</span>
@@ -3129,7 +3185,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
               </div>
               <div class="tf-widget-destination wow fadeInUp animated" data-wow-delay="0.6s">
                 <a style="height: 16rem;" href="single-destination.html" class="destination-imgae">
-                  <img loading="lazy" src="./assets/images/Sharm El Sheikh, Egypt.jpeg" alt="img" />
+                  <img loading="lazy" src="./assets/images/Destinations_Images/Sharm ElSheikh, Egypt.jpeg" alt="img" />
                 </a>
                 <div class="destination-content">
                   <span class="nation">Sharm El Sheikh</span>
@@ -3208,25 +3264,506 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
                                               data-bs-toggle="tab" data-bs-target="#nav-hiking" role="tab"
                                               aria-controls="nav-hiking" aria-selected="true">
                                               <i class="icon-Group1"></i>
-                                              <span>Hiking & Tracking</span>
+                                              <span>Classic Egypt Tours</span>
                                           </li>
                                           <li class="nav-link flex-three" id="nav-river-tab" data-bs-toggle="tab"
                                               data-bs-target="#nav-river" role="tab" aria-controls="nav-river"
                                               aria-selected="false">
                                               <i class="icon-river-1"></i>
-                                              <span>River Cruises</span>
+                                              <span>Luxury Egypt Tours</span>
                                           </li>
                                           <li class="nav-link flex-three" id="nav-adventure-tab" data-bs-toggle="tab"
                                               data-bs-target="#nav-adventure" role="tab" aria-controls="nav-adventure"
                                               aria-selected="false">
                                               <i class="icon-adventure-1"></i>
-                                              <span>Adventure Tour</span>
+                                              <span>Cheap Egypt Tours</span>
                                           </li>
                                           <li class="nav-link flex-three" id="nav-animals-tab" data-bs-toggle="tab"
                                               data-bs-target="#nav-animals" role="tab" aria-controls="nav-animals"
                                               aria-selected="false">
                                               <i class="icon-deer-1"></i>
-                                              <span>Animals plant</span>
+                                              <span>Family Egypt Tours</span>
+                                          </li>
+                                      </div>
+                                  </nav>
+                                  <div class="tab-content" id="nav-tabContent">
+                                      <div class="tab-pane fade show active" id="nav-hiking" role="tabpanel"
+                                          tabindex="0">
+                                          <div class="row">
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour1.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour2.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour3.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour4.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour5.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour6.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour7.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour8.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="nav-river" role="tabpanel" tabindex="0">
+                                          <div class="row">
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour1.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour2.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour3.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour4.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour5.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour6.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour7.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour8.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="nav-adventure" role="tabpanel" tabindex="0">
+                                          <div class="row">
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour1.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour2.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour3.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour4.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour5.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour6.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour7.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour8.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="nav-animals" role="tabpanel" tabindex="0">
+                                          <div class="row">
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour1.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour2.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour3.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour4.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour5.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour6.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour7.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-6 col-sm-6 col-lg-3">
+                                                  <div class="tf-adventure flex-three mb-43">
+                                                      <a href="tour-single.html" class="adventure-image">
+                                                          <img src="./assets/images/tour/tour8.jpg" alt="">
+                                                      </a>
+                                                      <div class="adventure-image">
+                                                          <span class="tour-ad">(3 Tour)</span>
+                                                          <h6 class="title-ad"><a
+                                                                  href="tour-single.html">Switzerland</a></h6>
+                                                          <p class="price-ad text-main">$169.00</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+
+              <section style="margin-top:6rem" class="widget-adventure">
+                  <div class="tf-container">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="mb-40">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="adventure-content">
+                                  <nav class="mb-40 adventure-scroll">
+                                      <div class="nav nav-justified nav-tabs-adventure" id="nav-tab" role="tablist">
+                                          <li class="nav-link flex-three active" id="nav-home-tab"
+                                              data-bs-toggle="tab" data-bs-target="#nav-hiking" role="tab"
+                                              aria-controls="nav-hiking" aria-selected="true">
+                                              <i class="icon-Group1"></i>
+                                              <span>Women Egypt Tours</span>
+                                          </li>
+                                          <li class="nav-link flex-three" id="nav-river-tab" data-bs-toggle="tab"
+                                              data-bs-target="#nav-river" role="tab" aria-controls="nav-river"
+                                              aria-selected="false">
+                                              <i class="icon-river-1"></i>
+                                              <span>Solo Traveler Egypt Tours</span>
+                                          </li>
+                                          <li class="nav-link flex-three" id="nav-adventure-tab" data-bs-toggle="tab"
+                                              data-bs-target="#nav-adventure" role="tab" aria-controls="nav-adventure"
+                                              aria-selected="false">
+                                              <i class="icon-adventure-1"></i>
+                                              <span>Seniors Egypt Tours</span>
+                                          </li>
+                                          <li class="nav-link flex-three" id="nav-animals-tab" data-bs-toggle="tab"
+                                              data-bs-target="#nav-animals" role="tab" aria-controls="nav-animals"
+                                              aria-selected="false">
+                                              <i class="icon-deer-1"></i>
+                                              <span>Honeymoon Egypt Tours</span>
                                           </li>
                                       </div>
                                   </nav>
@@ -3671,9 +4208,6 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
                   </div>
               </section>
               <!-- Widget Adventure -->
-
-
-
         <!-- Widget Adventure -->
         <section class="widget-adventure">
           <div class="tf-container">
@@ -3710,69 +4244,66 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
                       <div class="swiper-slide">
                         <div class="testimonial-content relative">
                           <div class="profile mb-15">
-                            <h3 class="name">Shafek Gobran</h3>
-                            <span class="job">Owner & CEO</span>
+                            <h3 class="name">Reviews</h3>
                           </div>
                           <p class="tes">
-                            "At Marvelous Egypt Travel, we are dedicated to crafting
-                            unforgettable experiences, blending rich history with modern
-                            hospitality. Your journey is our passion, and we are honored to
-                            guide you through the wonders of Egypt."
+                            A whirlwind trip! Perfectly planned and executed by Marvelous! Our guides were Egyptologists and really knew their stuff. The drivers were safe, careful, and mindful of a westerners view of driving lol...every day was more grand than the rest, building into an unforgettable experience. We did the 10 day and changed the itinerary many times before settling into the trip of a lifetime! The patience Marvelous had with us was so greatly appreciated. Every contact was very helpful and knowledgeable with getting us checked in and onboard all modes of transportation and accommodations. All in all, the trip was Marvelous! We plan to go back and will be using these guys again!  
                           </p>
                           <span class="line"></span>
                           <div class="icon-tes flex-five">
                             <i class="icon-Group-1000002944"></i>
                           </div>
+                          <div style="cursor:pointer;" onclick="goToTripadvisorSite()">                          take a look at our Review at <span style="font-weight: bold; color: green;">Tripadvisor</span>   
+                            <img style="height: 2rem;" src="./assets/images/Tripadvisor.svg" /></div>
+
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="testimonial-content relative">
                           <div class="profile mb-15">
-                            <h3 class="name">Operations Team</h3>
-                            <span class="job">Team Member</span>
+                            <h3 class="name">Reviews</h3>
                           </div>
                           <p class="tes">
-                            "Our commitment to excellence ensures that every detail of your
-                            trip is meticulously planned. We are here to make your adventure
-                            seamless and enriching, allowing you to focus on creating
-                            lasting memories."
-                          </p>
+                            I've been planning this trip for awhile (almost 2 years) with Celine one of the manager of Marvelous travel agency, and we finally made it.
+                            This trip was amazing and unforgettable.
+                            Egypt is such a great country and Egyptian people are so kind and welcoming.
+                            Cairo city, the great pyramids of Giza, Luxor Temples, Abu Simbel Temples, Assouan and the Nile cruise etc. every places we visit was exceptional.
+                            Our guides Mahmoud and Hamed were perfect: very professional and friendly.
+                            I can only recommend if you want to have a memorable trip to come and visit Egypt and if you can do it with Marvelous it's a plus...
+                            We were 4 (2 adults and 2 teens) and chose an 10 days 9 nights on demand trip with luxury hotels and we didn't regret it. Don't miss (if you can afford it) the Old Cataract hotel in Assuan.                          </p>
                           <span class="line"></span>
                           <div class="icon-tes flex-five">
                             <i class="icon-Group-1000002944"></i>
                           </div>
                         </div>
+                        <div style="cursor:pointer;" onclick="goToTripadvisorSite()">                          take a look at our Review at <span style="font-weight: bold; color: green;">Tripadvisor</span>   
+                          <img style="height: 2rem;" src="./assets/images/Tripadvisor.svg" /></div>
                       </div>
                       <div class="swiper-slide">
                         <div class="testimonial-content relative">
                           <div class="profile mb-15">
-                            <h3 class="name">Ground Team</h3>
-                            <span class="job">Team Member</span>
+                            <h3 class="name">Reviews</h3>
                           </div>
                           <p class="tes">
-                            "Our knowledgeable guides are eager to share Egypt’s treasures
-                            with you, bringing the past to life through engaging stories
-                            and experiences. Together, we will explore the beauty and
-                            culture that make this land truly extraordinary."
+                            Travelled to Egypt, with a group of 17 friends, on a eight day seven nights package.After doing a lot of research on the net over various Travel agencies, decided to go with Marvelous Egypt Travel.Turned out a great decision. Celine, our contact person at Marvelous, was a great help. She was always available and eager while planning the trip,with advice on where to go, the customisation of the trip as per our requests, mode of travel, various optionals and any other questions. The tour itself was executed with complete efficiency as there were no slipups at all with the Hotel, Train and the cruise bookings . we were also provided an excellent guide ,Fady,who is also an Egyptologist, for the entire duration of the trip. A very knowledgable man, he made the trip all the more interesting. Would definitely recommedd Marvelous egypt Travel to anyone planning a tour to Egypt.
                           </p>
                           <span class="line"></span>
                           <div class="icon-tes flex-five">
                             <i class="icon-Group-1000002944"></i>
                           </div>
                         </div>
+                        <div style="cursor:pointer;" onclick="goToTripadvisorSite()">                          take a look at our Review at <span style="font-weight: bold; color: green;">Tripadvisor</span>   
+                          <img style="height: 2rem;" src="./assets/images/Tripadvisor.svg" /></div>
                       </div>
                     </div>
                   </div>
                   <div class="swiper testimonial-image">
-                    <div class="swiper-wrapper">
+                    <div style="opacity: 0;" class="swiper-wrapper">
                       <div class="swiper-slide avata">
-                        <img style="object-fit: cover;" src="./assets/images/shefek.jpg" alt="Image Testimonial" />
                       </div>
                       <div class="swiper-slide avata">
-                        <img src="./assets/images/Shafek_Signature.webp" alt="Image Testimonial" />
                       </div>
                       <div class="swiper-slide avata">
-                        <img src="./assets/images/Shafek_Signature.webp" alt="Image Testimonial" />
                       </div>
                     </div>
                   </div>
@@ -3785,41 +4316,384 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
         <!-- Widget Testimonial -->
 
         <!-- Widget Banner Contact -->
-        <section
-          style="background: url(./assets/images/Ancient\ Egypt\ Hieroglyphs.jpeg); background-size: cover; margin-bottom: 5rem;"
-          class="widget-banner-contact relative">
-          <div class="tf-container">
-            <div class="row z-index3 relative">
-              <div class="col-lg-7 content-banner-contact">
-                <div class="mb-32">
-                  <span class="sub-title-heading text-main mb-15 font-yes fs-28-46 wow fadeInUp animated">Uncover the
-                    Magic of Egypt</span>
-                  <h2 class="title-heading text-white wow fadeInUp animated">
-                    Prepare for unforgettable adventures and breathtaking natural experiences.
-                  </h2>
+        <section class="contact-us pd-main">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="contact-us-map">
+                    <div style="padding: 1rem;" class="inner-header mb-45">
+                        <h2 class="title">Get in touch</h2>
+                        <p class="des">If you have any questions or would like more information about our services, feel free to get in touch with us. We're here to help and ensure your experience is amazing!</p>
+                    </div>
                 </div>
-                <div class="flex-three">
-                  <div class="video-wrap wow fadeInUp animated">
-                    <a aria-label="started the video" href="./assets/intro.mp4"
-                      class="widget-icon-video flex-five widget-videos">
-                      <i class="icon-Polygon-4"></i>
-                    </a>
-                  </div>
-                  <address class="wow fadeInUp animated">
-                    Connect with us today at <a
-                      href="mailto:info@marvelousegypttravel.com">info@marvelousegypttravel.com</a><br />
-                  </address>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="image-banner-contact">
-                  <img loading="lazy" style="opacity: 0.2;" src="./assets/images/bannerTravel2.webp"
-                    alt="travelBanner" />
-                </div>
-              </div>
             </div>
+            <div class="col-md-6">
+                <div class="contact-us-wrap bg-4">
+                    <div class="inner-header mb-60">
+                        <h2 class="title">Fill Up The Booking Form</h2>
+                        <p class="des">Your email address will not be published. Required fields are marked *</p>
+                    </div>
+                    <form action="/" id="form-booking">
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="first-name" placeholder="First Name*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="last-name" placeholder="Last Name*" required="">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="email" name="email" placeholder="Email*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="tel" name="phone" placeholder="Phone Number*" required="">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="number" name="number-of-nights" placeholder="Number of Nights*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="number" name="number-of-adults" placeholder="Number of Adults*" required="">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="number" name="number-of-children" placeholder="Number of Children (if applicable)" optional>
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="age-of-children" placeholder="Ages of Children (e.g., 10,8,2)" optional>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="from-date" placeholder="From (DD/MM/YYYY)*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="to-date" placeholder="To (DD/MM/YYYY)*" required="">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="home-country" placeholder="Home Country*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <select name="nationality" required="">
+                                    <option value="">Select your nationality*</option>
+                                    <option value="aruba">🇦🇼 Aruba</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                              <input type="text" name="places-to-visit" placeholder="Places to Visit">
+                            </div>
+                            <label for="accommodation-rating">Accommodation Rating*</label>
+                            <div class="col-md-6 input-wrap relative">
+                                <select name="accommodation-rating" id="accommodation-rating" required="">
+                                    <option value="">Select</option>
+                                    <option value="boutique">Boutique</option>
+                                    <option value="2-stars">2 Stars</option>
+                                    <option value="3-stars">3 Stars</option>
+                                    <option value="4-stars">4 Stars</option>
+                                    <option value="5-stars">5 Stars</option>
+                                </select>
+                                
+                              </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="preferred-hotels" placeholder="Preferred Hotels">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <textarea name="enquiry-details" placeholder="Enquiry Details*" required=""></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <strong style="font-weight: bold;">Best way to contact you</strong>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <label>
+                                    <input type="checkbox" name="contact-method" value="whatsapp"> WhatsApp
+                                </label>
+                                <input type="tel" name="whatsapp-number" placeholder="WhatsApp Number">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <label>
+                                    <input type="checkbox" name="contact-method" value="email"> Email
+                                </label>
+                                <input type="email" name="contact-email" placeholder="Email">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row mb-3">
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="how-heard-about-us" placeholder="Where Did You Hear About Us?*" required="">
+                            </div>
+                            <div class="col-md-6 input-wrap relative">
+                                <input type="text" name="human-verification" placeholder="What is 4 + 3?*" required="">
+                                <div>Answer the math question to verify you're human</div>
+                              </div>
+                        </div>
+                        <button type="submit" class="btn-submit-contact">
+                            <i class="icon-Group-121"></i> Stay in touch!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>    
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Q&A -->
+      <section id="faq" style="padding: 20px; min-height: 100vh; margin-bottom:5rem ;">
+        <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
+        
+        <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+            <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Best Egypt Tours I Can Do?</summary>
+            <div style="padding: 10px; background-color: #fff;">
+                <p>Egypt offers a wide variety of tours to suit every budget, preference, and duration. Here are some of the most popular Egypt Tour Packages:</p>
+                <ul>
+                    <li><strong>6 Days Egypt Tour:</strong> Explore Cairo, Luxor, Aswan, and Abu Simbel. This tour provides a perfect blend of ancient history and cultural experiences.</li>
+                    <li><strong>8 Days Egypt Tour Package:</strong> Visit Cairo, Luxor, Abu Simbel, and Hurghada. This tour combines historical sites with a relaxing beach getaway.</li>
+                    <li><strong>9 Days Egypt Tour:</strong> Enjoy a comprehensive tour including Cairo, a Nile Cruise, and Alexandria. This package offers a mix of vibrant city life, serene river cruising, and coastal charm.</li>
+                    <li><strong>10 Days Egypt Tour:</strong> Discover Cairo, Aswan, Luxor, and Hurghada. This extended tour covers major historical sites and includes time to unwind by the Red Sea.</li>
+                </ul>
+                <p>Choose the tour that best fits your interests and schedule to experience the wonders of Egypt. Whether you’re fascinated by ancient pyramids, intrigued by cultural treasures, or simply looking to relax on pristine beaches, there’s a perfect Egypt tour waiting for you.</p>
+            </div>
+        </details>
+    
+        <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+            <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Egyptian Visa Requirements?</summary>
+            <div style="padding: 10px; background-color: #fff;">
+                <p>To visit Egypt, here are the visa requirements based on different options:</p>
+                <h4>Visa on Arrival (30 days):</h4>
+                <ul>
+                    <li>You must be from one of the eligible countries.</li>
+                    <li>Have a valid passport with at least 6 months remaining.</li>
+                    <li>Pay $25 USD in cash upon arrival.</li>
+                </ul>
+                
+                <h4>E-Visa (30 days):</h4>
+                <ul>
+                    <li>Have a valid passport with at least 8 months validity.</li>
+                    <li>Complete the online application.</li>
+                    <li>Pay the e-visa fee.</li>
+                    <li>Print the e-visa to present to the airport border guard upon arrival.</li>
+                </ul>
+    
+                <h4>Free Visa (90 days):</h4>
+                <ul>
+                    <li>Eligible travelers may obtain a free visa valid for 90 days. Specific eligibility criteria apply.</li>
+                </ul>
+    
+                <p>Ensure you check the latest visa requirements before your trip to Egypt. For more details and assistance with visa applications, <a href="#">click here</a>.</p>
+            </div>
+        </details>
+    
+        <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+            <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Is the Average Cost of Egypt Tours?</summary>
+            <div style="padding: 10px; background-color: #fff;">
+                <p>The cost of Egypt Tours varies based on the number of days, type of tour (Luxury or Budget), and the number of travelers. Here’s a general idea of the price range:</p>
+                <ul>
+                    <li><strong>Budget Tours:</strong> Prices range from $390 to $1,099.</li>
+                    <li><strong>Luxury Tours:</strong> Prices range from $1,099 to $3,999.</li>
+                </ul>
+                <p>These prices can help you choose a tour that fits your budget and preferences.</p>
+            </div>
+        </details>
+    
+        <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+            <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Top Traditional Egyptian Foods?</summary>
+            <div style="padding: 10px; background-color: #fff;">
+                <p>Egypt boasts a rich culinary heritage with several must-try dishes:</p>
+                <ul>
+                    <li><strong>Ful and Ta’meya (Fava Beans and Falafel):</strong> A popular breakfast dish featuring seasoned fava beans and crispy falafel.</li>
+                    <li><strong>Mulukhiya:</strong> A nutritious green soup made from jute leaves, often served with rice or bread.</li>
+                    <li><strong>Koshary:</strong> A beloved Egyptian street food dish made with rice, macaroni, lentils, and topped with tomato sauce, caramelized onions, and chickpeas.</li>
+                    <li><strong>Kebab and Kofta:</strong> Grilled skewers of seasoned meat, usually served with rice or bread.</li>
+                </ul>
+                <p>Explore these traditional Egyptian dishes for a taste of the country’s culinary delights.</p>
+            </div>
+        </details>
+        <details   style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+          <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Finest Destinations to Visit in Egypt?</summary>
+          <div style="padding: 10px; background-color: #fff;">
+              <p>Egypt is a treasure trove of breathtaking destinations that deserve to be explored. Here are some must-see places:</p>
+              <ul>
+                  <li><strong>Cairo:</strong> Marvel at the Pyramids of Giza, the Great Sphinx, the Egyptian Museum, and the bustling Khan El Khalili Bazaar.</li>
+                  <li><strong>Luxor:</strong> Explore the Valley of the Kings, the magnificent Karnak Temple, and the Hatshepsut Temple.</li>
+                  <li><strong>Aswan:</strong> Visit the iconic Abu Simbel Temples, the Philae Temple, the Unfinished Obelisk, and more.</li>
+                  <li><strong>Hurghada:</strong> Enjoy the stunning Red Sea beaches and underwater wonders.</li>
+                  <li><strong>Alexandria:</strong> Discover the historic Qaitbay Citadel, Pompey’s Pillar, and the famous Alexandria Library.</li>
+              </ul>
+              <p>These destinations offer a perfect blend of ancient history, vibrant culture, and natural beauty.</p>
           </div>
-        </section>
+      </details>
+      <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+        <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Should I Pack For my Egypt Tour?</summary>
+        <div style="padding: 10px; background-color: #fff;">
+            <p>When preparing for your Egypt tour, pack light and practical. Here are essential items to consider:</p>
+            <ul>
+                <li><strong>Clothing:</strong> Lightweight, breathable fabrics for hot weather. Modest attire for visiting religious sites.</li>
+                <li><strong>Footwear:</strong> Comfortable walking shoes for exploring ancient sites and cities.</li>
+                <li><strong>Sun Protection:</strong> Sunscreen, sunglasses, and a hat to shield from the sun.</li>
+                <li><strong>Travel Essentials:</strong> Passport, visa (if required), travel insurance, and copies of important documents.</li>
+                <li><strong>Health Supplies:</strong> Basic medications, insect repellent, and any necessary prescriptions.</li>
+                <li><strong>Electronics:</strong> Camera or smartphone for capturing memories, with chargers and adapters.</li>
+                <li><strong>Personal Items:</strong> Small bag or backpack for day trips, and a refillable water bottle.</li>
+            </ul>
+            <p>Packing light allows for easy mobility between destinations in Egypt.</p>
+        </div>
+    </details>
+    <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+      <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">Why Should I Book with Marvelous Egypt Travel?</summary>
+      <div style="padding: 10px; background-color: #fff;">
+          <p>With over 20 years of experience, Marvelous Egypt Travel offers the finest vacations to Egypt's most majestic destinations. Here’s why you should book with us:</p>
+          <ul>
+              <li><strong>Experienced Team:</strong> Our staff includes the best operators, guides, and drivers, all dedicated to making your vacation perfect.</li>
+              <li><strong>Customized Tours:</strong> Each tour is tailored by travel, financial, and time consultants to meet your specific needs.</li>
+              <li><strong>Safety and Comfort:</strong> Your safety and comfort are our top priorities. We allocate all our resources to ensure a secure and enjoyable trip.</li>
+              <li><strong>Personalized Service:</strong> From the moment you book until you return home, we provide the highest level of service to create an unforgettable experience.</li>
+          </ul>
+          <p>Choose Marvelous Egypt Travel for a seamless and memorable journey through Egypt.</p>
+      </div>
+  </details>
+  <details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+    <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">Is It Safe to Travel to Egypt?</summary>
+    <div style="padding: 10px; background-color: #fff;">
+        <p>Yes, you will feel safe traveling to Egypt. The current atmosphere in the country is quite peaceful. The government has taken powerful measures to ensure safety, including restructuring the entire tourist police force to cover all important and tourist attractions in Egypt.</p>
+    </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are Egypt's Festivals and Public Holidays?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Egypt celebrates numerous public holidays, both religious and national. Some of the most important festivals include:</p>
+      <ul>
+          <li><strong>Ramadan:</strong> The holy month of fasting, reflection, and community, ending with the festive holiday of Eid al-Fitr.</li>
+          <li><strong>Eid al-Fitr:</strong> A significant celebration marking the end of Ramadan, featuring feasts, family gatherings, and special prayers.</li>
+          <li><strong>Christmas:</strong> Celebrated on January 7th by the Coptic Christian community.</li>
+          <li><strong>New Year’s Eve:</strong> Marked with various celebrations across the country.</li>
+      </ul>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What to Wear While in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Wear whatever feels right and comfortable. Here are some recommendations:</p>
+      <ul>
+          <li><strong>Clothing:</strong> Light, breathable fabrics to stay cool. Modest attire is advised, especially when visiting religious sites.</li>
+          <li><strong>Footwear:</strong> Comfortable, closed-toe shoes to handle Egypt’s diverse terrain.</li>
+          <li><strong>Sun Protection:</strong> Apply sunscreen and wear sunglasses and a hat to protect yourself from the sun, especially during the summer.</li>
+      </ul>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are Special Advice for Foreign Women in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>While Egypt is one of the more liberal Islamic countries, it has become more conservative in recent decades. Here are some tips for foreign women to ensure a comfortable and respectful experience:</p>
+      <ul>
+          <li><strong>Modest Clothing:</strong> Avoid showing your chest, shoulders, or legs below the knees.</li>
+          <li><strong>Behavior:</strong> Be mindful of local customs and cultural sensitivities.</li>
+          <li><strong>Safety:</strong> Stay aware of your surroundings and avoid traveling alone at night.</li>
+      </ul>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Best Activities to Do in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Egypt offers a variety of unforgettable experiences. Here are some of the top activities:</p>
+      <ul>
+          <li><strong>Nile Cruise:</strong> Travel between Luxor and Aswan or vice versa and enjoy the scenic beauty and historical sites along the Nile River.</li>
+          <li><strong>Hot Air Balloon Ride:</strong> Witness the breathtaking landscapes of Egypt from a hot air balloon or plane.</li>
+          <li><strong>Egyptian Cuisine:</strong> Savor the delicious local dishes and drinks.</li>
+          <li><strong>Shopping in Old Cairo:</strong> Explore the vibrant markets and bazaars, such as Khan El Khalili Bazaar.</li>
+          <li><strong>Red Sea Adventures:</strong> Dive and snorkel in the marine life of the Red Sea resorts like Hurghada.</li>
+          <li><strong>Western Desert Safari:</strong> Experience the mesmerizing Western Desert with a safari trip under the starlit Egyptian skies.</li>
+      </ul>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Official Languages in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>The official languages in Egypt include:</p>
+      <ul>
+          <li><strong>Arabic:</strong> The official language of Egypt.</li>
+          <li><strong>English:</strong> Widely understood and spoken, especially in cities.</li>
+          <li><strong>Other Languages:</strong> Some Egyptians also speak French, Italian, Spanish, and German, particularly those working in tourism.</li>
+      </ul>
+      <p>Professional tour guides in Egypt are well-equipped to assist visitors who do not speak Arabic, ensuring they can communicate effectively in English and other languages to meet all clients’ needs.</p>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are The Reasons That Make Me Visit Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Egypt is the home of everything a traveler might be looking for:</p>
+      <ul>
+          <li><strong>Historical Sites:</strong> Explore ancient wonders that date back over 4,000 years, such as the Pyramids of Giza, the Sphinx, and the Temples of Luxor and Aswan.</li>
+          <li><strong>City Resorts and Beaches:</strong> Enjoy enchanting resorts and pristine beaches in cities like Hurghada and Sharm El Sheikh, perfect for relaxation and water activities.</li>
+          <li><strong>Cultural Experiences:</strong> Immerse yourself in the rich culture, vibrant markets, and delicious cuisine.</li>
+          <li><strong>Adventurous Activities:</strong> Engage in activities like Nile Cruises, Hot Air Balloon Rides, Diving in the Red Sea, and Desert Safaris.</li>
+      </ul>
+      <p>Egypt offers a diverse range of experiences, ensuring you have the vacation you deserve with everything you could possibly imagine.</p>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Are the Transportation Options in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Egypt offers several transportation options to help you get around efficiently:</p>
+      <ul>
+          <li><strong>Uber/Taxis:</strong> The fastest way to travel, especially by taxi. In Cairo, white taxis and Uber are convenient choices for quicker travel.</li>
+          <li><strong>Metro:</strong> In Cairo, the metro is the fastest way to get around, especially during rush hour when roads are congested.</li>
+      </ul>
+  </div>
+</details>
+<details style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+  <summary style="padding: 10px; background-color: green; color: white; cursor: pointer;">What Is the Weather Like in Egypt?</summary>
+  <div style="padding: 10px; background-color: #fff;">
+      <p>Egypt experiences a range of temperatures throughout the year:</p>
+      <ul>
+          <li><strong>Summer:</strong> Generally hot with temperatures ranging from 23°C to 37°C. Nights can occasionally be cooler.</li>
+          <li><strong>Winter:</strong> Cool and mild with temperatures ranging from 9.5°C to 17°C.</li>
+      </ul>
+      <p><strong>Average Temperatures:</strong></p>
+      <ul>
+          <li><strong>Low:</strong> Varies from 9.5°C in winter to 23°C in summer.</li>
+          <li><strong>High:</strong> Varies from 17°C in winter to 32°C in summer.</li>
+      </ul>
+      <p><strong>Coastal Areas:</strong> Temperatures are more moderate along the coasts, making it a pleasant destination year-round.</p>
+  </div>
+</details>
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Q&A -->
+
+
 
         <!-- Widget Banner Contact -->
 
@@ -4008,19 +4882,18 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
             </p>
           </div>
         </li>
-
-        <li
-          style="display: flex; flex-direction: column; flex: 3;width: 97%; font-family: Arial, sans-serif; color: #333;">
-          <p style="margin-bottom: 15px; display: flex; align-items: center;">
+        <br>
+        <li style="display: flex; flex-direction: column; width: 97%; font-family: Arial, sans-serif; color: #333;">
+          <p style="display: flex; align-items: center;">
             <i class="icon-Layer-19" style="font-size: 18px; color: #3498db; margin-right: 10px;"></i>
             <span>Headquarter Office: Järvevana Street 9, Tallinn, 11314, Estonia</span>
           </p>
-          <p style="display: flex; align-items: center;">
+          <p style="display: flex; align-items: center; margin-top: 0;"> <!-- يمكنك إضافة هذا إذا كنت بحاجة لتأكيد عدم وجود مسافة -->
             <i class="icon-Layer-19" style="font-size: 18px; color: #3498db; margin-right: 10px;"></i>
-            <span>Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El Nil, Cairo Governorate 4272141, Floor 2,
-              Apt 14</span>
+            <span>Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El Nil, Cairo Governorate 4272141, Floor 2, Apt 14</span>
           </p>
         </li>
+        
 
 
 
@@ -4033,6 +4906,36 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
     function goToChat() {
       window.open("https://wa.me/+201143328885");
     }
+    function goToTripadvisorSite(){
+      window.open("https://www.tripadvisor.com/Attraction_Review-g294201-d2149513-Reviews-Marvelous_Egypt_Travel-Cairo_Cairo_Governorate.html")
+    
+    
+      document.addEventListener("DOMContentLoaded", function() {
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+
+            // Toggle the display of the answer
+            if (answer.style.display === 'none' || answer.style.display === '') {
+                answer.style.display = 'block'; // Show the answer
+            } else {
+                answer.style.display = 'none'; // Hide the answer
+            }
+        });
+    });
+});
+
+    
+    
+    
+    
+    
+    
+    
+    }
+    
   </script>
   <script src="app/js/jquery.min.js"></script>
   <script src="app/js/jquery.nice-select.min.js"></script>
