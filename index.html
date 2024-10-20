@@ -4811,7 +4811,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
           <div class="row footer-bottom">
             <div class="col-md-6">
               <p class="copy-right">
-                Copyright © 2024 by
+                Copyright 2007-2024 Marvelous Egypt Travel All Rights Reserved
                 <a href="#" aria-label="Icon" class="text-main">Themesflat.</a> All Rights
                 Reserved
               </p>
@@ -4905,34 +4905,14 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
       window.open("https://wa.me/+201143328885");
     }
     function goToTripadvisorSite(){
-      window.open("https://www.tripadvisor.com/Attraction_Review-g294201-d2149513-Reviews-Marvelous_Egypt_Travel-Cairo_Cairo_Governorate.html")
-    
-    
-      document.addEventListener("DOMContentLoaded", function() {
-    const questions = document.querySelectorAll('.faq-question');
+      window.open("https://www.tripadvisor.com/Attraction_Review-g294201-d2149513-Reviews-Marvelous_Egypt_Travel-Cairo_Cairo_Governorate.html")}
 
-    questions.forEach(question => {
-        question.addEventListener('click', function() {
-            const answer = this.nextElementSibling;
-
-            // Toggle the display of the answer
-            if (answer.style.display === 'none' || answer.style.display === '') {
-                answer.style.display = 'block'; // Show the answer
-            } else {
-                answer.style.display = 'none'; // Hide the answer
-            }
-        });
-    });
-});
-
-    
-    
-    
-    
-    
-    
-    
-    }
+    let copyRight = (()=>{
+      let CopyRightElement = document.querySelector(".copy-right")
+      let d = new Date()
+      let Year = d.getFullYear();
+      CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`
+    })();
     
   </script>
   <script src="app/js/jquery.min.js"></script>
