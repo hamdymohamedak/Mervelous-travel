@@ -2787,9 +2787,8 @@
 
 /*----------------------Testimonial--------------------*/
 .widget-testimonial-style01 {
-  padding-top: 289px;
-  padding-bottom: 158px;
-  background-color: #f1f6f4;
+  padding-top: 185px;
+  padding-bottom: 50px;  background-color: #f1f6f4;
   background-image: url(../../assets/images/page/bg2.png);
   background-position: center;
   background-repeat: no-repeat;
