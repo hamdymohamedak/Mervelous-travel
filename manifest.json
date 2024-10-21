@@ -3,17 +3,17 @@
   "name": "Marvelous App",
   "icons": [
     {
-      "src": "./assets/images/logo.webp",
+      "src": "./assets/images/App_Icons/64.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./assets/images/logo.webp",
+      "src": "./assets/images/App_Icons/196.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./assets/images/logo.webp",
+      "src": "./assets/images/App_Icons/512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
