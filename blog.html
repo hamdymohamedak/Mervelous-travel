@@ -1,743 +1,1225 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-
-<head>
-    <meta charset="utf-8">
-    <title>Vitour - Travel & Tour Booking HTML Template</title>
-
-    <meta name="author" content="themesflat.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+  <head>
+    <meta charset="utf-8" >
+    <link rel="icon" href="./assets/images/fav.webp" >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://marvelousegypttravel.com" >
+    <meta property="og:title" content="Marvelous Egypt Travel - Your Gateway to Egypt's Wonders" >
+    <meta property="og:description"
+      content="Marvelous Egypt Travel offers unforgettable tours, Nile cruises, and vacation packages across Egypt's magical destinations. With over 17 years of experience, we provide the best services for travelers." >
+    <meta property="og:image" content="./assets/images/logo.webp" >
+    <meta name="author" content="Marvelous Egypt Travel" >
+    <meta name="description"
+      content="Discover Egypt with Marvelous Egypt Travel, offering top-tier tours, vacation packages, and Nile cruises tailored to your needs. Explore Egypt's rich history and culture in comfort and style." >
+    <meta name="keywords"
+      content="Marvelous Egypt Travel, Egypt Tours, Nile Cruises, Vacation Packages, Cairo, Luxor, Aswan, Hurghada, Alexandria, Travel Agency" >
+    <title>Marvelous Egypt Travel - Your Gateway to Egypt's Wonders</title>
+    <meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="app/css/app.css">
     <link rel="stylesheet" href="app/css/jquery.fancybox.min.css">
+  </head>
 
-    <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/images/favico.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/images/favico.png">
-
-</head>
-
-<body class="body header-fixed ">
-
+  <body class="body header-fixed">
     <div class="preload preload-container">
-        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
-            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
-            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
-            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
-            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
-        </svg>
+      <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+        <circle
+          class="pl__ring pl__ring--a"
+          cx="120"
+          cy="120"
+          r="105"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 660"
+          stroke-dashoffset="-330"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--b"
+          cx="120"
+          cy="120"
+          r="35"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 220"
+          stroke-dashoffset="-110"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--c"
+          cx="85"
+          cy="120"
+          r="70"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 440"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--d"
+          cx="155"
+          cy="120"
+          r="70"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 440"
+          stroke-linecap="round"
+        ></circle>
+      </svg>
     </div>
 
     <!-- /preload -->
 
     <div id="wrapper">
-        <div id="pagee" class="clearfix">
-
-            <!-- Main Header -->
-            <header class="main-header flex">
-                <!-- Header Lower -->
-                <div id="header">
-                    <div class="header-top">
-                        <div class="header-top-wrap flex-two">
-                            <div class="header-top-right">
-                                <ul class=" flex-three">
-                                    <li class="flex-three">
-                                        <i class="icon-day"></i>
-                                        <span>Thursday, Mar 26, 2021</span>
-                                    </li>
-                                    <li class="flex-three">
-                                        <i class="icon-mail"></i>
-                                        <span>info@marvelousegypttravel.com</span>
-                                    </li>
-                                    <li class="flex-three">
-                                        <i class="icon-phone"></i>
-                                        <span>+201288811423</span>
-                                    </li>
-
-
+      <div id="pagee" class="clearfix">
+        <!-- Main Header -->
+        <header class="main-header flex">
+          <!-- Header Lower -->
+          <div id="header">
+            <div class="header-top">
+              <div class="header-top-wrap flex-two">
+                <div class="header-top-right">
+                  <ul class="flex-three">
+                    <li class="flex-three"></li>
+                    <li class="flex-three">
+                      <i class="icon-mail"></i>
+                      <span>info@marvelousegypttravel.com</span>
+                    </li>
+                    <li class="contact-item">
+                      <div
+                        style="display: flex; gap: 1rem"
+                        class="contact-info"
+                      >
+                        <p>
+                          <a href="tel:+201288811423"
+                            ><i class="fas fa-phone-alt"></i> +201288811423</a
+                          >
+                        </p>
+                        <p>
+                          <a href="https://wa.me/201143328885" target="_blank"
+                            ><i class="fab fa-whatsapp"></i> +201143328885</a
+                          >
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-top-left flex-two">
+                  <a href="contact-us.html" class="booking">
+                    <i class="icon-19"></i>
+                    <span>Inquire Now</span>
+                  </a>
+                  <div style="display: flex; justify-content: space-between">
+                    <button
+                      aria-label="Booking"
+                      onclick="goToChat()"
+                      style="
+                        padding: 10px 20px;
+                        background-color: transparent;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                      "
+                    >
+                      <a
+                        href="https://wa.me/+201143328885"
+                        style="
+                          text-decoration: none;
+                          color: #4da528;
+                          font-weight: bold;
+                        "
+                        >WhatsApp</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header-lower">
+              <div class="tf-container full">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div
+                      class="inner-container flex justify-space align-center"
+                    >
+                      <!-- Logo Box -->
+                      <div class="mobile-nav-toggler mobie-mt mobile-button">
+                        <i class="icon-Vector3"></i>
+                      </div>
+                      <div class="logo-box">
+                        <div class="logo">
+                          <a href="index.html">
+                            <img
+                              loading="lazy"
+                              src="assets/images/logo.webp"
+                              alt="Logo"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-outer flex align-center">
+                        <!-- Main Menu -->
+                        <nav class="main-menu show navbar-expand-md">
+                          <div
+                            class="navbar-collapse collapse clearfix"
+                            id="navbarSupportedContent"
+                          >
+                            <ul class="navigation clearfix">
+                              <li class="">
+                                <a href="./index.html">Home</a>
+                              </li>
+                              <li class="dropdown2">
+                                <a href="#" aria-label="Go to Travel Pacjages"
+                                  >Travel Packages</a
+                                >
+                                <ul>
+                                  <li>
+                                    <a href="archieve-tour.html"
+                                      >Archieve tour</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="tour-package-v2.html"
+                                      >Tour left sidebar</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="tour-package-v4.html"
+                                      >Tour package
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="tour-single.html">Tour Single </a>
+                                  </li>
                                 </ul>
-                            </div>
-                            <div class="header-top-left flex-two">
-                                <a href="contact-us.html" class="booking">
-                                    <i class="icon-19"></i>
-                                    <span>Booking Now</span>
-                                </a>
-                                <div class="follow-social flex-two">
-                                    <span>Follow Us :</span>
-                                    <ul class="flex-two">
-                                        <li><a href="#"><i class="icon-icon-2"></i></a></li>
-                                        <li><a href="#"><i class="icon-icon_03"></i></a></li>
-                                        <li><a href="#"><i class="icon-x"></i></a></li>
-                                        <li><a href="#"><i class="icon-icon"></i></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="header-lower">
-                        <div class="tf-container full">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="inner-container flex justify-space align-center">
-                                        <!-- Logo Box -->
-                                        <div class="mobile-nav-toggler mobie-mt mobile-button">
-                                            <i class="icon-Vector3"></i>
-                                        </div>
-                                        <div class="logo-box">
-                                            <div class="logo">
-                                                <a href="index.html">
-                                                    <img src="assets/images/logo.png" alt="Logo">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="nav-outer flex align-center">
-                                            <!-- Main Menu -->
-                                            <nav class="main-menu show navbar-expand-md">
-                                                <div class="navbar-collapse collapse clearfix"
-                                                    id="navbarSupportedContent">
-                                                    <ul class="navigation clearfix">
-                                                        <li class="dropdown2">
-                                                            <a href="#">Home</a>
-                                                            <ul>
-                                                                <li><a href="index.html">Home Page 01</a></li>
-                                                                <li><a href="home2.html">Home Page 02</a></li>
-                                                                <li><a href="home3.html">Home Page 03</a></li>
-                                                                <li><a href="home4.html">Home Page 04</a></li>
-                                                                <li><a href="home5.html">Home Page 05</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="dropdown2">
-                                                            <a href="#">Tour</a>
-                                                            <ul>
-                                                                <li><a href="archieve-tour.html">Archieve tour</a>
-
-                                                                </li>
-                                                                <li><a href="tour-package-v2.html">Tour left sidebar</a>
-
-                                                                </li>
-                                                                <li><a href="tour-package-v4.html">Tour package </a>
-
-                                                                </li>
-                                                                <li><a href="tour-single.html">Tour Single </a>
-
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="dropdown2"><a href="#">Destination</a>
-                                                            <ul>
-                                                                <li><a href="tour-destination-v1.html">Destination
-                                                                        V1</a></li>
-                                                                <li><a href="tour-destination-v2.html">Destination
-                                                                        V2</a></li>
-                                                                <li><a href="tour-destination-v3.html">Destination
-                                                                        V3</a></li>
-                                                                <li><a href="single-destination.html">Destination
-                                                                        Single</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="dropdown2 current"><a href="#">Blog</a>
-                                                            <ul>
-                                                                <li class="current"><a href="blog.html">Blog</a></li>
-                                                                <li><a href="blog-details.html">Blog Detail</a></li>
-                                                            </ul>
-                                                        </li>
-
-                                                        <li class="dropdown2"><a href="#">Pages</a>
-                                                            <ul>
-                                                                <li><a href="about-us.html">About Us</a></li>
-                                                                <li><a href="team.html">Team member</a></li>
-                                                                <li><a href="gallery.html">Gallery</a></li>
-                                                                <li><a href="terms-condition.html">Terms & Condition</a>
-                                                                </li>
-                                                                <li><a href="help-center.html">Help center</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="dropdown2"><a href="#">Dashboard</a>
-                                                            <ul>
-                                                                <li><a href="dashboard.html">Dashboard</a></li>
-                                                                <li><a href="my-booking.html">My booking</a></li>
-                                                                <li><a href="my-listing.html">My Listing</a></li>
-                                                                <li><a href="add-tour.html">Add Tour</a></li>
-                                                                <li><a href="my-favorite.html">My Favorites</a></li>
-                                                                <li><a href="my-profile.html">My profile</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="contact-us.html">Contact</a></li>
-                                                    </ul>
-                                                </div>
-                                            </nav>
-                                            <!-- Main Menu End-->
-                                        </div>
-                                        <div class="header-account flex align-center">
-                                            <div class="language">
-                                                </div>
-                                            </div>
-                                            <div class="currency">
-                                                <div class="nice-select" tabindex="0">
-                                                    <span class="current">USD</span>
-                                                    <ul class="list">
-                                                        <li data-value class="option selected">USD</li>
-                                                        <li data-value="vnd" class="option">VND</li>
-                                                        <li data-value="ero" class="option">ERO</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="search-mobie relative">                                               
-                                                <div class="dropdown">
-                                                    <a  type="button" class="show-search" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        <i class="icon-Vector5"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu top-search">
-                                                        <form action="/" id="search-bar-widget">
-                                                            <input type="text" placeholder="Search here...">
-                                                            <button type="button"><i class="icon-search-2"></i></button>
-                                                        </form>
-                                                    </ul>
-                                                  </div> 
-                                            </div>
-                                            <div class="register">
-                                                <ul class="flex align-center">
-                                                    <li class="">
-                                                        <a href="login.html"><i class="icon-user-1-1"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <img src="./assets/images/page/fl1.png" alt="" class="fly-ab">
-                    </div>
-                </div>
-
-                <!-- End Header Lower -->
-                <a href="#" class="header-sidebar flex-three" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <i class="icon-Bars"></i>
-                </a>
-
-                <!-- Mobile Menu  -->
-                <div class="close-btn"><span class="icon flaticon-cancel-1"></span></div>
-                <div class="mobile-menu">
-                    <div class="menu-backdrop"></div>
-                    <nav class="menu-box">
-                        <div class="nav-logo"><a href="index.html">
-                                <img src="assets/images/logo2.png" alt=""></a></div>
-                        <div class="bottom-canvas">
-                            <div class="menu-outer">
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <!-- End Mobile Menu -->
-
-            </header>
-            <!-- End Main Header -->
-            <main id="main">
-
-                <section class="breadcumb-section">
-                    <div class="tf-container">
-                        <div class="row">
-                            <div class="col-lg-12 center z-index1">
-                                <h1 class="title">Blog Page</h1>
-                                <ul class="breadcumb-list flex-five">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><span>Blog Page</span></li>
+                              </li>
+                              <li class="dropdown2">
+                                <a href="#" aria-label="Go to Day Tours"
+                                  >Day Tours</a
+                                >
+                                <ul>
+                                  <li>
+                                    <a href="tour-destination-v1.html"
+                                      >Destination V1</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="tour-destination-v2.html"
+                                      >Destination V2</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="tour-destination-v3.html"
+                                      >Destination V3</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="single-destination.html"
+                                      >Destination Single</a
+                                    >
+                                  </li>
                                 </ul>
-                                <img class="bcrumb-ab" src="./assets/images/page/mask-bcrumb.png" alt="">
-                            </div>
-                        </div>
+                              </li>
+                              <li class="dropdown2">
+                                <a href="#" aria-label="Go to Nile Cruises"
+                                  >Nile Cruises</a
+                                >
+                                <ul>
+                                  <li><a href="blog.html">Blog</a></li>
+                                  <li>
+                                    <a href="blog-details.html">Blog Detail</a>
+                                  </li>
+                                </ul>
+                              </li>
 
-                    </div>
-                </section>
-
-                <section class="our-blog pd-main">
-                    <div class="tf-container">
-                        <div class="row">
-                            <div class="col-lg-8 col-12">
-                                <article class="side-blog mb-56px">
-                                    <div class="blog-image">
-                                        <div class="list-categories">
-                                            <a href="#" class="new">24 Feb</a>
-                                        </div>
-                                        <a class="post-thumbnail" href="blog-details.html">
-                                            <img src="./assets/images/blog/blog.jpg" alt="Image blog">
-                                        </a>
-
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="top-detail-info">
-                                            <ul class="flex-three">
-                                                <li>
-                                                    <i class="icon-user"></i>
-                                                    <a href="#">Mehedii .Ha</a>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-25"></i>
-                                                    <span class="date">Coments (03)</span>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-24"></i>
-                                                    <span class="date">3 min Read</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="entry-title">
-                                            <a href="blog-details.html">The whimsically named Egg Canvas brainch </a>
-                                        </h3>
-                                        <p class="description">There are many variations of passages of Lorem Ipsum
-                                            available, but majority have suffered
-                                            teration in some form, by injected humour, or randomised words which don't
-                                            look even slight
-                                            believable. If you are going to use a passage of Lorem Ipsum.
-                                        </p>
-                                        <div class="button-main ">
-                                            <a href="blog-details.html" class="button-link">Read More <i
-                                                    class="icon-Arrow-11"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="side-blog mb-56px">
-                                    <div class="blog-image">
-                                        <div class="list-categories">
-                                            <a href="#" class="new">24 Feb</a>
-                                        </div>
-                                        <a class="post-thumbnail" href="blog-details.html">
-                                            <img src="./assets/images/blog/blog1.jpg" alt="Image blog">
-                                        </a>
-
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="top-detail-info">
-                                            <ul class="flex-three">
-                                                <li>
-                                                    <i class="icon-user"></i>
-                                                    <a href="#">Mehedii .Ha</a>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-25"></i>
-                                                    <span class="date">Coments (03)</span>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-24"></i>
-                                                    <span class="date">3 min Read</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="entry-title">
-                                            <a href="blog-details.html">The whimsically named Egg Canvas brainch </a>
-                                        </h3>
-                                        <p class="description">There are many variations of passages of Lorem Ipsum
-                                            available, but majority have suffered
-                                            teration in some form, by injected humour, or randomised words which don't
-                                            look even slight
-                                            believable. If you are going to use a passage of Lorem Ipsum.
-                                        </p>
-                                        <div class="button-main">
-                                            <a href="blog-details.html" class="button-link">Read More<i
-                                                    class="icon-Arrow-11"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="side-blog mb-56px">
-                                    <div class="blog-image">
-                                        <div class="list-categories">
-                                            <a href="#" class="new">24 Feb</a>
-                                        </div>
-                                        <a class="post-thumbnail" href="blog-details.html">
-                                            <img src="./assets/images/blog/blog2.jpg" alt="Image blog">
-                                        </a>
-
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="top-detail-info">
-                                            <ul class="flex-three">
-                                                <li>
-                                                    <i class="icon-user"></i>
-                                                    <a href="#">Mehedii .Ha</a>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-25"></i>
-                                                    <span class="date">Coments (03)</span>
-                                                </li>
-                                                <li>
-                                                    <i class="icon-24"></i>
-                                                    <span class="date">3 min Read</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="entry-title">
-                                            <a href="blog-details.html">The whimsically named Egg Canvas brainch </a>
-                                        </h3>
-                                        <p class="description">There are many variations of passages of Lorem Ipsum
-                                            available, but majority have suffered
-                                            teration in some form, by injected humour, or randomised words which don't
-                                            look even slight
-                                            believable. If you are going to use a passage of Lorem Ipsum.
-                                        </p>
-                                        <div class="button-main">
-                                            <a href="blog-details.html" class="button-link">Read More<i
-                                                    class="icon-Arrow-11"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <div class="row">
-                                    <div class="col-md-12 ">
-                                        <ul class="tf-pagination flex-five mt-20">
-                                            <li>
-                                                <a class="pages-link" href="#"> <i class="icon-29"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="pages-link" href="#">1</a>
-                                            </li>
-                                            <li class="pages-item active" aria-current="page">
-                                                <a class="pages-link" href="#">2</a>
-                                            </li>
-                                            <li><a class="pages-link" href="#">3</a></li>
-                                            <li>
-                                                <a class="pages-link" href="#"><i class=" icon--1"></i></a>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-12">
-                                <div class="side-bar-right">
-                                    <div class="sidebar-widget">
-                                        <div class="profile-widget center">
-                                            <img src="./assets/images/avata/avt-blog.jpg" alt="Image Blog"
-                                                class="avata">
-                                            <div class="name">Rosalina D. Willaim</div>
-                                            <span class="job">Blogger/Photographer</span>
-                                            <p class="des">he whimsically named Egg Canvas is the
-                                                design director and photographer
-                                                in New York. Why the nam
-                                            </p>
-                                            <ul class="social">
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="icon-icon-2"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="icon-x"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="icon-icon_03"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="icon-2"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-widget">
-                                        <h4 class="block-heading">search here</h4>
-                                        <form action="/" id="search-bar-widget">
-                                            <input type="text" placeholder="Search here...">
-                                            <button type="button"><i class="icon-search-2"></i></button>
-                                        </form>
-
-                                    </div>
-                                    <div class="sidebar-widget">
-                                        <h4 class="block-heading">Recent News</h4>
-                                        <div class="recent-post-list">
-                                            <div class="list-recent flex-three">
-                                                <a href="blog-details.html" class="recent-image">
-                                                    <img src="./assets/images/blog/re-blog1.jpg" alt="Image">
-                                                </a>
-                                                <div class="recent-info">
-                                                    <div class="date">
-                                                        <i class="icon-4"></i>
-                                                        <span>Jan 23,2022</span>
-                                                    </div>
-                                                    <h4 class="title">
-                                                        <a href="blog-details.html">Budget Issues Force The Our To
-                                                            Become</a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="list-recent flex-three">
-                                                <a href="blog-details.html" class="recent-image">
-                                                    <img src="./assets/images/blog/re-blog2.jpg" alt="Image">
-                                                </a>
-                                                <div class="recent-info">
-                                                    <div class="date">
-                                                        <i class="icon-4"></i>
-                                                        <span>Jan 23,2022</span>
-                                                    </div>
-                                                    <h4 class="title">
-                                                        <a href="blog-details.html">The Best Products That Shape
-                                                            Fashion</a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="list-recent flex-three">
-                                                <a href="blog-details.html" class="recent-image">
-                                                    <img src="./assets/images/blog/re-blog3.jpg" alt="Image">
-                                                </a>
-                                                <div class="recent-info">
-                                                    <div class="date">
-                                                        <i class="icon-4"></i>
-                                                        <span>Jan 23,2022</span>
-                                                    </div>
-                                                    <h4 class="title">
-                                                        <a href="blog-details.html">The Best Products That Shape
-                                                            Fashion</a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-widget">
-                                        <h4 class="block-heading">Categories</h4>
-                                        <ul class="category-blog">
-                                            <li>
-                                                <a href="#" class="flex-two">
-                                                    <span>Mobile Set</span>
-                                                    <span>03</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="flex-two">
-                                                    <span>Mobile Set</span>
-                                                    <span>03</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="flex-two">
-                                                    <span>Mobile Set</span>
-                                                    <span>03</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="flex-two">
-                                                    <span>Mobile Set</span>
-                                                    <span>03</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="sidebar-widget">
-                                        <h4 class="block-heading">Tags</h4>
-                                        <ul class="tag">
-                                            <li>
-                                                <a href="#">Tourist</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Traveling</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Cave</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Sky Dive</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Hill Climb</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Oppos</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="active">Landing</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Oppos</a>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="mb--93">
-                    <div class="tf-container">
-                        <div class="callt-to-action flex-two">
-                            <div class="callt-to-action-content flex-three">
-                                <div class="image">
-                                    <img src="./assets/images/page/ready.png" alt="Image">
-                                </div>
-                                <div class="content">
-                                    <h2 class="title-call">Ready to adventure and enjoy natural</h2>
-                                    <p class="des">Lorem ipsum dolor sit amet, consectetur notted adipisicin</p>
-                                </div>
-                            </div>
-                            <img src="./assets/images/page/vector4.png" alt="" class="shape-ab">
-                            <div class="callt-to-action-button">
-                                <a href="#" class="get-call">Let,s get started</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-
-            </main>
-
-            <footer class="footer footer-style1">
-                <div class="tf-container">
-                    <div class="footer-main">
-                        <div class="footer-logo">
-                            <div class="logo-footer">
-                                <img src="./assets/images/logo2.png" alt="">
-                            </div>
-                            <p class="des-footer">The world’s first and largest digital market
-                                for crypto collectibles and non-fungible
-                            </p>
-                            <ul class="footer-info">
-                                <li class="flex-three">
-                                    <i class="icon-noun-mail-5780740-1"></i>
-                                    <p>info@marvelousegypttravel.com</p>
-                                </li>
-                                <li class="flex-three">
-                                    <i class="icon-Group-9"></i>
-                                    <p>+201288811423</p>
-                                </li>
-                                <li class="flex-three">
-                                    <i class="icon-Layer-19"></i>
-                                    <p>Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El Nil, Cairo Governorate 4272141, Floor 2, Apt 14</p>
-                                </li>
+                              <li class="dropdown2">
+                                <a href="#" aria-label="Go to Shore Excursion"
+                                  >Shore Excursion</a
+                                >
+                                <ul>
+                                  <li><a href="about-us.html">About Us</a></li>
+                                  <li><a href="team.html">Team member</a></li>
+                                  <li><a href="gallery.html">Gallery</a></li>
+                                  <li>
+                                    <a href="terms-condition.html"
+                                      >Terms & Condition</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="help-center.html">Help center</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="">
+                                <a href="./" aria-label="Go to About Us"
+                                  >About us</a
+                                >
+                              </li>
+                              <li><a href="contact-us.html">Blog</a></li>
                             </ul>
-
+                          </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                      </div>
+                      <div class="header-account flex align-center">
+                        <div class="language"></div>
+                        <div class="currency">
+                          <div tabindex="0">
+                            <strong style="font-weight: bold" class="current"
+                              >Euro</strong
+                            >
+                          </div>
                         </div>
-                        <div class="footer-service">
-                            <h5 class="title">Services Req</h5>
-
-                            <ul class="footer-menu">
-                                <li>
-                                    <a href="about-us.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="team.html">Our Team</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Blog Insights</a>
-                                </li>
-                                <li>
-                                    <a href="contact-us.html">Contact</a>
-                                </li>
-                            </ul>
-
+                        <div class="search-mobie relative">
+                          <div class="dropdown"></div>
                         </div>
-                        <div class="footer-gallery">
-                            <h5 class="title">Gallery</h5>
-
-                            <div class="gallery-img">
-                                <a href="./assets/images/gallery/gl1.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl1.jpg" alt="image gallery">
-                                </a>
-                                <a href="./assets/images/gallery/gl2.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl2.jpg" alt="image gallery">
-                                </a>
-                                <a href="./assets/images/gallery/gl3.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl3.jpg" alt="image gallery">
-                                </a>
-                                <a href="./assets/images/gallery/gl4.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl4.jpg" alt="image gallery">
-                                </a>
-                                <a href="./assets/images/gallery/gl5.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl5.jpg" alt="image gallery">
-                                </a>
-                                <a href="./assets/images/gallery/gl6.jpg" data-fancybox="gallery">
-                                    <img src="./assets/images/gallery/gl6.jpg" alt="image gallery">
-                                </a>
-                            </div>
-
+                        <div class="register">
+                          <ul class="flex align-center"></ul>
                         </div>
-                        <div class="footer-newsletter">
-                            <h5 class="title">Newsletter</h5>
-                            <form action="/" id="footer-form">
-                                <div class="input-wrap flex-three">
-                                    <input type="email" placeholder="Enter Email Adress">
-                                    <button type="submit"><i class="icon-paper-plane"></i></button>
-                                </div>
-                                <div class="check-form flex-three">
-                                    <i class="icon-Vector-121"></i>
-                                    <p>I agree to all your terms and policies</p>
-                                </div>
-
-                            </form>
-                            <ul class="social-ft flex-three">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-icon-2"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-8"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-2"></i>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
+                      </div>
                     </div>
-
-                    <div class="row footer-bottom">
-                        <div class="col-md-6">
-                            <p class="copy-right">Copyright © 2024 by Themesflat. All Rights Reserved</p>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="social flex-six">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-icon-2"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-icon_03"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-2"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </footer>
+              </div>
+              <!-- <img loading="lazy" src="./assets/images/page/fl1.webp" alt="Image" alt="img" class="fly-ab" /> -->
+            </div>
+          </div>
 
-            <!-- Bottom -->
-        </div>
-        <!-- /#page -->
+          <!-- End Header Lower -->
+          <a
+            href="#"
+            aria-label="Go to Home Page"
+            class="header-sidebar flex-three"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="icon-Bars"></i>
+          </a>
+
+          <!-- Mobile Menu  -->
+          <div class="close-btn">
+            <span class="icon flaticon-cancel-1"></span>
+          </div>
+          <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <nav class="menu-box">
+              <div class="nav-logo">
+                <a href="index.html">
+                  <img
+                    loading="lazy"
+                    src="assets/images/logo.webp"
+                    alt="Image"
+                    alt="img"
+                /></a>
+              </div>
+              <div class="bottom-canvas">
+                <div class="menu-outer"></div>
+              </div>
+            </nav>
+          </div>
+          <!-- End Mobile Menu -->
+        </header>
+        <!-- End Main Header -->
+        <main id="main">
+          <section class="breadcumb-section">
+            <div class="tf-container">
+              <div class="row">
+                <div class="col-lg-12 center z-index1">
+                  <h1 class="title">Blog Page</h1>
+                  <ul class="breadcumb-list flex-five">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span>Blog Page</span></li>
+                  </ul>
+                  <img
+                    class="bcrumb-ab"
+                    src="./assets/images/page/mask-bcrumb.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="our-blog pd-main">
+            <div class="tf-container">
+              <div class="row">
+                <div class="col-lg-8 col-12">
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img1.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >Unearth Ancient Secrets in Luxor and Karnak Temples
+                        </a>
+                      </h3>
+                      <p class="description">
+                        Luxor and Karnak Temples are two of Egypt’s most
+                        significant and well-preserved ancient sites, offering a
+                        profound insight into the grandeur of the New Kingdom.
+                        Located on the east bank of the Nile River, these
+                        temples are a testament to the architectural brilliance
+                        and religious fervor of ancient Egypt. In this blog,
+                        we’ll delve into the history, significance, and must-see
+                        features of Luxor and Karnak Temples.
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img2.jpg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Sail Through History on a Nile River Cruise
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        A Nile River cruise is a quintessential Egyptian experience, offering a unique and leisurely way to explore the country’s rich history and stunning landscapes. As the lifeblood of Egypt, the Nile River has witnessed the rise and fall of ancient civilizations, and today it continues to be a gateway to some of the most remarkable historical sites in the world. In this blog, we’ll take you on a journey through the highlights of a Nile River cruise.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img3.jpg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Discover the Timeless Wonders of the Pyramids of Giza
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        Exploring the Pyramids of Giza is a quintessential Egyptian experience, offering a unique glimpse into the country’s rich history and architectural marvels. Located on the outskirts of Cairo, the Pyramids of Giza have stood the test of time, witnessing the rise and fall of ancient civilizations. Today, they remain one of the most iconic and mysterious sites in the world. In this blog, we’ll take you on a journey through the highlights of visiting the Pyramids of Giza.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img4.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Step Back in Time at the Egyptian Museum
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        The Egyptian Museum in Cairo is a treasure trove of ancient artifacts and relics that offer a captivating glimpse into Egypt’s illustrious past. Home to the world’s most extensive collection of Pharaonic antiquities, the museum is a must-visit for history enthusiasts and anyone fascinated by ancient civilizations. In this blog, we’ll explore the highlights and significance of the Egyptian Museum.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img5.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Savor the Flavors of Egyptian Cuisine
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        Egyptian cuisine is a rich tapestry of flavors, textures, and aromas that reflect the country’s diverse cultural heritage. From hearty street food to sumptuous traditional dishes, Egyptian food is sure to tantalize your taste buds and offer a culinary adventure like no other. In this blog, we’ll explore some of the most iconic and delicious dishes that you must try when visiting Egypt.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img6.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Dive into the Red Sea’s Underwater Paradise
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        The Red Sea is renowned for its crystal-clear waters, vibrant coral reefs, and diverse marine life, making it one of the world’s premier diving and snorkeling destinations. Whether you are an experienced diver or a first-time snorkeler, the underwater wonders of the Red Sea promise an unforgettable adventure. In this blog, we’ll explore the top diving and snorkeling spots along the Red Sea coast.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img7.jpg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Relax and Rejuvenate in the Oasis of Siwa
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        Siwa Oasis, located in the western desert of Egypt, is a tranquil and picturesque retreat that offers a unique blend of natural beauty, rich history, and vibrant culture. Known for its hot springs, salt lakes, and lush palm groves, Siwa is the perfect destination for those seeking relaxation and rejuvenation away from the hustle and bustle of city life. In this blog, we’ll explore the top attractions and experiences that make Siwa Oasis a must-visit destination.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img8.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Discover the Mystical Beauty of Abu Simbel Temples
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        The Abu Simbel Temples are among the most impressive and awe-inspiring monuments of ancient Egypt. Carved into a mountainside by Pharaoh Ramses II, these temples are a testament to the grandeur and ingenuity of ancient Egyptian engineering and artistry. In this blog, we’ll delve into the history, significance, and breathtaking features of the Abu Simbel Temples.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <article style="scale: 0.9" class="side-blog mb-56px">
+                    <div
+                      style="height: 31rem; width: auto; position: relative"
+                      class="blog-image"
+                    >
+                      <div class="list-categories"></div>
+                      <a class="post-thumbnail" href="blog-details.html">
+                        <img
+                          style="
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                          "
+                          src="./assets/images/Blog_images/img9.jpeg"
+                          alt="Image blog"
+                        />
+                      </a>
+                    </div>
+                    <div class="blog-content">
+                      <div class="top-detail-info">
+                        <ul class="flex-three">
+                          <li>
+                            <i class="icon-user"></i>
+                            <a href="#">Mehedii .Ha</a>
+                          </li>
+                          <li>
+                            <i class="icon-25"></i>
+                            <span class="date">Coments (03)</span>
+                          </li>
+                          <li>
+                            <i class="icon-24"></i>
+                            <span class="date">3 min Read</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 class="entry-title">
+                        <a href="blog-details.html"
+                          >
+                          Wander Through the Bustling Markets of Cairo
+                          </a
+                        >
+                      </h3>
+                      <p class="description">
+
+
+                        Cairo, the vibrant capital of Egypt, is a city that never sleeps, and its bustling markets are a testament to its lively and dynamic spirit. From traditional bazaars to modern souks, Cairo’s markets offer a sensory overload of sights, sounds, and scents that reflect the city’s rich cultural heritage. In this blog, we’ll take you on a journey through some of the most famous and fascinating markets in Cairo.
+
+                      </p>
+                      <div class="button-main">
+                        <a href="blog-details.html" class="button-link"
+                          >Read More <i class="icon-Arrow-11"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </article>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="tf-pagination flex-five mt-20">
+                        <li>
+                          <a class="pages-link" href="#">
+                            <i class="icon-29"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a class="pages-link" href="#">1</a>
+                        </li>
+                        <li class="pages-item active" aria-current="page">
+                          <a class="pages-link" href="#">2</a>
+                        </li>
+                        <li><a class="pages-link" href="#">3</a></li>
+                        <li>
+                          <a class="pages-link" href="#"
+                            ><i class="icon--1"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="side-bar-right">
+                    <div class="sidebar-widget">
+                      <div class="profile-widget center">
+                        <img
+                          src="./assets/images/avata/avt-blog.jpg"
+                          alt="Image Blog"
+                          class="avata"
+                        />
+                        <div class="name">Rosalina D. Willaim</div>
+                        <span class="job">Blogger/Photographer</span>
+                        <p class="des">
+                          he whimsically named Egg Canvas is the design director
+                          and photographer in New York. Why the nam
+                        </p>
+                        <ul class="social">
+                          <li>
+                            <a href="#">
+                              <i class="icon-icon-2"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="icon-x"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="icon-icon_03"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="icon-2"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">search here</h4>
+                      <form action="/" id="search-bar-widget">
+                        <input type="text" placeholder="Search here..." />
+                        <button type="button">
+                          <i class="icon-search-2"></i>
+                        </button>
+                      </form>
+                    </div>
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">Recent News</h4>
+                      <div class="recent-post-list">
+                        <div class="list-recent flex-three">
+                          <a href="blog-details.html" class="recent-image">
+                            <img
+                              src="./assets/images/blog/re-blog1.jpg"
+                              alt="Image"
+                            />
+                          </a>
+                          <div class="recent-info">
+                            <div class="date">
+                              <i class="icon-4"></i>
+                              <span>Jan 23,2022</span>
+                            </div>
+                            <h4 class="title">
+                              <a href="blog-details.html"
+                                >Budget Issues Force The Our To Become</a
+                              >
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="list-recent flex-three">
+                          <a href="blog-details.html" class="recent-image">
+                            <img
+                              src="./assets/images/blog/re-blog2.jpg"
+                              alt="Image"
+                            />
+                          </a>
+                          <div class="recent-info">
+                            <div class="date">
+                              <i class="icon-4"></i>
+                              <span>Jan 23,2022</span>
+                            </div>
+                            <h4 class="title">
+                              <a href="blog-details.html"
+                                >The Best Products That Shape Fashion</a
+                              >
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="list-recent flex-three">
+                          <a href="blog-details.html" class="recent-image">
+                            <img
+                              src="./assets/images/blog/re-blog3.jpg"
+                              alt="Image"
+                            />
+                          </a>
+                          <div class="recent-info">
+                            <div class="date">
+                              <i class="icon-4"></i>
+                              <span>Jan 23,2022</span>
+                            </div>
+                            <h4 class="title">
+                              <a href="blog-details.html"
+                                >The Best Products That Shape Fashion</a
+                              >
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">Categories</h4>
+                      <ul class="category-blog">
+                        <li>
+                          <a href="#" class="flex-two">
+                            <span>Mobile Set</span>
+                            <span>03</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="flex-two">
+                            <span>Mobile Set</span>
+                            <span>03</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="flex-two">
+                            <span>Mobile Set</span>
+                            <span>03</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="flex-two">
+                            <span>Mobile Set</span>
+                            <span>03</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">Tags</h4>
+                      <ul class="tag">
+                        <li>
+                          <a href="#">Tourist</a>
+                        </li>
+                        <li>
+                          <a href="#">Traveling</a>
+                        </li>
+                        <li>
+                          <a href="#">Cave</a>
+                        </li>
+                        <li>
+                          <a href="#">Sky Dive</a>
+                        </li>
+                        <li>
+                          <a href="#">Hill Climb</a>
+                        </li>
+                        <li>
+                          <a href="#">Oppos</a>
+                        </li>
+                        <li>
+                          <a href="#" class="active">Landing</a>
+                        </li>
+                        <li>
+                          <a href="#">Oppos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="mb--93">
+            <div class="tf-container">
+              <div class="callt-to-action flex-two">
+                <div class="callt-to-action-content flex-three">
+                  <div class="content">
+                    <h2 class="title-call">
+                      Ready to adventure and enjoy natural
+                    </h2>
+                    <p class="des">
+                      Lorem ipsum dolor sit amet, consectetur notted adipisicin
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="./assets/images/page/vector4.png"
+                  alt=""
+                  class="shape-ab"
+                />
+                <div class="callt-to-action-button">
+                  <a href="#" class="get-call">Let,s get started</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer footer-style1">
+            <div class="tf-container">
+              <div class="footer-main">
+                <div class="footer-logo">
+                  <div class="logo-footer">
+                  </div>
+                  <p class="des-footer">
+    
+                  </p>
+                  <ul class="footer-info">
+                    <li class="flex-three">
+                      <i class="icon-noun-mail-5780740-1"></i>
+                      <p>info@marvelousegypttravel.com</p>
+                    </li>
+                    <li class="flex-three">
+                      <i class="icon-Group-9"></i>
+                      <p>+201288811423</p>
+                    </li>
+    
+                    <li
+                      style="display: flex; flex-direction: column; flex: 3;width: 97%; font-family: Arial, sans-serif; color: #333;">
+                      <p style="margin-bottom: 15px; display: flex; align-items: center;">
+                        <i class="icon-Layer-19" style="font-size: 18px; color: #3498db; margin-right: 10px;"></i>
+                        <span>Headquarter Office: Järvevana Street 9, Tallinn, 11314, Estonia</span>
+                      </p>
+                      <p style="display: flex; align-items: center;">
+                        <i class="icon-Layer-19" style="font-size: 18px; color: #3498db; margin-right: 10px;"></i>
+                        <span>Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El Nil, Cairo Governorate 4272141,
+                          Floor 2, Apt 14</span>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-service">
+                  <h5 class="title">Services Req</h5>
+    
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                      <a href="team.html">Our Team</a>
+                    </li>
+                    <li>
+                      <a href="blog.html">Blog Insights</a>
+                    </li>
+                    <li>
+                      <a href="contact/">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-gallery">
+                  <h5 class="title">Gallery</h5>
+    
+                  <div class="gallery-img">
+                    <a href="./assets/images/Luxor_Images/img11.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img11.webp" alt="image gallery" />
+                    </a>
+                    <a href="./assets/images/Luxor_Images/img14.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img14.webp" alt="image gallery" />
+                    </a>
+                    <a href="./assets/images/Luxor_Images/img16.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img16.webp" alt="image gallery" />
+                    </a>
+                    <a href="./assets/images/Luxor_Images/img3.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img3.webp" alt="image gallery" />
+                    </a>
+                    <a href="./assets/images/Luxor_Images/img7.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img7.webp" alt="image gallery" />
+                    </a>
+                    <a href="./assets/images/Luxor_Images/img8.webp" data-fancybox="gallery">
+                      <img style="height: 5rem;
+      object-fit: cover;" src="./assets/images/Luxor_Images/img8.webp" alt="image gallery" />
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-newsletter">
+                  <h5 class="title">Newsletter</h5>
+                  <form action="/" id="footer-form">
+                    <div class="input-wrap flex-three">
+                      <input type="email" placeholder="Enter Email Adress" />
+                      <button aria-label="Event Button" type="submit">
+                        <i class="icon-paper-plane"></i>
+                      </button>
+                    </div>
+                    <div class="check-form flex-three">
+                      <i class="icon-Vector-121"></i>
+                      <p>I agree to all your terms and policies</p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+    
+              <div class="row footer-bottom">
+                <div class="col-md-6">
+                  <p class="copy-right">
+                    Copyright 2007-2024 Marvelous Egypt Travel All Rights Reserved
+                    <a href="#" aria-label="Icon" class="text-main">Themesflat.</a> All Rights
+                    Reserved
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <ul class="social flex-six">
+                    <li>
+                      <a href="#" aria-label="Icon">
+                        <i class="icon-icon-2"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Icon">
+                        <i class="icon-x"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Icon">
+                        <i class="icon-icon_03"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Go to homepage">
+                        <i class="icon-2"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <!-- Bottom -->
+      </div>
+      <!-- /#page -->
     </div>
 
     <!-- Modal Popup Bid -->
@@ -745,35 +1227,71 @@
     <a id="scroll-top" class="button-go"></a>
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-        <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="logo-canvas">
+          <img src="./assets/images/logo.png" alt="image" />
         </div>
-        <div class="offcanvas-body">
-            <div class="logo-canvas">
-                <img src="./assets/images/logo.png" alt="image">
-            </div>
-            <p class="des">The world’s first and largest digital market
-                for crypto collectibles and non-fungible
-            </p>
-            <ul class="canvas-info">
-                <li class="flex-three">
-                    <i class="icon-noun-mail-5780740-1"></i>
-                    <p>info@marvelousegypttravel.com</p>
-                </li>
-                <li class="flex-three">
-                    <i class="icon-Group-9"></i>
-                    <p>+201288811423</p>
-                </li>
-                <li class="flex-three">
-                    <i class="icon-Layer-19"></i>
-                    <p>Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El Nil, Cairo Governorate 4272141, Floor 2, Apt 14</p>
-                </li>
-            </ul>
-
-        </div>
+        <p class="des">
+          The world’s first and largest digital market for crypto collectibles
+          and non-fungible
+        </p>
+        <ul class="canvas-info">
+          <li class="flex-three">
+            <i class="icon-noun-mail-5780740-1"></i>
+            <p>Info@webmail.com</p>
+          </li>
+          <li class="flex-three">
+            <i class="icon-Group-9"></i>
+            <p>684 555-0102 490</p>
+          </li>
+          <li class="flex-three">
+            <i class="icon-Layer-19"></i>
+            <p>6391 Elgin St. Celina, NYC 10299</p>
+          </li>
+        </ul>
+        <ul class="social flex-three">
+          <li>
+            <a href="#">
+              <i class="icon-icon-2"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-8"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-6"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- Javascript -->
+     <script>
+        
+    let copyRight = (()=>{
+      let CopyRightElement = document.querySelector(".copy-right")
+      let d = new Date()
+      let Year = d.getFullYear();
+      CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`
+    })();
+     </script>
     <script src="app/js/jquery.min.js"></script>
     <script src="app/js/jquery.nice-select.min.js"></script>
     <script src="app/js/bootstrap.min.js"></script>
@@ -783,7 +1301,5 @@
     <script src="app/js/jquery.fancybox.js"></script>
     <script src="app/js/shortcodes.js"></script>
     <script src="app/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
