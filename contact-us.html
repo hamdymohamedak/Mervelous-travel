@@ -395,7 +395,7 @@
                     </div>
                     <div class="input-wrap relative">
                       <i class="icon-users"></i>
-                      <input type="number" name="number-of-travelers" placeholder="Number of Travelers*" required>
+                      <input id="inputNum" type="number" name="number-of-travelers" placeholder="Number of Travelers*" required>
                     </div>
                     <button type="submit" class="btn-submit-contact">
                       <i class="icon-Group-121"></i> Submit Booking
@@ -2545,6 +2545,17 @@ object-fit: cover;" src="./assets/images/Aswan_Images/img4.webp"
       let Year = d.getFullYear();
       CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
     })();
+
+    document.addEventListener("DOMContentLoaded", () => {
+  let inputNum = document.querySelector("#inputNum");
+  inputNum.addEventListener("input", (e) => {
+    let inputNumLiveValue = e.target.value;
+    if (inputNumLiveValue < 0){
+      inputNum.value = 0;
+    }
+  });
+});
+
   </script>
 
   </script>
