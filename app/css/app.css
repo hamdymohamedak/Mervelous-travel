@@ -1381,7 +1381,6 @@
 /*----------------------Blog--------------------*/
 .side-blog {
   margin-right: 5px;
-  margin-bottom: 56px;
 }
 .side-blog:hover .post-thumbnail img {
   transform: scale(1.1);
