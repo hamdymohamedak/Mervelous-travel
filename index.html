@@ -168,7 +168,7 @@
   <div id="wrapper">
     <div id="pagee" class="clearfix">
       <!-- Main Header -->
-      <header class="main-header flex">
+      <header  class="main-header flex">
         <!-- Header Lower -->
         <div id="header">
           <div class="header-top">
@@ -245,9 +245,16 @@
                             <li class="">
                               <a href="#" aria-label="Go to Travel Pacjages">Travel Packages</a>
                             </li>
-                            <li class="=">
-                              <a href="#" aria-label="Go to Day Tours">Day Tours</a>
-                            </li>
+                            <li class="dropdown2">
+                              <a href="#">Day Tours</a>
+                              <ul>
+                                  <li class="current"><a href="index.html">Home Page01</a></li>
+                                  <li><a href="home2.html">Home Page 02</a></li>
+                                  <li><a href="home3.html">Home Page 03</a></li>
+                                  <li><a href="home4.html">Home Page 04</a></li>
+                                  <li><a href="home5.html">Home Page 05</a></li>
+                              </ul>
+                          </li>
                             <li class="">
                               <a href="#" aria-label="Go to Nile Cruises">Nile Cruises</a>
                             </li>
@@ -255,9 +262,9 @@
                             <li class="">
                               <a href="#" aria-label="Go to Shore Excursion">Shore Excursion</a>
                             </li>
-                            <li class=""><a href="./about-us.html" aria-label="Go to About Us">About us</a></li>
-                            <li><a href="./blog.html">Blog</a></li>
                             <li><a href="./tailor-made.html">Tailor Made</a></li>
+
+                            <li class=""><a href="./about-us.html" aria-label="Go to About Us">About us</a></li>
                             <li><a href="./contact-us.html">contact</a></li>
                           </ul>
                         </div>
@@ -568,7 +575,7 @@
                   </div>
 
                   <div class="flex-three btn-wrap-about mb-30 fadeInUp wow">
-                    <a href="#" aria-label="Go to more about us" class="btn-main">
+                    <a href="./about-us.html" aria-label="Go to more about us" class="btn-main">
                       <p class="btn-main-text">More About Us</p>
                       <p class="iconer">
                         <i class="icon-arrow-right"></i>
@@ -650,7 +657,7 @@
                         Tour Packages
                       </button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="dropdown2 current nav-item" role="presentation">
                       <button aria-label="Event Button" class="nav-link" id="london-tab" data-bs-toggle="tab"
                         data-bs-target="#london-tab-pane" type="button" role="tab" aria-controls="london-tab-pane"
                         aria-selected="false">
@@ -687,7 +694,7 @@
                         <div class="col-sm-6 col-lg-3">
                           <div class="tour-listing"
                           data-wow-delay="0.1s">
-                          <a href="tour-single.html" class="tour-listing-image">
+                          <a href="tour-single.html?id=1" class="tour-listing-image">
                               <div class="badge-top flex-two">
                                   <span class="feature">Featured</span>
                                   <div class="badge-media flex-five">
@@ -705,7 +712,7 @@
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html">Cairo Tour Packages</a>
+                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html?id=1">Cairo Tour Packages</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -765,7 +772,7 @@
                         <div class="col-sm-6 col-lg-3">
                           <div class="tour-listing"
                           data-wow-delay="0.1s">
-                          <a href="tour-single.html" class="tour-listing-image">
+                          <a href="tour-single.html?id=2" class="tour-listing-image">
                               <div class="badge-top flex-two">
                                   <span class="feature">Featured</span>
                                   <div class="badge-media flex-five">
@@ -783,7 +790,7 @@
                           <div class="tour-listing-content">
                               <span class="tag-listing">Bestseller</span>
                               <span class="map"><i class="icon-Vector4"></i>Egypt</span>
-                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html">Essential Egypt</a>
+                              <h3 style="font-size: 16px;" class="title-tour-list"><a href="tour-single.html?id=2">Essential Egypt</a>
                               </h3>
                               <div class="review">
                                   <i class="icon-Star"></i>
@@ -4859,21 +4866,7 @@ object-fit: cover;" src="./assets/images/Geust44.jpg"
   </div>
 
   <!-- Javascript -->
-  <script>
-    function goToChat() {
-      window.open("https://wa.me/+201143328885");
-    }
-    function goToTripadvisorSite(){
-      window.open("https://www.tripadvisor.com/Attraction_Review-g294201-d2149513-Reviews-Marvelous_Egypt_Travel-Cairo_Cairo_Governorate.html")}
-
-    let copyRight = (()=>{
-      let CopyRightElement = document.querySelector(".copy-right")
-      let d = new Date()
-      let Year = d.getFullYear();
-      CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`
-    })();
-    
-  </script>
+  <script src="./Tours.js"></script>
   <script src="app/js/jquery.min.js"></script>
   <script src="app/js/jquery.nice-select.min.js"></script>
   <script src="app/js/bootstrap.min.js"></script>
