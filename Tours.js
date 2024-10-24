@@ -1258,7 +1258,6 @@ Breakfast.
     excluded: ["Tipping", "Personal Expenses.", "Optional tours."],
   },
 
-
   13: {
     title: "Tour to Cairo and Giza Pyramids from Port Said",
     maxGuests: "Unlimited",
@@ -1312,28 +1311,27 @@ Finally, you'll be driven back to your cruise in Port Said.
       "Entrance fees for all sightseeing are mentioned.",
       "All service charges and taxes.",
     ],
-    excluded: ["Tipping.", "Any extras not mentioned in the itinerary. .", "Optional Experiences available at an additional cost. "],
+    excluded: [
+      "Tipping.",
+      "Any extras not mentioned in the itinerary. .",
+      "Optional Experiences available at an additional cost. ",
+    ],
   },
 
-
-
-
-
-
-    14: {
-      title: "Day Trip to Alexandria Sights from Alexandria Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: "Embark on a captivating day trip from Alexandria Port to explore the historical and cultural wonders of Alexandria. With Marvelous Egypt Travel’s exceptional service, including a private air-conditioned vehicle and a knowledgeable Egyptologist guide, you will experience the rich Greco-Roman heritage and unique attractions of this legendary city. Enjoy visits to the Alexandria Library, Catacombs, Pompey’s Pillar, Qaitbay Citadel, and Morsi Abu Abbas Mosque, before returning to Alexandria Port.",
-      reviews: "413 Reviews",
-      priceSale: "$80",
-      priceOriginal: "$80",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day Trip to Alexandria Sights from Alexandria Port",
-          des: ` Pickup from Alexandria Port:
+  14: {
+    title: "Day Trip to Alexandria Sights from Alexandria Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Embark on a captivating day trip from Alexandria Port to explore the historical and cultural wonders of Alexandria. With Marvelous Egypt Travel’s exceptional service, including a private air-conditioned vehicle and a knowledgeable Egyptologist guide, you will experience the rich Greco-Roman heritage and unique attractions of this legendary city. Enjoy visits to the Alexandria Library, Catacombs, Pompey’s Pillar, Qaitbay Citadel, and Morsi Abu Abbas Mosque, before returning to Alexandria Port.",
+    reviews: "413 Reviews",
+    priceSale: "$80",
+    priceOriginal: "$80",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip to Alexandria Sights from Alexandria Port",
+        des: ` Pickup from Alexandria Port:
 
 Our representative and guide will meet you at Alexandria Port and transfer you to your first destination.
 Catacombs of Kom El Shoqafa:
@@ -1357,168 +1355,649 @@ Visit the Morsi Abu Abbas Mosque, built in 1307 AD. This mosque is renowned for 
 Return to Alexandria Port:
 
 After a day of exploration, return to Alexandria Port for drop-off.`,
-        },
+      },
+    ],
+    included: [
+      "Pick-up and drop-off at Alexandria Port. ",
+      "All transfers by a private modern A/C vehicle.",
+      "Private Egyptologist guide during your journey.",
+      "Mineral water on board the vehicle. ",
+      "Lunch at a local restaurant during your day trip.",
+      "Entrance fees for all sightseeing are mentioned",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary",
+      "Optional Experiences available at an additional cost",
+    ],
+  },
 
-      ],
-      included: [
-        "Pick-up and drop-off at Alexandria Port. ",
-        "All transfers by a private modern A/C vehicle.",
-        "Private Egyptologist guide during your journey.",
-        "Mineral water on board the vehicle. ",
-        "Lunch at a local restaurant during your day trip.",
-        "Entrance fees for all sightseeing are mentioned",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary",
-        "Optional Experiences available at an additional cost"
-      ],
-    },
+  15: {
+    title: "Trip to Pyramids and Cairo from Sokhna Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
+  A Cairo Tour from Sokhna Port is a voyage of dreams through the everlasting allure and grandeur of the immortal city of Cairo. Marvelous Egypt Travel, the best travel agency in Egypt, ensures all our clients receive top-notch services, including an expert Egyptologist tour guide and a private A/C vehicle.
 
+  During this magical tour, You will visit the iconic Giza Pyramids, the Great Sphinx, and the Egyptian Museum. After an unforgettable day of exploring ancient wonders, we will drive you back to Sokhna Port. Book this lovely day trip to experience the wonders of ancient Egypt and make each moment count.
+  `,
+    reviews: "131 Reviews",
+    priceSale: "$135",
+    priceOriginal: "$135",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Trip to Pyramids and Cairo from Sokhna Port",
+        des: `
+Morning:
+Pickup from Sokhna Port:
 
+Our representative will pick you up from Sokhna Port by the cruise exit door to be transferred by an air-conditioned vehicle to Cairo for a private guided tour of Cairo and the Pyramids from Sokhna Port (approximately 3 hours).
+Tour of Cairo Tourist Attractions:
+Giza Pyramids Complex:
 
+The divine Giza Pyramids complex came into reality during the times of the old kingdom (2686 – 2134 BC) to showcase the eternal legacy of the ancient Egyptian royalty who were successful in immortalizing their names in the history books.
+The Great Pyramid:
 
+The Great Pyramid of Giza, built by King Khufu (2609 BC - 2584 BC), is a magical art piece that offers a heavenly gate leading to the heavens. It was constructed under the direction of Khufu's vizier Hemiunu, reaching a height of 147 m and a total weight of 6 million tons. Key chambers include the Queen’s chamber, the King’s chamber, the big void, and the grand hall.
+The Great Sphinx:
 
+The Great Sphinx, also known as Horus of the Horizon, is a giant mythical sculpture showcasing the strength and wisdom of Pharaoh Khafre (2558 BC - 2532 BC). It features the face of Khafre and the body of a lion, with the dream Steele of Thutmose IV placed between its paws in 1401 BC.
+The Valley Temple:
 
+The Valley Temple, a masterpiece of ancient art, was used for religious customs, including the mummification ritual, to ensure a successful journey to the afterlife for members of the 4th dynasty.
+The Grand Egyptian Museum:
 
+The Grand Egyptian Museum is a golden portal to 5000 years of ancient Egyptian innovation and imagination. It houses some of the greatest archaeological monuments and artifacts ever created, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic kings and queens, the Victory Column of King Merneptah, the Royal Regalia, and the Grand Atrium and Gift Shop. For an enhanced experience, VIP tickets provide access to additional artifacts.
+Lunch Time:
 
+Lunch will be served at a Pyramid/ Nile view restaurant.
+Afternoon:
+The Egyptian Museum:
 
+The Egyptian Museum, established in 1901 AD in central Cairo, displays an extraordinary collection of ancient artifacts and monuments dating back over 4000 years.
+Evening:
+Return to Sokhna Port:
 
+Finally, we drive you back to Sokhna Port by the cruise door.
+`,
+      },
+    ],
+    included: [
+      "Pick up from the cruise exit door at Sokhna Port and return ",
+      "All transfers by a private air-conditioned vehicle ",
+      "Private Egyptologist guide during your journey",
+      "Mineral water on board the vehicle during the tour",
+      "Lunch during your day trip at a local restaurant",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
+  16: {
+    title: "Day Tour from Safaga to Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
+  Embark on a miraculous journey with a day tour to Luxor from Safaga Port, where you will traverse a golden path back in time to witness the grandeur of the ancient Egyptian civilization. Marvelous Egypt Travel, renowned as the best travel agency in Egypt, provides our clients with exceptional services, including expert Egyptologist tour guides and private A/C vehicles.
+  During this one-day tour from Safaga to Luxor, our guests will experience the magnificence of Upper Egypt as they explore Luxor’s renowned tourist attractions. Discover the timeless treasures of the ancient Egyptian pharaohs by visiting the Valley of the Kings, Karnak Temples, Hatshepsut Temple, and the Colossi of Memnon. After an enriching day, we will drive you back to Safaga Port.
+  Experience an unforgettable holiday amidst the majestic wonders of Luxor by booking this extraordinary day trip.
+  `,
+    reviews: "86 Reviews",
+    priceSale: "$160",
+    priceOriginal: "$160",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour from Safaga to Luxor",
+        des: `
+Morning:
+Pickup from Safaga Port:
 
+Our representative will greet you at the cruise exit door at Safaga Port and accompany you on a scenic 3-hour drive to Luxor. Upon arrival, your day tour will begin with visits to the following:
+Valley of the Kings:
 
+During the new kingdom (1570 – 1050 BC) a magical time vault known as the Valley of the Kings was made in the heart of the sacred hill. The royal gates of the kings contain 63 tombs filled with golden artifacts and colorful decorations of the great Pharaohs such as Ramses II, Hatshepsut, Seti I, Tutankhamen, and various more.
+Hatshepsut Temple:
 
+This glorious and beautiful colossal temple was made for Queen Hatshepsut (1507–1458 BC) to be the holy of holies that came into existence in 1479 BC to honor the sun god Amun and immortalize the great heritage of Hatshepsut. The enchanting temple of Hatshepsut was carved at the rocky hills of Deir El Bahari for 15 years to become one of the most preserved architectural and archaeological constructions in the history of Egypt.
+Colossi of Memnon:
 
+The everlasting statues of Colossi of Memnon of Pharaoh Amenhotep III (1386 - 1349 BC) are giant masterpieces that were constructed in 1350 BC but reassembled various times during the Greco-Roman period. It was named for Memnon, the Greek historical figure.
+Afternoon:
+Lunch Time:
 
+Enjoy a delightful lunch on a picturesque island.
+Karnak Temple:
 
+The grand Karnak temple complex is known as the most selected of places by the divine power of ancient Egypt showcasing the religious dedication and the architectural mastery of the ancient Egyptians. It was built for honoring the Theban triad of Amun, Mut, and Khonsu. The blessed Karnak temple's complex construction process came to be 2000 BC to 30 BC on 247 acres of divine lands. The enchanting Avenue of Sphinxes, hypostyle hall, and the religious are famous for being the most enchanting examples of archaeological architecture and art.
+Luxor Temple:
 
+Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Evening:
+Return to Safaga Port:
 
+Finally, we will transfer you back to Safaga Port to end your day tour from Safaga to Luxor.
+`,
+      },
+    ],
+    included: [
+      "Pick up services from Safaga port to Luxor and return.",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle",
+      "Lunch during your tour. ",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary.",
+      "Optional Experiences available at an additional cost",
+    ],
+  },
 
+  17: {
+    title: "4 Days Christmas Cairo and Giza Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "4 days",
+    des: "Experience a divine adventure across the immortal historical and cultural wonders of Cairo with the 4-day Cairo Christmas Egypt tour package. Provided by Marvelous Egypt Travel, this tour offers exquisite services including a private A/C vehicle and a seasoned Egyptologist tour guide. The tour covers Cairo’s most magnificent and diverse tourist attractions, including the Giza Pyramids, the Sphinx, Memphis City, Muizz Street, and the Khan El Khalili Bazaar. Make enchanting memories this Christmas with a visit to Egypt’s historic landmarks.",
+    reviews: "132 Reviews",
+    priceSale: "$600",
+    priceOriginal: "$600",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Arrival in Cairo: ",
+        des: ` Arrive at Cairo Airport, where our representative will assist with your luggage and transfer you to your hotel in a private, air-conditioned vehicle.
+Dinner Cruise:
 
+In the evening, enjoy a Dinner Cruise on the Nile River with a meal, belly dancing, folklore music, and a mesmerizing Tannoura dance.
+Meals:
 
+Dinner.
+Overnight:
 
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Giza Pyramids Complex: ",
+        des: ` Visit the Great Pyramid of Giza, the Great Sphinx, and the Valley Temple.
+Lunch:
 
+Enjoy a delicious Egyptian lunch.
+Saqqara Step Pyramid:
 
+Explore the pyramid complex designed by Imhotep for Pharaoh Djoser.
+Memphis City:
 
+Discover the ancient capital of Egypt and the center of worship for Ptah, the god of creation and artwork.
+Meals:
 
+Breakfast, Lunch.
+Overnight:
 
+Cairo Hotel.
+`,
+      },
+      {
+        title: "The Egyptian Museum: ",
+        des: ` Explore the museum's extensive collection of ancient Egyptian artifacts.
+Lunch:
 
+Savor a delightful lunch at a local Cairo restaurant.
+The Hanging Church:
 
+Visit the ancient Coptic church built atop a Roman fortress.
+National Museum of Egyptian Civilization:
 
+View 50,000 artifacts spanning 5,000 years of Egyptian history, including 28 royal mummies.
+Al Muizz Street:
 
+Walk through the historic street filled with artifacts and goods.
+Khan El Khalili Bazaar:
 
+Shop in the historic bazaar with traditional shops, cafes, and remarkable Islamic architecture.
+Meals:
 
+Breakfast, Lunch.
+Overnight:
 
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Departure:",
+        des: ` After breakfast, transfer to Cairo Airport for your departure.
+Meals:
 
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation: 3 Nights accommodation in Cairo at a 5-star hotel",
+      "Meals: Meals as mentioned in the itinerary.",
+      "Entrance Fees: Entrance Fees to all Sites in the Itinerary. ",
+      "Guided Tours: Expert Egyptologist guides in English, French, and Spanish throughout the tour",
+      "Transport: All Transfers by a Private A/C Car",
+      "	Additional Services:Free airport meet and greet transfer",
+    ],
+    excluded: [
+      "Flights:International flights before and after the tour",
+      "Insurance:Travel insurance is mandatory",
+      "Optional Experiences: Available at an additional cost. ",
+      "Egypt Visa: USD 25 per passport",
+      "Tipping:Recommended. ",
+      "Personal Expenses:Laundry, sauna, telephones, etc. ",
+      "SIM Card:Available for purchase at Cairo International Airport. ",
+    ],
+  },
 
+  18: {
+    title: "6 Days Easter Cairo, Giza, Luxor, Aswan and Abu Simbel Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "6 days",
+    des: "Embark on a 6-day Egypt Easter tour package that reveals the world’s greatest historical marvels. With Marvelous Egypt Travel, you will enjoy top-notch services including a private A/C vehicle, comfortable accommodations, and an experienced Egyptologist tour guide. This tour will take you through Cairo, Luxor, and Aswan, showcasing ancient Egyptian pyramids, the Great Sphinx, Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Philae Temple, Abu Simbel Temple, and more.",
+    reviews: "465 Reviews",
+    priceSale: "$855",
+    priceOriginal: "$855",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Arrival To Egypt Land Of Pharaohs",
+        des: `
+Experience:
 
+Arrival at Cairo Airport, meet and assist by our representative. Transfer to 5-star hotel in Cairo for check-in. Enjoy a Dinner Cruise on the Nile with belly dancing and Tannoura show.
+Meals:
 
+Dinner cruise on the Nile.
+Overnight:
 
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Uncover The Wealth Of Ancient Relics Of Egypt",
+        des: `
+Experience:
 
+Visit Giza Pyramids Complex, The Great Pyramid, The Great Sphinx, The Valley Temple, The Grand Egyptian Museum, and The Egyptian Museum. Flight to Luxor, transfer to 5-star hotel for check-in.
+Meals:
 
+Breakfast at the hotel.
+Lunch at a local restaurant in Cairo.
+Overnight:
 
-  //   15: {
-  //     title: "Trip to Pyramids and Cairo from Sokhna Port",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: `
+Luxor Hotel.
+`,
+      },
+      {
+        title: "Witness The Glory Of The Ancient Gems In Luxor",
+        des: `
+Experience:
 
-  // A Cairo Tour from Sokhna Port is a voyage of dreams through the everlasting allure and grandeur of the immortal city of Cairo. Marvelous Egypt Travel, the best travel agency in Egypt, ensures all our clients receive top-notch services, including an expert Egyptologist tour guide and a private A/C vehicle.
+Visit Valley of the Kings, Hatshepsut Temple, Colossi of Memnon, and Karnak Temple. Then Enjoy a boat trip on the Nile.
+Meals:
 
-  // During this magical tour, You will visit the iconic Giza Pyramids, the Great Sphinx, and the Egyptian Museum. After an unforgettable day of exploring ancient wonders, we will drive you back to Sokhna Port. Book this lovely day trip to experience the wonders of ancient Egypt and make each moment count.
-  // `,
-  //     reviews: "131 Reviews",
-  //     priceSale: "$135",
-  //     priceOriginal: "$135",
-  //     rating: 5,
-  //   },
-  //   16: {
-  //     title: "Day Tour from Safaga to Luxor",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: `
-  // Embark on a miraculous journey with a day tour to Luxor from Safaga Port, where you will traverse a golden path back in time to witness the grandeur of the ancient Egyptian civilization. Marvelous Egypt Travel, renowned as the best travel agency in Egypt, provides our clients with exceptional services, including expert Egyptologist tour guides and private A/C vehicles.
-  // During this one-day tour from Safaga to Luxor, our guests will experience the magnificence of Upper Egypt as they explore Luxor’s renowned tourist attractions. Discover the timeless treasures of the ancient Egyptian pharaohs by visiting the Valley of the Kings, Karnak Temples, Hatshepsut Temple, and the Colossi of Memnon. After an enriching day, we will drive you back to Safaga Port.
-  // Experience an unforgettable holiday amidst the majestic wonders of Luxor by booking this extraordinary day trip.
-  // `,
-  //     reviews: "86 Reviews",
-  //     priceSale: "$160",
-  //     priceOriginal: "$160",
-  //     rating: 5,
-  //   },
-  //   17: {
-  //     title: "4 Days Christmas Cairo and Giza Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "4 days",
-  //     des: "Experience a divine adventure across the immortal historical and cultural wonders of Cairo with the 4-day Cairo Christmas Egypt tour package. Provided by Marvelous Egypt Travel, this tour offers exquisite services including a private A/C vehicle and a seasoned Egyptologist tour guide. The tour covers Cairo’s most magnificent and diverse tourist attractions, including the Giza Pyramids, the Sphinx, Memphis City, Muizz Street, and the Khan El Khalili Bazaar. Make enchanting memories this Christmas with a visit to Egypt’s historic landmarks.",
-  //     reviews: "132 Reviews",
-  //     priceSale: "$600",
-  //     priceOriginal: "$600",
-  //     rating: 5,
-  //   },
-  //   18: {
-  //     title: "6 Days Easter Cairo, Giza, Luxor, Aswan and Abu Simbel Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "6 days",
-  //     des: "Embark on a 6-day Egypt Easter tour package that reveals the world’s greatest historical marvels. With Marvelous Egypt Travel, you will enjoy top-notch services including a private A/C vehicle, comfortable accommodations, and an experienced Egyptologist tour guide. This tour will take you through Cairo, Luxor, and Aswan, showcasing ancient Egyptian pyramids, the Great Sphinx, Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Philae Temple, Abu Simbel Temple, and more.",
-  //     reviews: "465 Reviews",
-  //     priceSale: "$855",
-  //     priceOriginal: "$855",
-  //     rating: 5,
-  //   },
-  //   19: {
-  //     title: "8 Days Christmas Cairo and Nile Cruise Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "8 days",
-  //     des: "Experience the divine beauty and rich history of Egypt with this 8 Days Christmas Cairo and Nile Cruise tour. This luxurious journey covers the magnificent cities of Cairo, Luxor, and Aswan, featuring private air-conditioned vehicles, exceptional accommodations, and a 5-star Nile cruise. Guided by an experienced Egyptologist, you’ll unravel the mysteries and splendors of iconic destinations while enjoying a blend of relaxation and excitement.",
-  //     reviews: "201 Reviews",
-  //     priceSale: "$1980",
-  //     priceOriginal: "$1980",
-  //     rating: 5,
-  //   },
-  //   20: {
-  //     title: "9 Days Cairo, Giza, Luxor, Aswan, and Hurghada Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "9 days",
-  //     des: "Embark on a captivating journey through Egypt with our 9-day tour package. This fully guided tour offers a perfect blend of history, culture, and adventure, featuring luxury Nile cruises, iconic temples, and the serene beaches of Hurghada. Perfect for families and groups, our tours are tailored to provide an unforgettable Egyptian experience.",
-  //     reviews: "222 Reviews",
-  //     priceSale: "$988",
-  //     priceOriginal: "$988",
-  //     rating: 5,
-  //   },
-  //   21: {
-  //     title: "8 Days Christmas Cairo and Nile Cruise Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "8 days",
-  //     des: "",
-  //     reviews: "335 Reviews",
-  //     priceSale: "$1980",
-  //     priceOriginal: "$2475",
-  //     rating: 5,
-  //   },
-  //   22: {
-  //     title:
-  //       "8 Days Easter Cairo, Giza, Aswan, Kom Ombo, Edfu, Luxor and Hurghada Tour",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "4 days",
-  //     des: "",
-  //     reviews: "365 Reviews",
-  //     priceSale: "$1250",
-  //     priceOriginal: "$1562",
-  //     rating: 5,
-  //   },
+Breakfast at the hotel.
+Lunch on an island with a boat trip on the Nile.
+Overnight:
+
+Luxor Hotel.
+`,
+      },
+      {
+        title: "Unleash Your Spirit With The Scenic Splendors Of Aswan",
+        des: `
+Experience:
+
+Train to Aswan, visit Aswan High Dam, The Unfinished Obelisk, and Philae Temple.
+Meals:
+
+Breakfast at the hotel.
+Lunch at a local restaurant in Aswan.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Witness The Grandeur Of Abu Simbel",
+        des: `
+Experience:
+
+Private transfer to Abu Simbel Temples. Return to Aswan for lunch. Flight to Cairo, transfer to hotel for overnight.
+Meals:
+
+Breakfast boxes.
+Lunch at a local restaurant in Aswan.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "End Of Your Egypt Easter Holiday Package",
+        des: `
+Experience:
+
+Transfer to Cairo Airport for departure.
+Meals:
+
+Breakfast at the hotel`,
+      },
+    ],
+    included: [
+      "Accommodation:Accommodations in 5-star hotel in Cairo for 2 nights, a 5-star hotel in Luxor for 2 nights, and a 5-star hotel in Aswan for 1 night.",
+      "Meals:Meals are included during your itinerary.",
+      "Domestic Flights: Domestic flights between Cairo, Aswan, and Luxor. ",
+      "Entrance Fees: Entrance fees to all sites indicated on the itinerary. ",
+      "Guided Tours: Expert Egyptologist guide during your trip.",
+      "Transport:All transfers by private A.C vehicles. ",
+      "Additional Services: Meet and greet transfer service by our employees at the airports, and all service charges and taxes. ",
+    ],
+    excluded: [
+      "International Airfare: International flights before and after the tour. ",
+      "Insurance:Travel insurance is mandatory. ",
+      "Optional Experiences: Available at an additional cost. ",
+      "Egypt Visa: USD 25 per passport. ",
+      "Tipping: Recommended",
+      "Personal Expenses:Laundry, sauna, telephones, etc. ",
+      "SIM Card:Available for purchase at Cairo International Airport. ",
+    ],
+  },
+
+  19: {
+    title: "8 Days Christmas Cairo and Nile Cruise Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: "Experience the divine beauty and rich history of Egypt with this 8 Days Christmas Cairo and Nile Cruise tour. This luxurious journey covers the magnificent cities of Cairo, Luxor, and Aswan, featuring private air-conditioned vehicles, exceptional accommodations, and a 5-star Nile cruise. Guided by an experienced Egyptologist, you’ll unravel the mysteries and splendors of iconic destinations while enjoying a blend of relaxation and excitement.",
+    reviews: "201 Reviews",
+    priceSale: "$1980",
+    priceOriginal: "$1980",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Arrival in Cairo: ",
+        des: ` A representative will meet you at Cairo International Airport, assist with entry formalities, and transfer you to a luxurious 5-star hotel.
+Sound and Light Show:
+
+In the evening, enjoy the spellbinding Sound and Light Show at the Giza Complex, followed by dinner at an oriental restaurant.
+Meals:
+
+Dinner.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Giza Pyramids: ",
+        des: ` Visit the Great Pyramid, the Sphinx, and the Valley Temple.
+Saqqara Step Pyramid:
+
+Explore the world's first pyramid built for Pharaoh Djoser.
+Memphis City:
+
+Discover the ancient capital of Egypt.
+Flight to Luxor:
+
+Fly to Luxor, check in to your hotel.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Luxor Hotel.
+`,
+      },
+      {
+        title: "Karnak Temple: ",
+        des: ` Explore this sprawling complex dedicated to the Theban triad.
+Luxor Temple by Night:
+
+Visit Luxor Temple, a haven for the crowning of kings.
+Nile Cruise:
+
+Check in, have lunch, and relax.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Valley of the Kings: ",
+        des: ` Visit the tombs of ancient Egyptian pharaohs.
+Colossi of Memnon:
+
+See the two massive stone statues of Pharaoh Amenhotep III.
+Hatshepsut Temple:
+
+Explore the temple dedicated to Queen Hatshepsut.
+Sail to Edfu:
+
+Enjoy lunch and dinner onboard.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Edfu Temple: ",
+        des: ` Visit the temple dedicated to Horus.
+Kom Ombo Temple:
+
+Explore the temple dedicated to Sobek and Haroeris.
+Sail to Aswan:
+
+Enjoy lunch and dinner onboard.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Aswan High Dam:",
+        des: ` Visit the monumental dam.
+Unfinished Obelisk:
+
+See the ancient obelisk dedicated to Queen Hatshepsut.
+Philae Temple:
+
+Explore the temple dedicated to the goddess Isis.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Flight to Cairo: ",
+        des: ` Transfer to Aswan Airport, fly to Cairo.
+Egyptian Museum:
+
+Visit the museum housing Egypt's historical treasures.
+National Museum of Egyptian Civilization:
+
+Explore this grand museum.
+Hanging Church:
+
+Visit the church with captivating decorations.
+Al Muizz Street and Khan El Khalili Bazaar:
+
+Explore the historic street and market.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Departure:",
+        des: ` Enjoy breakfast at the hotel, then transfer to Cairo International Airport for your flight home.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation:4 Nights accommodation on board 5-star Nile Cruise, 2 Nights Accommodation at a 5-star Hotel in Cairo, and 1 Night Accommodation at a 5-star Hotel in Luxor.",
+      "Domestic Flights: Flight Tickets from Cairo to Luxor, and from Aswan to Cairo",
+      "Entrance Fees:Entrance fees to all the places in the itinerary",
+      "Meals:Meals as mentioned in the itinerary.",
+      "Guided Tours: Expert Egyptologist guides in English, French, and Spanish throughout the whole tour",
+      "Transport: Private A.C. vehicle during the whole of your tours",
+      "Additional Services: Free airport meet and greet transfer, and all Service Charges and Taxes",
+    ],
+    excluded: [
+      "International Flights:International flights before and after the tour",
+      "Insurance: Travel insurance is mandatory",
+      "Optional Experiences: Available at an additional cost.",
+      "Egypt Visa: USD 25 per passport",
+      "Tipping:Recommended",
+      "Personal Expenses: Laundry, sauna, telephones, etc",
+      "SIM Card: Available for purchase at Cairo International Airport.",
+    ],
+  },
+
+  20: {
+    title: "9 Days Cairo, Giza, Luxor, Aswan, and Hurghada Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "9 days",
+    des: "Embark on a captivating journey through Egypt with our 9-day tour package. This fully guided tour offers a perfect blend of history, culture, and adventure, featuring luxury Nile cruises, iconic temples, and the serene beaches of Hurghada. Perfect for families and groups, our tours are tailored to provide an unforgettable Egyptian experience.",
+    reviews: "222 Reviews",
+    priceSale: "$988",
+    priceOriginal: "$988",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Cairo Arrival",
+        des: "Unwind with an overnight stay in Cairo. Meals: No meals included.",
+      },
+      {
+        title: "Day 2: Explore the Pyramids",
+        des: "Guided tour of the awe-inspiring Pyramids of Giza. Meals: Breakfast included. Overnight: Cairo.",
+      },
+      {
+        title: "Day 3: Fly to Aswan",
+        des: "Explore Aswan and start your Nile cruise. Meals: Breakfast, Lunch, Dinner included. Overnight: Nile Cruise.",
+      },
+      {
+        title: "Day 4: Nile Cruise Adventure",
+        des: "Visit Edfu and Kom Ombo Temples. Meals: Breakfast, Lunch, Dinner included. Overnight: Nile Cruise in Edfu.",
+      },
+      {
+        title: "Day 5: Journey to Luxor",
+        des: "Explore Edfu Temple and Luxor Temple. Meals: Breakfast, Lunch, Dinner included. Overnight: Nile Cruise in Luxor.",
+      },
+      {
+        title: "Day 6: Luxor to Hurghada",
+        des: "Visit West Bank and Karnak Temple, bus transfer to Hurghada. Meals: Breakfast, Lunch, Dinner included. Overnight: Hurghada.",
+      },
+      {
+        title: "Day 7: Hurghada Red Sea Bliss",
+        des: "Relax and snorkel in Hurghada. Meals: Breakfast, Lunch, Dinner included. Overnight: Hurghada.",
+      },
+      {
+        title: "Day 8: Return to Cairo",
+        des: "Bus journey to Cairo (Flight upgrade available). Meals: Breakfast included. Overnight: Cairo.",
+      },
+      {
+        title: "Day 9: Departure",
+        des: "End your journey in Cairo. Meals: Breakfast included.",
+      },
+    ],
+
+    included: [
+      "Accommodation: 3 nights in Cairo, 3 nights on a Nile Cruise, 2 nights in Hurghada",
+      "Meals: 8 breakfasts, 5 lunches, 5 dinners",
+      "Guided Tours: Expert Egyptologist guides in English, French, and Spanish for Pyramids, Aswan, Kom Ombo, Edfu, and Luxor tours",
+      "Transport: A/C Vans for tours and excursions, bus from Luxor to Hurghada, bus from Hurghada to Cairo, domestic flight from Cairo to Aswan",
+      "Additional Services: Free airport meet and greet transfer",
+    ],
+
+    excluded: [
+      "Flights: International flights before and after the tour.",
+      "Insurance: Travel insurance is mandatory.",
+      "Optional Experiences: Available at an additional cost (see below for details).",
+      "Egypt Visa: USD 25 per passport.",
+      "Tipping: Recommended.",
+      "Entrance Fees: Approximately USD 125 for the main tour.",
+      "Personal Expenses: Laundry, sauna, telephones, etc.",
+      "Drinks: Not included in meals.",
+      "New Year/ Xmas Dinners: If applicable.",
+      "SIM Card: Available for purchase at Cairo International Airport.",
+    ],
+  },
+
+  21: {
+    title: "8 Days Christmas Cairo and Nile Cruise Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: "",
+    reviews: "335 Reviews",
+    priceSale: "$1980",
+    priceOriginal: "$2475",
+    rating: 5,
+  },
+  22: {
+    title:
+      "8 Days Easter Cairo, Giza, Aswan, Kom Ombo, Edfu, Luxor and Hurghada Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "4 days",
+    des: "",
+    reviews: "365 Reviews",
+    priceSale: "$1250",
+    priceOriginal: "$1562",
+    rating: 5,
+  },
 };
 
+// tourPlans: [
+//   {
+//     title: "",
+//     des: "",
+//   },
+
+// ],
+// included: [
+//   ""
+// ],
+// excluded: [
+//   ""
+// ],
 const tour = tourDetails[tourId];
 
 if (tour) {
