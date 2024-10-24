@@ -1970,6 +1970,19 @@ Breakfast.
     priceSale: "$1980",
     priceOriginal: "$2475",
     rating: 5,
+    tourPlans: [
+      {
+        title: "",
+        des: "",
+      },
+    
+    ],
+    included: [
+      ""
+    ],
+    excluded: [
+      ""
+    ],
   },
   22: {
     title:
@@ -1982,6 +1995,19 @@ Breakfast.
     priceSale: "$1250",
     priceOriginal: "$1562",
     rating: 5,
+    tourPlans: [
+      {
+        title: "",
+        des: "",
+      },
+    
+    ],
+    included: [
+      ""
+    ],
+    excluded: [
+      ""
+    ],
   },
 };
 
