@@ -15,20 +15,47 @@ const tourDetails = {
     rating: 5,
     tourPlans: [
       {
-        title: "Day 1: Arrival in Cairo",
+        title: "Day 1: Arrival and Nile Dinner Cruise",
         des: "Arrive at Cairo International Airport where you'll be greeted by our team and transferred to your hotel. Enjoy the rest of the day at leisure before a welcome dinner at a local restaurant.",
       },
       {
-        title: "Day 2: Explore the Pyramids of Giza",
-        des: "After breakfast, start your day with a visit to the world-famous Pyramids of Giza and the Sphinx, followed by a tour of the Egyptian Museum. Enjoy lunch at a local restaurant.",
+        title: "Day 2: Giza Pyramids, Sphinx, Saqqara, Memphis",
+        des: `
+Experience:
+
+After breakfast, visit the iconic Giza Pyramids Complex, including the Great Pyramid, the Sphinx, and the Valley Temple. Enjoy lunch at a local restaurant before exploring the Saqqara Step Pyramid and the ancient city of Memphis.
+Meals:
+
+Breakfast, Lunch
+Overnight:
+
+Cairo hotel
+`,
       },
       {
-        title: "Day 3: Old Cairo & Nile Cruise",
-        des: "Today, visit Old Cairo, including the Hanging Church and Ben Ezra Synagogue. In the evening, experience a delightful dinner cruise on the Nile with live entertainment.",
+        title: "Day 3: Egyptian Museum, Cairo Citadel, Khan El Khalili",
+        des: `
+Experience:
+
+Begin your day with breakfast, followed by a visit to The Egyptian Museum, home to an extensive collection of ancient artifacts. After lunch at a local restaurant, explore the Salah El Din Citadel, Mohamed Ali Mosque, the National Museum of Egyptian Civilization, Al Muizz Street, and the bustling Khan El Khalili Bazaar
+Meals:
+
+Breakfast, Lunch
+Overnight:
+
+Cairo hotel
+`,
       },
       {
         title: "Day 4: Departure",
-        des: "After breakfast, enjoy some free time before being transferred to the airport for your departure flight.",
+        des: `
+Experience:
+
+Enjoy breakfast at your hotel before being transferred to Cairo airport for your departure.
+Meals:
+
+Breakfast
+`,
       },
     ],
     included: [
@@ -38,7 +65,7 @@ const tourDetails = {
       "Transport: Private air-conditioned vehicle. ",
       "Entrance Fees for all sites listed",
       "Entrance Fees: Included for all sites listed in the itinerary.  ",
-      "Additional Services: Free airport meet and greet transfer.  ",
+      "Additional Services: Free airport meet and greet transfer.",
     ],
     excluded: [
       "Flights: International flights before and after the tour. ",
@@ -638,70 +665,8 @@ Lunch.
     rating: 5,
     tourPlans: [
       {
-        title: "Day 1: Day Tour To Pyramids From Cairo Airport",
-        des: `
-Aswan Sightseeing Tour
-Morning:
-Pick-Up:
-
-Your private tour guide will meet you at your hotel or Nile cruise to commence your Aswan sightseeing adventure.
-Aswan High Dam:
-
-Begin with a visit to the Aswan High Dam, a monumental engineering feat constructed between 1960 and 1970. This structure has had a profound impact on Egypt's economy and culture. Learn about the dam's historical significance and its role in modern Egypt.
-Unfinished Obelisk:
-
-Next, visit the Unfinished Obelisk, the largest obelisk ever attempted by the ancient Egyptians. Commissioned by Queen Hatshepsut, it remains partially carved from the bedrock, offering unique insights into ancient construction techniques.
-Lunch:
-
-Enjoy a delectable lunch at a local restaurant in Aswan, savoring some of the region's culinary specialties.
-Afternoon:
-Philae Temple:
-
-After lunch, explore the exquisite Philae Temple, dedicated to the goddess Isis of Love and Beauty. The temple complex was relocated to Agilkia Island as part of the UNESCO Nubia Campaign, which aimed to protect it from flooding following the construction of the Aswan High Dam. Marvel at the intricate reliefs and learn about the myths and legends associated with this sacred site.
-Evening:
-Return:
-
-After a day of extensive exploration, you will be transferred back to your hotel or Nile cruise, concluding your comprehensive Aswan sightseeing tour.
-Meals:
-
-Lunch.
-`,
-      },
-    ],
-    included: [
-      "Pick up service from your hotel in Aswan/ Nile Cruise and return",
-      "All transfers by a private modern air-conditioned vehicle ",
-      "Private Egyptologist guides during your tours",
-      "Entrance fees to all the mentioned sights",
-      "Lunch at a local restaurant",
-      "Mineral water on board the vehicle during the tour",
-      "All service charges and taxes",
-    ],
-    excluded: [
-      "Any extras not mentioned in the program.",
-      "Tipping.",
-      "Optional Experiences available at an additional cost.",
-    ],
-  },
-  10: {
-    title: "4 Nights Nile River Cruise Luxor to Aswan Including Abu Simbel ",
-    maxGuests: "Unlimited",
-    location: "Egypt",
-    left: "5 days",
-    des: `
-  Experience the golden epic journey of a lifetime with our 4 Nights Nile River Cruise from Luxor including Abu Simbel. Marvelous Egypt Travel, the premier travel agency in Egypt, offers unparalleled services featuring the finest Egyptologist tour guides, luxurious Nile cruises, and private air-conditioned vehicles. Embark on a mesmerizing 5-day trip along the Nile River, exploring the grandeur of Ancient Egypt.
-  Cruise between the heavenly cities of Luxor and Aswan, marveling at the remarkable achievements of the Pharaohs. Visit the majestic Hatshepsut Temple, the Valley of the Kings, Karnak Temple, and more. Discover Edfu and Kom Ombo temples en route to Aswan, where you will witness the must-see monumental highlights including Philae Temple and Abu Simbel Temple. Create unforgettable memories on this extraordinary journey
-      `,
-    reviews: "354 Reviews",
-    priceSale: "$700",
-    priceOriginal: "$700",
-    rating: 5,
-    tourPlans: [
-      {
-        title: "Day 1: Awan",
-        des: `
-
-In the morning, one of our fluent Egyptologists will pick you up from your hotel or anywhere you decide in Aswan by a modern air-conditioned vehicle to explore the best of Aswan including:
+        title: "Day 1:Aswan",
+        des: `n the morning, one of our fluent Egyptologists will pick you up from your hotel or anywhere you decide in Aswan by a modern air-conditioned vehicle to explore the best of Aswan including:
 Aswan High Dam:
 
 Created between 1960 and 1970, this marvelous structure had a significant effect on the economy and culture of Egypt by producing electricity.
@@ -721,9 +686,8 @@ Overnight:
 Onboard the Cruise.
 `,
       },
-
       {
-        title: "Day 2: Abu Simbel",
+        title: "Day 2 Abu Simbel",
         des: `
 
 Early breakfast, followed by a trip to Abu Simbel.
@@ -740,35 +704,30 @@ Overnight:
 Onboard the Cruise.
 `,
       },
-
       {
-        title: "Day 3: Kom Ombo and Edfu",
+        title: "Kom Ombo and Edfu",
         des: `
 
+Enjoy your breakfast on the cruise, prepare yourself to explore Edfu and Kom Ombo Temples.
+Kom Ombo Temple:
 
-        Enjoy your breakfast on the cruise, prepare yourself to explore Edfu and Kom Ombo Temples.
-        Kom Ombo Temple:
-        
-        Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
-        Edfu Temple:
-        
-        The most preserved Greco-Roman temple in Egypt, dedicated to Horus. Built between 237 BC and 57 BC, it showcases the battle between Horus and the devil god Seth.
-        
-        Enjoy lunch and dinner on the cruise as you sail towards Luxor.
-        Meals:
-        
-        Breakfast, Lunch, Dinner
-        Overnight:
-        
-        Onboard the Cruise
-        
-  
+Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
+Edfu Temple:
+
+The most preserved Greco-Roman temple in Egypt, dedicated to Horus. Built between 237 BC and 57 BC, it showcases the battle between Horus and the devil god Seth.
+
+Enjoy lunch and dinner on the cruise as you sail towards Luxor.
+Meals:
+
+Breakfast, Lunch, Dinner
+Overnight:
+
+Onboard the Cruise
 `,
       },
       {
-        title:"Day 4 :",
-        des:`
-Luxor
+        title: "Luxor",
+        des: `
 
 Enjoy your breakfast on the cruise, check out from the cruise and prepare yourself to explore Luxor tourist attractions with your private tour guide.
 Valley of the Kings:
@@ -792,43 +751,67 @@ Transfer to your desired location in Luxor, concluding your 4-day Nile cruise.
 Meals:
 
 Breakfast.
-`
-      }
+`,
+      },
     ],
     included: [
-      "Pickup service from Aswan and drop-off in Luxor ",
-      "3 Nights on a 5-star deluxe Nile cruise. ",
-      "Entrance fees to all included sites.",
-      "Egyptologist guide throughout the tour",
+      "Pickup service from Aswan and drop-off in Luxor",
+      "3 Nights on a 5-star deluxe Nile cruise.",
+      "Entrance fees to all included sites. ",
+      "Egyptologist guide throughout the tour.",
       "All trips and transfers by modern air-conditioned vehicles",
       "Meals as specified in the itinerary",
-      "All services, charges, and taxes.",
+      "All services, charges, and taxes",
     ],
     excluded: [
-      "International Flights Tickets. ",
+      "International Flights Tickets",
       "Tipping",
-      "Personal Expenses.",
+      "Personal Expenses",
       "Optional tours",
     ],
   },
-    11: {
-      title: "7 Nights Nile River Cruise from Aswan ",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "8 days",
-      des: "Experience a mythical journey of dreams across the immortal wonders of ancient Egypt with our 8 Days Nile cruise from Aswan. Marvelous Egypt Travel, the best travel agency in Egypt, offers unparalleled services featuring the finest Egyptologist tour guides, magical Nile Cruises, and private air-conditioned vehicles. Discover the mythical treasures of ancient Egyptian pharaohs and witness breathtaking temples and tombs such as Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Edfu Temple, Philae Temple, and more in Luxor and Aswan. Book this golden experience on board a Nile cruise and live the holiday of your dreams.",
-      reviews: "415 Reviews",
-      priceSale: "$870",
-      priceOriginal: "$870",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1:Arrival in Luxor and East Bank Tour",
-          des: "Upon arrival to Luxor, start your 5 days Nile cruise from Luxor to Aswan by meeting your private tour guide to discover ancient Egyptian civilization in the most famous archaeological sites along the Riverbank in Luxor East Bank like: Karnak Temple: Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall. Check-in:You will be taken to 5-star deluxe Nile cruise to check-in and have your lunch on board then stay relaxed at your cabin and by the evening, you will be taken to visit:Luxor Temple by Night:The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.Return and overnight onboard the cruise. Meals: Lunch, Dinner. Overnight: Onboard the Cruise.",
-        },
-        {
-          title: "Day 2: West Bank Tour in Luxor",
-          des: `
+
+  10: {
+    title: "4 Nights Nile River Cruise Luxor to Aswan Including Abu Simbel ",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "5 days",
+    des: `
+  Experience the golden epic journey of a lifetime with our 4 Nights Nile River Cruise from Luxor including Abu Simbel. Marvelous Egypt Travel, the premier travel agency in Egypt, offers unparalleled services featuring the finest Egyptologist tour guides, luxurious Nile cruises, and private air-conditioned vehicles. Embark on a mesmerizing 5-day trip along the Nile River, exploring the grandeur of Ancient Egypt.
+  Cruise between the heavenly cities of Luxor and Aswan, marveling at the remarkable achievements of the Pharaohs. Visit the majestic Hatshepsut Temple, the Valley of the Kings, Karnak Temple, and more. Discover Edfu and Kom Ombo temples en route to Aswan, where you will witness the must-see monumental highlights including Philae Temple and Abu Simbel Temple. Create unforgettable memories on this extraordinary journey
+      `,
+    reviews: "354 Reviews",
+    priceSale: "$700",
+    priceOriginal: "$700",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Luxor and East Bank Tour",
+        des: `
+
+Upon arrival to Luxor, start your 5 days Nile cruise from Luxor to Aswan by meeting your private tour guide to discover ancient Egyptian civilization in the most famous archaeological sites along the Riverbank in Luxor East Bank like:
+Karnak Temple:
+
+Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall.
+Check-in:
+
+You will be taken to 5-star deluxe Nile cruise to check-in and have your lunch on board then stay relaxed at your cabin and by the evening, you will be taken to visit:
+Luxor Temple by Night:
+
+The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.
+
+Return and overnight onboard the cruise.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 2: West Bank Tour in Luxor",
+        des: `
 
 Enjoy your breakfast on the cruise, prepare yourself to explore West Bank in Luxor:
 Valley of the Kings:
@@ -850,10 +833,10 @@ Sail to Edfu:
 
 Overnight onboard.
 `,
-        },
-        {
-          title: "Day 3: Edfu and Kom Ombo Temples",
-          des: `
+      },
+      {
+        title: "Day 3: Edfu and Kom Ombo Temples",
+        des: `
 
 Enjoy your breakfast on the cruise, prepare yourself to explore Edfu and Kom Ombo Temples:
 Edfu Temple:
@@ -875,10 +858,10 @@ Sail to Aswan:
 
 Overnight onboard.
 `,
-        },
-        {
-          title: "Day 4: Abu Simbel Temples",
-          des: `
+      },
+      {
+        title: "Day 4 : Abu Simbel Temples",
+        des: `
 
 Enjoy breakfast then you will begin an early morning trip to Abu Simbel by a modern A/C vehicle, guided by your tour guide and witness:
 Return to Cruise:
@@ -891,10 +874,10 @@ Overnight:
 
 Onboard the Cruise.
 `,
-        },
-        {
-          title:"Aswan Highlights and Departure",
-          des:`
+      },
+      {
+        title: "Day 5 : Aswan Highlights and Departure",
+        des: `
 
 In the morning time, enjoy your breakfast then checks out before you will go for a guided trip among Aswan's monumental spots including:
 Aswan High Dam:
@@ -913,57 +896,529 @@ Meals:
 
 Breakfast.
 `,
-        }
+      },
+    ],
+    included: [
+      "Pickup service from Luxor and drop-off transfer in Aswan.",
+      "Accommodation on 5-star deluxe Nile cruise for 4 nights on full board",
+      "Entrance fees to all indicated sites in the itinerary",
+      "Highly qualified Egyptologist tour guide during your tours.",
+      "All trips and transfers by modern air-conditioned vehicles. ",
+      "	Meals as indicated in the itinerary.",
+      "All services, charges, and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Personal Expenses.",
+      "Any extras not mentioned in the program",
+    ],
+  },
+  11: {
+    title: "7 Nights Nile River Cruise from Aswan ",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: "Experience a mythical journey of dreams across the immortal wonders of ancient Egypt with our 8 Days Nile cruise from Aswan. Marvelous Egypt Travel, the best travel agency in Egypt, offers unparalleled services featuring the finest Egyptologist tour guides, magical Nile Cruises, and private air-conditioned vehicles. Discover the mythical treasures of ancient Egyptian pharaohs and witness breathtaking temples and tombs such as Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Edfu Temple, Philae Temple, and more in Luxor and Aswan. Book this golden experience on board a Nile cruise and live the holiday of your dreams.",
+    reviews: "415 Reviews",
+    priceSale: "$870",
+    priceOriginal: "$870",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Aswan Attractions",
+        des: `
+
+In the morning, one of our fluent Egyptologists will pick you up from your hotel or anywhere you decide in Aswan by a modern air-conditioned vehicle to explore the best of Aswan including:
+Aswan High Dam:
+
+Created between 1960 and 1970, this marvelous structure had a significant effect on the economy and culture of Egypt by producing electricity.
+The Unfinished Obelisk:
+
+The largest known ancient obelisk in the history of ancient Egypt, created by Hatshepsut (1508-1458 BC) to complement the Lateran Obelisk at the Karnak temples complex.
+Philae Temple:
+
+Dedicated to the eternal goddess Isis of love and beauty. It was relocated to Agilkia Island as part of the UNESCO Nubia Campaign project before the completion of the Aswan High Dam in 1970.
+Check-in:
+
+Then we will transfer you to the 5-star deluxe Nile cruise to check in, have lunch and dinner on the cruise, and overnight on board.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 2 : Kom Ombo Temple",
+        des: `
+
+Breakfast on board then start sail to Kom Ombo and once you arrive, you will join your Egyptologist by a modern A/C vehicle to visit:
+Kom Ombo Temple:
+
+Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
+
+Enjoy lunch and dinner on the cruise as you sail towards Edfu.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 3 : Free Day On the Cruise",
+        des: `
+
+Enjoy a free day on board the cruise while sailing to Luxor.
+Meals:
+
+Breakfast, Lunch, Dinner
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 4 :Luxor East Bank",
+        des: `
+
+Enjoy your breakfast on the cruise, prepare yourself to explore Luxor East Bank tourist attractions with your private tour guide.
+Karnak Temple:
+
+Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall.
+
+Then back to your Nile cruise to have lunch and relax. Evening time, we will pick you up to enjoy:
+Luxor Temple by Night:
+
+The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.
+
+Back to your cruise to have the dinner and spend the overnight.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 5 : Luxor West Bank",
+        des: `
+
+Enjoy your breakfast on the cruise, prepare yourself to explore Luxor West Bank tourist attractions with your private tour guide.
+Valley of the Kings:
+
+Explore the Valley of the Kings, the burial site for pharaohs from the 18th to the 20th dynasties (1570-1050 BC). Discover the tombs of King Ramses II, King Tutankhamun, and more.
+Hatshepsut Temple:
+
+Visit the impressive Hatshepsut Temple, built in 1479 BC by Queen Hatshepsut (1508-1458 BC), one of the best-preserved monuments in Luxor.
+Colossi of Memnon:
+
+Marvel at the Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III (1386-1349 BC).
+
+Back to your cruise to have your lunch and dinner. Overnight in the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 6 :Edfu Temple",
+        des: `
+
+Early breakfast, followed by a trip to Edfu Temple:
+Edfu Temple:
+
+This well-preserved temple, dedicated to the deity Horus, was built between 237 BC and 57 BC and is believed to be on the site of Horus' battle with Set.
+
+Return to the cruise for enjoying lunch and dinner as you sail to Aswan.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 7 : Abu Simbel Temples",
+        des: `
+
+Early morning, get your breakfast and we will transfer you by a private A/C car to the southwest of Aswan to discover the impressive temple of King Ramses ii:
+Abu Simbel Temples:
+
+The colossal Temple of Abu Simbel is the guardian of the southern borders which were created by Ozymandias Ramses the Great (1292-1186 BC) and were established in 1200 BC to honor his win at the epic battle of Kadesh which ended in the signing of the first peace treaty in Egypt plus honor his wife Queen Nefertari the beloved of Hathor.
+
+Return to the cruise for enjoying lunch and dinner.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Day 8 :Departure from Aswan",
+        des: `
+Check-out:
+
+After breakfast, transfer to your desired location in Aswan.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation for 7 nights on board a 5-star cruise on a full board basis",
+      "The assistance of our personnel during your trip",
+      "All transfers by modern air-conditioned deluxe vehicle",
+      "All Nile Cruise excursions as mentioned in the itinerary",
+      "Entrance fees to all sights between Luxor and Aswan",
+      "Egyptologist guide during your tour",
+      "All services, charges, and taxes.",
+    ],
+    excluded: ["Tipping", "Personal Expenses", "Optional tours"],
+  },
+
+  12: {
+    title: "7 Nights Nile River Cruise from Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: "Experience a magical travel journey across the ancient Egyptian Civilization, with 8 Days Nile cruise from Luxor. Marvelous Egypt Travel, the best travel agency in Egypt, provides exceptional services, including professional Egyptologist tour guides, enchanting Nile Cruises, and private air-conditioned vehicles. Explore the heavenly ancient Egyptian civilization in Luxor and Aswan, visiting incredible temples and tombs such as Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Edfu Temple, Philae Temple, Abu Simbel, and more. Book this incredible adventure and uncover the exceptional heritage of ancient Egypt.",
+    reviews: "124  Reviews",
+    priceSale: "$870",
+    priceOriginal: "$870",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Luxor East Bank",
+        des: `n the morning, one of our fluent Egyptologists will pick you up from your hotel or anywhere you decide in Luxor by a modern air-conditioned vehicle to explore the best of Luxor East Bank including:
+Karnak Temple:
+
+Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall.
+Check-in:
+
+Then we will transfer you to the 5-star deluxe Nile cruise to check in, have lunch and relax. Evening time, we will pick you up to enjoy:
+Luxor Temple by Night:
+
+The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.
+
+Back to your cruise to have the dinner and spend the overnight.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Free Day On the Cruise",
+        des: `
+
+Enjoy a free day on board the cruise while sailing to Edfu.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Edfu Temple",
+        des: `
+
+Early breakfast, followed by a trip to Edfu Temple:
+Edfu Temple:
+
+This well-preserved temple, dedicated to the deity Horus, was built between 237 BC and 57 BC and is believed to be on the site of Horus' battle with Set.
+
+Return to the cruise for enjoying lunch and dinner as you sail to Aswan.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise (Aswan late night arrival).
+`,
+      },
+      {
+        title: "Aswan Highlights",
+        des: `
+
+Enjoy your breakfast, then move to complete your 7 night Nile cruise from Luxor by a tour to Aswan Highlights where you will visit:
+Aswan High Dam:
+
+Created between 1960 and 1970, this marvelous structure had a significant effect on the economy and culture of Egypt by producing electricity.
+The Unfinished Obelisk:
+
+The largest known ancient obelisk in the history of ancient Egypt, created by Hatshepsut (1508-1458 BC) to complement the Lateran Obelisk at the Karnak temples complex.
+Philae Temple:
+
+Dedicated to the eternal goddess Isis of love and beauty. It was relocated to Agilkia Island as part of the UNESCO Nubia Campaign project before the completion of the Aswan High Dam in 1970.
+
+Back to your cruise to have your lunch and dinner. Overnight in the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.`,
+      },
+      {
+        title: "Abu Simbel Temples",
+        des: `
+
+Early morning, get your breakfast and we will transfer you by a private A/C car to the southwest of Aswan to discover the impressive temple of King Ramses ii:
+Abu Simbel Temples:
+
+The colossal Temple of Abu Simbel is the guardian of the southern borders which were created by Ozymandias Ramses the Great (1292-1186 BC) and were established in 1200 BC to honor his win at the epic battle of Kadesh which ended in the signing of the first peace treaty in Egypt plus honor his wife Queen Nefertari the beloved of Hathor.
+
+Return to the cruise for enjoying lunch and dinner.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Kom Ombo Temple",
+        des: `
+
+Breakfast on board, then you will join your Egyptologist by a modern A/C vehicle to visit:
+Kom Ombo Temple:
+
+Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
+
+Enjoy lunch and dinner on the cruise as you continue sailing to Luxor and arrive late at night.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Luxor West Bank",
+        des: `
+
+Enjoy your breakfast on the cruise, prepare yourself to explore Luxor West Bank tourist attractions with your private tour guide.
+Valley of the Kings:
+
+Explore the Valley of the Kings, the burial site for pharaohs from the 18th to the 20th dynasties (1570-1050 BC). Discover the tombs of King Ramses II, King Tutankhamun, and more.
+Hatshepsut Temple:
+
+Visit the impressive Hatshepsut Temple, built in 1479 BC by Queen Hatshepsut (1508-1458 BC), one of the best-preserved monuments in Luxor.
+Colossi of Memnon:
+
+Marvel at the Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III (1386-1349 BC).
+
+Back to your cruise to have your lunch and dinner. Overnight in the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Departure from Luxor",
+        des: `
+Check-out:
+
+Check out after breakfast, transfer to your desired location in Luxor.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation for 7 nights on board a 5-star cruise on a full board basis",
+      "The assistance of our personnel during your trip",
+      "All transfers by modern air-conditioned deluxe vehicle.",
+      "All Nile Cruise excursions as mentioned in the itinerary.",
+      "Entrance fees to all sights between Luxor and Aswan",
+      "Egyptologist guide during your tour",
+      "All services, charges, and taxes.",
+    ],
+    excluded: ["Tipping", "Personal Expenses.", "Optional tours."],
+  },
+
+
+  13: {
+    title: "Tour to Cairo and Giza Pyramids from Port Said",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Embark on a day trip to Cairo from Port Said and immerse yourself in the timeless wonders of Egypt in a truly magical and entertaining way. Marvelous Egypt Travel, one of the leading travel agencies in Egypt, provides top-notch services, including a professional Egyptologist tour guide and a private air-conditioned vehicle. Enjoy a private excursion from Port Said to Cairo, visiting the Giza Pyramids, the Great Sphinx, and the Egyptian Museum before returning to Port Said. Turn your day trip into a captivating adventure by booking this enchanting tour that delves into the rich legacy of ancient Egypt.",
+    reviews: "421 Reviews",
+    priceSale: "$135",
+    priceOriginal: "$135",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Tour to Cairo and Giza Pyramids from Port Said",
+        des: `
+Pickup from Port Said:
+
+Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo for a private guided tour of Cairo and the Pyramids from Port Said. The journey takes approximately 3 hours.
+Giza Pyramids Complex:
+
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
+The Great Pyramid:
+
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
+The Great Sphinx:
+
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
+The Valley Temple:
+
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
+
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. VIP tickets are available for access to additional artifacts; for more information, contact us.
+Lunch Time:
+
+Enjoy lunch at a restaurant with views of the Pyramids or the Nile River.
+The Egyptian Museum:
+
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Port Said:
+
+Finally, you'll be driven back to your cruise in Port Said.
+`,
+      },
+    ],
+    included: [
+      "Pick up from the cruise exit door at Port Said and return",
+      "All transfers by a private modern A/C vehicle.",
+      "Private Egyptologist guide during your journey",
+      "Mineral water on board the vehicle. ",
+      "Lunch at a local restaurant during your day trip.",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes.",
+    ],
+    excluded: ["Tipping.", "Any extras not mentioned in the itinerary. .", "Optional Experiences available at an additional cost. "],
+  },
+
+
+
+
+
+
+    14: {
+      title: "Day Trip to Alexandria Sights from Alexandria Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: "Embark on a captivating day trip from Alexandria Port to explore the historical and cultural wonders of Alexandria. With Marvelous Egypt Travel’s exceptional service, including a private air-conditioned vehicle and a knowledgeable Egyptologist guide, you will experience the rich Greco-Roman heritage and unique attractions of this legendary city. Enjoy visits to the Alexandria Library, Catacombs, Pompey’s Pillar, Qaitbay Citadel, and Morsi Abu Abbas Mosque, before returning to Alexandria Port.",
+      reviews: "413 Reviews",
+      priceSale: "$80",
+      priceOriginal: "$80",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day Trip to Alexandria Sights from Alexandria Port",
+          des: ` Pickup from Alexandria Port:
+
+Our representative and guide will meet you at Alexandria Port and transfer you to your first destination.
+Catacombs of Kom El Shoqafa:
+
+Start your tour with the Catacombs of Kom El Shoqafa, a Roman burial site renowned for its fascinating blend of Egyptian and Roman architectural styles. This 2nd-century AD tomb is one of the Seven Wonders of the Middle Ages and provides a unique glimpse into ancient burial practices.
+Pompey's Pillar:
+
+Visit Pompey's Pillar, an impressive 25-meter (82-foot) granite column erected in 302 AD in honor of Emperor Diocletian. This monument is the only one of its kind in Egypt and is believed to hold the remains of General Pompey.
+Qaitbay Citadel:
+
+Explore the Qaitbay Citadel, a formidable fortress built in 1477 AD by Sultan Al-Ashraf Qa'it Bay. Situated on the Mediterranean coast at the site of the ancient Lighthouse of Alexandria, the citadel offers stunning views and showcases exquisite Islamic architectural design.
+Lunch Time:
+
+Enjoy a delightful lunch at a local restaurant in Alexandria, sampling local flavors and cuisine.
+Alexandria Library:
+
+Discover the Bibliotheca Alexandrina, a modern architectural marvel that pays homage to the ancient Library of Alexandria. Opened in 2002, it houses a vast collection of books, manuscripts, and artifacts reflecting Egypt's rich historical and cultural heritage.
+Morsi Abu Abbas Mosque:
+
+Visit the Morsi Abu Abbas Mosque, built in 1307 AD. This mosque is renowned for its stunning Islamic architectural design and intricate decorations, serving as inspiration for the Sheikh Zayed Mosque in Abu Dhabi.
+Return to Alexandria Port:
+
+After a day of exploration, return to Alexandria Port for drop-off.`,
+        },
+
       ],
       included: [
-        "Pickup service from Luxor and drop-off transfer in Aswan. ",
-        "Accommodation on 5-star deluxe Nile cruise for 4 nights on full board. ",
-        "Entrance fees to all indicated sites in the itinerary. ",
-        "Highly qualified Egyptologist tour guide during your tours.",
-        "All trips and transfers by modern air-conditioned vehicles. ",
-        "Meals as indicated in the itinerary.",
-        "All service charges and taxes. ",
+        "Pick-up and drop-off at Alexandria Port. ",
+        "All transfers by a private modern A/C vehicle.",
+        "Private Egyptologist guide during your journey.",
+        "Mineral water on board the vehicle. ",
+        "Lunch at a local restaurant during your day trip.",
+        "Entrance fees for all sightseeing are mentioned",
+        "All service charges and taxes. "
       ],
       excluded: [
         "Tipping",
-        "Personal Expenses",
-        "Any extras not mentioned in the program",
-        " Egypt Visa:  Egypt Entry Visa (USD 25 per passport)",
+        "Any extras not mentioned in the itinerary",
+        "Optional Experiences available at an additional cost"
       ],
     },
-  //   12: {
-  //     title: "7 Nights Nile River Cruise from Luxor ",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "8 days",
-  //     des: "Experience a magical travel journey across the ancient Egyptian Civilization, with 8 Days Nile cruise from Luxor. Marvelous Egypt Travel, the best travel agency in Egypt, provides exceptional services, including professional Egyptologist tour guides, enchanting Nile Cruises, and private air-conditioned vehicles. Explore the heavenly ancient Egyptian civilization in Luxor and Aswan, visiting incredible temples and tombs such as Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Edfu Temple, Philae Temple, Abu Simbel, and more. Book this incredible adventure and uncover the exceptional heritage of ancient Egypt.",
-  //     reviews: "124  Reviews",
-  //     priceSale: "$870",
-  //     priceOriginal: "$870",
-  //     rating: 5,
-  //   },
-  //   13: {
-  //     title: "Tour to Cairo and Giza Pyramids from Port Said",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "Embark on a day trip to Cairo from Port Said and immerse yourself in the timeless wonders of Egypt in a truly magical and entertaining way. Marvelous Egypt Travel, one of the leading travel agencies in Egypt, provides top-notch services, including a professional Egyptologist tour guide and a private air-conditioned vehicle. Enjoy a private excursion from Port Said to Cairo, visiting the Giza Pyramids, the Great Sphinx, and the Egyptian Museum before returning to Port Said. Turn your day trip into a captivating adventure by booking this enchanting tour that delves into the rich legacy of ancient Egypt.",
-  //     reviews: "421 Reviews",
-  //     priceSale: "$135",
-  //     priceOriginal: "$135",
-  //     rating: 5,
-  //   },
-  //   14: {
-  //     title: "Day Trip to Alexandria Sights from Alexandria Port",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "Embark on a captivating day trip from Alexandria Port to explore the historical and cultural wonders of Alexandria. With Marvelous Egypt Travel’s exceptional service, including a private air-conditioned vehicle and a knowledgeable Egyptologist guide, you will experience the rich Greco-Roman heritage and unique attractions of this legendary city. Enjoy visits to the Alexandria Library, Catacombs, Pompey’s Pillar, Qaitbay Citadel, and Morsi Abu Abbas Mosque, before returning to Alexandria Port.",
-  //     reviews: "413 Reviews",
-  //     priceSale: "$80",
-  //     priceOriginal: "$80",
-  //     rating: 5,
-  //   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   //   15: {
   //     title: "Trip to Pyramids and Cairo from Sokhna Port",
   //     maxGuests: "Unlimited",
