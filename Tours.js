@@ -1975,14 +1975,9 @@ Breakfast.
         title: "",
         des: "",
       },
-    
     ],
-    included: [
-      ""
-    ],
-    excluded: [
-      ""
-    ],
+    included: [""],
+    excluded: [""],
   },
   22: {
     title:
@@ -2000,30 +1995,360 @@ Breakfast.
         title: "",
         des: "",
       },
-    
+    ],
+    included: [""],
+    excluded: [""],
+  },
+  23: {
+    title: "One-Day Pyramids Tour from Cairo Airport",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 Day",
+    des: `Embark on a mystical quest through the history of ancient Egypt with our exclusive Pyramids tour from Cairo Airport. Marvelous Egypt Travel is proud to offer our clients the finest services, including expert Egyptologist tour guides and private A/C vehicles. Experience the wonders of ancient Egypt, including the three pyramids, the Sphinx, the Valley Temple, and Memphis City. Enjoy 24/7 customer service, seamless transportation, and professional tour guides. Book this marvelous tour and turn your dream vacation into reality.`,
+    reviews: "315 Reviews",
+    priceSale: "$100",
+    priceOriginal: "$100",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour To Pyramids From Cairo Airport",
+        des: `
+
+Your journey begins with a pickup from Cairo Airport, followed by a transfer in a private A/C vehicle to:
+Giza Pyramids Complex:
+
+The Giza Pyramids Plateau, constructed around 2600 BC, showcases the grandeur of ancient Egypt. Explore the three pyramids of Menkaure, Khafre, and Khufu, along with six smaller pyramids, the Sphinx, and the Valley Temple.
+The Great Pyramid:
+
+The Pyramid of Khufu, built in 2580 BC, stands as the last surviving wonder of the ancient world. This monumental structure, standing 147 meters tall and weighing 5.7 million tons, features a series of inner rooms and pathways.
+The Great Sphinx:
+
+Carved from limestone in 2500 BC, the Sphinx represents Pharaoh Khafre and is the oldest monumental sculpture in the world.
+The Valley Temple:
+
+This temple, dating back to the 26th century BC, served as a site for the purification and mummification of 4th dynasty kings and queens.
+The Grand Egyptian Museum:
+
+A treasure trove of ancient Egyptian artifacts, this museum houses remarkable items such as the Hanging Obelisk, the statue of King Ramses II, statues of Ptolemaic kings and queens, and more. A VIP ticket offers access to additional artifacts.
+Lunch Time:
+
+Enjoy a delicious lunch at a local restaurant before continuing your tour.
+Memphis City:
+
+Founded in 2925 BC by Pharaoh Narmer, Memphis was the first capital of unified Egypt, under the protection of Ptah, the god of craftsmanship.
+
+Then you will be transferred back to Cairo Airport by a private A/C vehicle.
+`,
+      },
     ],
     included: [
-      ""
+      "Pick up and drop off service from Cairo Airport",
+      "All transfers by a private air-conditioned vehicle",
+      "Private Egyptologist guide in your own language",
+      "Mineral water on board the vehicle during the tour. ",
+      "Lunch at a local restaurant.",
+      "Entrance fees for all sightseeing mentioned",
+      "All service charges and taxes. ",
     ],
     excluded: [
-      ""
+      "Any extras not mentioned in the itinerary.",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+  24: {
+    title: "Day Tour to Abu Simbel from Cairo by Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Embark on a magical day trip to Abu Simbel from Cairo, showcasing the southern legacy of the ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, will provide you with an Egyptologist tour guide and a private A/C vehicle for this incredible tour. You’ll fly from Cairo to Aswan and experience the glorious treasures of Abu Simbel Temple, then return to Cairo and transfer to your hotel. Book this majestic holiday and discover the treasures of southern Egypt.",
+    reviews: "325 Reviews",
+    priceSale: "$385",
+    priceOriginal: "$385",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour to Abu Simbel from Cairo by Plane",
+        des: `
+Morning:
+
+Pickup from your hotel in Cairo and transfer to Cairo airport for your flight to Aswan. Upon arrival in Aswan, meet your private tour guide and transfer in a modern private A/C car to visit Abu Simbel temples.
+Abu Simbel Temples:
+
+The celestial Abu Simbel Temple is a majestic archaeological wonder created by Ramses the Great in 1264 BC to eternalize the golden legacy of Ozymandias, honor his beloved wife Queen Nefertari, and commemorate his triumph at the Battle of Kadesh. In the 70s, it became part of the UNESCO World Heritage Site known as the "Nubian Monuments" and is famous for hosting the sun festival on February 22 and October 22.
+Lunch Time:
+
+Return to Aswan for lunch and enjoy the marvelous beauty of the city.
+Afternoon:
+
+Catch your flight back to Cairo and transfer to your hotel, concluding your day tour to Abu Simbel from Cairo by plane.
+`,
+      },
+    ],
+    included: [
+      "Flight tickets from Cairo to Aswan and return. ",
+      "Entrance fees to the sights.",
+      "Transfer by a private air-conditioned vehicle",
+      "Private Egyptologist guide during your trip. ",
+      "Mineral water on board the vehicle during the tour",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+  25: {
+    title: "Day Trip to Alexandria from Cairo by Car",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Experience the wonders of the Greco-Roman period in the miraculous city of Alexandria. This day trip from Cairo by car will be a unique opportunity to explore the most famous Alexandria tourist attractions. Marvelous Egypt Travel, the finest travel agency in Egypt, provides the best service with a professional Egyptologist tour guide and a private A/C vehicle. Visit the Alexandria Library, the Catacombs of Kom El Shoqafa, Pompey’s Pillar, and Qaitbay Citadel. Book this magical tour and uncover the rare and exotic wonders of ancient Egypt.",
+    reviews: "286 Reviews",
+    priceSale: "$45",
+    priceOriginal: "$45",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip to Alexandria from Cairo by Car",
+        des: `
+Morning:
+
+Transfer from your hotel in Cairo to Alexandria by car with your private tour guide. Upon arrival, visit some of the top Alexandria tourist attractions:
+Catacombs of Kom El Shoqafa:
+
+A Roman burial site revealing the merging of Egyptian and Roman art and architecture. Descend below the ground to visit the tomb and Caracalla Hall.
+Pompey's Pillar:
+
+An 82-foot (25-meter) granite column built to honor Emperor Diocletian, who freed the besieged city and brought food to its starving people.
+Qaitbay Citadel:
+
+A 15th-century fortress located on the Mediterranean seacoast, established in 1477 AD by Sultan Al-Ashraf Qa'it Bay, situated in the same place as the Pharaoh's Island.
+Lunch Time:
+
+Enjoy lunch at a seafood restaurant, then continue your tour:
+Alexandria Library:
+
+A copy of every book published in the world is kept in the library, making it one of the great literary sites in the world. It also houses several exhibitions relating to the history of Egypt and a display of rare antique books.
+Afternoon:
+
+Drive back to Cairo and transfer you to your hotel.
+`,
+      },
+    ],
+    included: [
+      "Pickup services from your hotel and return.",
+      "All transfers by a private air-conditioned vehicle.",
+      "Lunch at a local restaurant in Alexandria",
+      "Entrance fees for all sightseeing mentioned",
+      "Private Egyptologist guide during your trip. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All taxes and service charges.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost",
+    ],
+  },
+  26: {
+    title: "Day Tour from Cairo to Luxor By Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Our day tour from Cairo to Luxor by plane offers a divine journey to the greatest archaeological wonders ever built, showcasing the devoted faith, artistic inspiration, and imagination of ancient Egyptian royalty. Marvelous Egypt Travel provides guests with the finest service, including a private A/C vehicle and a professional Egyptologist tour guide. This private Luxor tour from Cairo includes discovering breathtaking temples and tombs in one day trip, witnessing the majestic ruins such as Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, and Colossi of Memnon, before catching the flight back to Cairo and transferring to your hotel. Book now and explore all the immortal wonders from the heavens.`,
+    reviews: "315 Reviews",
+    priceSale: "$380",
+    priceOriginal: "$380",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour from Cairo to Luxor By Plane",
+        des: `
+Morning:
+
+Our representative will pick you up from your hotel in Cairo and transfer you to the airport for a flight to Luxor. Upon arrival, you will be met and assisted by your Egyptologist guide who will accompany you on your day tour from Cairo to Luxor by plane. Explore all the famous historical locations including:
+Valley of the Kings:
+
+The celestial Valley of the Kings is a timeless chamber found at the deepest part of the earth in the heart of a mythical hill. It contains the history and treasures of the rulers from the New Kingdom (1570 – 1050 BC), with 63 tombs of very renowned names like the great pharaoh Ramses II, Hatshepsut, Seti I, pharaoh Tutankhamen, and more.
+Hatshepsut Temple:
+
+The holy temple of Hatshepsut (1507–1458 BC) was created to honor her everlasting heritage as one of the most successful pharaohs in history and the blessings of the sun god Amun. It is famous for being the most ideal example of ancient classical architecture in Egypt.
+Colossi of Memnon:
+
+The Colossi of Memnon, constructed in 1350 BC for Pharaoh Amenhotep III, is a unique archaeological wonder. It gained fame among the ancient Greeks and Romans and contains great inscriptions that showcase his legacy.
+Lunch Time:
+
+Enjoy lunch on an island, including a boat trip on the Nile River.
+Karnak Temple:
+
+The divine Karnak Temple is a religious attraction created by angelic figures to be the most selected of places. The Pr-Imn house of Amon honors the Theban triad. The construction of the temple started in the Middle Kingdom and continued all the way to the Greco-Roman period (2055 BC to 100 AD).
+Afternoon:
+
+Finally, transfer to Luxor airport for a flight back to Cairo and then transfer to your hotel to end your day tour to Luxor from Cairo.
+`,
+      },
+    ],
+    included: [
+      "Domestic flights (Cairo - Luxor) - (Luxor - Cairo) ",
+      "Pick-up services from your hotel and return ",
+      "Entrance fees to the mentioned historical places",
+      "All transfers by a private modern air-conditioned vehicle",
+      "Private tour guide during the day trip ",
+      "Mineral water during your trip ",
+      "Lunch meal during your day trip",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping. ",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+  27: {
+    title: "Coptic Cairo Day Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `The Coptic Cairo day tour will be a blessed adventure of dreams. Marvelous Egypt Travel will provide the most excellent service, including a professional Egyptologist tour guide and a private A/C vehicle, as expected from the best travel agency in Egypt. Guests on this Coptic Cairo day tour will enjoy the most captivating Coptic sites in Cairo City, which hold some of the most bewitching stories, information, and secrets regarding the history of Christianity in Egypt. Christianity was the main religion in Egypt before Islam, and you will find a magnificent collection of the best Coptic sites and landmarks in our suggested one-day Coptic Cairo tour. Book this magical tour and explore the Coptic treasures of Cairo.`,
+    reviews: "286 Reviews",
+    priceSale: "$40",
+    priceOriginal: "$40",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Coptic Cairo Day Tour",
+        des: `
+Morning:
+
+Our representative will pick you up to start your Coptic Cairo day tour by joining one of our exceptional tour guides who will show you some of the most fascinating Coptic sites all around Old Cairo.
+The Hanging Church:
+
+The Hanging Church, referred to as the Suspended Church, got its name since it was established on the southern gate of the Roman Fortress. It is a unique church in Old Cairo, notable for its roof, which is shaped like the Ark of Noah. It served as the residence of the Coptic Patriarch from the 7th to the 13th centuries.
+Ben Ezra Synagogue:
+
+Dating back to the 9th century, the Ben Ezra Synagogue occupies the shell of a 4th-century Christian church. It is believed to be the site where the prophet Jeremiah gathered all the Jews after the destruction of the Jerusalem Temple in the 6th century by Nebuchadnezzar. Restored in the 12th century, it holds secrets and mysteries of the North African Jewish community from the 11th to the 13th centuries.
+Lunch Time:
+
+Enjoy a lunch meal at a wonderful local restaurant before continuing your day tour.
+Abu Serga Church:
+
+Abu Serga Church is believed to be built on the spot where the Holy Family, including Mary, Jesus Christ, and Joseph, rested after their journey into Egypt. This church has great historical importance, with many patriarchs of the Coptic Church being erected there.
+Virgin Mary Church:
+
+The Virgin Mary Church, located in Haret Zuweila, is believed to be the oldest in the area, built during the 10th century, although some writings suggest it dates to the 12th century at the consecration of the New Cairo Bishop. It served as the seat of the Orthodox Pope of Alexandria from 1400 AD to 1520 AD.
+Afternoon:
+
+Finally, we will transfer you back to your hotel in Cairo/Giza in one of our private A/C vehicles to end your day tour to Cairo’s main Coptic sites.
+`,
+      },
+    ],
+    included: [
+      "A lunch meal.",
+      "All transfers will be in a modern A/C vehicle. ",
+      "Private Egyptologist guide during your trip.",
+      "Pickup and drop-off at your hotel in Cairo/Giza.",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost",
+    ],
+  },
+  28: {
+    title: "Day Trip to Islamic Cairo",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `A day trip to Islamic Cairo is a divine voyage showcasing the golden glory of the greatest civilization on earth. Marvelous Egypt Travel will provide all our clients with the most ideal services, including a private A/C vehicle and a professional Egyptologist tour guide, as expected from the best travel agency in Egypt. All our clients will witness the beauty and greatness of the best Islamic Cairo attractions. Join us on a fabulous day trip to Islamic Cairo. Your expert tour guide will take you to explore Khan El Khalili bazaar, Salah El-Din Citadel, Sultan Hassan and Ibn Tulun Mosques, and many more Old Cairo masterpieces by a deluxe air-conditioned car, then transfer you back to your hotel. Book this blessed excursion and explore all the immortal treasures of Islamic Cairo.`,
+    reviews: "123 Reviews",
+    priceSale: "$40",
+    priceOriginal: "$40",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip to Islamic Cairo",
+        des: `
+Morning:
+
+We will pick you up from your hotel in Cairo to join our professional tour guide in a private air-conditioned vehicle to visit the best historical highlights of Islamic Cairo.
+Salah El Din Citadel:
+
+Salah El-Din Citadel is one of the most prestigious military castles constructed in the Middle Ages. Its strategic location controls the cities of Cairo and Al Fustat, providing defensive importance. The Citadel was erected during the 12th century to defend Cairo against the Crusaders and served as the seat of the government during the ruling periods of the Ayyubids, Mamluks, and Ottomans.
+Mohamed Ali Mosque:
+
+Mohamed Ali Mosque proudly stands as the highest point inside Cairo Citadel. It was established by Mohammed Ali Pasha in 1830 AD, with construction continuing until his death in 1848 AD. The exterior design was inspired by the Sultan Ahmad Mosque in Istanbul, and it is one of the most significant Islamic attractions in Cairo.
+Lunch Time:
+
+Enjoy a lunch meal at a local restaurant before continuing your day tour.
+Sultan Hassan Madrassa and Mosque:
+
+Sultan Hassan Madrassa and Mosque is one of the rarest examples of early Mamluk architecture, founded between 1356 AD and 1363 AD. Built out of giant blocks of stone, it symbolizes the culmination of architectural projects during the Mamluk reign.
+Al Rifai Mosque:
+
+Another impressive Islamic monument in Cairo, Al Rifai Mosque, was founded by Khoshiar Hanim, the mother of Khedive Ismail. Construction began in 1869 AD and was completed in 1911 AD, with a 25-year hiatus from 1880 to 1905 AD. The mosque serves as the burial site for Mohamed Ali's family members.
+Ibn Tulun Mosque:
+
+The oldest and largest mosque in Cairo, Ibn Tulun Mosque, was established between 876 and 879 AD by Ahmed Ibn Tulun, commissioned by the Abbasid Caliph to govern Al Fustat. The mosque's interior design reflects the Abbasid architectural style, featuring beautifully decorated arches and a large courtyard.
+Al Muizz Street:
+
+Al Muizz Street provides a magical journey through Cairo's living miracles. This attractive cultural marvel showcases the golden street of Cairo, which dates back to the Fatimid period in the 10th century AD. It is a golden labyrinth filled with incredible monuments, artifacts, and houses.
+Khan El Khalili Bazaar:
+
+Khan El Khalili Bazaar is an ancient renowned souk in central Cairo, founded as a large trade center during the Mamluk reign. Dating back to the 14th century, the bazaar is filled with cafes and restaurants, including El Fishawy, the city's oldest café.
+Afternoon:
+
+Finally, we will drive you back to your hotel to end your day trip.
+`,
+      },
+    ],
+    included: [
+      "The service of pick-up from your hotel and return. ",
+      "Egyptologist tour guide during the tours",
+      "A deluxe private air-conditioned vehicle throughout your trip",
+      "Admission fees to all the sights listed in the itinerary.",
+      "Lunch meal",
+      "Bottled water on the vehicle",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost",
     ],
   },
 };
 
-// tourPlans: [
-//   {
-//     title: "",
+// Tour js Templete
+// 00: {
+//     title:
+//       "",
+//     maxGuests: "Unlimited",
+//     location: "Egypt",
+//     left: "1 days",
 //     des: "",
-//   },
+//     reviews: "000 Reviews",
+//     priceSale: "$000",
+//     priceOriginal: "$000",
+//     rating: 5,
+//     tourPlans: [
+//       {
+//         title: "",
+//         des: "",
+//       },
 
-// ],
-// included: [
-//   ""
-// ],
-// excluded: [
-//   ""
-// ],
+//     ],
+//     included: [
+//       ""
+//     ],
+//     excluded: [
+//       ""
+//     ],
+//   },
+// /Tour js Templete
+
 const tour = tourDetails[tourId];
 
 if (tour) {
