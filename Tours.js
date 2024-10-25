@@ -2565,7 +2565,7 @@ function goToTripadvisorSite() {
 }
 
 let copyRight = (() => {
-  let CopyRightElement = document.querySelector(".copy-right");
+  let CopyRightElement = document.querySelectorAll(".copy-right");
   let d = new Date();
   let Year = d.getFullYear();
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
