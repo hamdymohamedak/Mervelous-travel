@@ -2319,6 +2319,87 @@ Finally, we will drive you back to your hotel to end your day trip.
       "Optional Experiences available at an additional cost",
     ],
   },
+  29: {
+    title: "Scuba Diving Excursion in Hurghada",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `The Scuba Diving Trip from Hurghada will showcase the blessed nature of the epic Red Sea. Marvelous Egypt Travel, the best travel agency in Egypt, will provide all our clients with the best service from our private diving guide and A/C vehicle during the trip across the marine treasures of the divine Red Sea. Our guests will enjoy a magical diving trip in Hurghada, with an amazing dive in the morning and another dive in the afternoon at a different location to discover all the marine marvels located across the divine Red Sea. Book this incredible Diving Hurghada excursion and discover the magical marine treasures of the Red Sea.`,
+    reviews: "254 Reviews",
+    priceSale: "$30",
+    priceOriginal: "$30",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Scuba Diving Excursion in Hurghada",
+        des: `
+Morning:
+
+You will be transferred from your hotel for a one-day excursion on the boat with the instructor, who will provide a personal briefing followed by one dive in the morning.
+Lunch Time:
+
+Enjoy a delicious meal during the excursion.
+Afternoon:
+
+After lunch, you will have another dive at a different site to explore more marine marvels. The dives are conducted on a one-to-one basis with the instructor. The time in the water depends on the guest but should be around 30 or 40 minutes. Diving is conducted following the completion of a medical form, which we can forward to you prior to your arrival to ensure suitability.
+Evening:
+
+Finally, transfer back to your hotel.
+`,
+      },
+    ],
+    included: [
+      "Pick up services from your hotel in Hurghada and return",
+      "Experienced instructor on the boat.",
+      "Mineral water and soft drinks.",
+      "Lunch meal.",
+      "All service charges and taxes",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping. ",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+  30: {
+    title:"Private Snorkeling in Hurghada",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Private snorkeling in Hurghada will be a magical experience showcasing all the celestial wonders found at the belly of the Red Sea. Marvelous Egypt Travel, the best travel agency in Egypt, will provide all our clients with the best service from our private snorkeling instructor and comfortable A/C vehicle. We will get to swim with the magical creatures of rare colorful fishes and coral reefs found on the blessed beaches of the city resort of Hurghada and enjoy their time to the fullest in the blessed Mahmya Island, Giftun Island, and the Dolphin area. Book this snorkeling excursion in the beautiful waters of Hurghada and fill every moment with thrill and beauty.`,
+    reviews: "325 Reviews",
+    priceSale: "$50",
+    priceOriginal: "$50",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Private Snorkeling in Hurghada",
+        des: `The most magical snorkeling adventure is waiting for you across the divine waters of the Red Sea. You can visit Mahmya Island OR Giftun Island OR the Dolphin area. Our representative will pick you up from your hotel for a fantastic private snorkeling trip with desert island relaxation on the beautiful Red Sea. We will do our snorkeling in different spots, full of corals and magnificent colorful fish, with a chance to swim with dolphins. Enjoy water sports activities on Giftun Island and the national park with an open buffet lunch aboard the boat. Finally, return back to the jetty and then transfer to your hotel in Hurghada.`,
+      },
+
+    ],
+    included: [
+      "Pick up and return service to your hotel.",
+      "All transfers by a private vehicle. ",
+      "Snorkeling equipment. ",
+      "Lunch during tour.",
+      "Professional instructor. ",
+      "Mineral water and soft drinks.",
+      "All service charges and taxes"
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost."
+    ],
+  },
+
+
+
+
+
+
+
 };
 
 // Tour js Templete
