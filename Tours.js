@@ -3555,83 +3555,226 @@ Breakfast, Lunch.
     ],
   },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  50: {
+    title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a full-day tour to Cairo and Pyramids from Makadi Bay by plane and witness the timeless wonders of Egypt. Marvelous Egypt Travel offers the most satisfying service with a professional Egyptologist tour guide and a private A/C Vehicle. Explore the historical and cultural treasures of Cairo, including the Giza Pyramids, Khan El Khalili Bazaar, and more. Book this extraordinary tour and experience the vacation of a lifetime.`,
+    reviews: "348 Reviews",
+    priceSale: "$410",
+    priceOriginal: "$410",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
+        des: `
+Morning:
+Pick-Up and Transfer:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Begin your magical tour with a pick-up from your hotel in Makadi Bay. Transfer to Hurghada International Airport by an air-conditioned car to catch your flight to Cairo.
+Arrival in Cairo:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+Upon arrival, meet your tour guide and start exploring the oldest wonders in history.
+Explore the Giza Pyramids Complex:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Discover the colossal art of the ancient Egyptians, including the three main pyramids, six little pyramids, the Great Sphinx, and the Valley Temple.
+The Great Pyramid:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+Marvel at the Great Pyramid of Pharaoh Khufu, the last surviving wonder of the ancient world, standing tall at 147 meters with its intricate chambers.
+The Great Sphinx:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Gaze upon the Great Sphinx, a magnificent limestone statue with the body of a lion and the head of Pharaoh Khafre, symbolizing wisdom and power.
+The Valley Temple:
+
+Visit the Valley Temple, a mortuary temple used for the mummification process of 4th dynasty pharaohs before their burial in the pyramids.
+Discover the Grand Egyptian Museum:
+
+Explore the latest addition to Egypt's rich cultural heritage, home to a vast collection of artifacts, including the Hanging Obelisk, the King Ramses II Statue, the 10 Statues of King Senusert, and more. (Note: A VIP ticket is available for additional access to exclusive artifacts.)
+Lunch at a Pyramid/Nile View Restaurant:
+
+Enjoy a delightful lunch with stunning views of the Pyramids or the Nile.
+Afternoon:
+Visit the Egyptian Museum:
+
+Tour the historic Egyptian Museum, showcasing an extensive collection of ancient Egyptian artifacts, located in the heart of Cairo since 1901 AD.
+Stroll Al Muizz Street:
+
+Wander along Al-Muizz Street, established in the 10th century AD, reflecting the golden era of Islamic Egypt and leading to the vibrant Khan El Khalili Bazaar.
+Explore Khan El Khalili Bazaar:
+
+Experience the bustling atmosphere of Khan El Khalili Bazaar, established between 1382 and 1389 AD, offering a plethora of unique artifacts and exquisite Islamic architecture.
+Evening:
+Transfer to Cairo Airport:
+
+Conclude your day with a transfer to Cairo Airport for your return flight to Hurghada.
+Return to Your Hotel:
+
+Transfer back to your hotel in Makadi Bay.
+Meals:
+
+Lunch.
+Flight:
+
+From Hurghada to Cairo and Return.
+`,
+      },
+    ],
+    included: [
+      "Meet and Greet service by our employees at the airports. ",
+      "Domestic Flight tickets from Hurghada to Cairo and return. ",
+      "All transfers by a private modern air-conditioned vehicle.",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "Lunch at a Pyramid/Nile view restaurant. ",
+      "Mineral water onboard the vehicle. ",
+      "All service charges and taxes",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  51: {
+    title: "Full-Day Tour to Luxor from Makadi Bay",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Embark on a magical day trip to Luxor from Makadi Bay and explore the immortal blessings of Egypt, radiating divine glory and bliss. Marvelous Egypt Travel, the best travel agency in Egypt, offers top-notch services including an expert Egyptologist tour guide and a private A/C Vehicle. Witness the ancient class, glory, and glamour of Luxor’s landmarks such as the Valley of the Kings, Hatshepsut Temple, Karnak Temple, and the Colossi of Memnon. This excursion provides a glimpse into life 4000 years ago, showcasing the immortal heritage and culture of the ancient Egyptians. Book this enchanting tour and live an adventure of dreams.",
+    reviews: "226 Reviews",
+    priceSale: "$80",
+    priceOriginal: "$80",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Full-Day Tour to Luxor from Makadi Bay",
+        des: `
+Pick-Up and Transfer:
+
+Start your day trip with a transfer from your hotel in Makadi Bay to Luxor in a private A/C car. Upon arrival, meet your tour guide who will escort you on your private day trip to Luxor to discover ancient Egyptian gems.
+Explore the Valley of the Kings:
+
+This sacred site on the west bank of the Nile opposite Luxor is a golden history book buried deep within a sacred hill. Home to 63 royal tombs of the greatest Pharaohs of the 18th, 19th, and 20th dynasties of the New Kingdom (1570–1050 BC), including Ramses II, Hatshepsut, Seti I, and Tutankhamen. The valley gained global fame with the discovery of Tutankhamen's tomb, making it one of the most famous archaeological sites on earth. It was declared a World Heritage Site in 1979, along with the entire Theban Necropolis.
+Visit Hatshepsut Temple:
+
+This beautiful temple, known as the "Holy of Holies," was constructed over 15 years on the golden rock hills of Deir El Bahari in 1479 BC. Built to honor the sun god Amun and immortalize the legacy of Queen Hatshepsut, one of the most successful pharaohs in ancient Egyptian history, it is the most preserved example of classical ancient Egyptian architecture.
+Admire the Colossi of Memnon:
+
+These two grand statues of Pharaoh Amenhotep III (1386 - 1349 BC) were built in 1350 BC to guard the entrance of his long-faded temple. The statues underwent numerous renovations and became known for their Vocal Phenomenon at dawn during the Greco-Roman period. The Colossi are adorned with mystical decorations depicting Amenhotep III's history, family, and the Nile god Hapi.
+Lunch Time:
+
+Enjoy a delicious lunch on an island, accompanied by a scenic boat trip on the Nile River. After lunch, you will continue your guided tour to visit:
+Discover Karnak Temple:
+
+This colossal temple complex, covering 247 acres, was built between 2000 BC and 30 BC during the Middle Kingdom to the Greco-Roman period. It served as the main religious center for worshipping the Theban triad of Amun, Mut, and Khonsu for over 1500 years. The complex features the Avenue of Sphinxes, the grand Hypostyle Hall, and numerous carvings, paintings, and shrines dedicated to various gods.
+Explore Luxor Temple:
+
+The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
+Return to Makadi Bay:
+
+Conclude your Luxor day tour by transferring back to your hotel in Makadi Bay in a private air-conditioned car.
+Meals:
+
+Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Makadi Bay and return.",
+      "Lunch meal during your day tour.",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour. ",
+      "Entrance fees to all the mentioned sights. ",
+      "Mineral water onboard the vehicle. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+
+  52: {
+    title: "Makadi Bay Excursion to Aswan and Abu Simbel in Two Days Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `The Makadi Bay excursion to Aswan & Abu Simbel over two days showcases the extraordinary legacy of the ancient Egyptian Civilization, brimming with glory and magnificence. Marvelous Egypt Travel, the top travel agency in Egypt, ensures guests receive excellent service, including a private A/C vehicle and a professional tour guide during their holiday tour in the legendary lands of Southern Egypt. Witness ancient visions of class and glory in Upper Egypt, including the Unfinished Obelisk and the majestic Philae Temple in Aswan, and the grand Abu Simbel temples at the southern border of Egypt. This tour offers a journey into the true meaning of ageless allure, allowing you to explore the pride of southern Egypt in full comfort and relaxation. Book this enchanting tour and dive into the beauty and history of Aswan and Abu Simbel.`,
+    reviews: "315 Reviews",
+    priceSale: "$185",
+    priceOriginal: "$185",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Aswan",
+        des: `
+Pick-Up and Transfer:
+
+Begin your journey with a transfer from your hotel in Makadi Bay to Luxor in a private A/C vehicle. Board the 1st class train to Aswan. Upon arrival, meet your private Egyptologist tour guide and start your exploration.
+Visit the Aswan High Dam:
+
+Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
+Explore the Unfinished Obelisk:
+
+This is the largest known obelisk from ancient Egypt, commissioned by Queen Hatshepsut (1508-1458 BC). The obelisk showcases the carving techniques of the ancient Egyptians and is now an open-air museum.
+Lunch Time:
+
+Enjoy lunch at a local restaurant in Aswan.
+Discover Philae Temple:
+
+Dedicated to the goddess Isis, Philae Temple was built in 280 BC during the reign of Ptolemy II. It was relocated to Agilkia Island by UNESCO to save it from the rising waters of the Nile.
+Check-in:
+
+Transfer to a 5-star hotel in Aswan for an overnight stay.
+Meals:
+
+Lunch.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Day 2 Abu Simbel",
+        des: `
+Early Morning:
+
+Enjoy breakfast as you prepare for an early start.
+Visit the Abu Simbel Temples:
+
+These temples are part of the UNESCO World Heritage Site known as the "Nubian Monuments." The temples, built by Pharaoh Ramses the Great in 1200 BC, honor Ptah, Amun, Ra, and commemorate Ramses' victory at the Battle of Kadesh and his devotion to Queen Nefertari.
+Lunch Time:
+
+Return to Aswan for lunch before boarding the 1st class train back to Luxor.
+Return to Makadi Bay:
+
+Transfer to your hotel, ending the Makadi Bay excursion to Aswan and Abu Simbel in two days.
+Meals:
+
+Breakfast, Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Makadi Bay and return. ",
+      "2 lunch meals in Aswan.",
+      "All transfers by a private modern air-conditioned vehicle",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "One-night accommodation in Aswan at a 5-star Hotel. ",
+      "1st class Train tickets from Luxor to Aswan and return. ",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   // 00: {
   //     title:
