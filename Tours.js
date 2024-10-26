@@ -2845,19 +2845,19 @@ Finally, we drive you back to your hotel/ Nile Cruise.
     ],
   },
   39: {
-      title: "Nubian Village Tour From Aswan",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `Embark on a mesmerizing journey to the Nubian Village from Aswan, where you will explore the enchanting beauty and deep-rooted history of southern Egypt. This tour promises a comfortable and immersive experience, guided by a professional Egyptologist and enhanced by the convenience of private air-conditioned transportation. Discover the unique cultural heritage, colorful traditions, and artistic expressions of the Nubian people, one of the oldest civilizations in Africa.`,
-      reviews: "325 Reviews",
-      priceSale: "$30",
-      priceOriginal: "$30",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Nubian Village Tour From Aswan",
-          des: `
+    title: "Nubian Village Tour From Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a mesmerizing journey to the Nubian Village from Aswan, where you will explore the enchanting beauty and deep-rooted history of southern Egypt. This tour promises a comfortable and immersive experience, guided by a professional Egyptologist and enhanced by the convenience of private air-conditioned transportation. Discover the unique cultural heritage, colorful traditions, and artistic expressions of the Nubian people, one of the oldest civilizations in Africa.`,
+    reviews: "325 Reviews",
+    priceSale: "$30",
+    priceOriginal: "$30",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Nubian Village Tour From Aswan",
+        des: `
 Morning:
 Pick-Up:
 
@@ -2883,26 +2883,25 @@ Meals:
 
 Lunch.
 `,
-        },
-
-      ],
-      included: [
-        "Pick-up and return service from your hotel or Nile cruise in Aswan.",
-        "All transfers by a private modern air-conditioned vehicle. ",
-        "Private Egyptologist guides during your tours. ",
-        "Motorboat ride to the Nubian Village. ",
-        "Lunch at a local restaurant. ",
-        "Mineral water on board the vehicle during the tour. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Any extras not mentioned in the program. ",
-        "Tipping",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick-up and return service from your hotel or Nile cruise in Aswan.",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guides during your tours. ",
+      "Motorboat ride to the Nubian Village. ",
+      "Lunch at a local restaurant. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
   40: {
-    title:"Felucca Ride on the Nile in Aswan",
+    title: "Felucca Ride on the Nile in Aswan",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
@@ -2937,24 +2936,23 @@ Return:
 After your delightful felucca ride, you will be transferred back to your hotel or Nile cruise in Aswan, bringing your serene and picturesque tour to an end.
 `,
       },
-
     ],
     included: [
       "Pick up service from your hotel in Aswan/ Nile Cruise and return",
       "Transfers by a deluxe air-conditioned vehicle. ",
       "Felucca ride for one hour. ",
       "Bottled water on the vehicle. ",
-      "All service charges and taxes. "
+      "All service charges and taxes. ",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping",
-      "Optional Experiences available at an additional cost"
+      "Optional Experiences available at an additional cost",
     ],
   },
 
   41: {
-    title:"Luxor Day Tour from Aswan",
+    title: "Luxor Day Tour from Aswan",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
@@ -2999,7 +2997,6 @@ Meals:
 Lunch.
 `,
       },
-
     ],
     included: [
       "Pick-up services from your hotel in Aswan and return",
@@ -3008,17 +3005,16 @@ Lunch.
       "Entrance fees to all the mentioned sights. ",
       "	Lunch meal during the day trip.",
       "Mineral water on board the vehicle during the tour",
-      "All service charges and taxes. "
+      "All service charges and taxes. ",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping",
-      "Optional Experiences available at an additional cost."
+      "Optional Experiences available at an additional cost.",
     ],
   },
 
-
-42: {
+  42: {
     title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
     maxGuests: "Unlimited",
     location: "Egypt",
@@ -3057,7 +3053,6 @@ Meals:
 Lunch.
 `,
       },
-
     ],
     included: [
       "Pick up service from your hotel in Aswan/ Nile Cruise and return",
@@ -3066,18 +3061,16 @@ Lunch.
       "Entrance fees to all the mentioned sights.",
       "Lunch at a local restaurant. ",
       "Mineral water on board the vehicle during the tour. ",
-      "All service charges and taxes. "
+      "All service charges and taxes. ",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping. ",
-      "Optional Experiences available at an additional cost. "
+      "Optional Experiences available at an additional cost. ",
     ],
   },
 
-
-
-43: {
+  43: {
     title: "Day Trip to Abu Simbel from Aswan",
     maxGuests: "Unlimited",
     location: "Egypt",
@@ -3108,7 +3101,6 @@ Meals:
 Lunch.
 `,
       },
-
     ],
     included: [
       "Pick up service from your hotel in Aswan/ Nile Cruise and return. ",
@@ -3117,19 +3109,17 @@ Lunch.
       "Entrance fees to all the mentioned sights. ",
       "Lunch at a local restaurant. ",
       "Mineral water on board the vehicle during the tour. ",
-      "All service charges and taxes."
+      "All service charges and taxes.",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping",
-      "Optional Experiences available at an additional cost"
+      "Optional Experiences available at an additional cost",
     ],
   },
 
-
-
-44: {
-    title:"Cairo Day Trip from El Gouna By Plane",
+  44: {
+    title: "Cairo Day Trip from El Gouna By Plane",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
@@ -3192,7 +3182,6 @@ Flight:
 From Hurghada to Cairo and Return.
 `,
       },
-
     ],
     included: [
       "Pick-up service from your hotel in El Gouna and return. ",
@@ -3202,18 +3191,16 @@ From Hurghada to Cairo and Return.
       "Entrance fees to all the mentioned sights. ",
       "Lunch at a Pyramid/Nile view restaurant. ",
       "Mineral water and soft drinks onboard the vehicle. ",
-      "All service charges and taxes. "
+      "All service charges and taxes. ",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping. ",
-      "Optional Experiences available at an additional cost. "
+      "Optional Experiences available at an additional cost. ",
     ],
   },
 
-
-
-45: {
+  45: {
     title: "Luxor Day Trip from El Gouna",
     maxGuests: "Unlimited",
     location: "Egypt",
@@ -3259,7 +3246,6 @@ Meals:
 Lunch.
 `,
       },
-
     ],
     included: [
       "Pick-up service from your hotel in El Gouna and return. ",
@@ -3269,18 +3255,17 @@ Lunch.
       "Entrance fees to all the mentioned sights. ",
       "Boat ride on the Nile River. ",
       "Mineral water onboard the vehicle. ",
-      "	All service charges and taxes."
+      "	All service charges and taxes.",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping",
-      "Optional Experiences available at an additional cost. "
+      "Optional Experiences available at an additional cost. ",
     ],
   },
 
-
-46: {
-    title:"2 Days Aswan and Abu Simbel Tour from El Gouna",
+  46: {
+    title: "2 Days Aswan and Abu Simbel Tour from El Gouna",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
@@ -3339,7 +3324,6 @@ Meals:
 Breakfast, Lunch.
 `,
       },
-
     ],
     included: [
       "Pick-up service from your hotel in El Gouna and return. ",
@@ -3350,24 +3334,564 @@ Breakfast, Lunch.
       "One-night accommodation in Aswan at a 5-star Hotel. ",
       "	Train tickets from Luxor to Aswan and return.",
       "Mineral water and soft drinks onboard the vehicle. ",
-      "All service charges and taxes. "
+      "All service charges and taxes. ",
     ],
     excluded: [
       "Any extras not mentioned in the program. ",
       "Tipping",
-      "Optional Experiences available at an additional cost"
+      "Optional Experiences available at an additional cost",
     ],
   },
 
+  47: {
+    title: "Day Trip from Marsa Alam to Cairo by Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a fantastic day trip from Marsa Alam to Cairo by plane, and explore the archaeological marvels of ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, ensures top-notch services with a private A/C vehicle and a professional Egyptologist tour guide. This day trip includes visits to the iconic Giza Pyramids, the Great Sphinx, the Valley Temple, the Grand Egyptian Museum, Al Muizz Street, and the vibrant Khan El Khalili Bazaar. Book this tour and dive into the rich history and culture of Egypt.`,
+    reviews: "348 Reviews",
+    priceSale: "$280",
+    priceOriginal: "$280",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip from Marsa Alam to Cairo by Plane",
+        des: `
+Pick-Up and Transfer to Airport:
 
+You will be transferred from your hotel in Marsa Alam to Marsa Alam airport to catch your flight to Cairo. Upon arrival, meet your private tour guide to start your day trip.
+Arrival in Cairo:
 
+Upon arrival at Cairo airport, meet your private tour guide who will accompany you throughout the day.
+Explore the Giza Pyramids Complex:
 
+Discover the colossal art of the ancient Egyptians, including the three main pyramids, six little pyramids, the Great Sphinx, and the Valley Temple.
+The Great Pyramid:
 
+Marvel at the Great Pyramid of Pharaoh Khufu, the last surviving wonder of the ancient world, standing tall at 147 meters with its intricate chambers.
+The Great Sphinx:
 
+Gaze upon the Great Sphinx, a magnificent limestone statue with the body of a lion and the head of Pharaoh Khafre, symbolizing wisdom and power.
+The Valley Temple:
 
+Visit the Valley Temple, a mortuary temple used for the mummification process of 4th dynasty pharaohs before their burial in the pyramids.
+Discover the Grand Egyptian Museum:
 
-  
+Explore the latest addition to Egypt's rich cultural heritage, home to a vast collection of artifacts, including the Hanging Obelisk, the King Ramses II Statue, the 10 Statues of King Senusert, and more. (Note: A VIP ticket is available for additional access to exclusive artifacts.)
+Lunch at a Pyramid/Nile View Restaurant:
 
+Enjoy a delightful lunch with stunning views of the Pyramids or the Nile.
+Stroll Al Muizz Street:
+
+Wander along Al-Muizz Street, established in the 10th century AD, reflecting the golden era of Islamic Egypt and leading to the vibrant Khan El Khalili Bazaar.
+Shop at Khan El Khalili Bazaar:
+
+Experience the bustling atmosphere of Khan El Khalili Bazaar, established between 1382 and 1389 AD, offering a plethora of unique artifacts and exquisite Islamic architecture.
+Transfer to Cairo Airport:
+
+Catch your flight from Cairo to Hurghada and transfer back to your hotel in Marsa Alam by a private A/C car, concluding your memorable day trip.
+Meals:
+
+Lunch.
+Flight:
+
+From Marsa Alam to Cairo and From Cairo to Hurghada.
+`,
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Marsa Alam and return.",
+      "Flight ticket (Marsa Alam/Cairo - Cairo/Hurghada) ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "Lunch at a Pyramid/Nile view restaurant. ",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  48: {
+    title: "One Day Trip from Marsa Alam to Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Experience a magical one-day trip from Marsa Alam to Luxor and uncover the ancient treasures of Thebes. Marvelous Egypt Travel, the best travel agency in Egypt, offers exceptional services including a private A/C vehicle and an expert Egyptologist tour guide. This private tour allows you to follow the footsteps of the Pharaohs and explore the timeless wonders of the Nile Valley, including Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, and the Colossi of Memnon. Book now to capture unforgettable moments and have “A Trip To Remember.`,
+    reviews: "226 Reviews",
+    priceSale: "$150",
+    priceOriginal: "$150",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "One Day Trip from Marsa Alam to Luxor",
+        des: `
+Pick-Up and Transfer:
+
+You will be picked up from your hotel in Marsa Alam by a private A/C vehicle for a luxurious trip to the ancient city of Luxor. Accompanied by your private tour guide, you will explore the following historical sites:
+Explore the Valley of the Kings:
+
+This sacred site on the west bank of the Nile opposite Luxor is a golden history book buried deep within a sacred hill. Home to 63 royal tombs of the greatest Pharaohs of the 18th, 19th, and 20th dynasties of the New Kingdom (1570–1050 BC), including Ramses II, Hatshepsut, Seti I, and Tutankhamen. The valley gained global fame with the discovery of Tutankhamen's tomb, making it one of the most famous archaeological sites on earth. It was declared a World Heritage Site in 1979, along with the entire Theban Necropolis.
+Visit Hatshepsut Temple:
+
+This beautiful temple, known as the "Holy of Holies," was constructed over 15 years on the golden rock hills of Deir El Bahari in 1479 BC. Built to honor the sun god Amun and immortalize the legacy of Queen Hatshepsut, one of the most successful pharaohs in ancient Egyptian history, it is the most preserved example of classical ancient Egyptian architecture.
+Admire the Colossi of Memnon:
+
+These two grand statues of Pharaoh Amenhotep III (1386 - 1349 BC) were built in 1350 BC to guard the entrance of his long-faded temple. The statues underwent numerous renovations and became known for their Vocal Phenomenon at dawn during the Greco-Roman period. The Colossi are adorned with mystical decorations depicting Amenhotep III's history, family, and the Nile god Hapi.
+Lunch Time:
+
+Enjoy a delicious lunch on an island, accompanied by a scenic boat trip on the Nile River. After lunch, you will continue your guided tour to visit:
+Discover Karnak Temple:
+
+This colossal temple complex, covering 247 acres, was built between 2000 BC and 30 BC during the Middle Kingdom to the Greco-Roman period. It served as the main religious center for worshipping the Theban triad of Amun, Mut, and Khonsu for over 1500 years. The complex features the Avenue of Sphinxes, the grand Hypostyle Hall, and numerous carvings, paintings, and shrines dedicated to various gods.
+Explore Luxor Temple:
+
+The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
+Return to Marsa Alam:
+
+You will be transferred back to your hotel in Marsa Alam by a private air-conditioned vehicle, concluding your enriching day trip from Marsa Alam to Luxor.
+Meals:
+
+Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Marsa Alam and return. ",
+      "Lunch meal during your day tour. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour. ",
+      "Entrance fees to all the mentioned sights. ",
+      "Boat ride in the Nile River.",
+      "Mineral water onboard the vehicle. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  49: {
+    title: "2 Days Aswan and Abu Simbel Trip from Marsa Alam",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a captivating two-day tour from Marsa Alam to Aswan and Abu Simbel to witness the extraordinary legacy of ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, guarantees top-notch service with a private A/C vehicle and a professional tour guide. Explore the most famous attractions in Aswan, including the High Dam, the Unfinished Obelisk, and Philae Temple. On the second day, marvel at the illuminating heritage of Southern Egypt at the Two Temples of Abu Simbel. Book now to experience the eternal glory of ancient Egypt come to life.`,
+    reviews: "315 Reviews",
+    priceSale: "$350",
+    priceOriginal: "$350",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Aswan",
+        des: `
+Pick-Up and Transfer:
+
+Start your Aswan and Abu Simbel tour from Marsa Alam with a pick-up from your hotel by a private A/C vehicle to Aswan. Upon arrival, join your Egyptologist tour guide to explore the ancient Egyptian civilization by visiting Aswan's tourist attractions:
+Visit the Aswan High Dam:
+
+Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
+Explore the Unfinished Obelisk:
+
+This is the largest known obelisk from ancient Egypt, commissioned by Queen Hatshepsut (1508-1458 BC). The obelisk showcases the carving techniques of the ancient Egyptians and is now an open-air museum.
+Lunch Time:
+
+Enjoy lunch at a local restaurant in Aswan.
+Discover Philae Temple:
+
+Dedicated to the goddess Isis, Philae Temple was built in 280 BC during the reign of Ptolemy II. It was relocated to Agilkia Island by UNESCO to save it from the rising waters of the Nile.
+Check-in:
+
+Transfer to a 5-star hotel in Aswan for an overnight stay.
+Meals:
+
+Lunch.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Day 2 Abu Simbel",
+        des: `
+Early Morning:
+
+Enjoy breakfast as you prepare for an early start.
+Visit the Abu Simbel Temples:
+
+These temples are part of the UNESCO World Heritage Site known as the "Nubian Monuments." The temples, built by Pharaoh Ramses the Great in 1200 BC, honor Ptah, Amun, Ra, and commemorate Ramses' victory at the Battle of Kadesh and his devotion to Queen Nefertari.
+Lunch Time:
+
+Return to Aswan for lunch at a local restaurant.
+Return to Marsa Alam:
+
+Conclude your trip with a transfer back to your hotel in Marsa Alam by a private A/C vehicle.
+Meals:
+
+Breakfast, Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Marsa Alam and return.",
+      "2 lunch meals in Aswan. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour. ",
+      "Entrance fees to all the mentioned sights. ",
+      "One-night accommodation in Aswan at a 5-star Hotel. ",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping.",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
 };
 
 // Tour js Templete
