@@ -2362,7 +2362,7 @@ Finally, transfer back to your hotel.
     ],
   },
   30: {
-    title:"Private Snorkeling in Hurghada",
+    title: "Private Snorkeling in Hurghada",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
@@ -2376,7 +2376,6 @@ Finally, transfer back to your hotel.
         title: "Private Snorkeling in Hurghada",
         des: `The most magical snorkeling adventure is waiting for you across the divine waters of the Red Sea. You can visit Mahmya Island OR Giftun Island OR the Dolphin area. Our representative will pick you up from your hotel for a fantastic private snorkeling trip with desert island relaxation on the beautiful Red Sea. We will do our snorkeling in different spots, full of corals and magnificent colorful fish, with a chance to swim with dolphins. Enjoy water sports activities on Giftun Island and the national park with an open buffet lunch aboard the boat. Finally, return back to the jetty and then transfer to your hotel in Hurghada.`,
       },
-
     ],
     included: [
       "Pick up and return service to your hotel.",
@@ -2385,20 +2384,803 @@ Finally, transfer back to your hotel.
       "Lunch during tour.",
       "Professional instructor. ",
       "Mineral water and soft drinks.",
-      "All service charges and taxes"
+      "All service charges and taxes",
     ],
     excluded: [
       "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+  31: {
+    title: "Hurghada Super Safari by Quads",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "Hurghada Super Safari Trip is a majestic travel experience showcasing the natural treasures of the Egyptian Sahara and the humble nature of the Bedouin tribe. Marvelous Egypt Travel, the best travel agency in Egypt, will provide all our clients with the best service from our private safari guide and comfortable quad bikes & A/C vehicle during the trip across the treasures of the divine desert of the eastern desert. In this lovely adventure, all our clients will enjoy the most magical Hurghada Super Safari trip through a quad bike followed by a camel ride, and finally, a B.B.Q dinner then we drive you back to your hotel. Book this unique day trip and live this lovely trip between the divine treasures of Hurghada’s desert.",
+    reviews: "315 Reviews",
+    priceSale: "$20",
+    priceOriginal: "$20",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Hurghada Super Safari by Quads",
+        des: `
+
+At high noon, all our clients will be taken by a private A/C vehicle to the quad bikes station to board one with your tour guide so you can begin your journey across the blessed sands of the eastern Sahara. Once you reach the Bedouin village, you will have a delicious BBQ dinner with Bedouin people using the awesome desert sunset as your backdrop. You will have an hour camel ride session on the sands of the desert. Then, you will be met by your Bedouin hosts and introduced to their way of life. Settle in for the evening and party with the native public while gazing upon the spectacular desert sunset, before returning to your Hurghada hotel.
+Meals:
+
+Dinner.
+`,
+      },
+    ],
+    included: [
+      "Pick up from the hotel to the quad station. ",
+      "Driving the quad 45 km in 2 ways.",
+      "Visiting the Bedouin village. ",
+      "Tour in the Bedouin village.",
+      "	BBQ Dinner at the Bedouin Village.",
+      "Watch the sunset",
+      "Back to the hotel",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program.",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+
+  32: {
+    title: "Breathtaking Luxor Day Trip from Hurghada",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Luxor day trip from Hurghada will offer a golden entrance leading inside the heart of a living miracle to feel the magical touch of the gods in this majestic city of Luxor. All our guests will get to discover all the colossal wonders of the holy city of Luxor which include the Karnak temples Complex, Hatshepsut temple, Valley of the kings, and various more. With our Luxor day trip from Hurghada, our clients will get inside the city of a thousand gates and explore the ancient Egyptian architecture in its finest form showcasing the vast heritage of ancient Egyptian culture while enjoying the excellent services of a skilled tour guide and a relaxing A/C Vehicle presented from Marvelous Egypt Travel, the best travel agency in Egypt. Everyone will get a glimpse of the purest form of ancient beauty which is waiting for you, so book now and make every moment count.`,
+    reviews: "286 Reviews",
+    priceSale: "$75",
+    priceOriginal: "$75",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour to Luxor from Hurghada",
+        des: `
+Morning:
+
+You will be picked up from your hotel in Hurghada then taken by an air-conditioned car to Luxor to fully explore:
+Valley of the Kings:
+
+A portal to paradise used by the greatest kings and queens of Egypt's new kingdom (1570-1070 BC). The valley contains 63 tombs filled with amazing treasures, artifacts, statues, and phenomenal decorations, and the remains of pharaohs such as Ramses II, Amenhotep I, Hatshepsut, and Tutankhamun. The Valley of the Kings became a World Heritage site by UNESCO in 1979.
+Hatshepsut Temple:
+
+A vision from paradise known as Djeser-Djeseru "Holy of Holies," a symbol of idealism, allure, and might to one of the most successful rulers in the history of ancient Egypt, Queen Hatshepsut, dating back to 1479 BC. The design of the temple is mesmerizingly brilliant based on the style of Classical Architecture of the new kingdom.
+Colossi of Memnon:
+
+Two colossal blocks of quartzite sandstone standing at 18 m (60ft) tall and weighing 720 tons each, resembling Pharaoh Amenhotep III (1386-1350) that have traveled a long way from Cairo to Luxor to become the protectors of this great city. The colossi were destroyed by an earthquake in 27 BC and reconstructed in 199 AD then became famous during the Greco-Roman period because of The Vocal Memnon phenomenon.
+Lunch Time:
+
+You will then have your lunch before heading to:
+Karnak Temple:
+
+The location where the heavens intervened and surrounded the place with grandeur and beauty. It was known as Ipet-isu "The Most Selected of Places" & Pr-Imn "House Of Amon" when it was constructed more than 4000 years ago. It has been one of the biggest religious man-made constructions on earth for more than 1500 years and the worship center to various deities like Osiris, Ptah, and Isis but was dedicated primarily to the Theban triad which consisted of Amun, Mut, and Khnsou.
+
+You will then end your Luxor day trip from Hurghada by transferring back to your hotel in Hurghada by a private air-conditioned car.
+Hint:
+
+You can share your thoughts about adding or removing any tours from your tour itinerary to accommodate your requirements and fulfill your needs.
+`,
+      },
+    ],
+    included: [
+      "Pick up services from your hotel in Hurghada and return.",
+      "All transfers by a private air-conditioned vehicle",
+      "Private Egyptologist tour guide. ",
+      "Entrance fees to all the mentioned sites. ",
+      "Mineral water on board the vehicle during the tour",
+      "Lunch meal during the day trip",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  33: {
+    title: "Day Trip to Cairo from Hurghada by Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `A day trip to Cairo from Hurghada is enough to change your life as you explore ancient Egyptian history. Our guests will be taken from the magical tropical atmosphere of Hurghada to the immortal wonders of Cairo, such as the Giza Pyramids Complex, which dates back more than 4000 years to the times of gods and pharaohs. In old Cairo, you will discover a number of Islamic monuments such as the Khan El Khalili Bazaar and more. Our clients will enjoy the excellent services of Marvelous Egypt Travel, the best travel agency in Egypt, which includes a skilled tour guide and a relaxing A/C vehicle. Feel the magical spirits of the past and explore the majestic works of ancient times by booking this incredible tour.`,
+    reviews: "286 Reviews",
+    priceSale: "$400",
+    priceOriginal: "$400",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip to Cairo from Hurghada by Plane",
+        des: `
+Morning:
+
+We will transfer you from your hotel in Hurghada to Hurghada airport for a flight to Cairo. Upon arrival at Cairo airport, meet your private Egyptologist tour guide who will join you to start a private guided day trip to Cairo from Hurghada to discover all that Cairo and Giza have to offer starting with one of the seven wonders of the world:
+Giza Pyramids Complex:
+
+Where the glorious history of the ancient Egyptian civilization is remembered day after day until the end of days. The Great Giza complex consists of the three main great pyramids, six little pyramids, the great sphinx, and the valley temple.
+The Great Pyramid:
+
+The Great Pyramid of Khufu is a monument of pure greatness made to challenge time, it is the last intact structure of the seven wonders of the ancient world. Constructed in 2580 BC in 20 years using 2,300,000 pieces of limestone each weighing 2.5 tons with a workforce of about 100,000 free skilled workers, it is 147 m (481 ft) tall and remained the tallest building in history for 3800 years.
+The Great Sphinx:
+
+Known as "Hor-em-Akhet" which means "Horus of the horizon," is the immortal celestial guardian of Egypt. The sphinx is 73 m (240 ft) tall, 19 m (66 ft) wide, and has the shape of a mythical creature with the body of a lion and the head of a man, believed to be King Khafre, showcasing his power and wisdom.
+The Valley Temple:
+
+Created during Egypt's Old Kingdom (2686-2134 BC) for the mummification process, it offers valuable information about the mummification process and mortuary rituals of ancient Egypt.
+The Grand Egyptian Museum:
+
+A golden portal leading to cosmic ancient Egyptian creations of celestial intelligence cultivated across 5000 years. Discover some of the greatest archaeological monuments and artifacts ever made, including The Hanging Obelisk, King Ramses II Statue, The 10 Statues of King Senusert, The Grand staircase, Statues of Ptolemaic Kings and Queens, The Victory Column of King Merneptah, The epic Royal Regalia, and the Grand Atrium & Gift show. There is a VIP ticket for access to additional artifacts; contact us for more information.
+Lunch Time:
+
+Lunch will be served at a Pyramids/Nile view restaurant, then move to visit:
+The Egyptian Museum:
+
+A time capsule filled with the greatest ancient Egyptian artifacts dating back more than 4000 years. The museum is made from extravagant materials like gold, silver, and precious gems, and ordinary ones such as wood or stone, found in the shape of statues and funerary objects, plus other incredible monuments.
+Al Muizz Street:
+
+Known to date back to the 10th century AD in the heart of Old Cairo, at a close distance from Khan El Khalili Bazaar. It is filled with captivating ancient decorations and architecture.
+Khan El Khalili Bazaar:
+
+A street from the history books, constructed in 970 AD to be the golden brick road of the Middle East. It remains an active bazaar containing everything a traveler could imagine in its magical markets and shops, plus vintage cafes reflecting the classical beauty and prestige of ancient Islamic culture.
+Evening:
+
+Transfer to Cairo airport to take your flight to Hurghada and then transfer to your hotel, ending your day trip to Cairo from Hurghada by plane.
+Hint:
+
+You can share your thoughts about adding or removing any tours from your tour itinerary to accommodate your requirements and fulfill your needs.
+`,
+      },
+    ],
+    included: [
+      "Domestic flight tickets from Hurghada to Cairo and return",
+      "Pick up services from your hotel in Hurghada and return",
+      "All transfers by a private air-conditioned vehicle",
+      "Private Egyptologist tour guide throughout the day tour",
+      "Entrance fees to all the sights in Cairo. ",
+      "Lunch at a Pyramid/ Nile view restaurant. ",
+      "Mineral water and soft drinks on board the vehicle. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+
+  34: {
+    title: "2 Days Aswan and Abu Simbel Tour from Hurghada",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
+
+2 Days Aswan and Abu Simbel tour from Hurghada is a magical voyage showcasing the wonders of the blessed city of Aswan. Marvelous Egypt Travel, the best travel agency in Egypt, will ensure all our guests enjoy the most efficient and relaxing service of a private A/C vehicle and a professional tour guide during their exploration tour in the mythical city of Aswan.
+
+Book this amazing holiday and discover the golden legacy and wealth of southern Egypt.
+`,
+    reviews: "123 Reviews",
+    priceSale: "$175",
+    priceOriginal: "$175",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1",
+        des: `
+Morning:
+
+We will pick you up from your hotel by a modern private A.C car to Luxor to catch the 1st class train to Aswan. Upon arrival at the Nubia country, you will join your private Egyptologist tour guide to visit Aswan tourist attractions starting at:
+The High Dam:
+
+The marvelous High Dam of Aswan came into being during the 60s and 70s to offer a new way of life by producing electricity and saving power.
+The Unfinished Obelisk:
+
+The enlightening Unfinished Obelisk was initiated by Queen Hatshepsut (1508-1458 BC) to stand as a symbol of power and grace at the golden entrance of the Karnak temples complex. It now stands at the great open-air museum displaying the skill of ancient Egyptian carvers and craftsmen.
+Philae Temple:
+
+The legendary Philae Temple is a celestial open book made of holy stone narrating the everlasting story of the “Myth of Osiris.” It was built as the last example of ancient Egyptian architecture in 280 BC through an order from King Ptolemy II. The temple was part of a rescue operation in the mid-60s and 70s known as the UNESCO Nubia Campaign project which relocated the temple to Agilkia Island where it is found today.
+Lunch:
+
+You will have your lunch at a local restaurant and check in at the 5* hotel in Aswan to spend the night.
+Meals:
+
+Lunch.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Day 2",
+        des: `
+Morning:
+
+After breakfast, you will check out from the hotel, then you will join your private tour guide to visit:
+Abu Simbel Temples:
+
+The two temples of Abu Simbel are among the most magnificent monuments in the world. They were built by Ramses II, and their significance and grandeur are unparalleled. The great temple was dedicated to Ramses II himself, while the smaller temple was dedicated to his beloved wife, Queen Nefertari.
+Lunch:
+
+You will enjoy a lunch meal at a local restaurant.
+Evening:
+
+Return to Aswan, catch the train to Luxor, and transfer by a private A.C car to Hurghada.
+Meals:
+
+Breakfast, Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick up service from your hotel in Hurghada and return.",
+      "Egyptologist tour guide during the tour. ",
+      "Entrance fees to the mentioned historical places.",
+      "All transfers by a modern air-conditioned vehicle.",
+      "Mineral water on board your vehicle. ",
+      "One-night accommodation in Aswan at a 5-star Hotel.",
+      "1 Breakfast, and 2 Lunch meals in Aswan",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  35: {
+    title: "Tour to Luxor East and West Banks",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
+
+A tour to Luxor East and West Bank is a spiritual journey through the celestial wonders of the ancient Egyptian civilization, showcasing its enduring beauty and grandeur. Marvelous Egypt Travel will offer the most fitting and satisfying service to all our honorable guests, including a skilled Egyptologist tour guide and a private A/C vehicle.
+
+Everyone will enjoy a private Luxor day tour to the East and West Banks to visit Luxor tourist attractions, including Luxor Temple, Karnak Temple, Valley of the Kings, Colossi of Memnon, and Queen Hatshepsut Temple. Book a vacation among the greatest archaeological treasures ever constructed in the history of ancient Egypt.
+`,
+    reviews: "254 Reviews",
+    priceSale: "$70",
+    priceOriginal: "$70",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Tour to Luxor East and West Banks",
+        des: `
+Morning:
+
+We will pick you up from your hotel/ Nile Cruise in Luxor, joining your private tour guide to visit Luxor Highlights:
+Valley of the Kings:
+
+The magical Valley of the Kings is a time vault filled with heavenly treasures and the most enchanting artistic decorations, showcasing the heritage of the ancient rulers from the New Kingdom (1570 – 1050 BC). The Valley of the Kings holds 63 tombs of very renowned names like the great pharaoh Ramses II, Hatshepsut, Seti I, Tutankhamen, and various more.
+Hatshepsut Temple:
+
+The holy temple of Queen Hatshepsut (1507–1458 BC) was created to honor the everlasting heritage of one of the most successful pharaohs in history and the blessings of the sun god Amun. It is known as the most suitable example of classical architecture of ancient Egypt, across its huge three terraces where the beautiful festival valley was held.
+Colossi of Memnon:
+
+The magical Colossi of Memnon of Pharaoh Amenhotep III were constructed in 1350 BC to stand at the ruined mortuary temple of Amenhotep II, which was very renowned between the ancient Greeks and Romans.
+Lunch:
+
+Lunch will be served on an island, so your tour includes a boat trip on the Nile river. Then move to the East Bank to visit:
+Karnak Temple:
+
+The Karnak Temple Complex is a blessed and divine wonder known as the most selected of places. Pr-Imn house of Amon solely honors the Theban triad of Amun, Mut, and Khonsu, plus a number of other gods. The construction process of the Karnak temples complex started from the Middle Kingdom to the Greco-Roman period (2000 BC to 30 AD) on 247 acres. The most beautiful aspect of the temple is the Avenue of Sphinxes, which leads to the beautiful Luxor Temple.
+Luxor Temple:
+
+The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
+Evening:
+
+Finally, we drive you back to your hotel/ Nile cruise.
+`,
+      },
+    ],
+    included: [
+      "Pick up service from your hotel in Luxor/ Nile Cruise and return.",
+      "All transfers by a private air-conditioned vehicle",
+      "Private Egyptologist guides during your tours",
+      "Entrance fees to all the mentioned sights. ",
+      "Lunch meal at a restaurant in Luxor. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program.",
+      "Tipping",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
+
+  36: {
+    title: "Luxor Hot Air Balloon Ride",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
+
+The Luxor Hot Air Balloon ride is a journey of dreams across the heavens that reveals all the immortal archaeological milestones of the magical lands of Thebes. Marvelous Egypt Travel will offer the most ideal service and maintain the best safety measures during this heavenly adventure. Book this divine trip and enjoy a breathtaking experience in the sky of Luxor in a private hot air balloon for roughly 45 minutes where you can enjoy the sunrise over this blessed city.
+`,
+    reviews: "325 Reviews",
+    priceSale: "$120",
+    priceOriginal: "$120",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor Hot Air Balloon Ride",
+        des: `
+Early Morning:
+
+Our representative from Marvelous Egypt Travel will pick you up from your hotel/cruise in Luxor to the West Bank to enjoy the hot air balloon ride. You will be transferred to the marina where you can enjoy soft drinks before you take the motorboat to the West Bank. Upon arrival, you will be transferred to the take-off area where your balloon ride will begin.
+Balloon Ride:
+
+The "Balloon Ride" trip departs every day; however, advance confirmation is highly recommended. The balloon ride lasts approximately 45 minutes, offering breathtaking views of the sunrise over the largest open-air museum in the world - Luxor.
+Return:
+
+After your land, you will be picked up and transferred back to your hotel/cruise.
+`,
+      },
+    ],
+    included: [
+      "Pick up service from your hotel in Luxor/Nile Cruise. ",
+      "Transfer by a private air-conditioned vehicle. ",
+      "45 minutes ride in a hot air balloon in the sky of Luxor. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+
+  37: {
+    title: "Trip to Dandara and Abydos from Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `A trip to Dandara and Abydos is a gateway leading to one of the oldest and most preserved archaeological attractions in Upper Egypt, containing the most mythical tales and facts about the ancient Egyptian religion. Marvelous Egypt Travel will offer all travelers the finest tour in Egypt. Enjoy a private Luxor day trip to Dandara and Abydos temples while you are in Luxor, accompanied by a private Egyptologist tour guide and a private air-conditioned car. The two temples are among the most preserved temples you can visit in Egypt, so book this magical adventure and discover the glorious history of ancient Egypt.`,
+    reviews: "315 Reviews",
+    priceSale: "$25",
+    priceOriginal: "$25",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Trip to Dandara and Abydos from Luxor",
+        des: `
+Morning:
+
+Marvelous Egypt Travel representative will pick you up from your hotel/ Nile cruise in Luxor to enjoy a tour to:
+Abydos Temple:
+
+The ancient Egyptians believed that the god Osiris (Lord of the Underworld) was buried there. The temple was built by King Seti I and completed by King Ramses II, known as the Temple of Seti I. The paintings of the gods and pharaohs on the walls of the Osiris Temple at Abydos are among the most beautifully preserved in Egypt.
+Lunch Time:
+
+Enjoy your lunch at a local restaurant, then visit:
+Dendara Temple:
+
+The temple is dedicated to the deity Hathor, the goddess of love and joy. The paintings and decorations are still in very good condition, making this temple one of the most preserved temples in Egypt.
+Return:
+
+Finally, we drive you back to your hotel/ Nile Cruise.
+`,
+      },
+    ],
+    included: [
+      "Pick up service from your hotel/ Nile cruise in Luxor",
+      "All transfers by a private air-conditioned vehicle",
+      "Private Egyptologist guide",
+      "Entrance fees for all sightseeing mentioned. ",
+      "Mineral water on board the vehicle during the tour",
+      "All service charges and taxes",
+      "1 Lunch meal during the day tour. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program",
+      "Tipping",
+      "Optional Experiences available at an additional cost",
+    ],
+  },
+
+  38: {
+    title: "Aswan Sightseeing Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on an enchanting full-day tour of Aswan, guided by a professional Egyptologist and traveling in the comfort of a private air-conditioned vehicle. This meticulously curated itinerary includes visits to some of Aswan’s most historically significant and visually stunning landmarks. Experience the monumental Aswan High Dam, the fascinating Unfinished Obelisk, and the magnificent Philae Temple. This tour provides a deep dive into the rich history and culture of the Nubian City, offering a memorable and educational experience.`,
+    reviews: "354 Reviews",
+    priceSale: "$40",
+    priceOriginal: "$40",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Aswan Sightseeing Tour",
+        des: `
+        Morning:
+        Pick-Up:
+
+        Your private tour guide will meet you at your hotel or Nile cruise to commence your Aswan sightseeing adventure.
+        Aswan High Dam:
+
+        Begin with a visit to the Aswan High Dam, a monumental engineering feat constructed between 1960 and 1970. This structure has had a profound impact on Egypt's economy and culture. Learn about the dam's historical significance and its role in modern Egypt.
+        Unfinished Obelisk:
+
+        Next, visit the Unfinished Obelisk, the largest obelisk ever attempted by the ancient Egyptians. Commissioned by Queen Hatshepsut, it remains partially carved from the bedrock, offering unique insights into ancient construction techniques.
+        Lunch:
+
+        Enjoy a delectable lunch at a local restaurant in Aswan, savoring some of the region's culinary specialties.
+        Afternoon:
+        Philae Temple:
+
+        After lunch, explore the exquisite Philae Temple, dedicated to the goddess Isis of Love and Beauty. The temple complex was relocated to Agilkia Island as part of the UNESCO Nubia Campaign, which aimed to protect it from flooding following the construction of the Aswan High Dam. Marvel at the intricate reliefs and learn about the myths and legends associated with this sacred site.
+        Evening:
+        Return:
+
+        After a day of extensive exploration, you will be transferred back to your hotel or Nile cruise, concluding your comprehensive Aswan sightseeing tour.
+        Meals:
+
+        Lunch.
+`,
+      },
+    ],
+    included: [
+      "Pick up service from your hotel in Aswan/ Nile Cruise and return. ",
+      "All transfers by a private modern air-conditioned vehicle.",
+      "Private Egyptologist guides during your tours",
+      "Entrance fees to all the mentioned sights.",
+      "Lunch at a local restaurant. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
+  39: {
+      title: "Nubian Village Tour From Aswan",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `Embark on a mesmerizing journey to the Nubian Village from Aswan, where you will explore the enchanting beauty and deep-rooted history of southern Egypt. This tour promises a comfortable and immersive experience, guided by a professional Egyptologist and enhanced by the convenience of private air-conditioned transportation. Discover the unique cultural heritage, colorful traditions, and artistic expressions of the Nubian people, one of the oldest civilizations in Africa.`,
+      reviews: "325 Reviews",
+      priceSale: "$30",
+      priceOriginal: "$30",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Nubian Village Tour From Aswan",
+          des: `
+Morning:
+Pick-Up:
+
+Your adventure begins with a pick-up from your hotel or Nile cruise, followed by a scenic drive to the Nubian villages located on the west bank of the Nile River.
+Nubian Village Exploration:
+
+Immerse yourself in the serene and vibrant atmosphere of the Nubian villages. These villages are renowned for their simple yet captivating lifestyle, traditions, and culture. As you stroll through the village, you will witness the exquisite colorful drawings, handmade crafts, and unique jewelry that reflect the rich Nubian heritage.
+Lunch:
+
+Authentic Nubian Meal: Relish a traditional Nubian lunch, offering an authentic taste of this noble culture. Enjoy the local cuisine while soaking in the peaceful ambiance of the village.
+Afternoon:
+Cultural Insights:
+
+Gain deeper insights into the customs and way of life of the three main Nubian tribes: Al-Fadiga, Arab Al-Orayqat, and Al-Konoz (also known as Al-Matoka). Explore the village's artistic expressions, which are showcased beautifully at the Nubian Museum in Aswan.
+Motorboat Ride:
+
+Enhance your experience with a delightful motorboat ride on the Nile River, providing a unique perspective of the village and its surroundings.
+Evening:
+Return:
+
+After a day filled with cultural exploration and natural beauty, you will be transferred back to your hotel or Nile cruise, concluding your enchanting Nubian Village tour from Aswan.
+Meals:
+
+Lunch.
+`,
+        },
+
+      ],
+      included: [
+        "Pick-up and return service from your hotel or Nile cruise in Aswan.",
+        "All transfers by a private modern air-conditioned vehicle. ",
+        "Private Egyptologist guides during your tours. ",
+        "Motorboat ride to the Nubian Village. ",
+        "Lunch at a local restaurant. ",
+        "Mineral water on board the vehicle during the tour. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Any extras not mentioned in the program. ",
+        "Tipping",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+  40: {
+    title:"Felucca Ride on the Nile in Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Experience the timeless beauty of Aswan from a unique perspective with a Felucca Ride on the Nile. This private tour offers a serene and enchanting journey along the legendary Nile River, providing a relaxing escape and a closer look at Aswan’s most renowned landmarks. Your journey will be enhanced with comfortable services, including a private Egyptologist guide and deluxe air-conditioned transportation. Sail towards Elephantine Island, explore Kitchener Island, and marvel at the famous Botanical Gardens. Book this magical felucca ride and immerse yourself in the natural splendor of Aswan.`,
+    reviews: "315 Reviews",
+    priceSale: "$20",
+    priceOriginal: "$20",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Felucca Ride on the Nile in Aswan",
+        des: `
+Morning:
+Pick-Up:
+
+Begin your adventure with a convenient pick-up from your hotel or Nile cruise in Aswan by a private, air-conditioned vehicle.
+Felucca Ride:
+
+Embark on a memorable one-hour felucca ride along the majestic Nile River. Your personal Egyptologist guide will accompany you, sharing insights about the historical significance and beauty of the landmarks you will encounter.
+Felucca Sailing Highlights:
+Elephantine Island:
+
+Sail towards Elephantine Island, an ancient trade center and a stunning example of natural beauty. Learn about its historical importance and enjoy the serene views.
+Kitchener Island:
+
+Continue your journey to Kitchener Island, a place of rest for Lord Kitchener's campaign during their wars in Sudan. The island's rich history and scenic views make it a highlight of the trip.
+Botanical Gardens:
+
+Conclude your sailing adventure by passing the famous Botanical Gardens. Marvel at the diverse plant species and the tranquil ambiance of this lush garden.
+Return:
+
+After your delightful felucca ride, you will be transferred back to your hotel or Nile cruise in Aswan, bringing your serene and picturesque tour to an end.
+`,
+      },
+
+    ],
+    included: [
+      "Pick up service from your hotel in Aswan/ Nile Cruise and return",
+      "Transfers by a deluxe air-conditioned vehicle. ",
+      "Felucca ride for one hour. ",
+      "Bottled water on the vehicle. ",
+      "All service charges and taxes. "
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost"
+    ],
+  },
+
+  41: {
+    title:"Luxor Day Tour from Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a Luxor day tour from Aswan, a magical journey that unveils Egypt’s most immortal treasures radiating divine glory and bliss. With Marvelous Egypt Travel, the best travel agency in Egypt, you will experience top-notch services, including a private Egyptologist tour guide and a comfortable A/C vehicle. This guided tour will take you to Luxor’s most significant historical landmarks, such as the Valley of the Kings, Hatshepsut Temple, Karnak Temple, and the Colossi of Memnon. Conclude your adventure with a return trip to your hotel. Book this majestic journey and uncover the blessed wonders of Luxor.`,
+    reviews: "315 Reviews",
+    priceSale: "$95",
+    priceOriginal: "$95",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor Day Tour from Aswan",
+        des: `
+Morning:
+Transfer to Luxor:
+
+Begin your day with a transfer from your hotel in Aswan to the train station to catch the 1st class train to Luxor. Upon arrival, you will be greeted by your private Egyptologist tour guide.
+Exploration Highlights:
+Valley of the Kings:
+
+Discover the burial ground of the proud golden rulers of the Eighteenth, Nineteenth, and Twentieth Dynasties of the New Kingdom (1550 – 1070 BC). The Valley of the Kings houses 63 tombs of some of Egypt's most famous Pharaohs and nobles, chosen for its mythological significance and the rejuvenating powers associated with its location.
+Hatshepsut Temple:
+
+Explore the magnificent legacy of Queen Hatshepsut (1473–1458 BC) at her temple, constructed by Senenmut, the main priest of Amun. The temple, located opposite Karnak Temple, features three levels of magical decorations showcasing the history and achievements of this great ruler.
+Colossi of Memnon:
+
+Marvel at the brilliant quartzite sandstone statues created by Amenhotep III in 1350 BC. These statues were erected to guard the heritage of one of Egypt’s most significant builders and are adorned with 107 inscriptions from the Roman era, depicting the Greek mythological tale of King Memnon, his wife Tiye, and his mother Mutemwiya, as well as the god of the Nile, Hapi.
+Lunch:
+
+Enjoy a delicious lunch at a local restaurant in Luxor before continuing your tour.
+Afternoon:
+Karnak Temple:
+
+Visit the grand Karnak Temple Complex, dedicated to the Theban triad of Aman-Ra, Montu, and Mut. Constructed from 2055 BC to 100 AD, it is the largest religious complex ever built, showcasing the finest examples of ancient Egyptian architecture, such as the Hypostyle Hall and the Avenue of Sphinxes.
+Luxor Temple:
+
+Conclude your tour with a visit to Luxor Temple, located on the east bank of the Nile. Built by Amenhotep III and completed by Tutankhamun and Horemheb, the temple was further added to by Ramses II. It was a center of the festival of Opet, which celebrated the annual inundation of the Nile, ensuring fertility and prosperity for the land.
+Transfer Back to Aswan:
+
+After an enriching day in Luxor, catch the 1st class train back to Aswan and return to your hotel, concluding your Luxor day tour from Aswan.
+Meals:
+
+Lunch.
+`,
+      },
+
+    ],
+    included: [
+      "Pick-up services from your hotel in Aswan and return",
+      "1st class train ticket from Aswan to Luxor and return. ",
+      "Private Egyptologist guides during your tours. ",
+      "Entrance fees to all the mentioned sights. ",
+      "	Lunch meal during the day trip.",
+      "Mineral water on board the vehicle during the tour",
+      "All service charges and taxes. "
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
       "Tipping",
       "Optional Experiences available at an additional cost."
     ],
   },
 
 
+42: {
+    title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a captivating day trip from Aswan to the ancient temples of Edfu and Kom Ombo. This journey will take you along the divine Nile river banks, exploring the beauty, art, and history of ancient Egyptian civilization. With Marvelous Egypt Travel, the most trusted travel agency in Egypt, you will experience top-notch services including a professional tour guide and a private A/C vehicle. This tour offers an unforgettable adventure through the mesmerizing lands of Aswan, with visits to two of Egypt’s most significant temples. Book this magical day trip and witness the eternal wonders of Edfu and Kom Ombo.`,
+    reviews: "456 Reviews",
+    priceSale: "$50",
+    priceOriginal: "$50",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
+        des: `
+Morning:
+Pickup and Transfer:
+
+Begin your day with a pick-up from your hotel or Nile cruise in Aswan by your private Egyptologist guide. You will travel in a comfortable air-conditioned vehicle to Kom Ombo Temple.
+Explore Kom Ombo Temple:
+
+Located on high grounds overlooking the Nile, Kom Ombo Temple is unique due to its double entrance. Each entrance is dedicated to a different divinity: "Haroeris" with his falcon head and "Sobek" with his crocodile head. Discover the fascinating history and dual nature of this ancient temple.
+Lunch at a Local Restaurant:
+
+Enjoy a delicious lunch at a local restaurant.
+Afternoon:
+Cross the Nile to Edfu:
+
+After lunch, cross the Nile to visit Edfu Temple.
+Explore Edfu Temple:
+
+Edfu Temple is considered the best-preserved cult temple in Egypt. According to ancient Egyptian mythology, it is the place where the falcon-headed god Horus avenged his father Osiris's murder by killing Seth. Marvel at the grandeur and historical significance of this remarkable temple.
+Transfer Back to Aswan:
+
+After your tour of Edfu Temple, you will be driven back to your hotel or Nile cruise in Aswan, concluding your day trip.
+Meals:
+
+Lunch.
+`,
+      },
+
+    ],
+    included: [
+      "Pick up service from your hotel in Aswan/ Nile Cruise and return",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guides during your tours. ",
+      "Entrance fees to all the mentioned sights.",
+      "Lunch at a local restaurant. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All service charges and taxes. "
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping. ",
+      "Optional Experiences available at an additional cost. "
+    ],
+  },
 
 
 
+43: {
+    title: "Day Trip to Abu Simbel from Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a fascinating day trip from Aswan to Abu Simbel, where the monumental grandeur of ancient Egypt awaits you. This tour, provided by Marvelous Egypt Travel -the premier travel agency in Egypt- includes the expertise of a private Egyptologist guide and a comfortable, air-conditioned vehicle. Experience the breathtaking Temples of Abu Simbel, marvel at their grandeur, and delve into the rich history of ancient Egyptian civilization. Conclude your adventure with a return to your hotel or Nile river cruise, enriched by the majesty of Egypt’s past.`,
+    reviews: "165 Reviews",
+    priceSale: "$50",
+    priceOriginal: "$50",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Trip to Abu Simbel from Aswan",
+        des: `
+Pick-Up and Transfer:
 
+Begin your journey with a pickup from your hotel or Nile cruise in Aswan. Travel by private vehicle to the awe-inspiring Temples of Abu Simbel.
+Explore the Temples of Abu Simbel:
+
+The two rock-cut temples at Abu Simbel, masterpieces of ancient Egyptian architecture, were constructed during the reign of King Ramses II around 1200 B.C. The first temple is dedicated to Ramses II himself, showcasing colossal statues and intricate carvings. The second temple honors Queen Nefertari, adorned with exquisite artwork and inscriptions. Discover the grandeur of these monuments and their historical significance.
+Lunch:
+
+After visiting Abu Simbel, return to Aswan for a delightful lunch at a local restaurant.
+Transfer Back:
+
+Conclude your day with a return transfer to your hotel or Nile cruise in Aswan, ending your memorable trip to Abu Simbel.
+Meals:
+
+Lunch.
+`,
+      },
+
+    ],
+    included: [
+      "Pick up service from your hotel in Aswan/ Nile Cruise and return. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guides during your tours. ",
+      "Entrance fees to all the mentioned sights. ",
+      "Lunch at a local restaurant. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "All service charges and taxes."
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost"
+    ],
+  },
+
+
+
+// 00: {
+//     title:
+//       "",
+//     maxGuests: "Unlimited",
+//     location: "Egypt",
+//     left: "1 days",
+//     des: "",
+//     reviews: "000 Reviews",
+//     priceSale: "$000",
+//     priceOriginal: "$000",
+//     rating: 5,
+//     tourPlans: [
+//       {
+//         title: "",
+//         des: "",
+//       },
+
+//     ],
+//     included: [
+//       ""
+//     ],
+//     excluded: [
+//       ""
+//     ],
+//   },
+
+
+
+// 00: {
+//     title:
+//       "",
+//     maxGuests: "Unlimited",
+//     location: "Egypt",
+//     left: "1 days",
+//     des: "",
+//     reviews: "000 Reviews",
+//     priceSale: "$000",
+//     priceOriginal: "$000",
+//     rating: 5,
+//     tourPlans: [
+//       {
+//         title: "",
+//         des: "",
+//       },
+
+//     ],
+//     included: [
+//       ""
+//     ],
+//     excluded: [
+//       ""
+//     ],
+//   },
 
 };
 
@@ -2540,11 +3322,10 @@ if (tour) {
   `;
 } else {
   document.querySelector(".inner-heading-wrap").innerHTML = `
-    <h2 class="title">لم يتم العثور على تفاصيل الجولة.</h2>
+    <h3 class="title">404 Content Not Found To report, contact us on +201278859768</h3>
   `;
 }
 
-// دالة لتوليد النجوم بناءً على التقييم
 function generateStars(rating) {
   let starsHtml = "";
   for (let i = 0; i < rating; i++) {
