@@ -1,6 +1,5 @@
-// الحصول على المعرف من الـ URL
 const params = new URLSearchParams(window.location.search);
-const tourId = params.get("id"); // مثلا id=1
+const tourId = params.get("id"); 
 
 const tourDetails = {
   1: {
