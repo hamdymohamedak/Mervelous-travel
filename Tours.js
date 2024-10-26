@@ -3128,59 +3128,245 @@ Lunch.
 
 
 
-// 00: {
-//     title:
-//       "",
-//     maxGuests: "Unlimited",
-//     location: "Egypt",
-//     left: "1 days",
-//     des: "",
-//     reviews: "000 Reviews",
-//     priceSale: "$000",
-//     priceOriginal: "$000",
-//     rating: 5,
-//     tourPlans: [
-//       {
-//         title: "",
-//         des: "",
-//       },
+44: {
+    title:"Cairo Day Trip from El Gouna By Plane",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on an extraordinary journey from El Gouna to the heart of Cairo, where the timeless wonders of ancient Egypt await you. This Cairo Day Trip by plane, arranged by Marvelous Egypt Travel, offers unparalleled service with a professional Egyptologist tour guide and a private A/C vehicle. Visit the iconic Pyramids of Giza, the enigmatic Great Sphinx, the historical Egyptian Museum, and experience the vibrant atmosphere of Khan El Khalili Bazaar. Discover the essence of Cairo’s historical grandeur and cultural richness in a single day and return to El Gouna filled with unforgettable memories.`,
+    reviews: "000 Reviews",
+    priceSale: "$420",
+    priceOriginal: "$420",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Cairo Day Trip from El Gouna By Plane",
+        des: `
+Morning:
+Pick-Up and Transfer:
 
-//     ],
-//     included: [
-//       ""
-//     ],
-//     excluded: [
-//       ""
-//     ],
-//   },
+Begin your adventure with a transfer from your hotel in El Gouna to Hurghada airport for your flight to Cairo.
+Arrival in Cairo:
+
+Upon arrival at Cairo airport, meet your private tour guide who will accompany you throughout the day.
+Explore the Giza Pyramids Complex:
+
+Discover the colossal art of the ancient Egyptians, including the three main pyramids, six little pyramids, the Great Sphinx, and the Valley Temple.
+The Great Pyramid:
+
+Marvel at the Great Pyramid of Pharaoh Khufu, the last surviving wonder of the ancient world, standing tall at 147 meters with its intricate chambers.
+The Great Sphinx:
+
+Gaze upon the Great Sphinx, a magnificent limestone statue with the body of a lion and the head of Pharaoh Khafre, symbolizing wisdom and power.
+The Valley Temple:
+
+Visit the Valley Temple, a mortuary temple used for the mummification process of 4th dynasty pharaohs before their burial in the pyramids.
+Discover the Grand Egyptian Museum:
+
+Explore the latest addition to Egypt's rich cultural heritage, home to a vast collection of artifacts, including the Hanging Obelisk, the King Ramses II Statue, the 10 Statues of King Senusert, and more. (Note: A VIP ticket is available for additional access to exclusive artifacts.)
+Lunch at a Pyramid/Nile View Restaurant:
+
+Enjoy a delightful lunch with stunning views of the Pyramids or the Nile.
+Afternoon:
+Visit the Egyptian Museum:
+
+Tour the historic Egyptian Museum, showcasing an extensive collection of ancient Egyptian artifacts, located in the heart of Cairo since 1901 AD.
+Stroll Al Muizz Street:
+
+Wander along Al-Muizz Street, established in the 10th century AD, reflecting the golden era of Islamic Egypt and leading to the vibrant Khan El Khalili Bazaar.
+Explore Khan El Khalili Bazaar:
+
+Experience the bustling atmosphere of Khan El Khalili Bazaar, established between 1382 and 1389 AD, offering a plethora of unique artifacts and exquisite Islamic architecture.
+Evening:
+Transfer to Cairo Airport:
+
+Conclude your day with a transfer to Cairo Airport for your return flight to Hurghada.
+Return to Your Hotel:
+
+Upon arrival in Hurghada, you will be transferred back to your hotel in El Gouna, ending your Cairo day trip.
+Meals:
+
+Lunch.
+Flight:
+
+From Hurghada to Cairo and Return.
+`,
+      },
+
+    ],
+    included: [
+      "Pick-up service from your hotel in El Gouna and return. ",
+      "Domestic flight tickets from Hurghada to Cairo and return. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "Lunch at a Pyramid/Nile view restaurant. ",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes. "
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping. ",
+      "Optional Experiences available at an additional cost. "
+    ],
+  },
 
 
 
-// 00: {
-//     title:
-//       "",
-//     maxGuests: "Unlimited",
-//     location: "Egypt",
-//     left: "1 days",
-//     des: "",
-//     reviews: "000 Reviews",
-//     priceSale: "$000",
-//     priceOriginal: "$000",
-//     rating: 5,
-//     tourPlans: [
-//       {
-//         title: "",
-//         des: "",
-//       },
+45: {
+    title: "Luxor Day Trip from El Gouna",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on an unforgettable day tour from El Gouna to the ancient city of Luxor, known as the “world’s greatest open-air museum.” With Marvelous Egypt Travel, the best travel agency in Egypt, you will receive exceptional service from an experienced Egyptologist tour guide and a private A/C vehicle. Discover the marvels of the Valley of the Kings, the magnificent Hatshepsut Temple, the impressive Colossi of Memnon, and the grand Karnak Temple. Enjoy a memorable holiday experience exploring the treasures of Luxor and its rich historical heritage. Book this incredible day trip and make your time in Luxor unforgettable.`,
+    reviews: "322 Reviews",
+    priceSale: "$80",
+    priceOriginal: "$80",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor Day Trip from El Gouna",
+        des: `
+Morning:
+Pick-Up and Transfer:
 
-//     ],
-//     included: [
-//       ""
-//     ],
-//     excluded: [
-//       ""
-//     ],
-//   },
+Begin your adventure with a transfer from your hotel in El Gouna by a private A/C vehicle. Upon arrival in Luxor, start your day trip by exploring Luxor's most famous tourist attractions.
+Visit the Valley of the Kings:
+
+Explore the Valley of the Kings, located on the west bank of the Nile, within the Theban Necropolis. It houses 63 royal tombs of the Pharaohs from the 18th, 19th, and 20th dynasties of the New Kingdom (1570–1050 BC), including those of Ramses the Great, Hatshepsut, Seti I, and Tutankhamun. The valley is one of the most famous archaeological sites on earth and became a World Heritage Site in 1979.
+Explore Hatshepsut Temple:
+
+Visit the beautiful temple of Hatshepsut, carved by hand into the great mountain hills of Deir El Bahari. This temple, built in 1479 BC, honors the creator sun god Amun and showcases the magnificent heritage of one of Egypt's most successful pharaohs, Hatshepsut. It is one of the best-preserved architectural monuments in the world.
+View the Colossi of Memnon:
+
+Admire the majestic Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III, built in 1350 BC. These statues have withstood the test of time and were famous during the Greco-Roman period for their vocal phenomenon. The statues are decorated with inscriptions that tell the history of Amenhotep III, his family, and the god Hapi.
+Enjoy Lunch:
+
+Have lunch on an island, which includes a boat trip on the Nile River.
+Afternoon:
+Discover Karnak Temple:
+
+Visit the Karnak Temple complex, the largest religious complex in the world, built between 2000 BC and 30 BC. Dedicated to the Theban triad of Amun, Mut, and Khonsu, it features the Avenue of Sphinxes, the Hypostyle Hall, and a collection of carvings, paintings, and many more. This temple complex is a testament to the religious dedication of the ancient Egyptians.
+Explore Luxor Temple:
+
+The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
+Evening:
+Return to El Gouna:
+
+After exploring the wonders of Luxor, we will drive you back by a private air-conditioned vehicle to your hotel, ending your Luxor day trip from El Gouna.
+Meals:
+
+Lunch.
+`,
+      },
+
+    ],
+    included: [
+      "Pick-up service from your hotel in El Gouna and return. ",
+      "Lunch meal during the day trip. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour. ",
+      "Entrance fees to all the mentioned sights. ",
+      "Boat ride on the Nile River. ",
+      "Mineral water onboard the vehicle. ",
+      "	All service charges and taxes."
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. "
+    ],
+  },
+
+
+46: {
+    title:"2 Days Aswan and Abu Simbel Tour from El Gouna",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a splendid two-day tour from El Gouna to the majestic attractions of Aswan and Abu Simbel, showcasing the timeless wonders of southern Egypt. Marvelous Egypt Travel, the best travel agency in Egypt, ensures a comfortable and enriching experience with private A/C vehicles and professional tour guides. This tour will take you to explore Aswan’s top tourist attractions, including the High Dam, the Unfinished Obelisk, and Philae Temple, with an overnight stay at a 5-star hotel in Aswan. The next day, visit the awe-inspiring temples of Abu Simbel. Book this tour to witness the grandeur of ancient Egypt.`,
+    reviews: "360 Reviews",
+    priceSale: "$215",
+    priceOriginal: "$215",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Aswan",
+        des: `
+Pick-Up and Transfer:
+
+You will be picked up from your hotel in El Gouna by a private A/C vehicle and transferred to Luxor to catch the first-class train to Aswan. Upon arrival, you will start your Aswan tour with your private tour guide.
+Visit the Aswan High Dam:
+
+Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
+Explore the Unfinished Obelisk:
+
+This is the largest known obelisk from ancient Egypt, commissioned by Queen Hatshepsut (1508-1458 BC). The obelisk showcases the carving techniques of the ancient Egyptians and is now an open-air museum.
+Lunch Time:
+
+Enjoy lunch at a local restaurant in Aswan.
+Discover Philae Temple:
+
+Dedicated to the goddess Isis, Philae Temple was built in 280 BC during the reign of Ptolemy II. It was relocated to Agilkia Island by UNESCO to save it from the rising waters of the Nile.
+Check-in:
+
+Transfer to a 5-star hotel in Aswan for an overnight stay.
+Meals:
+
+Lunch.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Day 2 Abu Simbel",
+        des: `
+Early Morning:
+
+Enjoy breakfast as you prepare for an early start.
+Visit the Abu Simbel Temples:
+
+These temples are part of the UNESCO World Heritage Site known as the "Nubian Monuments." The temples, built by Pharaoh Ramses the Great in 1200 BC, honor Ptah, Amun, Ra, and commemorate Ramses' victory at the Battle of Kadesh and his devotion to Queen Nefertari.
+Lunch Time:
+
+Return to Aswan for lunch at a local restaurant.
+Return to El Gouna:
+
+Catch the train to Luxor and then transfer back to your hotel in El Gouna, concluding your two-day tour.
+Meals:
+
+Breakfast, Lunch.
+`,
+      },
+
+    ],
+    included: [
+      "Pick-up service from your hotel in El Gouna and return. ",
+      "2 lunch meals in Aswan. ",
+      "All transfers by a private modern air-conditioned vehicle.",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "One-night accommodation in Aswan at a 5-star Hotel. ",
+      "	Train tickets from Luxor to Aswan and return.",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes. "
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost"
+    ],
+  },
+
+
+
+
+
+
+
+
+  
 
 };
 
