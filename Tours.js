@@ -5170,83 +5170,247 @@ From Luxor to Cairo.
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  71: {
+      title:
+        "Wonderful Day Trip to Cairo From Port Said",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `Embark on a day trip to Cairo from Port Said and immerse yourself in the timeless wonders of Egypt in a truly magical and entertaining way. Marvelous Egypt Travel, one of the leading travel agencies in Egypt, provides top-notch services, including a professional Egyptologist tour guide and a private air-conditioned vehicle. Enjoy a private excursion from Port Said to Cairo, visiting the Giza Pyramids, the Great Sphinx, and the Egyptian Museum before returning to Port Said. Turn your day trip into a captivating adventure by booking this enchanting tour that delves into the rich legacy of ancient Egypt.`,
+      reviews: "426 Reviews",
+      priceSale: "$135",
+      priceOriginal: "$135",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Tour to Cairo and Giza Pyramids from Port Said",
+          des: `
+Pickup from Port Said:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo for a private guided tour of Cairo and the Pyramids from Port Said. The journey takes approximately 3 hours.
+Giza Pyramids Complex:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
+The Great Pyramid:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
+The Great Sphinx:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
+The Valley Temple:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
+
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. VIP tickets are available for access to additional artifacts; for more information, contact us.
+Lunch Time:
+
+Enjoy lunch at a restaurant with views of the Pyramids or the Nile River.
+The Egyptian Museum:
+
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Port Said:
+
+Finally, you'll be driven back to your cruise in Port Said.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up from the cruise exit door at Port Said and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during your journey.",
+        "Mineral water on board the vehicle. ",
+        "Lunch at a local restaurant during your day trip. ",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "All service charges and taxes."
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost."
+      ],
+    },
+
+  72: {
+      title:
+        "Overnight Tour to Cairo and Alexandria from Port Said and Drop Off at Alexandria Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "2 days",
+      des: `Discover Egypt with Marvelous Egypt Travel on a tailored tour from Port Said. Opt for a comprehensive 2-Day Cairo adventure, exploring iconic sites like the Giza Pyramids, the Sphinx, the Saqqara Step Pyramid, and the Egyptian Museum, with a private air-conditioned vehicle and expert guide. Alternatively, enjoy a blend of Cairo and Alexandria in two days: explore Cairo’s treasures on the first day and Alexandria’s historic gems, including the Catacombs of Kom El Shoqafa and the Bibliotheca Alexandrina, on the second. Each option ensures exceptional service and a memorable experience.`,
+      reviews: "213 Reviews",
+      priceSale: "$235",
+      priceOriginal: "$235",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Comprehensive 2-Day Cairo Adventure",
+          des: `
+Pickup from Port Said:
+
+Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo.
+
+Experience the wonders of Egypt with Marvelous Egypt Travel on a personalized 2-Day Cairo tour from Port Said. Discover the grandeur of the Giza Pyramids, marvel at the Sphinx, explore the Saqqara Step Pyramid, and delve into the rich history of the Egyptian Museum. Enjoy the comfort of a private air-conditioned vehicle and the expertise of an Egyptologist guide, ensuring a seamless and unforgettable journey through Cairo’s iconic landmarks.
+Overnights:
+
+Accommodation in Cairo at a 5-star hotel.
+Meals:
+
+1 Breakfast, 2 Lunch.
+Drop Off at Alexandria Port:
+
+Drive to Alexandria Port to board your ship.
+`,
+        },
+        {
+          title:"Cairo and Alexandria Highlights",
+          des:`
+Pickup from Port Said:
+
+Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo.
+
+Embark on a memorable 2-Day journey with Marvelous Egypt Travel, combining the best of Cairo and Alexandria. Spend the first day exploring Cairo's renowned sites, including the Giza Pyramids, the Sphinx, the Saqqara Step Pyramid, and the Egyptian Museum. On the second day, we will drive you to Alexandria in the early morning to uncover Alexandria’s historical treasures, such as the Catacombs of Kom El Shoqafa, Alexandria Library, Qaitbay Citadel and Pompey's Pillar. Enjoy exceptional service, a private air-conditioned vehicle, and expert guidance throughout your adventure.
+Overnights:
+
+Accommodation in Cairo at a 5-star hotel.
+Meals:
+
+1 Breakfast, 2 Lunch.
+Drop Off at Alexandria Port:
+
+Drive to Alexandria Port to board your ship.
+`
+        }
+
+      ],
+      included: [
+        "Pick up from Port Said and return to Alexandria Port. ",
+        "Accommodation in Cairo at a 5-star hotel. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during the 2-day trips. ",
+        "Mineral water on board the vehicle. ",
+        "2 Lunch meals during your tours. ",
+        "1 breakfast at the 5-star hotel. ",
+        "Entrance fees for all sightseeing will be visited. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  73: {
+      title:
+        "Overnight Tour to Cairo and Luxor from Port Said",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "2 days",
+      des: `Embark on a heavenly 2-day journey exploring the timeless wonders of Cairo and Luxor. Marvel at ancient Egypt’s greatest monuments with exceptional service provided by Marvelous Egypt Travel, including a private Egyptologist guide and air-conditioned transportation.`,
+      reviews: "165 Reviews",
+      priceSale: "$410",
+      priceOriginal: "$410",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Luxor’s Ancient Treasures",
+          des: `
+Pickup from Port Said:
+
+Meet your guide at Port Said and transfer to Cairo Airport for your flight to Luxor.
+Arrival in Luxor:
+
+Upon arrival, be met by your guide and start your exploration with a private air-conditioned vehicle.
+Valley of the Kings:
+
+Discover the Valley of the Kings, an ancient burial site for the most influential pharaohs of the New Kingdom. Explore tombs filled with intricate decorations and treasures of renowned rulers like Ramses II, Hatshepsut, and Tutankhamun.
+Hatshepsut Temple:
+
+Visit the stunning Temple of Hatshepsut, a mortuary temple dedicated to one of Egypt’s most successful female pharaohs. Admire its unique architecture and learn about Hatshepsut’s reign.
+Colossi of Memnon:
+
+Marvel at the colossal statues of Amenhotep III, known as the Colossi of Memnon. These imposing figures once guarded his mortuary temple and now stand as silent sentinels.
+Lunch:
+
+Enjoy lunch on a Nile island with a scenic boat trip included.
+Karnak Temple:
+
+Explore the Karnak Temple Complex, the largest religious building ever constructed. Walk through the Avenue of Sphinxes and discover the grand halls and sanctuaries dedicated to the Theban triad of Amun, Mut, and Khonsu.
+Overnight:
+
+Check-in at a 5-star hotel in Luxor. Relax and enjoy dinner at your leisure.
+Meals:
+
+Lunch.
+Flight:
+
+Cairo to Luxor.
+Overnight:
+
+Luxor Hotel.
+`,
+        },{
+          title:"Cairo’s Majestic Highlights",
+          des:`
+Breakfast:
+
+Start your day with breakfast at the hotel in Luxor.
+Flight to Cairo:
+
+Check out and catch your flight back to Cairo.
+Giza Pyramids Complex:
+
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
+The Great Pyramid:
+
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
+The Great Sphinx:
+
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
+The Valley Temple:
+
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
+
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. VIP tickets are available for access to additional artifacts; for more information, contact us.
+Lunch:
+
+Savor lunch at a restaurant with views of the Pyramids or the Nile.
+The Egyptian Museum:
+
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Port Said:
+
+After a day of exploration, transfer back to Port Said by private vehicle.
+Meals:
+
+Breakfast, Lunch.
+Flight:
+
+Luxor to Cairo.
+`
+        }
+
+      ],
+      included: [
+        "Pick-up and drop-off from Port Said. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during your journey. ",
+        "Mineral water on board the vehicle. ",
+        "2 Lunches and 1 breakfast. ",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "1 Night Accommodation in Luxor at a 5-star hotel. ",
+        "Flights from Cairo to Luxor and return. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost."
+      ],
+    },
 
   // 00: {
   //     title:
