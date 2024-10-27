@@ -6313,31 +6313,69 @@ Optional Upgrade: Hurghada to Cairo flight
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  85: {
+      title:"Cairo Luxury Hotel Retreat",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "4 days",
+      des: "Cairo, the vibrant capital of Egypt, offers a captivating blend of ancient history and modern-day charm. This concise tour provides a glimpse into the city's iconic landmarks, including the Pyramids of Giza, the Sphinx, and the Egyptian Museum. It's perfect for those with limited time or those who have previously explored other parts of Egypt.",
+      reviews: "722 Reviews",
+      priceSale: "$1010",
+      priceOriginal: "$1010",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Upon arrival at Cairo International Airport, our representative will assist you before transferring you to your selected hotel. Settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+`,
+        },{
+          title:"Day 2: Cairo - Pyramids, Sphinx, and Museum Tour",
+          des:`Start your adventure with a visit to the iconic Pyramids of Giza, where your private Egyptologist guide will share insights about these ancient wonders. Continue to the majestic Sphinx, standing guard over the Pyramids.
+Next, explore the Egyptian Museum in Tahrir Square, home to an extensive collection of Pharaonic treasures, including stunning artifacts and mummies. After a day of exploration, your private driver will return you to your hotel.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 3: Free Day in Cairo with Optional Tours",
+          des:`Enjoy a flexible day in Cairo to explore at your leisure or join guided tours. Discover Old Islamic Cairo with its vibrant markets and historic mosques, or opt for a guided walking tour for a deeper experience.
+Additional tours include visits to the Citadel, Coptic Cairo, and the Egyptian Museum, or explore the pyramid sites of Memphis, Saqqara, and Dashour. For an extended adventure, consider a flight to Luxor for an overnight tour, including visits to Karnak Temple and the Valley of the Kings.
+Overnight: Boutique Hotel in Cairo
+Meals: Breakfast
+Optional Extras: Alexandria Day Trip, Saqqara, Dashour & Memphis Tours, Overnight Trip to Luxor
+`
+        },{
+          title:"Day 4: Free Day in Cairo, Departure Transfer",
+          des:`Enjoy your final day in Cairo for last-minute sightseeing or shopping. If time permits, consider a half-day tour of Coptic Cairo and the Citadel or explore the pyramid sites.
+You may also extend your stay to include day trips to Alexandria or the Valley of the Whales at Wadi Rayan. We are here to accommodate your preferences for a memorable conclusion to your journey.
+Overnight: N/A
+Meals: Breakfast
+Optional Extras: Alexandria Day Trip, Cairo City Tour, Saqqara, Dashour & Memphis, Extra Night in Cairo
+`
+        }
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+      ],
+      included: [
+        "Luxurious accommodations at 5-star hotels",
+        "All transport and transfers in private AC vehicles",
+        "Airport arrival and departure meet and assist",
+        "Daily breakfast starting from the second day",
+        "All service charges and taxes",
+        "Guided Pyramids and Sphinx Tour with Egyptologist"
+      ],
+      excluded: [
+        "International flights",
+        "Egypt visa fees",
+        "Travel insurance",
+        "Meals not mentioned in the inclusions",
+        "Personal expenses",
+        "Optional trips or unmentioned items (available upon request)",
+        "Entrance fees to sites visited",
+        "Tips for service providers",
+        "Hotel gala dinners on December 24 and/or 31"
+      ],
+    },
 
   // 00: {
   //     title:
