@@ -6675,31 +6675,118 @@ Extras: Alexandria day trip, Saqqara, Dashour & Memphis tours, Khan-el-Khalili b
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  89: {
+      title:"Nabateans and Nubians",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "15 days",
+      des: `Embark on an extraordinary journey through the ancient wonders of Egypt and Jordan. This 15-day adventure offers a blend of history, culture, and natural beauty, showcasing the iconic landmarks of both countries.`,
+      reviews: "710 Reviews",
+      priceSale: "$3560",
+      priceOriginal: "$3560",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Begin your adventure by arriving at Cairo International Airport and transferring to your hotel for a relaxing evening. Overnight: Cairo Hotel Meals: None Extras: None`,
+        },{
+          title:"Day 2: Cairo City Tour and Sleeper Train",
+          des:`Explore the iconic Pyramids of Giza and the enigmatic Sphinx, followed by a visit to the Egyptian Museum. In the evening, embark on an overnight sleeper train to Aswan.
+Overnight: Sleeper train Meals: Breakfast, Dinner Extras: Cairo to Aswan flight upgrade
+`
+        },{
+          title:"Day 3: Aswan Highlights",
+          des:`Discover the vibrant Nubian culture in Aswan, a city steeped in history and tradition. Visit a local Nubian village and explore the enchanting Temple of Philae.
+Overnight: Aswan 5-star hotel Meals: Breakfast, Lunch Extras: None`
+        },{
+          title:"Day 4: Abu Simbel (Optional) and Nile Felucca Cruise",
+          des:`Choose to witness the breathtaking Abu Simbel Temples, a testament to the architectural prowess of ancient Egypt. Embark on a relaxing Nile felucca cruise, gliding along the serene river and enjoying the hospitality of the Nubian crew.
+Overnight: On board felucca or Aswan 5-star hotel (optional upgrade) Meals: Breakfast, Dinner, Lunch Extras: Abu Simbel overland, Upgrade from felucca to hotel in Aswan
+`
+        },{
+          title:"Day 5: Edfu Temple and Luxor Temple",
+          des:`Explore the ancient Edfu Temple, dedicated to the falcon-headed god Horus. Continue your journey to Luxor, the "world's greatest open-air museum." Enjoy a night tour of the illuminated Luxor Temple.
+Overnight: Luxor 5-star hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 6: Luxor West Bank Tour and Karnak Temple",
+          des:`Discover the mysteries of the Valley of the Kings, where pharaohs were buried. Visit the magnificent Temple of Queen Hatshepsut and the awe-inspiring Colossi of Memnon. Immerse yourself in the grandeur of the Karnak Temple, once the religious epicenter of Thebes.
+Overnight: Luxor 5-star hotel Meals: Breakfast Extras: Hot air balloon in Luxor (optional)
+`
+        },{
+          title:"Day 7: Cairo City Tour and Khan el-Khalili Bazaar",
+          des:`Return to Cairo for a city tour (optional) to explore Coptic Cairo, the Citadel, and Mohamed Ali Mosque. Wander through the vibrant Khan el-Khalili Bazaar, a bustling marketplace filled with colorful souvenirs and traditional Egyptian crafts.
+Overnight: Cairo hotel Meals: Breakfast Extras: Cairo city tour, Wadi Rayan day tour (Valley of the Whales), Saqqara, Dashour and Memphis
+`
+        },{
+          title:"Day 8: Drive to Dahab",
+          des:`Embark on a scenic drive through the Sinai Peninsula to the picturesque town of Dahab, renowned for its bohemian atmosphere and stunning beaches.
+Overnight: Dahab hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 9: Free Day in Dahab",
+          des:`Indulge in a variety of activities in Dahab, from snorkeling and diving to relaxing on the beach. Explore nearby attractions like Ras Abu Galum, the Blue Hole, or the Colored Canyon.
+Overnight: Dahab hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 10: Ferry to Jordan and Wadi Rum",
+          des:`Take a ferry from Taba to Aqaba, Jordan. Immerse yourself in the breathtaking desert landscapes of Wadi Rum and spend the night in a comfortable Bedouin camp.
+Overnight: Wadi Rum Bedouin Camp Meals: Breakfast, Dinner Extras: None
+`
+        },{
+          title:"Day 11: Wadi Rum Jeep Safari and Bedouin Experience",
+          des:`Embark on an adventurous jeep safari through the dramatic desert scenery of Wadi Rum. Experience Bedouin traditions and learn about their nomadic lifestyle.
+Overnight: Wadi Rum Bedouin Camp Meals: Breakfast, Lunch Extras: None
+`
+        },{
+          title:"Day 12: Petra Exploration",
+          des:`Discover the ancient city of Petra, a UNESCO World Heritage site. Hike to Little Petra and marvel at the iconic Treasury, a masterpiece of Nabataean architecture.
+Overnight: Petra hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 13: Wadi Mujib Siq Trail and Dead Sea",
+          des:`Hike through the Wadi Mujib canyon, a natural wonder filled with waterfalls and pools. Relax at a Dead Sea resort, floating in the buoyant waters.
+Overnight: Dead Sea hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 14: Madaba, Mount Nebo, and Jerash",
+          des:`Visit the mosaic-filled town of Madaba and ascend Mount Nebo, the traditional burial place of Moses. Explore the ancient Roman city of Jerash, known for its well-preserved ruins.
+Overnight: Amman hotel Meals: Breakfast Extras: None
+`
+        },{
+          title:"Day 15: Amman Free Time and Departure",
+          des:`Enjoy your final day in Amman, exploring the city or relaxing before your departure. Transfer to the airport for your flight home.
+Overnight: N/A Meals: N/A Extras: N/A
+`
+        }
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+      ],
+      included: [
+        "10 nights in 3, 4, and 5-star hotels",
+        "1 night on a felucca sailboat (hotel upgrade available)",
+        "2 nights aboard a sleeper train (flight upgrade available)",
+        "1 night in a comfortable tent at a Bedouin camp",
+        "24-hour airport transfer service",
+        "Private air-conditioned transportation",
+        "Sightseeing tours as per the itinerary",
+        "4x4 jeep safari and Bedouin experience",
+        "Tour guide in Jordan",
+        "International ferry voyage",
+        "Egyptologist guides",
+        "Meals as indicated in the itinerary"
+      ],
+      excluded: [
+        "International flights",
+        "Visa fees",
+        "Entrance fees to sites",
+        "Tipping/gratuities",
+        "Travel insurance",
+        "Meals not mentioned",
+        "Hotel gala dinners",
+        "Personal expenses",
+        "Additional activities (available upon request)"
+      ],
+    },
 
   // 00: {
   //     title:
