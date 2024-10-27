@@ -6130,31 +6130,93 @@ Meals: Breakfast
     ],
   },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  83: {
+      title:"Nile Family Adventure",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "9 days",
+      des: `Embark on an unforgettable journey through Egypt with the Nile Family Adventure, tailored for families and children seeking an engaging and educational experience. This 9-day tour highlights the wonders of ancient Egypt, from the iconic Pyramids and the Sphinx to the captivating Egyptian Museum, where history comes alive. Engage in exciting activities such as camel rides and traditional felucca sailing. With the expertise of local guides trained in family-friendly tours, you will explore Egypt’s rich cultural heritage while enjoying a comfortable and memorable vacation.`,
+      reviews: "756 Reviews",
+      priceSale: "$2050",
+      priceOriginal: "$2050",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Arrive at Cairo International Airport, where our representative will assist you with customs and transfer you to your hotel. Settle in and relax after your journey.
+Overnight: Cairo Hotel
+Meals: None
+`,
+        },{
+          title:"Day 2: Pyramids with Camel Ride, Sphinx & Museum Tour, Train to Aswan",
+          des:`Explore the Pyramids and Sphinx in Giza, followed by a camel ride for a fun family experience. Visit the Egyptian Museum, focusing on the Tutankhamun exhibit. In the evening, board an overnight sleeper train to Aswan.
+Overnight: Onboard train
+Meals: Breakfast, Dinner
+`
+        },{
+          title:"Day 3: Aswan - Philae Temple and School Visit",
+          des:`Arrive in Aswan and enjoy a boat tour to Philae Temple. If school is in session, participate in an enjoyable language class with local children. Later, savor a traditional Nubian meal.
+Overnight: Aswan Hotel
+Meals: Breakfast, Lunch
+`
+        },{
+          title:"Day 4: Abu Simbel Option, Nile Felucca Cruise",
+          des:`Option to visit Abu Simbel at sunrise. Alternatively, spend the morning at leisure. In the afternoon, embark on a felucca cruise along the Nile, enjoying the scenery and local life. Sleep under the stars on the deck of the felucca.
+Overnight: Onboard felucca
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 5: Drive to Luxor, Felucca Sailboat Cruise",
+          des:`Continue sailing down the Nile, then proceed to Luxor, where you’ll check into your hotel. Enjoy the remainder of the day at leisure.
+Overnight: Luxor Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 6: Luxor - Half-Day West Bank Tour (Hot Air Balloon Option)",
+          des:`Option for an early morning hot air balloon flight. Visit the Valley of the Kings and Queen Hatshepsut’s temple, then relax at your hotel or explore Luxor.
+Overnight: Luxor Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 7: Karnak Temple, Free Time, Train to Cairo",
+          des:`Explore Karnak Temple in the morning. Enjoy the afternoon at leisure in Luxor before boarding the overnight sleeper train back to Cairo.
+Overnight: Onboard train
+Meals: Breakfast
+`
+        },{
+          title:"Day 8: Arrive Cairo & City Tour",
+          des:`Upon returning to Cairo, visit the Citadel and Khan-el-Khalili bazaar. Enjoy lunch at a traditional Koshari eatery, followed by a farewell dinner with your guide and group.
+Overnight: Cairo Hotel
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 9: Cairo - Transfer to the Airport",
+          des:`Enjoy some free time in Cairo until your departure transfer to the airport. Optional extensions include beach time at the Red Sea or excursions to Alexandria or Wadi Rayan.
+Meals: Breakfast
+`
+        }
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+      ],
+      included: [
+        "Accommodation in 4 & 5-star hotels and resorts",
+        "Meal plan as mentioned in the itinerary",
+        "24-hour airport arrival and departure transfer service",
+        "All transfers mentioned in the itinerary",
+        "Local Egyptologist guides for all sightseeing excursions",
+        "2 nights aboard a sleeper train (Cairo to Aswan and Luxor to Cairo; flight upgrade available)",
+        "Entrance fees to all mentioned sites"
+      ],
+      excluded: [
+        "International flights (available upon inquiry)",
+        "Egypt visa fees (available upon arrival for most nationalities, approx. US$25)",
+        "Travel insurance",
+        "Meals not mentioned in the inclusions",
+        "Personal expenses such as drinks, laundry, etc.",
+        "Hotel gala dinners on 24 and/or 31 Dec",
+        "Any other services/items not listed above",
+        "Sleeping bag for the felucca (recommended for Nov-Feb)"
+      ],
+    },
 
   // 00: {
   //     title:
