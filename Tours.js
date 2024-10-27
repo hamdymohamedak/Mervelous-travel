@@ -5710,245 +5710,325 @@ Meals: Breakfast
       "Personal expenses such as drinks, laundry, etc.",
       "Additional activities or unmentioned items (available upon inquiry).",
       "Entry to any of the Pyramids or Mummy room in the Egyptian Museum (can be arranged with the tour guide on the spot).",
-
     ],
   },
 
   79: {
-      title:"Discover Egypt",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "10 days",
-      des: `Embark on an unforgettable journey through Egypt with our comprehensive private tour. Discover the rich history and captivating sights of Cairo, the stunning Nile Valley, and the pristine shores of the Red Sea at Hurghada. Begin your adventure with visits to the iconic Pyramids and Sphinx at Giza, guided by knowledgeable Egyptologists. Explore the vast Egyptian Museum, housing a treasure trove of artifacts, including the famous King Tutankhamun exhibit. Experience a scenic overnight cruise along the Nile aboard a traditional felucca sailboat and delve into the wonders of Luxor, including the Valley of the Kings and the impressive Karnak Temple. Conclude your journey with relaxation at a blissful beach resort in Hurghada before returning to Cairo for some last-minute exploration.`,
-      reviews: "712 Reviews",
-      priceSale: "$1970",
-      priceOriginal: "$1970",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1: Arrival in Cairo",
-          des: `Arrive at Cairo International Airport, where our representative will greet you before customs and assist you with any needs. After the formalities, you’ll be transferred to your chosen hotel. Take the remainder of the day to relax and acclimatize to the vibrant city of Cairo. Enjoy the hotel’s amenities or explore the local area at your leisure.
+    title: "Discover Egypt",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "10 days",
+    des: `Embark on an unforgettable journey through Egypt with our comprehensive private tour. Discover the rich history and captivating sights of Cairo, the stunning Nile Valley, and the pristine shores of the Red Sea at Hurghada. Begin your adventure with visits to the iconic Pyramids and Sphinx at Giza, guided by knowledgeable Egyptologists. Explore the vast Egyptian Museum, housing a treasure trove of artifacts, including the famous King Tutankhamun exhibit. Experience a scenic overnight cruise along the Nile aboard a traditional felucca sailboat and delve into the wonders of Luxor, including the Valley of the Kings and the impressive Karnak Temple. Conclude your journey with relaxation at a blissful beach resort in Hurghada before returning to Cairo for some last-minute exploration.`,
+    reviews: "712 Reviews",
+    priceSale: "$1970",
+    priceOriginal: "$1970",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Arrive at Cairo International Airport, where our representative will greet you before customs and assist you with any needs. After the formalities, you’ll be transferred to your chosen hotel. Take the remainder of the day to relax and acclimatize to the vibrant city of Cairo. Enjoy the hotel’s amenities or explore the local area at your leisure.
 Overnight: Cairo Hotel
 Meals: None
 `,
-        },{
-          title:"Day 2: Cairo - Pyramids, Sphinx & Museum Tour with Sleeper Train",
-          des:`After breakfast, begin your day with a visit to the Giza Plateau, home to the iconic Pyramids of Giza and the Great Sphinx. Your expert Egyptologist will provide insights into the history and construction of these ancient wonders. Explore the interior of one of the pyramids if you choose, and marvel at the Great Pyramid of Khufu, a testament to ancient engineering.
+      },
+      {
+        title:
+          "Day 2: Cairo - Pyramids, Sphinx & Museum Tour with Sleeper Train",
+        des: `After breakfast, begin your day with a visit to the Giza Plateau, home to the iconic Pyramids of Giza and the Great Sphinx. Your expert Egyptologist will provide insights into the history and construction of these ancient wonders. Explore the interior of one of the pyramids if you choose, and marvel at the Great Pyramid of Khufu, a testament to ancient engineering.
 Next, head to the Egyptian Museum, where you can view an extensive collection of ancient artifacts, including the treasures of Tutankhamun. After your museum visit, enjoy a traditional Egyptian lunch at a local restaurant.
 In the evening, transfer to the railway station for your overnight sleeper train to Aswan. Settle into your private twin-berth compartment and enjoy dinner on board before a restful night’s sleep as the train journeys south.
 
 Overnight: Sleeper train
 Meals: Breakfast, Dinner
-`
-        },{
-          title:"Day 3: Aswan - Nubian Village and Philae Temple",
-          des:`Arrive in Aswan, where you’ll be greeted and transferred to your hotel overlooking the picturesque Nile River. Enjoy breakfast at the hotel before setting out for a cultural experience.
+`,
+      },
+      {
+        title: "Day 3: Aswan - Nubian Village and Philae Temple",
+        des: `Arrive in Aswan, where you’ll be greeted and transferred to your hotel overlooking the picturesque Nile River. Enjoy breakfast at the hotel before setting out for a cultural experience.
 Visit a local Nubian village, where you can interact with the friendly residents, learn about their unique culture and customs, and savor a traditional Nubian lunch prepared by a local family.
 In the afternoon, embark on a boat ride to the stunning Temple of Philae, dedicated to the goddess Isis. Explore this beautifully preserved temple, which was rescued from the rising waters of Lake Nasser.
 As evening falls, feel free to wander through Aswan’s vibrant spice markets or relax along the Nile Corniche. You may also opt for a camel ride to St. Simeon’s Monastery, perched on the opposite bank of the river.
 
 : Aswan 5-star hotel
 Meals: Breakfast, Lunch
-`
-        },{
-          title:"Day 4: Abu Simbel Option - Nile Felucca Cruise",
-          des:`This morning, you have the option to visit the UNESCO World Heritage site of Abu Simbel, where the impressive temples built by Ramses II stand. Depart early to witness the sunrise over these magnificent structures.
+`,
+      },
+      {
+        title: "Day 4: Abu Simbel Option - Nile Felucca Cruise",
+        des: `This morning, you have the option to visit the UNESCO World Heritage site of Abu Simbel, where the impressive temples built by Ramses II stand. Depart early to witness the sunrise over these magnificent structures.
 For those not visiting Abu Simbel, enjoy a leisurely morning in Aswan. After lunch, board a traditional Nile felucca for an unforgettable afternoon sail along the river. Relax as you glide past lush landscapes and traditional villages, with your friendly Nubian crew preparing meals and providing entertainment.
 The support boat will accompany you, equipped with clean facilities and a hygienic kitchen. Spend the night sleeping under the stars on the deck of the felucca, with mattresses, blankets, and mosquito nets provided.
 
 Overnight: Onboard felucca
 Meals: Breakfast, Lunch, Dinner
-`
-        },{
-          title:"Day 5: Edfu Temple, Luxor Temple at Night",
-          des:`After breakfast on the felucca, enjoy a morning visit to the nearby Edfu Temple, one of the best-preserved temples in Egypt, dedicated to the falcon god Horus. Marvel at its towering pylon and intricate hieroglyphs.
+`,
+      },
+      {
+        title: "Day 5: Edfu Temple, Luxor Temple at Night",
+        des: `After breakfast on the felucca, enjoy a morning visit to the nearby Edfu Temple, one of the best-preserved temples in Egypt, dedicated to the falcon god Horus. Marvel at its towering pylon and intricate hieroglyphs.
 Continue your journey north to Luxor, often referred to as the world’s greatest open-air museum. Check into a luxurious 5-star hotel and take some time to relax by the pool or explore the hotel’s facilities.
 In the evening, embark on a guided walking tour of the Luxor Temple, which is beautifully illuminated at night. Enjoy a leisurely stroll through its grand courtyard and take in the stunning architecture that dates back to the time of the Pharaohs.
 
 Overnight: Luxor 5-star hotel
 Meals: Breakfast
-`
-        },{
-          title:"Day 6: Luxor - West Bank Tour, Karnak Temple",
-          des:`Rise early to cross the Nile for a full day exploring Luxor’s West Bank. Visit the Valley of the Kings, where the tombs of ancient Pharaohs are hidden within the mountains. Enter several tombs, including that of Tutankhamun (if available), and witness the stunning artwork that has withstood the test of time.
+`,
+      },
+      {
+        title: "Day 6: Luxor - West Bank Tour, Karnak Temple",
+        des: `Rise early to cross the Nile for a full day exploring Luxor’s West Bank. Visit the Valley of the Kings, where the tombs of ancient Pharaohs are hidden within the mountains. Enter several tombs, including that of Tutankhamun (if available), and witness the stunning artwork that has withstood the test of time.
 Continue to the Temple of Queen Hatshepsut, a remarkable mortuary temple built in honor of one of Egypt's most powerful female pharaohs. Explore the intricate reliefs that depict her life and achievements.
 After lunch, visit the Colossi of Memnon, two enormous statues of Pharaoh Amenhotep III, standing sentinel over the desert landscape.
 In the afternoon, return to the East Bank to explore the expansive Karnak Temple complex, dedicated to the god Amun. Walk through the massive Hypostyle Hall with its towering columns and learn about the significance of this sacred site in ancient Egyptian religion.
 
 Overnight: Luxor 5-star hotel
 Meals: Breakfast
-`
-        },{
-          title:"Day 7: Luxor to the Red Sea at Hurghada",
-          des:`After a leisurely breakfast, bid farewell to Luxor and travel to the coastal resort town of Hurghada, known for its stunning beaches and vibrant marine life. Upon arrival, check into your luxurious 5-star resort.
+`,
+      },
+      {
+        title: "Day 7: Luxor to the Red Sea at Hurghada",
+        des: `After a leisurely breakfast, bid farewell to Luxor and travel to the coastal resort town of Hurghada, known for its stunning beaches and vibrant marine life. Upon arrival, check into your luxurious 5-star resort.
 Enjoy the afternoon relaxing by the beach or pool, and take advantage of the resort’s amenities. If you’re feeling adventurous, consider booking optional water sports activities such as snorkeling or diving to explore the colorful coral reefs of the Red Sea.
 
 Overnight: Hurghada 5-star resort
 Meals: Breakfast, Lunch, Dinner
-`
-        },{
-          title:"Day 8: Free Day in Hurghada",
-          des:`Today is yours to enjoy at your leisure. Relax by the beach, partake in thrilling water sports, or explore the local area. Options include windsurfing, kite surfing, glass-bottomed submarine tours, quad biking, camel rides, or sea fishing trips.
+`,
+      },
+      {
+        title: "Day 8: Free Day in Hurghada",
+        des: `Today is yours to enjoy at your leisure. Relax by the beach, partake in thrilling water sports, or explore the local area. Options include windsurfing, kite surfing, glass-bottomed submarine tours, quad biking, camel rides, or sea fishing trips.
 For those interested in a cultural experience, you can also visit Hurghada’s interesting marina or venture into the nearby desert. Our local representative will be available to assist with any arrangements you wish to make.
 
 Overnight: Hurghada 5-star resort
 Meals: Breakfast, Lunch, Dinner
-`
-        },{
-          title:"Day 9: Transfer from Hurghada to Cairo",
-          des:`After breakfast, enjoy a scenic drive back to Cairo. The journey takes approximately 5 hours, and along the way, you'll have the chance to admire the changing landscapes of Egypt.
+`,
+      },
+      {
+        title: "Day 9: Transfer from Hurghada to Cairo",
+        des: `After breakfast, enjoy a scenic drive back to Cairo. The journey takes approximately 5 hours, and along the way, you'll have the chance to admire the changing landscapes of Egypt.
 Upon arrival in Cairo, check into your hotel and spend the afternoon at your leisure. In the evening, consider joining a guided walking tour of Old Cairo. Explore the bustling bazaars, including Khan-el-Khalili, where you can shop for souvenirs and local handicrafts. Stop for a refreshing mint tea or try a shisha pipe at a local café, immersing yourself in the vibrant atmosphere of this historic district.
 
 Overnight: Cairo 5-star hotel
 Meals: Breakfast
-`
-        },{
-          title:"Day 10: Cairo - Free Time & Departure",
-          des:`On your final day, enjoy breakfast at the hotel and take advantage of your free time for last-minute shopping or sightseeing. If time permits, consider joining an optional half-day tour of Coptic Cairo and the Citadel, or explore the step pyramids at Saqqara, Dashour, and Memphis.
+`,
+      },
+      {
+        title: "Day 10: Cairo - Free Time & Departure",
+        des: `On your final day, enjoy breakfast at the hotel and take advantage of your free time for last-minute shopping or sightseeing. If time permits, consider joining an optional half-day tour of Coptic Cairo and the Citadel, or explore the step pyramids at Saqqara, Dashour, and Memphis.
 Depending on your flight schedule, our team will arrange your transfer to Cairo International Airport for your departure flight, ensuring your journey ends smoothly.
 
 Meals: Breakfast
 Extras: Optional day trips available
-`
-        }
-
-      ],
-      included: [
-        "7 nights’ accommodation in 5-star hotels",
-        "1 night on a felucca sailboat (option to upgrade to a hotel)",
-        "1 night on a sleeper train from Cairo to Aswan (option to upgrade to a flight)",
-        "All transportation and transfers provided in private air-conditioned vehicles",
-        "A 24-hour airport arrival and departure transfer service",
-        "Guided sightseeing tours as specified in the itinerary",
-        "Meals as indicated in the itinerary",
-        "The expertise of local Egyptologist guides for all sightseeing excursions"
-      ],
-      excluded: [
-        "International flights (available upon inquiry)",
-        "Entry visa to Egypt",
-        "Travel insurance",
-        "Meals not mentioned in the inclusions",
-        "Entrance fees to sites visited",
-        "Tipping/Gratuity",
-        "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
-        "Hotel gala dinners on December 24 and/or 31"
-      ],
-    },
+`,
+      },
+    ],
+    included: [
+      "7 nights’ accommodation in 5-star hotels",
+      "1 night on a felucca sailboat (option to upgrade to a hotel)",
+      "1 night on a sleeper train from Cairo to Aswan (option to upgrade to a flight)",
+      "All transportation and transfers provided in private air-conditioned vehicles",
+      "A 24-hour airport arrival and departure transfer service",
+      "Guided sightseeing tours as specified in the itinerary",
+      "Meals as indicated in the itinerary",
+      "The expertise of local Egyptologist guides for all sightseeing excursions",
+    ],
+    excluded: [
+      "International flights (available upon inquiry)",
+      "Entry visa to Egypt",
+      "Travel insurance",
+      "Meals not mentioned in the inclusions",
+      "Entrance fees to sites visited",
+      "Tipping/Gratuity",
+      "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
+      "Hotel gala dinners on December 24 and/or 31",
+    ],
+  },
 
   80: {
-      title: "Egypt Express",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "8 days",
-      des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
-      reviews: "000 Reviews",
-      priceSale: "$1,090",
-      priceOriginal: "$1,090",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1: Arrival in Cairo",
-          des: `Arrive at Cairo International Airport, where you'll be met before customs for assistance. Transfer to your hotel for check-in and relaxation.
+    title: "Egypt Express",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
+    reviews: "000 Reviews",
+    priceSale: "$1,090",
+    priceOriginal: "$1,090",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Arrive at Cairo International Airport, where you'll be met before customs for assistance. Transfer to your hotel for check-in and relaxation.
 Overnight: Cairo Hotel
 Meals: None
 `,
-        },{
-          title:"Day 2: Discover the Pyramids, Sphinx, and Saqqara – Sleeper Train to Aswan",
-          des:`Your private guide will meet you at your hotel for a full-day tour exploring the Great Pyramids of Giza, the Sphinx, and the Saqqara Step Pyramid. Capture stunning photos and enjoy a camel ride through the desert (optional). In the evening, board an overnight sleeper train to Aswan.
+      },
+      {
+        title:
+          "Day 2: Discover the Pyramids, Sphinx, and Saqqara – Sleeper Train to Aswan",
+        des: `Your private guide will meet you at your hotel for a full-day tour exploring the Great Pyramids of Giza, the Sphinx, and the Saqqara Step Pyramid. Capture stunning photos and enjoy a camel ride through the desert (optional). In the evening, board an overnight sleeper train to Aswan.
 Overnight: Sleeper Train
 Meals: Breakfast, Dinner
-`
-        },{
-          title:"Day 3: Arrive in Aswan – Philae Temple & Nubian Village",
-          des:`Arrive in Aswan and visit the breathtaking Philae Temple, followed by an exploration of a local Nubian village. Experience their culture firsthand while staying in a charming guesthouse.
+`,
+      },
+      {
+        title: "Day 3: Arrive in Aswan – Philae Temple & Nubian Village",
+        des: `Arrive in Aswan and visit the breathtaking Philae Temple, followed by an exploration of a local Nubian village. Experience their culture firsthand while staying in a charming guesthouse.
 Overnight: Nubian Guesthouse in Aswan
 Meals: None
-`
-        },{
-          title:"Day 4: Abu Simbel (Optional) & Nile Felucca Cruise",
-          des:`Enjoy an optional morning visit to Abu Simbel, a UNESCO World Heritage Site, or free time in Aswan. Embark on an afternoon felucca sailboat cruise down the Nile, enjoying meals and entertainment from the Nubian crew. Option to upgrade to a hotel for more comfort.
+`,
+      },
+      {
+        title: "Day 4: Abu Simbel (Optional) & Nile Felucca Cruise",
+        des: `Enjoy an optional morning visit to Abu Simbel, a UNESCO World Heritage Site, or free time in Aswan. Embark on an afternoon felucca sailboat cruise down the Nile, enjoying meals and entertainment from the Nubian crew. Option to upgrade to a hotel for more comfort.
 Overnight: Onboard Felucca
 Meals: Breakfast, Lunch, Dinner
 Extras: Abu Simbel Tour, Felucca to Hotel Upgrade
-`
-        },{
-          title:"Day 5: Edfu Temple & Arrival in Luxor",
-          des:`After breakfast on the felucca, visit Edfu Temple before continuing to Luxor, home to some of the world’s most famous ancient ruins. In the evening, enjoy an optional tour of the beautifully lit Luxor Temple.
+`,
+      },
+      {
+        title: "Day 5: Edfu Temple & Arrival in Luxor",
+        des: `After breakfast on the felucca, visit Edfu Temple before continuing to Luxor, home to some of the world’s most famous ancient ruins. In the evening, enjoy an optional tour of the beautifully lit Luxor Temple.
 Overnight: Luxor Hotel (4-star)
 Meals: Breakfast
 Extras: Luxor Temple at Night
-`
-        },{
-          title:"Day 6: Luxor West Bank – Valley of the Kings, Temple of Hatshepsut, Colossi of Memnon",
-          des:`Today, explore Luxor's West Bank, including the Valley of the Kings, the Temple of Queen Hatshepsut, and the Colossi of Memnon. Option to visit Karnak Temple or take a hot air balloon ride. In the evening, board the overnight train back to Cairo.
+`,
+      },
+      {
+        title:
+          "Day 6: Luxor West Bank – Valley of the Kings, Temple of Hatshepsut, Colossi of Memnon",
+        des: `Today, explore Luxor's West Bank, including the Valley of the Kings, the Temple of Queen Hatshepsut, and the Colossi of Memnon. Option to visit Karnak Temple or take a hot air balloon ride. In the evening, board the overnight train back to Cairo.
 Overnight: Sleeper Train
 Meals: Breakfast
 Extras: Hot Air Balloon, Karnak Temple Tour, Sleeper Train Upgrade
-`
-        },{
-          title:"Day 7: Cairo Optional Tours",
-          des:`Arrive back in Cairo and enjoy free time or opt for additional tours, including a city tour to Coptic Cairo, Citadel, and Mohamed Ali Mosque, or a trip to Saqqara, Dashour, and Memphis.
+`,
+      },
+      {
+        title: "Day 7: Cairo Optional Tours",
+        des: `Arrive back in Cairo and enjoy free time or opt for additional tours, including a city tour to Coptic Cairo, Citadel, and Mohamed Ali Mosque, or a trip to Saqqara, Dashour, and Memphis.
 Overnight: Cairo Hotel (3-star)
 Meals: None
 Extras: Cairo City Tour, Alexandria Day Trip, Saqqara/Dashour/Memphis
-`
-        },{
-          title:"Day 8: Cairo City Tour or Departure",
-          des:`Your final day is free for last-minute sightseeing or shopping before your transfer to the airport. We recommend a visit to the Egyptian Museum if time allows.
+`,
+      },
+      {
+        title: "Day 8: Cairo City Tour or Departure",
+        des: `Your final day is free for last-minute sightseeing or shopping before your transfer to the airport. We recommend a visit to the Egyptian Museum if time allows.
 Overnight: N/A
 Meals: Breakfast
 Extras: Saqqara/Dashour/Memphis Tour, Extra Night in Cairo
-`
-        }
+`,
+      },
+    ],
+    included: [
+      "3 nights’ accommodation in 3 to 4-star hotels",
+      "1 night in a Nubian guesthouse in Aswan",
+      "1 night on a felucca sailboat cruise with support boat",
+      "2 nights aboard a sleeper train (upgrade options available)",
+      "All transport and transfers in private AC vehicles",
+      "24-hour airport transfer service",
+      "Local Egyptologist guides for all excursions",
+      "Meal plan as outlined in the itinerary",
+    ],
+    excluded: [
+      "International flights (available upon inquiry)",
+      "Visa fees (approx. US$25 upon arrival for most nationalities)",
+      "Travel insurance",
+      "Meals not mentioned in inclusions",
+      "Entrance fees to sites visited",
+      "Personal expenses (telephone calls, laundry, drinks, etc.)",
+      "Christmas and New Year Gala Dinners (to be advised)",
+      "Additional activities or unmentioned items",
+    ],
+  },
 
-      ],
-      included: [
-        "3 nights’ accommodation in 3 to 4-star hotels",
-        "1 night in a Nubian guesthouse in Aswan",
-        "1 night on a felucca sailboat cruise with support boat",
-        "2 nights aboard a sleeper train (upgrade options available)",
-        "All transport and transfers in private AC vehicles",
-        "24-hour airport transfer service",
-        "Local Egyptologist guides for all excursions",
-        "Meal plan as outlined in the itinerary"
-      ],
-      excluded: [
-        "International flights (available upon inquiry)",
-        "Visa fees (approx. US$25 upon arrival for most nationalities)",
-        "Travel insurance",
-        "Meals not mentioned in inclusions",
-        "Entrance fees to sites visited",
-        "Personal expenses (telephone calls, laundry, drinks, etc.)",
-        "Christmas and New Year Gala Dinners (to be advised)",
-        "Additional activities or unmentioned items"
-      ],
-    },
-
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
-
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+  81: {
+    title: "Egyptian Legacy",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: "",
+    reviews: "546 Reviews",
+    priceSale: "$2195",
+    priceOriginal: "$2195",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Arrive at Cairo International Airport, where our representative will assist you before transferring you to your hotel to settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+`,
+      },
+      {
+        title: "Day 2: Pyramids & Saqqara Tour, Cairo",
+        des: `Our exploration begins with a drive to Giza to marvel at the iconic Great Pyramids and the Sphinx. After visiting the Giza Plateau, we’ll head to Memphis, the ancient kingdom's initial capital, to see the remarkable statue of Ramses II. Finally, we’ll proceed to Saqqara to admire the impressive Step Pyramid.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 3: Fly to Luxor, West Bank Tour & Luxor Temple",
+        des: `Catch an early flight from Cairo to Luxor. Begin your West Bank tour with the Colossi of Memnon, followed by the Valley of the Kings, where you can explore ancient Pharaonic tombs. Visit the Temple of Queen Hatchepsut and the vibrant hieroglyphics at Medinat Habu temple. Spend your afternoon relaxing on your luxurious 5-star Nile cruise boat or exploring the local markets before an evening walking tour of the illuminated Luxor Temple.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+`,
+      },
+      {
+        title: "Day 4: Luxor, Karnak Temple & Sail to Edfu",
+        des: `Start your day with an optional hot air balloon flight over the West Bank at sunrise. After breakfast, visit the colossal Karnak Temple, renowned for its towering columns and impressive structures. In the afternoon, set sail up the Nile, passing through the Esna lock, and spend the night in Edfu.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional hot air balloon in Luxor
+`,
+      },
+      {
+        title: "Day 5: Edfu and Cruise to Kom Ombo & Aswan",
+        des: `After breakfast, explore the Edfu Temple, dedicated to the god Horus. Continue your river cruise to Kom Ombo, where you'll tour the temple known for its intriguing artifacts, including mummified crocodiles. Then, cruise onward to the enchanting city of Aswan.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+`,
+      },
+      {
+        title: "Day 6: Aswan, Philae Temple & Aswan Dam (Abu Simbel Option)",
+        des: `Choose an early morning trip to Abu Simbel to witness the sunrise over the remarkable temples built by Ramses II, or enjoy a leisurely morning in Aswan. Visit the enchanting island temple complex of Philae and the impressive Aswan High Dam, which created Lake Nasser.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Abu Simbel overland
+`,
+      },
+      {
+        title: "Day 7: Fly to Cairo, Egyptian Museum (+ Optional Tours)",
+        des: `Morning flight back to Cairo. Visit the Egyptian Museum, home to an extensive collection of antiquities. The afternoon is yours to explore at your own pace or consider optional tours, such as Coptic Cairo or a dinner cruise on the Nile.
+Overnight: Cairo Hotel
+Meals: Breakfast
+Extras: Cairo city tour, Saqqara, Dashour & Memphis tours`,
+      },
+      {
+        title: "Day 8: Cairo, Transfer to the Airport",
+        des: `Enjoy a free morning for last-minute exploration until your departure transfer to the airport. Optional extensions include relaxing at the Red Sea, day trips to Alexandria, or visiting the World Heritage Site of Wadi Rayan and the Valley of the Whales.
+`,
+      },
+    ],
+    included: [
+      "Domestic flights within Egypt",
+      "Luxurious accommodations at 5-star hotels for the entire duration of the tour",
+      "A 4-night 5-star Nile cruise from Luxor to Aswan",
+      "All relevant transfers to and from sites and as per the itinerary",
+      "Airport arrival and departure transfers",
+      "The expertise of local Egyptologist guides for all sightseeing excursions",
+      "Meals as indicated in the itinerary"
+    ],
+    excluded: [
+      "International flights (available upon inquiry)",
+      "Entry visa to Egypt",
+      "Travel insurance",
+      "Meals not mentioned in the inclusions",
+      "Entrance fees to sites visited",
+      "Tipping",
+      "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
+      "Hotel gala dinners on December 24 and/or 31",
+      "Additional activities or unmentioned items"
+    ],
+  },
 
   // 00: {
   //     title:
