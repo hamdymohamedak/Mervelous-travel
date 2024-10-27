@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const tourId = params.get("id"); 
+const tourId = params.get("id");
 
 const tourDetails = {
   1: {
@@ -4475,6 +4475,1020 @@ Breakfast, Lunch.
     ],
   },
 
+  62: {
+    title: "Amazing Full-Day Tour from Safaga to Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
+
+Embark on a miraculous journey with a day tour to Luxor from Safaga Port, where you will traverse a golden path back in time to witness the grandeur of the ancient Egyptian civilization. Marvelous Egypt Travel, renowned as the best travel agency in Egypt, provides our clients with exceptional services, including expert Egyptologist tour guides and private A/C vehicles.
+
+During this one-day tour from Safaga to Luxor, our guests will experience the magnificence of Upper Egypt as they explore Luxor’s renowned tourist attractions. Discover the timeless treasures of the ancient Egyptian pharaohs by visiting the Valley of the Kings, Karnak Temples, Hatshepsut Temple, and the Colossi of Memnon. After an enriching day, we will drive you back to Safaga Port.
+
+Experience an unforgettable holiday amidst the majestic wonders of Luxor by booking this extraordinary day trip.
+`,
+    reviews: "453 Reviews",
+    priceSale: "$160",
+    priceOriginal: "$160",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day Tour from Safaga to Luxor",
+        des: `
+Morning:
+Pickup from Safaga Port:
+
+Our representative will greet you at the cruise exit door at Safaga Port and accompany you on a scenic 3-hour drive to Luxor. Upon arrival, your day tour will begin with visits to the following:
+Valley of the Kings:
+
+During the new kingdom (1570 – 1050 BC) a magical time vault known as the Valley of the Kings was made in the heart of the sacred hill. The royal gates of the kings contain 63 tombs filled with golden artifacts and colorful decorations of the great Pharaohs such as Ramses II, Hatshepsut, Seti I, Tutankhamen, and various more.
+Hatshepsut Temple:
+
+This glorious and beautiful colossal temple was made for Queen Hatshepsut (1507–1458 BC) to be the holy of holies that came into existence in 1479 BC to honor the sun god Amun and immortalize the great heritage of Hatshepsut. The enchanting temple of Hatshepsut was carved at the rocky hills of Deir El Bahari for 15 years to become one of the most preserved architectural and archaeological constructions in the history of Egypt.
+Colossi of Memnon:
+
+The everlasting statues of Colossi of Memnon of Pharaoh Amenhotep III (1386 - 1349 BC) are giant masterpieces that were constructed in 1350 BC but reassembled various times during the Greco-Roman period. It was named for Memnon, the Greek historical figure.
+Afternoon:
+Lunch Time:
+
+Enjoy a delightful lunch on a picturesque island.
+Karnak Temple:
+
+The grand Karnak temple complex is known as the most selected of places by the divine power of ancient Egypt showcasing the religious dedication and the architectural mastery of the ancient Egyptians. It was built for honoring the Theban triad of Amun, Mut, and Khonsu. The blessed Karnak temple's complex construction process came to be 2000 BC to 30 BC on 247 acres of divine lands. The enchanting Avenue of Sphinxes, hypostyle hall, and the religious are famous for being the most enchanting examples of archaeological architecture and art.
+Luxor Temple:
+
+Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Evening:
+Return to Safaga Port:
+
+Finally, we will transfer you back to Safaga Port to end your day tour from Safaga to Luxor.
+`,
+      },
+    ],
+    included: [
+      "Pick up services from Safaga port to Luxor and return. ",
+      "All transfers by a private modern A/C vehicle.",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle. ",
+      "Lunch during your tour. ",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes."
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. "
+    ],
+  },
+
+  63: {
+      title:"Tour to Dandara and Abydos Temples from Safaga Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `
+
+Embark on a tour to Dandara and Abydos Temples from Safaga Port and uncover the rarest, oldest, and most sacred wonders of the ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, offers travelers an exceptional experience with the finest tours and top-notch service.
+
+Enjoy a private day tour to Dandara and Abydos Temples, accompanied by a private Egyptologist tour guide and a private air-conditioned car. Witness the history behind the Dandara Temple, dedicated to Goddess Hathor, the deity of love, beauty, and maturity. Explore the Abydos Temple, dedicated to God Osiris, the deity of the underworld. After an enlightening day, we will drive you back to Safaga Port.
+
+Book this incredible tour to discover the wonders and treasures of Upper Egypt.
+`,
+      reviews: "423 Reviews",
+      priceSale: "$80",
+      priceOriginal: "$80",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Tour to Dandara and Abydos Temples from Safaga Port",
+          des: `
+Morning:
+Pickup from Safaga Port:
+
+Our representative will pick you up from Safaga Port to discover two of the most preserved temples.
+Abydos Temple:
+
+The gateway of Osiris and the Memorial Temple of Seti I. Abydos temple was built between the first Dynasty all the way to the 30th. It is famous for containing the Abydos King List, a chronological list of Pharaohs from Menes all the way to Ramses I.
+Afternoon:
+Lunch Time:
+
+Enjoy your lunch at a local restaurant.
+Dendera Temple:
+
+The Divine Dendera temples are a complex dedicated to Hathor, the goddess of love and joy. The construction process of the temple complex started in 2250 BC and continued until 343 BC to house a number of great constructions such as the beautiful Hathor temple. It is famous for containing the Dendera Zodiac, the Dendera light, and many more enchanting paintings and decorations which make this temple one of the most preserved temples in all of Egypt.
+Evening:
+Return to Safaga Port:
+
+Finally, we will transfer you back to end your Dendera and Abydos tour from Safaga port.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up services from Safaga port to Luxor and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during your journey. ",
+        "Mineral water on board the vehicle. ",
+        "Lunch during your tour. ",
+        "Entrance fees for all sightseeing are mentioned.",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  64: {
+      title:"2 Days Cairo and Luxor Tour from Safaga Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "2 days",
+      des: `
+
+Experience the Amazing Two-Day Tour from Safaga to Cairo and Luxor, a journey of everlasting bliss that showcases the remarkable wonders of ancient Egyptian civilization. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures an exceptional experience with top-notch services, including expert Egyptologist tour guides and private A/C vehicles.
+
+Over two unforgettable days, you will explore the stunning landmarks in both Cairo and Luxor. Begin with a tour of the Pyramids of Giza, the Egyptian Museum, and other iconic sites in Cairo. Then, fly to Luxor to immerse yourself in the rich mythology of ancient Egypt, visiting breathtaking temples and tombs such as Karnak, the Temple of Queen Hatshepsut, the Valley of the Kings, and more. After your adventure, we will drive you back to Safaga.
+
+Book this incredible excursion and embark on the adventure of a lifetime.
+`,
+      reviews: "213 Reviews",
+      priceSale: "$490",
+      priceOriginal: "$490",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Cairo",
+          des: `
+Morning:
+Pickup from Safaga Port:
+
+Our representative will pick you up from Safaga Port and transfer you to Hurghada airport for a flight to Cairo.
+Giza Pyramids Complex:
+
+- The Great Pyramid: The eternal Great Pyramid, built in 2570 BC by King Khufu, is an immortal archaeological wonder.
+- The Great Sphinx: Carved from a single piece of limestone, it reflects the legacy of King Khafre.
+- The Valley Temple: Created in 2600 BC, this temple was used for royal mummifications.
+The Grand Egyptian Museum:
+
+Explore celestial ancient Egyptian creations and some of the greatest archaeological artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, and the Grand Atrium and Gift Show.
+Lunch:
+
+Served at a restaurant with views of the Pyramids or Nile.
+The Egyptian Museum:
+
+Opened in 1901, this museum houses some of the greatest monuments and artifacts in history.
+Evening:
+Flight to Luxor:
+
+You will be driven to Cairo airport for a flight to Luxor.
+Overnight in Luxor:
+
+Transfer to a 5-star hotel in Luxor for overnight accommodation.
+Meals:
+
+Lunch.
+Flight:
+
+From Hurghada to Cairo and From Cairo to Luxor.
+Overnight:
+
+Luxor Hotel.
+`,
+        },
+        {
+          title: "Day 2: Luxor",
+          des: `
+Morning:
+
+Enjoy your breakfast at the hotel, then your day tour will begin with visits to the following:
+Valley of the Kings:
+
+During the new kingdom (1570 – 1050 BC) a magical time vault known as the Valley of the Kings was made in the heart of the sacred hill. The royal gates of the kings contain 63 tombs filled with golden artifacts and colorful decorations of the great Pharaohs such as Ramses II, Hatshepsut, Seti I, Tutankhamen, and various more.
+Hatshepsut Temple:
+
+This glorious and beautiful colossal temple was made for Queen Hatshepsut (1507–1458 BC) to be the holy of holies that came into existence in 1479 BC to honor the sun god Amun and immortalize the great heritage of Hatshepsut. The enchanting temple of Hatshepsut was carved at the rocky hills of Deir El Bahari for 15 years to become one of the most preserved architectural and archaeological constructions in the history of Egypt.
+Colossi of Memnon:
+
+The everlasting statues of Colossi of Memnon of Pharaoh Amenhotep III (1386 - 1349 BC) are giant masterpieces that were constructed in 1350 BC but reassembled various times during the Greco-Roman period. It was named for Memnon, the Greek historical figure.
+Afternoon:
+Lunch Time:
+
+Enjoy lunch on an island, with a boat trip on the Nile River.
+Karnak Temple:
+
+The grand Karnak temple complex is known as the most selected of places by the divine power of ancient Egypt showcasing the religious dedication and the architectural mastery of the ancient Egyptians. It was built for honoring the Theban triad of Amun, Mut, and Khonsu. The blessed Karnak temple's complex construction process came to be 2000 BC to 30 BC on 247 acres of divine lands. The enchanting Avenue of Sphinxes, hypostyle hall, and the religious are famous for being the most enchanting examples of archaeological architecture and art.
+Luxor Temple:
+
+Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Evening:
+Return to Safaga Port:
+
+We will transfer you back by a private A/C vehicle to Safaga port.
+Meals:
+
+Breakfast, Lunch.
+`,
+        },
+
+      ],
+      included: [
+        "Flight tickets from Hurghada to Cairo and Cairo to Luxor",
+        "One Night Accommodation in Luxor at a 5-star Hotel",
+        "Pick up services from Safaga Port and return ",
+        "All transfers by a private modern A/C vehicle ",
+        "Private Egyptologist guides during your trip ",
+        "Mineral water on board the vehicles during your tours ",
+        "2 Lunch meals during the day trips ",
+        "Entrance fees for all sightseeing mentioned ",
+        "All service charges and taxes "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary ",
+        "Optional Experiences available at an additional cost "
+      ],
+    },
+
+  65: {
+      title: "Scuba Diving from Safaga Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `
+
+A Scuba Diving Trip from Safaga Port offers an illuminating aquatic path leading to the marine treasures of the Red Sea. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures our clients receive top-notch service with a private diving guide and A/C vehicle during this incredible excursion across the enchanting marine gems of the Red Sea.
+
+Guests will enjoy a magical diving trip from Safaga Port, experiencing an amazing dive in the morning and another in the afternoon at a different location. This allows everyone to explore the beautiful and divine wonders of the Red Sea fully. Book this fantastic Diving Safaga Port excursion and embark on a magical adventure worthy of remembering.
+`,
+      reviews: "456 Reviews",
+      priceSale: "$50",
+      priceOriginal: "$50",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Scuba Diving from Safaga Port",
+          des: `
+Morning:
+Pickup from Safaga Port:
+
+You will be transferred from your cruise in Safaga Port to the diving boat.
+Briefing:
+
+The instructor will give a personal briefing to prepare you for your diving experience.
+First Dive:
+
+Conduct your first dive in the morning with the instructor. The dive is conducted on a one-to-one basis, and the time in the water is around 30 - 40 minutes, depending on the guest.
+Lunch:
+
+Enjoy a delicious lunch on the boat, accompanied by mineral water and soft drinks.
+Afternoon:
+Second Dive:
+
+Experience another dive in the afternoon at a different site to explore more of the Red Sea’s beautiful and divine wonders.
+Return to Safaga Port:
+
+After the diving sessions, you will be transferred back to Safaga Port to end your diving excursion.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up services from Safaga Port and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Experienced Instructor on the boat.",
+        "Mineral water and soft drinks. ",
+        "Lunch meal onboard the boat. ",
+        "All service charges and taxes."
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  66: {
+      title:"Snorkeling Trip from Safaga Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `
+
+A Snorkeling Trip from Safaga Port will showcase the majestic and divine wonders of the beautiful Red Sea. The infinite marine treasures and aquatic wonders of the blessed Red Sea offer a mystical opportunity to embark on a magical adventure filled with magnificence and bliss. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures all our clients receive the finest service, including a private snorkeling instructor and a comfortable A/C vehicle.
+
+Guests will have the chance to snorkel at various spots in the Red Sea, encountering the magical creatures, rare colorful fish, and vibrant coral reefs found along the heavenly beaches. After a day of underwater exploration, we will drive you back to Safaga Port. Book this amazing snorkeling excursion and cast your eyes on the majestic tropical beauty of the Red Sea.
+`,
+      reviews: "562 Reviews",
+      priceSale: "$30",
+      priceOriginal: "$30",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Snorkeling Trip from Safaga Port",
+          des: `
+Morning:
+Pickup from Safaga Port:
+
+You will be transferred from your cruise at Safaga Port to the snorkeling boat.
+First Snorkeling Spot:
+
+Enjoy snorkeling in different spots full of corals and magnificent colorful fish with a chance to swim with dolphins.
+Lunch:
+
+Enjoy an open buffet lunch aboard the snorkeling cruise, accompanied by mineral water and soft drinks.
+Afternoon:
+Second Snorkeling Spot:
+
+Continue snorkeling and enjoying the water sports activities on the Island and the national park.
+Sunset:
+
+Watch the breathtaking sunset over the Red Sea.
+Return to Safaga Port:
+
+After the snorkeling sessions, you will be transferred back to Safaga Port to end your snorkeling excursion.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up services from Safaga port and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Snorkeling equipment. ",
+        "Lunch aboard the snorkeling cruise.",
+        "Snorkeling instructor. ",
+        "Mineral water and soft drinks. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping. ",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  67: {
+      title: "Super Safari by Quads from Safaga Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `
+
+The Safaga Super Safari Trip offers an illuminating journey through the golden treasures of the Egyptian Sahara. Marvelous Egypt Travel, the leading travel agency in Egypt, ensures all our clients receive exceptional service, including a private safari guide, comfortable quad bikes, and an A/C vehicle for the trip across the divine eastern desert.
+
+During this thrilling adventure, guests will experience the magical Safaga Port Super Safari by quad bike, followed by a delightful BBQ dinner in a Bedouin village. After an unforgettable day, we will drive you back to Safaga Port. Book this exciting adventure to create magical memories.
+`,
+      reviews: "488 Reviews",
+      priceSale: "$30",
+      priceOriginal: "$30",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Super Safari by Quads from Safaga Port",
+          des: `
+Afternoon:
+Pickup from Safaga Port:
+
+You will be transferred from your cruise at Safaga Port by a private A/C vehicle and driven to the quad bike station.
+Quad Bike Adventure:
+
+Begin your mystical quest across the heavenly sands of the eastern Sahara from Safaga Port, driving the quad 45 km in 2 ways.
+Evening:
+Bedouin Village Visit:
+
+Once everyone has reached the Bedouin village, you will be greeted by the Bedouin tribe.
+BBQ Dinner:
+
+Enjoy a tasty BBQ dinner in a magical atmosphere in the company of the Bedouin tribe.
+Camel Ride:
+
+Experience an hour Camel ride session across the Eastern Sahara.
+Night:
+Bedouin Celebration:
+
+Participate in the Bedouin hosts' celebration under the most beautiful starry skies.
+Return to Safaga Port:
+
+After the celebrations, you will be transferred back to Safaga Port to end your Super Safari adventure.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up services from Safaga port and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Driving the quad 45 km in 2 ways. ",
+        "Visiting the Bedouin village. ",
+        "BBQ dinner. ",
+        "All service charges and taxes."
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
+  // 00: {
+  //     title:
+  //       "",
+  //     maxGuests: "Unlimited",
+  //     location: "Egypt",
+  //     left: "1 days",
+  //     des: "",
+  //     reviews: "000 Reviews",
+  //     priceSale: "$000",
+  //     priceOriginal: "$000",
+  //     rating: 5,
+  //     tourPlans: [
+  //       {
+  //         title: "",
+  //         des: "",
+  //       },
+
+  //     ],
+  //     included: [
+  //       ""
+  //     ],
+  //     excluded: [
+  //       ""
+  //     ],
+  //   },
+
   // 00: {
   //     title:
   //       "",
@@ -4665,7 +5679,7 @@ function goToTripadvisorSite() {
 
 let copyRight = (() => {
   let CopyRightElement = document.querySelectorAll(".copy-right");
-  console.log(CopyRightElement)
+  console.log(CopyRightElement);
   let d = new Date();
   let Year = d.getFullYear();
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
