@@ -6218,31 +6218,100 @@ Meals: Breakfast
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  84: {
+      title:"Sand and Sea",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "9 Days",
+      des: `Embark on an unforgettable 9-day journey through Egypt's timeless treasures. This comprehensive tour combines the ancient wonders of Cairo and Luxor with the serene beauty of the Red Sea. Discover the majestic pyramids of Giza, explore the enigmatic Sphinx, and delve into the rich history of the Egyptian Museum. Marvel at the colossal temples of Karnak and Luxor, and uncover the secrets of the Valley of the Kings. Finally, relax and rejuvenate on the pristine beaches of Hurghada, indulging in water sports and soaking up the sun.`,
+      reviews: "665 Reviews",
+      priceSale: "$1615",
+      priceOriginal: "$1615",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Arrive at Cairo International Airport, where our representative will assist you before transferring you to your selected hotel to settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+`,
+        },{
+          title:"Day 2: Cairo - Pyramids, Sphinx & Museum Tour with Sleeper Train",
+          des:`Your Egyptian journey begins at Giza with visits to the Sphinx and the iconic pyramids, accompanied by a knowledgeable Egyptologist guide. Learn about the Great Pyramid of Khufu, and if desired, enter the pyramids (entry tickets are limited). Then, explore the Egyptian Museum, which houses the famous Tutankhamun exhibit.
+In the evening, transfer to the station for an overnight sleeper train to Aswan, enjoying dinner in your private twin-berth compartment.
+Overnight: Sleeper Train
+Meals: Breakfast, Dinner
+Optional Upgrade: Cairo to Aswan flight
+`
+        },{
+          title:"Day 3: Luxor - West Bank Tour & Free Time",
+          des:`Arriving early in Luxor, cross the Nile to explore the West Bank, visiting the Valley of the Kings, the Temple of Queen Hatshepsut, Deir el-Medina, and the Colossi of Memnon. Afterward, enjoy leisure time at your 5-star hotel along the Nile.
+In the evening, visit the beautifully illuminated Luxor Temple.
+Overnight: Luxor 5-star Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 4: Luxor - Karnak Temple",
+          des:`Enjoy a leisurely morning before visiting the impressive Karnak Temple complex. Walk along the sphinx-lined avenue and enter the expansive Courtyard, featuring chapels dedicated to Amun, Khous, and Mut. Don't miss the Hypostyle Hall with its 134 towering columns.
+Consider an extraordinary hot air balloon flight over the Nile for a unique perspective of the landscape.
+Overnight: Luxor 5-star Hotel
+Meals: Breakfast
+Optional: Hot air balloon flight in Luxor
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+`
+        },{
+          title:"Day 5: Luxor to Hurghada - Red Sea",
+          des:`After a relaxed morning, depart for the enchanting resort town of Hurghada on the Red Sea. Check into a luxurious 5-star resort, enjoying a ‘soft all-inclusive’ package covering meals, soft drinks, and snacks.
+Overnight: Hurghada 5-star Resort
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 6: Hurghada - Free Day at the Red Sea",
+          des:`Relax by the Red Sea, famous for scuba diving and snorkeling. Adventure seekers can choose from various activities, including windsurfing, kite surfing, and quad biking. Explore the marina and old town of Hurghada at your leisure.
+Overnight: Hurghada 5-star Resort
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 7: Hurghada - Another Free Day",
+          des:`Enjoy another day at your leisure in Hurghada, with our local representative available to assist with any activities or recommendations.
+Overnight: Hurghada 5-star Resort
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 8: Hurghada to Cairo - Old Cairo & Khan-el-Khalili Bazaar",
+          des:`Depart Hurghada for Cairo by private minibus (approximately 5 hours). After checking into your centrally located hotel, embark on a guided walk through the charming back streets of Old Cairo, visiting Bab al-Futuh and the Khan-el-Khalili bazaar. Enjoy a refreshing mint tea and shop for souvenirs.
+Optional activities include a dinner cruise on the Nile or an internal flight back to Cairo.
+Overnight: Cairo 5-star Hotel
+Meals: Breakfast
+Optional Upgrade: Hurghada to Cairo flight
+`
+        },{
+          title:"Day 9: Cairo - Departure Transfer",
+          des:`Enjoy free time to explore Cairo at your own pace until your departure transfer to the airport. Options to extend your tour include additional time at the Red Sea, day trips to Alexandria, or visiting the World Heritage Site of Wadi Rayan and the Valley of the Whales.`
+        }
+
+      ],
+      included: [
+        "7 nights’ accommodation in 5-star hotels",
+        "1 night overnight sleeper train in private twin-berth cabins (flight upgrade available)",
+        "All transport and transfers in private modern AC vehicles",
+        "Sightseeing tours as detailed in the itinerary",
+        "The expertise of private local Egyptologist guides for all sightseeing excursions",
+        "Private airport arrival and departure transfer",
+        "Meals as indicated in the itinerary"
+      ],
+      excluded: [
+        "International flights (available upon inquiry)",
+        "Entry visa to Egypt",
+        "Travel insurance",
+        "Entrance fees to sites visited",
+        "Tipping kitty",
+        "Meals not mentioned in the inclusions",
+        "Any personal expenses such as drinks, laundry, etc",
+        "Hotel gala dinners on 24 and/or 31 Dec",
+        "Additional activities or unmentioned items"
+      ],
+    },
 
   // 00: {
   //     title:
