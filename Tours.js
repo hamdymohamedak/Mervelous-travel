@@ -5412,83 +5412,119 @@ Luxor to Cairo.
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  74: {
+      title:
+        "Cairo Day Tour from Alexandria Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `Experience the marvels of Cairo on a fascinating day trip from Alexandria Port. With exceptional services provided by Marvelous Egypt Travel, including a private air-conditioned vehicle and a professional Egyptologist guide, this tour offers a seamless exploration of Cairo’s most iconic landmarks. Enjoy a well-rounded day visiting the Giza Pyramids, the Great Sphinx, the Egyptian Museum, and more before returning to Alexandria.`,
+      reviews: "462 Reviews",
+      priceSale: "$135",
+      priceOriginal: "$135",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Cairo Day Tour from Alexandria Port",
+          des: `
+Pickup from Alexandria Port:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Meet your representative at Alexandria Port and transfer by a private, air-conditioned vehicle to Cairo (approximately 3 hours).
+Giza Pyramids Complex:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
+The Great Pyramid:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
+The Great Sphinx:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
+The Valley Temple:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
+
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. For an enhanced experience, inquire about VIP tickets that offer access to additional artifacts.
+Lunch Time:
+
+Enjoy a delicious meal at a restaurant with views of the Pyramids or the Nile.
+The Egyptian Museum:
+
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Alexandria Port:
+
+After a day full of exploration, transfer back to Alexandria Port and return to your cruise.
+`,
+        },
+
+      ],
+      included: [
+        "Pick-up and drop-off at Alexandria Port. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during your journey. ",
+        "Mineral water on board the vehicle. ",
+        "Lunch at a local restaurant during your day trip.",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost."
+      ],
+    },
+
+  75: {
+      title:
+        "",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: "",
+      reviews: "000 Reviews",
+      priceSale: "$000",
+      priceOriginal: "$000",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "",
+          des: "",
+        },
+
+      ],
+      included: [
+        ""
+      ],
+      excluded: [
+        ""
+      ],
+    },
+
+  76: {
+      title:
+        "",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: "",
+      reviews: "000 Reviews",
+      priceSale: "$000",
+      priceOriginal: "$000",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "",
+          des: "",
+        },
+
+      ],
+      included: [
+        ""
+      ],
+      excluded: [
+        ""
+      ],
+    },
 
   // 00: {
   //     title:
