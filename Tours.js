@@ -6015,7 +6015,7 @@ Extras: Cairo city tour, Saqqara, Dashour & Memphis tours`,
       "All relevant transfers to and from sites and as per the itinerary",
       "Airport arrival and departure transfers",
       "The expertise of local Egyptologist guides for all sightseeing excursions",
-      "Meals as indicated in the itinerary"
+      "Meals as indicated in the itinerary",
     ],
     excluded: [
       "International flights (available upon inquiry)",
@@ -6026,35 +6026,109 @@ Extras: Cairo city tour, Saqqara, Dashour & Memphis tours`,
       "Tipping",
       "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
       "Hotel gala dinners on December 24 and/or 31",
-      "Additional activities or unmentioned items"
+      "Additional activities or unmentioned items",
     ],
   },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
-
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+  82: {
+    title: "Nubian Adventure",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "9 Days ",
+    des: `Embark on an enchanting 9-day Nubian Adventure that captures the essence of Egypt’s ancient wonders and vibrant culture. Begin your journey in Cairo, home to the Great Pyramids and the Sphinx, before heading south to Aswan for a glimpse into Nubian heritage. Visit the serene island temple of Philae, sail the Nile on a traditional felucca, and explore the temples and tombs in Luxor’s Valley of the Kings. Optionally, marvel at the grandeur of Abu Simbel, a UNESCO World Heritage site. This tour offers a perfect blend of ancient history, stunning landscapes, and local experiences, ending with the vibrant markets and historic streets of Cairo.`,
+    reviews: "645 Reviews",
+    priceSale: "$1645",
+    priceOriginal: "$1645",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival Cairo",
+        des: `Today, you begin your adventure with a flight to Cairo International Airport. Our team will assist you before transferring to your chosen hotel to settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+`,
+      },
+      {
+        title:
+          "Day 2: Cairo, Pyramids, Sphinx & Museum Tour with a Sleeper Train",
+        des: `Our journey begins with a visit to Giza, exploring the Great Pyramids and the Sphinx with a local Egyptologist guide. Afterwards, visit the Egyptian Museum, home to the Tutankhamun exhibit. In the evening, board the overnight sleeper train to Aswan, enjoying dinner in your private twin-berth compartments.
+Overnight: Sleeper Train
+Meals: Breakfast, Dinner
+Extras: Cairo to Aswan flight upgrade
+`,
+      },
+      {
+        title: "Day 3: Aswan, Nubian Village and Philae Temple",
+        des: `Arriving in Aswan, we check into a hotel by the Nile. We visit a Nubian village and enjoy a traditional lunch. In the afternoon, visit the Philae Temple, accessed by boat. Free time in the evening to explore Aswan’s markets.
+Overnight: Aswan 5-star hotel
+Meals: Breakfast, Lunch
+Extras: None
+`,
+      },
+      {
+        title: "Day 4: Abu Simbel Option. Nile Felucca Cruise",
+        des: `Early morning optional visit to Abu Simbel, or free time if you choose not to go. Later, embark on a traditional felucca to sail the Nile with a Nubian crew. Dinner and overnight on the felucca.
+Overnight: Onboard Felucca
+Meals: Breakfast, Lunch, Dinner
+Extras: Abu Simbel overland / Upgrade from felucca to Aswan hotel
+`,
+      },
+      {
+        title: "Day 5: Felucca, Edfu, Luxor Temple",
+        des: `After breakfast, say goodbye to the felucca crew. Travel to Edfu to visit the Temple of Horus, then continue to Luxor. In the evening, an optional walking tour of Luxor Temple.
+Overnight: Luxor Hotel
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 6: Luxor, West Bank Tour. Free Time",
+        des: `Cross the Nile early to visit the Valley of the Kings, Queen Hatshepsut’s Temple, and Colossi of Memnon. Option for a hot air balloon ride at sunrise. The afternoon is free to relax or explore further.
+Overnight: Luxor Hotel
+Meals: Breakfast
+Extras: Hot air balloon in Luxor
+`,
+      },
+      {
+        title: "Day 7: Luxor, Karnak Temple",
+        des: `Morning free to relax. After lunch, visit Karnak Temple and its Hypostyle Hall with 134 towering columns. In the evening, board the overnight sleeper train Cairo, enjoying dinner in your private twin-berth compartments.
+Overnight: Sleeper train
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 8: Back Streets of Cairo and Khan-el-Khalili Bazaar",
+        des: `Back in Cairo and transfer to your hotel. The day is free for optional tours (Coptic Cairo, Citadel, Saqqara, etc.). In the afternoon, take a guided walk through the historic Khan-el-Khalili bazaar.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 9: Departure Cairo",
+        des: `After breakfast, transfer to Cairo International Airport for your departure.
+Meals: Breakfast
+`,
+      },
+    ],
+    included: [
+      "Accommodation as listed in the itinerary (5-star hotels in Aswan and Luxor, Cairo hotels, and overnight felucca stay).",
+      "All transfers as mentioned in private air-conditioned vehicles.",
+      "Sleeper train from Cairo to Aswan and from Luxor to Cairo in a private cabin (with flight upgrade option).",
+      "Local Egyptologist guides for all sightseeing tours.",
+      "Meals as indicated in the itinerary (daily breakfasts, selected lunches, and dinners).",
+      "Felucca cruise with Nubian crew.",
+      "Airport arrival and departure transfer service (24/7).",
+    ],
+    excluded: [
+      "International flights",
+      "Egypt visa fees (available upon arrival for most nationalities at $25 USD).",
+      "Travel insurance.",
+      "Entrance fees to attractions.",
+      "Personal expenses (laundry, drinks, phone calls, etc.).",
+      "Optional activities like hot air balloon rides, Abu Simbel tour, and extra sightseeing tours.",
+      "Tipping and gratuities.",
+      "Hotel gala dinners on Dec 24/31.",
+    ],
+  },
 
   // 00: {
   //     title:
