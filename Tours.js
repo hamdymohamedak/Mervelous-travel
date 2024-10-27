@@ -4891,83 +4891,284 @@ After the celebrations, you will be transferred back to Safaga Port to end your 
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  68: {
+      title:"Trip to Pyramids and Cairo from Sokhna Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "1 days",
+      des: `
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+A Cairo Tour from Sokhna Port is a voyage of dreams through the everlasting allure and grandeur of the immortal city of Cairo. Marvelous Egypt Travel, the best travel agency in Egypt, ensures all our clients receive top-notch services, including an expert Egyptologist tour guide and a private A/C vehicle.
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+During this magical tour, You will visit the iconic Giza Pyramids, the Great Sphinx, and the Egyptian Museum. After an unforgettable day of exploring ancient wonders, we will drive you back to Sokhna Port. Book this lovely day trip to experience the wonders of ancient Egypt and make each moment count.
+`,
+      reviews: "246 Reviews",
+      priceSale: "$135",
+      priceOriginal: "$135",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Trip to Pyramids and Cairo from Sokhna Port",
+          des: `
+Morning:
+Pickup from Sokhna Port:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Our representative will pick you up from Sokhna Port by the cruise exit door to be transferred by an air-conditioned vehicle to Cairo for a private guided tour of Cairo and the Pyramids from Sokhna Port (approximately 3 hours).
+Tour of Cairo Tourist Attractions:
+Giza Pyramids Complex:
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+The divine Giza Pyramids complex came into reality during the times of the old kingdom (2686 – 2134 BC) to showcase the eternal legacy of the ancient Egyptian royalty who were successful in immortalizing their names in the history books.
+The Great Pyramid:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+The Great Pyramid of Giza, built by King Khufu (2609 BC - 2584 BC), is a magical art piece that offers a heavenly gate leading to the heavens. It was constructed under the direction of Khufu's vizier Hemiunu, reaching a height of 147 m and a total weight of 6 million tons. Key chambers include the Queen’s chamber, the King’s chamber, the big void, and the grand hall.
+The Great Sphinx:
+
+The Great Sphinx, also known as Horus of the Horizon, is a giant mythical sculpture showcasing the strength and wisdom of Pharaoh Khafre (2558 BC - 2532 BC). It features the face of Khafre and the body of a lion, with the dream Steele of Thutmose IV placed between its paws in 1401 BC.
+The Valley Temple:
+
+The Valley Temple, a masterpiece of ancient art, was used for religious customs, including the mummification ritual, to ensure a successful journey to the afterlife for members of the 4th dynasty.
+The Grand Egyptian Museum:
+
+The Grand Egyptian Museum is a golden portal to 5000 years of ancient Egyptian innovation and imagination. It houses some of the greatest archaeological monuments and artifacts ever created, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic kings and queens, the Victory Column of King Merneptah, the Royal Regalia, and the Grand Atrium and Gift Shop. For an enhanced experience, VIP tickets provide access to additional artifacts.
+Lunch Time:
+
+Lunch will be served at a Pyramid/ Nile view restaurant.
+Afternoon:
+The Egyptian Museum:
+
+The Egyptian Museum, established in 1901 AD in central Cairo, displays an extraordinary collection of ancient artifacts and monuments dating back over 4000 years.
+Evening:
+Return to Sokhna Port:
+
+Finally, we drive you back to Sokhna Port by the cruise door.
+`,
+        },
+
+      ],
+      included: [
+        "Pick up from the cruise exit door at Sokhna Port and return ",
+        "All transfers by a private air-conditioned vehicle ",
+        "Private Egyptologist guide during your journey. ",
+        "Mineral water on board the vehicle during the tour ",
+        "Lunch during your day trip at a local restaurant ",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "All service charges and taxes."
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary.",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  69: {
+      title:"Two Days Trip to Cairo From Sokhna Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "2 days",
+      des: `Embark on a two-day adventure from Sokhna Port to Cairo, and experience the trip of a lifetime as you explore some of the most magnificent wonders and artifacts in human history. Marvelous Egypt Travel ensures our clients receive exceptional service, including a private air-conditioned vehicle and a professional Egyptologist tour guide. Enjoy a personalized tour of Egypt’s capital over two days, visiting iconic landmarks such as the Giza Pyramids, the Sphinx, and the Step Pyramid. After a comfortable overnight stay at a 5-star hotel, the journey continues with visits to the Egyptian Museum, Salah El Din Citadel, Mohamed Ali Mosque, Khan El Khalili Bazaar, and Muizz Street. Enhance your Cairo experience and create unforgettable memories by booking this captivating tour that beautifully showcases the history of ancient Egypt.`,
+      reviews: "513 Reviews",
+      priceSale: "$245",
+      priceOriginal: "$245",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Tour of Giza Tourist Attractions",
+          des: `
+Morning:
+Pickup from Sokhna Port:
+
+Our representative will meet you at Sokhna Port and escort you through your 2 days trip to Cairo from Sokhna Port. Drive to Cairo for approximately 3 hours by an air-conditioned vehicle joining your private tour guide to visit:
+The Great Pyramid:
+
+The everlasting miracle of King Khufu (2609 BC - 2584 BC) was made to touch the skies. It was architected by the royal main vizier of Khufu, “Hemiunu,” to have a total height of 147 m tall using 2.3 million limestone blocks weighing a total of 6 million tons. The main chambers within the great pyramid include the Queen’s chamber, the King’s chamber, the big void, the grand hall, and many more.
+The Great Sphinx:
+
+The immortal symbol of power and wisdom, the great Sphinx, also known as Horus of the Horizon, holds the spirit of Pharaoh Khafre (2558 BC - 2532 BC). It stands watch, protecting the everlasting wonders of ancient Egypt. Between the legs of the sphinx is the epic Dream Steele of Thutmose IV, added in 1401 BC.
+The Valley Temple:
+
+The enchanting Valley Temple is a giant masterpiece of art made to perform religious customs, such as the Mummification ritual, to ensure passage through the gate of paradise. All the members of the 4th dynasty were prepared for their burial rituals in this great temple.
+The Grand Egyptian Museum:
+
+The Grand Egyptian Museum is a golden portal leading to cosmic ancient Egyptian creations of celestial intelligence that were cultivated across 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic kings and queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. For an enhanced experience, VIP tickets provide access to additional artifacts.
+Lunch Time:
+
+Enjoy lunch at a local restaurant.
+Afternoon:
+Saqqara Step Pyramid:
+
+The Primal Saqqara Step Pyramid is a magical experience that launched the golden era of pyramid construction. It was designed by the worldly famous Imhotep to have six steps standing at a height of 62 m during the reign of King Djoser (2649 BC - 2611 BC).
+Evening:
+Overnight:
+
+Finally, transfer to a 5-star hotel in Cairo for the overnight.
+Meals:
+
+Lunch.
+`,
+        },{
+          title:"Tour of Cairo Tourist Attractions",
+          des:`
+Morning:
+
+Check out after breakfast, then join your private tour guide to visit Cairo tourist attractions including:
+The Egyptian Museum:
+
+The golden treasure house known as the Egyptian Museum was constructed in the heart of Cairo in 1901 AD to preserve and display the most majestic collection of ancient artifacts and monuments ever created in the history of ancient Egypt.
+Lunch Time:
+
+Lunch will be served at a local restaurant in Cairo.
+Afternoon:
+Salah El Din Citadel:
+
+The powerful Cairo Citadel is a magical fortress found on the highest ground of Cairo, overlooking the epic landscape. It was constructed from 1176 to 1182 AD and is filled with many great works of art and architecture, including several museums and mosques.
+Mohamed Ali Mosque:
+
+The glorious Mosque of Mohamed Ali, built between 1830 and 1848 AD inside the great citadel of Cairo, is known as the "Alabaster Mosque" because its walls are made out of pure alabaster taken from the great pyramids of Giza. It is an example of Ottoman architecture.
+The National Museum of Egyptian Civilization:
+
+The National Museum of Egyptian Civilization (NMEC) opened in 2020, displaying a collection of the oldest and most magical artifacts and monuments. The museum includes the Hall of Mummies, which contains 28 royal kings and queens from ancient Egypt.
+Al Muizz Street:
+
+The cultural street of Al-Muizz, dating back to the 10th century AD, is in the heart of Cairo, near the mesmerizing Khan El Khalili bazaar. This street is filled with fun cafes and authentic cultural gatherings.
+Khan El Khalili Bazaar:
+
+The historic and vibrant Khan El Khalili Bazaar, established between 1382 and 1389 AD, offers a memorable shopping experience with a wide array of traditional Egyptian goods.
+Evening:
+Return to Sokhna Port:
+
+Finally, we will drive back to Sokhna Port to board your ship.
+Meals:
+
+Breakfast, Lunch
+`,
+        }
+
+      ],
+      included: [
+        "Pick up from your cruise exit at Sokhna Port and return. ",
+        "All transfers by a private modern A/C vehicle. ",
+        "Private Egyptologist guide during the 2-day tours.",
+        "Accommodation in Cairo at 5-star Hotel. ",
+        "Mineral water on board the vehicle during the tour. ",
+        "2 Lunch meals during your tours. ",
+        "Shopping tours in Cairo. ",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
+
+  70: {
+      title: "Two Days Trip to Cairo and Luxor from Sokhna Port",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "2 days",
+      des: `Experience the golden legacy of ancient Egyptian civilization with our 2-day trip to Cairo and Luxor from Sokhna Port. With Marvelous Egypt Travel, expect exceptional services, including a private air-conditioned vehicle and a professional Egyptologist tour guide. This adventure covers the finest and most famous tourist attractions in Cairo and Luxor, including the Karnak Temple, the Valley of the Kings, Queen Hatshepsut’s Temple in Luxor, the Giza Pyramids, the Great Sphinx, and the Egyptian Museum in Cairo. Book this incredible two-day adventure and explore the magical wonders of Egypt.`,
+      reviews: "465 Reviews",
+      priceSale: "$430",
+      priceOriginal: "$430",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1 Luxor",
+          des: `
+Pickup from Sokhna Port:
+
+Our representative will pick you up from your Cruise in Sokhna Port and transfer you to Cairo airport to fly to Luxor. Upon arrival at Luxor, you'll meet your tour guide and a private air-conditioned vehicle.
+Valley of the Kings:
+
+Discover the hidden artistic architecture in the underground Valley of the Kings with 63 royal tombs from the New Kingdom (1570 – 1050 BC).
+Hatshepsut Temple:
+
+Explore the holy temple of Queen Hatshepsut (1507–1458 BC), showcasing her legacy as one of Egypt's most successful rulers.
+Colossi of Memnon:
+
+Visit the colossal statues of Pharaoh Amenhotep III (1386 - 1349 BC) known for their incredible vocal sounds during the Greco-Roman Period.
+Lunch Time:
+
+Enjoy lunch on an island, including a boat trip on the Nile River.
+Karnak Temple:
+
+Visit the Karnak Temple Complex, the largest religious capital on earth, honoring the Theban triad of Amun, Mut, and Khonsu.
+Luxor Temple:
+
+Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Overnight:
+
+Transfer to a 5-star hotel for the overnight stay.
+Meals:
+
+Lunch.
+Flight:
+
+From Cairo to Luxor.
+Overnight:
+
+Luxor Hotel.
+`,
+        },
+        {
+          title:"Day 2 Cairo",
+          des:`
+Breakfast and Checkout:
+
+After breakfast, check-out from the hotel and catch the flight to Cairo.
+Giza Pyramids Complex:
+
+Visit the Giza Pyramids complex, built by the kings of the 4th dynasty during the Old Kingdom (2686 – 2134 BC).
+The Great Pyramid:
+
+Marvel at the Great Pyramid of Giza, built for Pharaoh Khufu (2609 BC - 2584 BC), standing 147 meters tall.
+The Great Sphinx:
+
+Admire the Great Sphinx, a symbol of Pharaoh Khafre (2558 BC - 2532 BC), with the body of a lion and the face of Khafre.
+The Valley Temple:
+
+Explore the Valley Temple, a granite mortuary temple from the 4th dynasty used for the mummification process.
+The Grand Egyptian Museum:
+
+Discover ancient Egyptian creations at the Grand Egyptian Museum, featuring artifacts like the Hanging Obelisk and King Ramses II Statue.
+Lunch Time:
+
+Lunch will be served at a Pyramids/Nile view restaurant.
+The Egyptian Museum:
+
+Visit the Egyptian Museum in Cairo, showcasing some of the greatest monuments and artifacts from ancient Egypt.
+Return to Sokhna Port:
+
+In the evening, transfer back to Sokhna Port by a private air-conditioned vehicle.
+Meals:
+
+Breakfast, Lunch.
+Flight:
+
+From Luxor to Cairo.
+`
+        }
+
+      ],
+      included: [
+        "Pick up from your cruise exit at Sokhna Port and return. ",
+        "All transfers by a private modern A/C vehicle.",
+        "Private Egyptologist guide during the 2-day tours. ",
+        "One Night Accommodation in Luxor at 5-star Hotel. ",
+        "Flight tickets from Cairo to Luxor and return. ",
+        "2 Lunch meals during your tours. ",
+        "Mineral water on board the vehicles during the tours.",
+        "Entrance fees for all sightseeing are mentioned. ",
+        "All service charges and taxes. "
+      ],
+      excluded: [
+        "Tipping",
+        "Any extras not mentioned in the itinerary. ",
+        "Optional Experiences available at an additional cost. "
+      ],
+    },
 
   // 00: {
   //     title:
