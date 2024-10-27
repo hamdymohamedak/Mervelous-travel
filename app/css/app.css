@@ -488,7 +488,7 @@
 .main-header .main-menu .navigation > li > ul > li > a {
   position: relative;
   display: block;
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 600;
   font-size: 15px;
   text-transform: capitalize;
@@ -498,6 +498,7 @@
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  scale: 0.9;
 }
 
 .main-header .main-menu .navigation > li > ul > li:hover > a {
