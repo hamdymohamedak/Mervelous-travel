@@ -5526,31 +5526,111 @@ After a day full of exploration, transfer back to Alexandria Port and return to 
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  77: {
+      title:
+        "Classic Egypt",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "12 days",
+      des: `This luxurious 12-day private tour invites travelers to experience Egypt's most iconic destinations while enjoying exclusive 5-star accommodations in Cairo and a leisurely Nile cruise through Upper Egypt. The journey begins in Cairo, where a private Egyptologist guide will lead you on a personalized exploration of the Great Pyramids, the Sphinx, and the Step Pyramid at Saqqara. Following your Cairo adventure, a short domestic flight will take you to Luxor, where you’ll embark on a 7-night Nile cruise aboard a deluxe 5-star ship. This scenic journey from Luxor to Aswan and back offers opportunities to visit the impressive temples of Edfu and Kom Ombo, all while soaking in the stunning landscapes and observing the peaceful rhythms of rural life from the ship’s sun deck.
+In Aswan, you’ll discover the majestic island temple of Philae and enjoy a private felucca sailboat ride along the Nile’s serene waters. As you sail back toward Luxor, there will be a stop at the fascinating and lesser-visited temple of Esna. The tour concludes with your return to Cairo, where you’ll explore the famous Egyptian Museum, home to the incredible treasures of King Tutankhamun, and enjoy a leisurely stroll through the lively Khan-El-Khalili bazaar.
+Since all our tours are private, this journey is tailored to your preferences, ensuring a personalized experience from start to finish. If you have specific needs or requests, please don’t hesitate to contact us for customized details and pricing.`,
+      reviews: "531 Reviews",
+      priceSale: "$2845",
+      priceOriginal: "$2845",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Upon arrival at Cairo International Airport, you’ll be greeted and assisted before transferring to your hotel. Settle in and relax before your adventure begins.
+Overnight: Cairo Hotel
+Meals: None
+`,
+        },{
+          title:"Day 2: Pyramids & Saqqara Tour, Cairo",
+          des:`Kick off your Egyptian adventure with a drive to Giza to marvel at the Sphinx and the Great Pyramids. Explore Memphis, the ancient capital, and visit the impressive Step Pyramid at Sakkara.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 3: Fly to Luxor, West Bank Tour, and Luxor Temple",
+          des:`Catch an early flight to Luxor and begin with a visit to the Colossi of Memnon. Explore the Valley of the Kings and the Temple of Queen Hatchepsut, followed by an evening walking tour of the Luxor Temple.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 4: Luxor, Karnak Temple, and Sail to Edfu",
+          des:`Consider a sunrise hot air balloon flight over the Nile. Visit the majestic Karnak Temple, then set sail on the Nile, navigating through the Esna lock to Edfu.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional hot air balloon in Luxor
+`
+        },
+        {
+          title:`Day 5: Edfu and Cruise to Kom Ombo & Aswan`,
+          des:`After breakfast, visit Edfu Temple dedicated to Horus. Continue upriver toward Kom Ombo, where you’ll tour the temple before heading to Aswan.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner`
+        },{
+          title:"Day 6: Aswan, Aswan Dam & Philae Temple",
+          des:`Explore the enchanting Philae Temple and visit the impressive Aswan High Dam. Spend the rest of the day exploring local markets or enjoying a sunset over the Nile.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional excursion to Abu Simbel overland
+`
+        },
+        {
+          title:"Day 7: Cruise to Edfu (Abu Simbel Option)",
+          des:`For those who wish, an early trip to Abu Simbel is available. If not, enjoy a leisurely morning exploring Aswan. Our cruise heads back towards Luxor, spending the night near Edfu.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional excursion to Abu Simbel overland
+`
+        },{
+          title:"Day 8: Cruise to Esna, Khnum Temple",
+          des:`After leaving Edfu, we visit the lesser-known Esna Temple dedicated to the god Khnum, before continuing to Luxor for the night.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner`
+        },{
+          title:"Day 9: Free Day in Luxor (Optional Tours Available)",
+          des:`Enjoy a full day in Luxor with options to relax or explore. Consider visiting the Luxor Museum or taking an optional tour to Abydos and Dendera.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional Luxor Museum tour
+`
+        },{
+          title:"Day 10: Fly to Cairo with a Free Afternoon",
+          des:`Fly back to Cairo and enjoy a free afternoon to explore Coptic Cairo, the Citadel, or the Khan-el-Khalili bazaar. Consider a dinner cruise on the Nile for the evening.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`
+        },{
+          title:"Day 11: Cairo, Transfer to the Airport",
+          des:`Enjoy your last day in Cairo at your leisure before your departure transfer to the airport. Consider extending your stay with additional tours to the Red Sea or Alexandria.`
+        }
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+      ],
+      included: [
+        "Domestic flights within Egypt",
+        "Luxurious accommodations at 5-star hotels for the entire duration of the tour",
+        "7-night stay aboard a top-tier 5-star Nile cruise from Luxor to Aswan and back to Luxor",
+        "All relevant transfers in a private air-conditioned vehicle – to and from sites and as per itinerary",
+        "Airport arrival and departure transfers",
+        "The expertise of local Egyptologist guides for all sightseeing excursions",
+        "Meals as indicated in the itinerary"
+      ],
+      excluded: [
+        "International flights (available upon inquiry)",
+        "Entry visa to Egypt",
+        "Travel insurance",
+        "Meals not mentioned in the inclusions",
+        "Entrance fees to sites visited",
+        "Tipping",
+        "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
+        "Hotel gala dinners on 24 and/or 31 Dec",
+        "Additional activities or unmentioned items"
+      ],
+    },
 
   // 00: {
   //     title:
