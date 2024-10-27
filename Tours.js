@@ -6475,31 +6475,103 @@ Extras: Alexandria day trip, Cairo city tour, Saqqara, Dashour & Memphis tours, 
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  87: {
+      title: "Jewel of the Nile",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "13 days",
+      des: `Prepare to be captivated as you stand in awe before the colossal Pyramids of Giza, one of the world’s most enduring wonders. From this magnificent beginning, embark on a journey through Egypt that follows the serene Nile River. Experience the contrast between lush riverbanks and expansive desert landscapes, immersing yourself in the rich history inscribed into Egypt’s grand architectural marvels.
+End your adventure with a relaxing escape to the golden beaches of Hurghada on the Red Sea, where the warm sun and crystal-clear waters offer the perfect finale to your Egyptian experience. Cherish every moment of this unforgettable journey.
+Note: This tour is customizable to include Dahab instead of Hurghada.
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+`,
+      reviews: "502 Reviews",
+      priceSale: "$1840",
+      priceOriginal: "$1840",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Welcome to Egypt! Upon arrival at Cairo International Airport, you'll be assisted before being transferred to your hotel to relax.
+Overnight: Cairo Hotel (No meals)
+`,
+        },{
+          title:"Day 2: Pyramids, Sphinx, Sakkara – Sleeper Train to Aswan",
+          des:`Full-day tour of the Pyramids of Giza, Sphinx, and Sakkara with your private guide. Optional camel ride at Giza. In the evening, board the sleeper train to Aswan.
+Overnight: Sleeper train (Meals: Breakfast, Dinner)
+`
+        },{
+          title:"Day 3: Aswan - High Dam, Philae Temple, Nile Cruise Embarkation",
+          des:`Visit the High Dam and take a boat to the Philae Temple. Board your Nile cruise for a relaxing journey.
+Overnight: Nile Cruise (Meals: Breakfast, Lunch, Dinner)
+`
+        },{
+          title:"Day 4: Nile Cruise – Kom Ombo & Edfu",
+          des:`Sail along the Nile, stopping to explore the temples of Kom Ombo and Edfu.
+Overnight: Nile Cruise (Meals: Breakfast, Lunch, Dinner)
+`
+        },{
+          title:"Day 5: Luxor – Valley of the Kings, Hatshepsut Temple, Karnak & Luxor Temples",
+          des:`Discover the Valley of the Kings, Queen Hatshepsut’s Temple, and the Colossi of Memnon. Explore Luxor and Karnak Temples in the afternoon. Fly back to Cairo in the evening.
+Overnight: Cairo Hotel (Meals: Breakfast)
+`
+        },{
+          title:"Day 6: Luxor, Karnak Temple",
+          des:`Enjoy a visit to the Karnak Temple complex. Optional hot air balloon ride available.
+Overnight: Luxor 5-star Hotel (Meals: Breakfast)
+`
+        },{
+          title:"Day 7: Transfer to Hurghada",
+          des:`Head to the Red Sea for a stay in Hurghada at a 5-star resort with a soft all-inclusive package (excluding alcohol).
+Overnight: Hurghada Resort (Meals: Breakfast, Lunch, Dinner)
+`
+        },{
+          title:"Day 8-10: Hurghada – Free Days by the Red Sea",
+          des:`Enjoy your free time in Hurghada. Options for snorkeling, diving, windsurfing, and more.
+Overnight: Hurghada Resort (Meals: Breakfast, Lunch, Dinner)
+`
+        },{
+          title:"Day 11: Flight to Cairo – Free Day",
+          des:`Fly back to Cairo and enjoy a free day to explore or relax.
+Overnight: Cairo Hotel (Meals: Breakfast)
+`
+        },{
+          title:"Day 12: Egyptian Museum – Free Afternoon",
+          des:`Morning tour of the Egyptian Museum. Free afternoon to explore Cairo.
+Overnight: Cairo Hotel (Meals: Breakfast)
+`
+        },{
+          title:"Day 13: Departure from Cairo",
+          des:`Transfer to the airport for your departure flight.
+Meals: Breakfast
+`
+        }
+
+      ],
+      included: [
+        "3 nights in Cairo (5* standard hotel, bed & breakfast)",
+        "1 night on a sleeper train from Cairo to Aswan (upgrade available to flight)",
+        "3 nights Nile Cruise (Aswan/Luxor, full board 5* standard)",
+        "4 nights in Hurghada (5* standard hotel, bed & breakfast)",
+        "1 night in Luxor (5* standard hotel, bed & breakfast)",
+        "Economy flight from Hurghada to Cairo",
+        "Daily breakfast and all meals onboard cruise",
+        "Breakfast & dinner on sleeper train",
+        "Arrival & departure transfers",
+        "Relevant transfers for sightseeing",
+        "Entrance fees to mentioned sights",
+        "Bottled water during tours",
+        "Private expert Egyptologist tour guide"
+      ],
+      excluded: [
+        "Entry visa to Egypt",
+        "International flights (inquire for availability)",
+        "Tipping",
+        "High/peak season surcharges",
+        "Personal expenses (phone calls, laundry, etc.)",
+        "Optional tours and extras not mentioned in the itinerary"
+      ],
+    },
 
   // 00: {
   //     title:
