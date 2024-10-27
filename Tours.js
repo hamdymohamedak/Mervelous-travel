@@ -4533,21 +4533,21 @@ Finally, we will transfer you back to Safaga Port to end your day tour from Safa
       "Mineral water on board the vehicle. ",
       "Lunch during your tour. ",
       "Entrance fees for all sightseeing are mentioned.",
-      "All service charges and taxes."
+      "All service charges and taxes.",
     ],
     excluded: [
       "Tipping",
       "Any extras not mentioned in the itinerary. ",
-      "Optional Experiences available at an additional cost. "
+      "Optional Experiences available at an additional cost. ",
     ],
   },
 
   63: {
-      title:"Tour to Dandara and Abydos Temples from Safaga Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `
+    title: "Tour to Dandara and Abydos Temples from Safaga Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
 Embark on a tour to Dandara and Abydos Temples from Safaga Port and uncover the rarest, oldest, and most sacred wonders of the ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, offers travelers an exceptional experience with the finest tours and top-notch service.
 
@@ -4555,14 +4555,14 @@ Enjoy a private day tour to Dandara and Abydos Temples, accompanied by a private
 
 Book this incredible tour to discover the wonders and treasures of Upper Egypt.
 `,
-      reviews: "423 Reviews",
-      priceSale: "$80",
-      priceOriginal: "$80",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Tour to Dandara and Abydos Temples from Safaga Port",
-          des: `
+    reviews: "423 Reviews",
+    priceSale: "$80",
+    priceOriginal: "$80",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Tour to Dandara and Abydos Temples from Safaga Port",
+        des: `
 Morning:
 Pickup from Safaga Port:
 
@@ -4582,31 +4582,30 @@ Return to Safaga Port:
 
 Finally, we will transfer you back to end your Dendera and Abydos tour from Safaga port.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up services from Safaga port to Luxor and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during your journey. ",
-        "Mineral water on board the vehicle. ",
-        "Lunch during your tour. ",
-        "Entrance fees for all sightseeing are mentioned.",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up services from Safaga port to Luxor and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle. ",
+      "Lunch during your tour. ",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   64: {
-      title:"2 Days Cairo and Luxor Tour from Safaga Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "2 days",
-      des: `
+    title: "2 Days Cairo and Luxor Tour from Safaga Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `
 
 Experience the Amazing Two-Day Tour from Safaga to Cairo and Luxor, a journey of everlasting bliss that showcases the remarkable wonders of ancient Egyptian civilization. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures an exceptional experience with top-notch services, including expert Egyptologist tour guides and private A/C vehicles.
 
@@ -4614,14 +4613,14 @@ Over two unforgettable days, you will explore the stunning landmarks in both Cai
 
 Book this incredible excursion and embark on the adventure of a lifetime.
 `,
-      reviews: "213 Reviews",
-      priceSale: "$490",
-      priceOriginal: "$490",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1: Cairo",
-          des: `
+    reviews: "213 Reviews",
+    priceSale: "$490",
+    priceOriginal: "$490",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Cairo",
+        des: `
 Morning:
 Pickup from Safaga Port:
 
@@ -4657,10 +4656,10 @@ Overnight:
 
 Luxor Hotel.
 `,
-        },
-        {
-          title: "Day 2: Luxor",
-          des: `
+      },
+      {
+        title: "Day 2: Luxor",
+        des: `
 Morning:
 
 Enjoy your breakfast at the hotel, then your day tour will begin with visits to the following:
@@ -4691,46 +4690,45 @@ Meals:
 
 Breakfast, Lunch.
 `,
-        },
-
-      ],
-      included: [
-        "Flight tickets from Hurghada to Cairo and Cairo to Luxor",
-        "One Night Accommodation in Luxor at a 5-star Hotel",
-        "Pick up services from Safaga Port and return ",
-        "All transfers by a private modern A/C vehicle ",
-        "Private Egyptologist guides during your trip ",
-        "Mineral water on board the vehicles during your tours ",
-        "2 Lunch meals during the day trips ",
-        "Entrance fees for all sightseeing mentioned ",
-        "All service charges and taxes "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary ",
-        "Optional Experiences available at an additional cost "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Flight tickets from Hurghada to Cairo and Cairo to Luxor",
+      "One Night Accommodation in Luxor at a 5-star Hotel",
+      "Pick up services from Safaga Port and return ",
+      "All transfers by a private modern A/C vehicle ",
+      "Private Egyptologist guides during your trip ",
+      "Mineral water on board the vehicles during your tours ",
+      "2 Lunch meals during the day trips ",
+      "Entrance fees for all sightseeing mentioned ",
+      "All service charges and taxes ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary ",
+      "Optional Experiences available at an additional cost ",
+    ],
+  },
 
   65: {
-      title: "Scuba Diving from Safaga Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `
+    title: "Scuba Diving from Safaga Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
 A Scuba Diving Trip from Safaga Port offers an illuminating aquatic path leading to the marine treasures of the Red Sea. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures our clients receive top-notch service with a private diving guide and A/C vehicle during this incredible excursion across the enchanting marine gems of the Red Sea.
 
 Guests will enjoy a magical diving trip from Safaga Port, experiencing an amazing dive in the morning and another in the afternoon at a different location. This allows everyone to explore the beautiful and divine wonders of the Red Sea fully. Book this fantastic Diving Safaga Port excursion and embark on a magical adventure worthy of remembering.
 `,
-      reviews: "456 Reviews",
-      priceSale: "$50",
-      priceOriginal: "$50",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Scuba Diving from Safaga Port",
-          des: `
+    reviews: "456 Reviews",
+    priceSale: "$50",
+    priceOriginal: "$50",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Scuba Diving from Safaga Port",
+        des: `
 Morning:
 Pickup from Safaga Port:
 
@@ -4752,43 +4750,42 @@ Return to Safaga Port:
 
 After the diving sessions, you will be transferred back to Safaga Port to end your diving excursion.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up services from Safaga Port and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Experienced Instructor on the boat.",
-        "Mineral water and soft drinks. ",
-        "Lunch meal onboard the boat. ",
-        "All service charges and taxes."
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up services from Safaga Port and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Experienced Instructor on the boat.",
+      "Mineral water and soft drinks. ",
+      "Lunch meal onboard the boat. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   66: {
-      title:"Snorkeling Trip from Safaga Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `
+    title: "Snorkeling Trip from Safaga Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
 A Snorkeling Trip from Safaga Port will showcase the majestic and divine wonders of the beautiful Red Sea. The infinite marine treasures and aquatic wonders of the blessed Red Sea offer a mystical opportunity to embark on a magical adventure filled with magnificence and bliss. Marvelous Egypt Travel, the premier travel agency in Egypt, ensures all our clients receive the finest service, including a private snorkeling instructor and a comfortable A/C vehicle.
 
 Guests will have the chance to snorkel at various spots in the Red Sea, encountering the magical creatures, rare colorful fish, and vibrant coral reefs found along the heavenly beaches. After a day of underwater exploration, we will drive you back to Safaga Port. Book this amazing snorkeling excursion and cast your eyes on the majestic tropical beauty of the Red Sea.
 `,
-      reviews: "562 Reviews",
-      priceSale: "$30",
-      priceOriginal: "$30",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Snorkeling Trip from Safaga Port",
-          des: `
+    reviews: "562 Reviews",
+    priceSale: "$30",
+    priceOriginal: "$30",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Snorkeling Trip from Safaga Port",
+        des: `
 Morning:
 Pickup from Safaga Port:
 
@@ -4810,44 +4807,43 @@ Return to Safaga Port:
 
 After the snorkeling sessions, you will be transferred back to Safaga Port to end your snorkeling excursion.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up services from Safaga port and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Snorkeling equipment. ",
-        "Lunch aboard the snorkeling cruise.",
-        "Snorkeling instructor. ",
-        "Mineral water and soft drinks. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping. ",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up services from Safaga port and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Snorkeling equipment. ",
+      "Lunch aboard the snorkeling cruise.",
+      "Snorkeling instructor. ",
+      "Mineral water and soft drinks. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping. ",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   67: {
-      title: "Super Safari by Quads from Safaga Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `
+    title: "Super Safari by Quads from Safaga Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
 The Safaga Super Safari Trip offers an illuminating journey through the golden treasures of the Egyptian Sahara. Marvelous Egypt Travel, the leading travel agency in Egypt, ensures all our clients receive exceptional service, including a private safari guide, comfortable quad bikes, and an A/C vehicle for the trip across the divine eastern desert.
 
 During this thrilling adventure, guests will experience the magical Safaga Port Super Safari by quad bike, followed by a delightful BBQ dinner in a Bedouin village. After an unforgettable day, we will drive you back to Safaga Port. Book this exciting adventure to create magical memories.
 `,
-      reviews: "488 Reviews",
-      priceSale: "$30",
-      priceOriginal: "$30",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Super Safari by Quads from Safaga Port",
-          des: `
+    reviews: "488 Reviews",
+    priceSale: "$30",
+    priceOriginal: "$30",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Super Safari by Quads from Safaga Port",
+        des: `
 Afternoon:
 Pickup from Safaga Port:
 
@@ -4873,43 +4869,42 @@ Return to Safaga Port:
 
 After the celebrations, you will be transferred back to Safaga Port to end your Super Safari adventure.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up services from Safaga port and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Driving the quad 45 km in 2 ways. ",
-        "Visiting the Bedouin village. ",
-        "BBQ dinner. ",
-        "All service charges and taxes."
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up services from Safaga port and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Driving the quad 45 km in 2 ways. ",
+      "Visiting the Bedouin village. ",
+      "BBQ dinner. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   68: {
-      title:"Trip to Pyramids and Cairo from Sokhna Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `
+    title: "Trip to Pyramids and Cairo from Sokhna Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `
 
 A Cairo Tour from Sokhna Port is a voyage of dreams through the everlasting allure and grandeur of the immortal city of Cairo. Marvelous Egypt Travel, the best travel agency in Egypt, ensures all our clients receive top-notch services, including an expert Egyptologist tour guide and a private A/C vehicle.
 
 During this magical tour, You will visit the iconic Giza Pyramids, the Great Sphinx, and the Egyptian Museum. After an unforgettable day of exploring ancient wonders, we will drive you back to Sokhna Port. Book this lovely day trip to experience the wonders of ancient Egypt and make each moment count.
 `,
-      reviews: "246 Reviews",
-      priceSale: "$135",
-      priceOriginal: "$135",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Trip to Pyramids and Cairo from Sokhna Port",
-          des: `
+    reviews: "246 Reviews",
+    priceSale: "$135",
+    priceOriginal: "$135",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Trip to Pyramids and Cairo from Sokhna Port",
+        des: `
 Morning:
 Pickup from Sokhna Port:
 
@@ -4942,39 +4937,38 @@ Return to Sokhna Port:
 
 Finally, we drive you back to Sokhna Port by the cruise door.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up from the cruise exit door at Sokhna Port and return ",
-        "All transfers by a private air-conditioned vehicle ",
-        "Private Egyptologist guide during your journey. ",
-        "Mineral water on board the vehicle during the tour ",
-        "Lunch during your day trip at a local restaurant ",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "All service charges and taxes."
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary.",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up from the cruise exit door at Sokhna Port and return ",
+      "All transfers by a private air-conditioned vehicle ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle during the tour ",
+      "Lunch during your day trip at a local restaurant ",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary.",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   69: {
-      title:"Two Days Trip to Cairo From Sokhna Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "2 days",
-      des: `Embark on a two-day adventure from Sokhna Port to Cairo, and experience the trip of a lifetime as you explore some of the most magnificent wonders and artifacts in human history. Marvelous Egypt Travel ensures our clients receive exceptional service, including a private air-conditioned vehicle and a professional Egyptologist tour guide. Enjoy a personalized tour of Egypt’s capital over two days, visiting iconic landmarks such as the Giza Pyramids, the Sphinx, and the Step Pyramid. After a comfortable overnight stay at a 5-star hotel, the journey continues with visits to the Egyptian Museum, Salah El Din Citadel, Mohamed Ali Mosque, Khan El Khalili Bazaar, and Muizz Street. Enhance your Cairo experience and create unforgettable memories by booking this captivating tour that beautifully showcases the history of ancient Egypt.`,
-      reviews: "513 Reviews",
-      priceSale: "$245",
-      priceOriginal: "$245",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Tour of Giza Tourist Attractions",
-          des: `
+    title: "Two Days Trip to Cairo From Sokhna Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `Embark on a two-day adventure from Sokhna Port to Cairo, and experience the trip of a lifetime as you explore some of the most magnificent wonders and artifacts in human history. Marvelous Egypt Travel ensures our clients receive exceptional service, including a private air-conditioned vehicle and a professional Egyptologist tour guide. Enjoy a personalized tour of Egypt’s capital over two days, visiting iconic landmarks such as the Giza Pyramids, the Sphinx, and the Step Pyramid. After a comfortable overnight stay at a 5-star hotel, the journey continues with visits to the Egyptian Museum, Salah El Din Citadel, Mohamed Ali Mosque, Khan El Khalili Bazaar, and Muizz Street. Enhance your Cairo experience and create unforgettable memories by booking this captivating tour that beautifully showcases the history of ancient Egypt.`,
+    reviews: "513 Reviews",
+    priceSale: "$245",
+    priceOriginal: "$245",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Tour of Giza Tourist Attractions",
+        des: `
 Morning:
 Pickup from Sokhna Port:
 
@@ -5006,9 +5000,10 @@ Meals:
 
 Lunch.
 `,
-        },{
-          title:"Tour of Cairo Tourist Attractions",
-          des:`
+      },
+      {
+        title: "Tour of Cairo Tourist Attractions",
+        des: `
 Morning:
 
 Check out after breakfast, then join your private tour guide to visit Cairo tourist attractions including:
@@ -5042,41 +5037,40 @@ Meals:
 
 Breakfast, Lunch
 `,
-        }
-
-      ],
-      included: [
-        "Pick up from your cruise exit at Sokhna Port and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during the 2-day tours.",
-        "Accommodation in Cairo at 5-star Hotel. ",
-        "Mineral water on board the vehicle during the tour. ",
-        "2 Lunch meals during your tours. ",
-        "Shopping tours in Cairo. ",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up from your cruise exit at Sokhna Port and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during the 2-day tours.",
+      "Accommodation in Cairo at 5-star Hotel. ",
+      "Mineral water on board the vehicle during the tour. ",
+      "2 Lunch meals during your tours. ",
+      "Shopping tours in Cairo. ",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   70: {
-      title: "Two Days Trip to Cairo and Luxor from Sokhna Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "2 days",
-      des: `Experience the golden legacy of ancient Egyptian civilization with our 2-day trip to Cairo and Luxor from Sokhna Port. With Marvelous Egypt Travel, expect exceptional services, including a private air-conditioned vehicle and a professional Egyptologist tour guide. This adventure covers the finest and most famous tourist attractions in Cairo and Luxor, including the Karnak Temple, the Valley of the Kings, Queen Hatshepsut’s Temple in Luxor, the Giza Pyramids, the Great Sphinx, and the Egyptian Museum in Cairo. Book this incredible two-day adventure and explore the magical wonders of Egypt.`,
-      reviews: "465 Reviews",
-      priceSale: "$430",
-      priceOriginal: "$430",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1 Luxor",
-          des: `
+    title: "Two Days Trip to Cairo and Luxor from Sokhna Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `Experience the golden legacy of ancient Egyptian civilization with our 2-day trip to Cairo and Luxor from Sokhna Port. With Marvelous Egypt Travel, expect exceptional services, including a private air-conditioned vehicle and a professional Egyptologist tour guide. This adventure covers the finest and most famous tourist attractions in Cairo and Luxor, including the Karnak Temple, the Valley of the Kings, Queen Hatshepsut’s Temple in Luxor, the Giza Pyramids, the Great Sphinx, and the Egyptian Museum in Cairo. Book this incredible two-day adventure and explore the magical wonders of Egypt.`,
+    reviews: "465 Reviews",
+    priceSale: "$430",
+    priceOriginal: "$430",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Luxor",
+        des: `
 Pickup from Sokhna Port:
 
 Our representative will pick you up from your Cruise in Sokhna Port and transfer you to Cairo airport to fly to Luxor. Upon arrival at Luxor, you'll meet your tour guide and a private air-conditioned vehicle.
@@ -5111,10 +5105,10 @@ Overnight:
 
 Luxor Hotel.
 `,
-        },
-        {
-          title:"Day 2 Cairo",
-          des:`
+      },
+      {
+        title: "Day 2 Cairo",
+        des: `
 Breakfast and Checkout:
 
 After breakfast, check-out from the hotel and catch the flight to Cairo.
@@ -5148,43 +5142,41 @@ Breakfast, Lunch.
 Flight:
 
 From Luxor to Cairo.
-`
-        }
-
-      ],
-      included: [
-        "Pick up from your cruise exit at Sokhna Port and return. ",
-        "All transfers by a private modern A/C vehicle.",
-        "Private Egyptologist guide during the 2-day tours. ",
-        "One Night Accommodation in Luxor at 5-star Hotel. ",
-        "Flight tickets from Cairo to Luxor and return. ",
-        "2 Lunch meals during your tours. ",
-        "Mineral water on board the vehicles during the tours.",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+`,
+      },
+    ],
+    included: [
+      "Pick up from your cruise exit at Sokhna Port and return. ",
+      "All transfers by a private modern A/C vehicle.",
+      "Private Egyptologist guide during the 2-day tours. ",
+      "One Night Accommodation in Luxor at 5-star Hotel. ",
+      "Flight tickets from Cairo to Luxor and return. ",
+      "2 Lunch meals during your tours. ",
+      "Mineral water on board the vehicles during the tours.",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   71: {
-      title:
-        "Wonderful Day Trip to Cairo From Port Said",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `Embark on a day trip to Cairo from Port Said and immerse yourself in the timeless wonders of Egypt in a truly magical and entertaining way. Marvelous Egypt Travel, one of the leading travel agencies in Egypt, provides top-notch services, including a professional Egyptologist tour guide and a private air-conditioned vehicle. Enjoy a private excursion from Port Said to Cairo, visiting the Giza Pyramids, the Great Sphinx, and the Egyptian Museum before returning to Port Said. Turn your day trip into a captivating adventure by booking this enchanting tour that delves into the rich legacy of ancient Egypt.`,
-      reviews: "426 Reviews",
-      priceSale: "$135",
-      priceOriginal: "$135",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Tour to Cairo and Giza Pyramids from Port Said",
-          des: `
+    title: "Wonderful Day Trip to Cairo From Port Said",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a day trip to Cairo from Port Said and immerse yourself in the timeless wonders of Egypt in a truly magical and entertaining way. Marvelous Egypt Travel, one of the leading travel agencies in Egypt, provides top-notch services, including a professional Egyptologist tour guide and a private air-conditioned vehicle. Enjoy a private excursion from Port Said to Cairo, visiting the Giza Pyramids, the Great Sphinx, and the Egyptian Museum before returning to Port Said. Turn your day trip into a captivating adventure by booking this enchanting tour that delves into the rich legacy of ancient Egypt.`,
+    reviews: "426 Reviews",
+    priceSale: "$135",
+    priceOriginal: "$135",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Tour to Cairo and Giza Pyramids from Port Said",
+        des: `
 Pickup from Port Said:
 
 Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo for a private guided tour of Cairo and the Pyramids from Port Said. The journey takes approximately 3 hours.
@@ -5213,40 +5205,39 @@ Return to Port Said:
 
 Finally, you'll be driven back to your cruise in Port Said.
 `,
-        },
-
-      ],
-      included: [
-        "Pick up from the cruise exit door at Port Said and return. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during your journey.",
-        "Mineral water on board the vehicle. ",
-        "Lunch at a local restaurant during your day trip. ",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "All service charges and taxes."
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost."
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick up from the cruise exit door at Port Said and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey.",
+      "Mineral water on board the vehicle. ",
+      "Lunch at a local restaurant during your day trip. ",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
 
   72: {
-      title:
-        "Overnight Tour to Cairo and Alexandria from Port Said and Drop Off at Alexandria Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "2 days",
-      des: `Discover Egypt with Marvelous Egypt Travel on a tailored tour from Port Said. Opt for a comprehensive 2-Day Cairo adventure, exploring iconic sites like the Giza Pyramids, the Sphinx, the Saqqara Step Pyramid, and the Egyptian Museum, with a private air-conditioned vehicle and expert guide. Alternatively, enjoy a blend of Cairo and Alexandria in two days: explore Cairo’s treasures on the first day and Alexandria’s historic gems, including the Catacombs of Kom El Shoqafa and the Bibliotheca Alexandrina, on the second. Each option ensures exceptional service and a memorable experience.`,
-      reviews: "213 Reviews",
-      priceSale: "$235",
-      priceOriginal: "$235",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Comprehensive 2-Day Cairo Adventure",
-          des: `
+    title:
+      "Overnight Tour to Cairo and Alexandria from Port Said and Drop Off at Alexandria Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `Discover Egypt with Marvelous Egypt Travel on a tailored tour from Port Said. Opt for a comprehensive 2-Day Cairo adventure, exploring iconic sites like the Giza Pyramids, the Sphinx, the Saqqara Step Pyramid, and the Egyptian Museum, with a private air-conditioned vehicle and expert guide. Alternatively, enjoy a blend of Cairo and Alexandria in two days: explore Cairo’s treasures on the first day and Alexandria’s historic gems, including the Catacombs of Kom El Shoqafa and the Bibliotheca Alexandrina, on the second. Each option ensures exceptional service and a memorable experience.`,
+    reviews: "213 Reviews",
+    priceSale: "$235",
+    priceOriginal: "$235",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Comprehensive 2-Day Cairo Adventure",
+        des: `
 Pickup from Port Said:
 
 Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo.
@@ -5262,10 +5253,10 @@ Drop Off at Alexandria Port:
 
 Drive to Alexandria Port to board your ship.
 `,
-        },
-        {
-          title:"Cairo and Alexandria Highlights",
-          des:`
+      },
+      {
+        title: "Cairo and Alexandria Highlights",
+        des: `
 Pickup from Port Said:
 
 Our representative will pick you up from Port Said by the cruise exit door and transfer you by an air-conditioned vehicle to Cairo.
@@ -5280,43 +5271,41 @@ Meals:
 Drop Off at Alexandria Port:
 
 Drive to Alexandria Port to board your ship.
-`
-        }
-
-      ],
-      included: [
-        "Pick up from Port Said and return to Alexandria Port. ",
-        "Accommodation in Cairo at a 5-star hotel. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during the 2-day trips. ",
-        "Mineral water on board the vehicle. ",
-        "2 Lunch meals during your tours. ",
-        "1 breakfast at the 5-star hotel. ",
-        "Entrance fees for all sightseeing will be visited. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost. "
-      ],
-    },
+`,
+      },
+    ],
+    included: [
+      "Pick up from Port Said and return to Alexandria Port. ",
+      "Accommodation in Cairo at a 5-star hotel. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during the 2-day trips. ",
+      "Mineral water on board the vehicle. ",
+      "2 Lunch meals during your tours. ",
+      "1 breakfast at the 5-star hotel. ",
+      "Entrance fees for all sightseeing will be visited. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost. ",
+    ],
+  },
 
   73: {
-      title:
-        "Overnight Tour to Cairo and Luxor from Port Said",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "2 days",
-      des: `Embark on a heavenly 2-day journey exploring the timeless wonders of Cairo and Luxor. Marvel at ancient Egypt’s greatest monuments with exceptional service provided by Marvelous Egypt Travel, including a private Egyptologist guide and air-conditioned transportation.`,
-      reviews: "165 Reviews",
-      priceSale: "$410",
-      priceOriginal: "$410",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Luxor’s Ancient Treasures",
-          des: `
+    title: "Overnight Tour to Cairo and Luxor from Port Said",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `Embark on a heavenly 2-day journey exploring the timeless wonders of Cairo and Luxor. Marvel at ancient Egypt’s greatest monuments with exceptional service provided by Marvelous Egypt Travel, including a private Egyptologist guide and air-conditioned transportation.`,
+    reviews: "165 Reviews",
+    priceSale: "$410",
+    priceOriginal: "$410",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor’s Ancient Treasures",
+        des: `
 Pickup from Port Said:
 
 Meet your guide at Port Said and transfer to Cairo Airport for your flight to Luxor.
@@ -5351,9 +5340,10 @@ Overnight:
 
 Luxor Hotel.
 `,
-        },{
-          title:"Cairo’s Majestic Highlights",
-          des:`
+      },
+      {
+        title: "Cairo’s Majestic Highlights",
+        des: `
 Breakfast:
 
 Start your day with breakfast at the hotel in Luxor.
@@ -5390,43 +5380,41 @@ Breakfast, Lunch.
 Flight:
 
 Luxor to Cairo.
-`
-        }
-
-      ],
-      included: [
-        "Pick-up and drop-off from Port Said. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during your journey. ",
-        "Mineral water on board the vehicle. ",
-        "2 Lunches and 1 breakfast. ",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "1 Night Accommodation in Luxor at a 5-star hotel. ",
-        "Flights from Cairo to Luxor and return. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost."
-      ],
-    },
+`,
+      },
+    ],
+    included: [
+      "Pick-up and drop-off from Port Said. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle. ",
+      "2 Lunches and 1 breakfast. ",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "1 Night Accommodation in Luxor at a 5-star hotel. ",
+      "Flights from Cairo to Luxor and return. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
 
   74: {
-      title:
-        "Cairo Day Tour from Alexandria Port",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: `Experience the marvels of Cairo on a fascinating day trip from Alexandria Port. With exceptional services provided by Marvelous Egypt Travel, including a private air-conditioned vehicle and a professional Egyptologist guide, this tour offers a seamless exploration of Cairo’s most iconic landmarks. Enjoy a well-rounded day visiting the Giza Pyramids, the Great Sphinx, the Egyptian Museum, and more before returning to Alexandria.`,
-      reviews: "462 Reviews",
-      priceSale: "$135",
-      priceOriginal: "$135",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Cairo Day Tour from Alexandria Port",
-          des: `
+    title: "Cairo Day Tour from Alexandria Port",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Experience the marvels of Cairo on a fascinating day trip from Alexandria Port. With exceptional services provided by Marvelous Egypt Travel, including a private air-conditioned vehicle and a professional Egyptologist guide, this tour offers a seamless exploration of Cairo’s most iconic landmarks. Enjoy a well-rounded day visiting the Giza Pyramids, the Great Sphinx, the Egyptian Museum, and more before returning to Alexandria.`,
+    reviews: "462 Reviews",
+    priceSale: "$135",
+    priceOriginal: "$135",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Cairo Day Tour from Alexandria Port",
+        des: `
 Pickup from Alexandria Port:
 
 Meet your representative at Alexandria Port and transfer by a private, air-conditioned vehicle to Cairo (approximately 3 hours).
@@ -5455,208 +5443,276 @@ Return to Alexandria Port:
 
 After a day full of exploration, transfer back to Alexandria Port and return to your cruise.
 `,
-        },
-
-      ],
-      included: [
-        "Pick-up and drop-off at Alexandria Port. ",
-        "All transfers by a private modern A/C vehicle. ",
-        "Private Egyptologist guide during your journey. ",
-        "Mineral water on board the vehicle. ",
-        "Lunch at a local restaurant during your day trip.",
-        "Entrance fees for all sightseeing are mentioned. ",
-        "All service charges and taxes. "
-      ],
-      excluded: [
-        "Tipping",
-        "Any extras not mentioned in the itinerary. ",
-        "Optional Experiences available at an additional cost."
-      ],
-    },
+      },
+    ],
+    included: [
+      "Pick-up and drop-off at Alexandria Port. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle. ",
+      "Lunch at a local restaurant during your day trip.",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost.",
+    ],
+  },
 
   75: {
-      title:
-        "",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: "",
-      reviews: "000 Reviews",
-      priceSale: "$000",
-      priceOriginal: "$000",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "",
-          des: "",
-        },
-
-      ],
-      included: [
-        ""
-      ],
-      excluded: [
-        ""
-      ],
-    },
+    title: "",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "",
+    reviews: "000 Reviews",
+    priceSale: "$000",
+    priceOriginal: "$000",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "",
+        des: "",
+      },
+    ],
+    included: [""],
+    excluded: [""],
+  },
 
   76: {
-      title:
-        "",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "1 days",
-      des: "",
-      reviews: "000 Reviews",
-      priceSale: "$000",
-      priceOriginal: "$000",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "",
-          des: "",
-        },
-
-      ],
-      included: [
-        ""
-      ],
-      excluded: [
-        ""
-      ],
-    },
+    title: "",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: "",
+    reviews: "000 Reviews",
+    priceSale: "$000",
+    priceOriginal: "$000",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "",
+        des: "",
+      },
+    ],
+    included: [""],
+    excluded: [""],
+  },
 
   77: {
-      title:
-        "Classic Egypt",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "12 days",
-      des: `This luxurious 12-day private tour invites travelers to experience Egypt's most iconic destinations while enjoying exclusive 5-star accommodations in Cairo and a leisurely Nile cruise through Upper Egypt. The journey begins in Cairo, where a private Egyptologist guide will lead you on a personalized exploration of the Great Pyramids, the Sphinx, and the Step Pyramid at Saqqara. Following your Cairo adventure, a short domestic flight will take you to Luxor, where you’ll embark on a 7-night Nile cruise aboard a deluxe 5-star ship. This scenic journey from Luxor to Aswan and back offers opportunities to visit the impressive temples of Edfu and Kom Ombo, all while soaking in the stunning landscapes and observing the peaceful rhythms of rural life from the ship’s sun deck.
+    title: "Classic Egypt",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "12 days",
+    des: `This luxurious 12-day private tour invites travelers to experience Egypt's most iconic destinations while enjoying exclusive 5-star accommodations in Cairo and a leisurely Nile cruise through Upper Egypt. The journey begins in Cairo, where a private Egyptologist guide will lead you on a personalized exploration of the Great Pyramids, the Sphinx, and the Step Pyramid at Saqqara. Following your Cairo adventure, a short domestic flight will take you to Luxor, where you’ll embark on a 7-night Nile cruise aboard a deluxe 5-star ship. This scenic journey from Luxor to Aswan and back offers opportunities to visit the impressive temples of Edfu and Kom Ombo, all while soaking in the stunning landscapes and observing the peaceful rhythms of rural life from the ship’s sun deck.
 In Aswan, you’ll discover the majestic island temple of Philae and enjoy a private felucca sailboat ride along the Nile’s serene waters. As you sail back toward Luxor, there will be a stop at the fascinating and lesser-visited temple of Esna. The tour concludes with your return to Cairo, where you’ll explore the famous Egyptian Museum, home to the incredible treasures of King Tutankhamun, and enjoy a leisurely stroll through the lively Khan-El-Khalili bazaar.
 Since all our tours are private, this journey is tailored to your preferences, ensuring a personalized experience from start to finish. If you have specific needs or requests, please don’t hesitate to contact us for customized details and pricing.`,
-      reviews: "531 Reviews",
-      priceSale: "$2845",
-      priceOriginal: "$2845",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Day 1: Arrival in Cairo",
-          des: `Upon arrival at Cairo International Airport, you’ll be greeted and assisted before transferring to your hotel. Settle in and relax before your adventure begins.
+    reviews: "531 Reviews",
+    priceSale: "$2845",
+    priceOriginal: "$2845",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Upon arrival at Cairo International Airport, you’ll be greeted and assisted before transferring to your hotel. Settle in and relax before your adventure begins.
 Overnight: Cairo Hotel
 Meals: None
 `,
-        },{
-          title:"Day 2: Pyramids & Saqqara Tour, Cairo",
-          des:`Kick off your Egyptian adventure with a drive to Giza to marvel at the Sphinx and the Great Pyramids. Explore Memphis, the ancient capital, and visit the impressive Step Pyramid at Sakkara.
+      },
+      {
+        title: "Day 2: Pyramids & Saqqara Tour, Cairo",
+        des: `Kick off your Egyptian adventure with a drive to Giza to marvel at the Sphinx and the Great Pyramids. Explore Memphis, the ancient capital, and visit the impressive Step Pyramid at Sakkara.
 Overnight: Cairo Hotel
 Meals: Breakfast
-`
-        },{
-          title:"Day 3: Fly to Luxor, West Bank Tour, and Luxor Temple",
-          des:`Catch an early flight to Luxor and begin with a visit to the Colossi of Memnon. Explore the Valley of the Kings and the Temple of Queen Hatchepsut, followed by an evening walking tour of the Luxor Temple.
+`,
+      },
+      {
+        title: "Day 3: Fly to Luxor, West Bank Tour, and Luxor Temple",
+        des: `Catch an early flight to Luxor and begin with a visit to the Colossi of Memnon. Explore the Valley of the Kings and the Temple of Queen Hatchepsut, followed by an evening walking tour of the Luxor Temple.
 Overnight: Onboard the 5-star cruise boat
 Meals: Breakfast, Lunch, Dinner
-`
-        },{
-          title:"Day 4: Luxor, Karnak Temple, and Sail to Edfu",
-          des:`Consider a sunrise hot air balloon flight over the Nile. Visit the majestic Karnak Temple, then set sail on the Nile, navigating through the Esna lock to Edfu.
+`,
+      },
+      {
+        title: "Day 4: Luxor, Karnak Temple, and Sail to Edfu",
+        des: `Consider a sunrise hot air balloon flight over the Nile. Visit the majestic Karnak Temple, then set sail on the Nile, navigating through the Esna lock to Edfu.
 Overnight: Onboard the 5-star cruise boat
 Meals: Breakfast, Lunch, Dinner
 Extras: Optional hot air balloon in Luxor
-`
-        },
-        {
-          title:`Day 5: Edfu and Cruise to Kom Ombo & Aswan`,
-          des:`After breakfast, visit Edfu Temple dedicated to Horus. Continue upriver toward Kom Ombo, where you’ll tour the temple before heading to Aswan.
+`,
+      },
+      {
+        title: `Day 5: Edfu and Cruise to Kom Ombo & Aswan`,
+        des: `After breakfast, visit Edfu Temple dedicated to Horus. Continue upriver toward Kom Ombo, where you’ll tour the temple before heading to Aswan.
 Overnight: Onboard the 5-star cruise boat
-Meals: Breakfast, Lunch, Dinner`
-        },{
-          title:"Day 6: Aswan, Aswan Dam & Philae Temple",
-          des:`Explore the enchanting Philae Temple and visit the impressive Aswan High Dam. Spend the rest of the day exploring local markets or enjoying a sunset over the Nile.
-Overnight: Onboard the 5-star cruise boat
-Meals: Breakfast, Lunch, Dinner
-Extras: Optional excursion to Abu Simbel overland
-`
-        },
-        {
-          title:"Day 7: Cruise to Edfu (Abu Simbel Option)",
-          des:`For those who wish, an early trip to Abu Simbel is available. If not, enjoy a leisurely morning exploring Aswan. Our cruise heads back towards Luxor, spending the night near Edfu.
+Meals: Breakfast, Lunch, Dinner`,
+      },
+      {
+        title: "Day 6: Aswan, Aswan Dam & Philae Temple",
+        des: `Explore the enchanting Philae Temple and visit the impressive Aswan High Dam. Spend the rest of the day exploring local markets or enjoying a sunset over the Nile.
 Overnight: Onboard the 5-star cruise boat
 Meals: Breakfast, Lunch, Dinner
 Extras: Optional excursion to Abu Simbel overland
-`
-        },{
-          title:"Day 8: Cruise to Esna, Khnum Temple",
-          des:`After leaving Edfu, we visit the lesser-known Esna Temple dedicated to the god Khnum, before continuing to Luxor for the night.
+`,
+      },
+      {
+        title: "Day 7: Cruise to Edfu (Abu Simbel Option)",
+        des: `For those who wish, an early trip to Abu Simbel is available. If not, enjoy a leisurely morning exploring Aswan. Our cruise heads back towards Luxor, spending the night near Edfu.
 Overnight: Onboard the 5-star cruise boat
-Meals: Breakfast, Lunch, Dinner`
-        },{
-          title:"Day 9: Free Day in Luxor (Optional Tours Available)",
-          des:`Enjoy a full day in Luxor with options to relax or explore. Consider visiting the Luxor Museum or taking an optional tour to Abydos and Dendera.
+Meals: Breakfast, Lunch, Dinner
+Extras: Optional excursion to Abu Simbel overland
+`,
+      },
+      {
+        title: "Day 8: Cruise to Esna, Khnum Temple",
+        des: `After leaving Edfu, we visit the lesser-known Esna Temple dedicated to the god Khnum, before continuing to Luxor for the night.
+Overnight: Onboard the 5-star cruise boat
+Meals: Breakfast, Lunch, Dinner`,
+      },
+      {
+        title: "Day 9: Free Day in Luxor (Optional Tours Available)",
+        des: `Enjoy a full day in Luxor with options to relax or explore. Consider visiting the Luxor Museum or taking an optional tour to Abydos and Dendera.
 Overnight: Onboard the 5-star cruise boat
 Meals: Breakfast, Lunch, Dinner
 Extras: Optional Luxor Museum tour
-`
-        },{
-          title:"Day 10: Fly to Cairo with a Free Afternoon",
-          des:`Fly back to Cairo and enjoy a free afternoon to explore Coptic Cairo, the Citadel, or the Khan-el-Khalili bazaar. Consider a dinner cruise on the Nile for the evening.
+`,
+      },
+      {
+        title: "Day 10: Fly to Cairo with a Free Afternoon",
+        des: `Fly back to Cairo and enjoy a free afternoon to explore Coptic Cairo, the Citadel, or the Khan-el-Khalili bazaar. Consider a dinner cruise on the Nile for the evening.
 Overnight: Cairo Hotel
 Meals: Breakfast
-`
-        },{
-          title:"Day 11: Cairo, Transfer to the Airport",
-          des:`Enjoy your last day in Cairo at your leisure before your departure transfer to the airport. Consider extending your stay with additional tours to the Red Sea or Alexandria.`
-        }
+`,
+      },
+      {
+        title: "Day 11: Cairo, Transfer to the Airport",
+        des: `Enjoy your last day in Cairo at your leisure before your departure transfer to the airport. Consider extending your stay with additional tours to the Red Sea or Alexandria.`,
+      },
+    ],
+    included: [
+      "Domestic flights within Egypt",
+      "Luxurious accommodations at 5-star hotels for the entire duration of the tour",
+      "7-night stay aboard a top-tier 5-star Nile cruise from Luxor to Aswan and back to Luxor",
+      "All relevant transfers in a private air-conditioned vehicle – to and from sites and as per itinerary",
+      "Airport arrival and departure transfers",
+      "The expertise of local Egyptologist guides for all sightseeing excursions",
+      "Meals as indicated in the itinerary",
+    ],
+    excluded: [
+      "International flights (available upon inquiry)",
+      "Entry visa to Egypt",
+      "Travel insurance",
+      "Meals not mentioned in the inclusions",
+      "Entrance fees to sites visited",
+      "Tipping",
+      "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
+      "Hotel gala dinners on 24 and/or 31 Dec",
+      "Additional activities or unmentioned items",
+    ],
+  },
 
-      ],
-      included: [
-        "Domestic flights within Egypt",
-        "Luxurious accommodations at 5-star hotels for the entire duration of the tour",
-        "7-night stay aboard a top-tier 5-star Nile cruise from Luxor to Aswan and back to Luxor",
-        "All relevant transfers in a private air-conditioned vehicle – to and from sites and as per itinerary",
-        "Airport arrival and departure transfers",
-        "The expertise of local Egyptologist guides for all sightseeing excursions",
-        "Meals as indicated in the itinerary"
-      ],
-      excluded: [
-        "International flights (available upon inquiry)",
-        "Entry visa to Egypt",
-        "Travel insurance",
-        "Meals not mentioned in the inclusions",
-        "Entrance fees to sites visited",
-        "Tipping",
-        "Personal expenses such as telephone calls, laundry, drinks, extra meals, etc.",
-        "Hotel gala dinners on 24 and/or 31 Dec",
-        "Additional activities or unmentioned items"
-      ],
-    },
-
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
-
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+  78: {
+    title: "Siwa Adventure",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "9 Days",
+    des: `After witnessing the most important attractions of Cairo and a short stop at Alexandria, you will leave the crowd of the city and head towards the desert, embarking on an extraordinary journey among the stunning landscapes of Siwa. Enjoy a unique side of Egypt with our classic tour, which begins with unforgettable sightseeing in Cairo, including the majestic Giza Pyramids, the Sphinx, the Valley Temple, and the world-renowned Egyptian Museum, before moving on to the Siwa Oasis for even more breathtaking experiences.
+Experience traditional Bedouin life in a Siwan village; visit the Old City of Siwa, the timeless Temple of Amun Ra, the ancient Alexander Temple, and the fascinating Mountain of the Dead. Witness spectacular sunrises and sunsets, swim in natural springs, and so much more—all in absolute comfort and style.`,
+    reviews: "621 Reviews",
+    priceSale: "$1250",
+    priceOriginal: "$1250",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Your adventure begins today as you arrive at Cairo International Airport. Our representative will meet you just before customs to assist with your arrival, ensuring a smooth transition to your hotel. After check-in, take some time to settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+.
+`,
+      },
+      {
+        title: "Day 2: Pyramids, Sphinx & Egyptian Museum Tour ",
+        des: `Begin your day with an exciting exploration of the Giza Plateau. Visit the Great Pyramids of Khufu, Khafre, and Menkaure, as well as the Sphinx, and learn about their history from your expert Egyptologist guide. If you wish, you can enter one of the pyramids (ticket availability is limited). After lunch, visit the Egyptian Museum, which houses thousands of ancient artifacts, including the famous treasures of King Tutankhamun. In the evening, return to your hotel for an overnight stay in Cairo.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 3: Alexandria Tour",
+        des: `Travel to the historic city of Alexandria, founded by Alexander the Great. This Mediterranean city offers a fascinating mix of ancient history and cultural heritage. Visit sites such as Pompey’s Pillar, the Catacombs of Kom El Shoqafa, and other relics from Egypt's Hellenistic period. After the tour, transfer to your hotel in Alexandria for an overnight stay.
+Overnight: Alexandria Hotel
+Meals: Breakfast, Lunch
+`,
+      },
+      {
+        title: "Day 4: Alexandria to Siwa Oasis",
+        des: `After breakfast, embark on a scenic drive from Alexandria to Siwa Oasis, a remote and tranquil destination in the heart of the desert. Upon arrival, check into your hotel and enjoy a relaxing afternoon. Take in the serene atmosphere or explore the oasis at your own pace.
+Overnight: Siwa Hotel
+Meals: Breakfast, Lunch, Dinner
+`,
+      },
+      {
+        title: "Day 5: Explore Siwa Oasis",
+        des: `Delve into Siwa's rich history and breathtaking landscapes. Start with a visit to the iconic Dead Mountain for panoramic views, then explore the Siwa House Museum, which showcases the region's cultural heritage. Continue to the ancient ruins of the Amoun Temple before relaxing at Cleopatra's Pool, a natural spring said to have been used by the Egyptian queen herself.
+Overnight: Siwa Hotel
+Meals: Breakfast, Lunch, Dinner
+`,
+      },
+      {
+        title: "Day 6: Siwa Oasis – Free Day",
+        des: `Enjoy a free day at leisure in Siwa. You may opt for an adventurous 4x4 Jeep tour through the surrounding desert dunes or simply relax in the peaceful oasis environment.
+Overnight: Siwa Hotel
+Meals: Breakfast, Dinner
+`,
+      },
+      {
+        title: "Day 7: Siwa Oasis – Free Day",
+        des: `Another day of relaxation or exploration in Siwa. Take the opportunity to unwind, or choose from optional activities available in the area.
+Overnight: Siwa Hotel
+Meals: Breakfast, Dinner
+`,
+      },
+      {
+        title: "Day 8: Return to Cairo",
+        des: `Conclude your stay in Siwa with a comfortable transfer back to Cairo. Travel through Egypt's desert landscapes in a private air-conditioned vehicle. Upon arrival in Cairo, check into your hotel and enjoy a relaxing evening.
+Overnight: Cairo Hotel
+Meals: Breakfast
+`,
+      },
+      {
+        title: "Day 9: Departure from Cairo",
+        des: `Today marks the end of your Egyptian adventure. Depending on your flight schedule, enjoy some free time in Cairo before your transfer to the airport. For those looking to extend their journey, optional excursions to the Red Sea or other sites such as Wadi Rayan and the Valley of the Whales are available.
+Meals: Breakfast
+`,
+      },
+    ],
+    included: [
+      "Meet & assist upon arrival.",
+      "Airport arrival and departure transfers",
+      "3 nights’ accommodation at a hotel in Cairo on BB basis.",
+      "1 night accommodation at a hotel in Alexandria on BB basis.",
+      "4 nights’ accommodation at a hotel in Siwa on HB basis (4-star standard).",
+      "Entrance fees to all mentioned sites",
+      "All relevant transfers – to and from sites as per itinerary",
+      "Meals as indicated in the itinerary.",
+      "2 lunches in Alexandria and Siwa at local restaurants.",
+      "Expert tour guide.",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Entry visa to Egypt.",
+      "Tipping",
+      "International flights (available upon inquiry).",
+      "High and peak date surcharges",
+      "Personal expenses such as drinks, laundry, etc.",
+      "Additional activities or unmentioned items (available upon inquiry).",
+      "Entry to any of the Pyramids or Mummy room in the Egyptian Museum (can be arranged with the tour guide on the spot).",
+      
+    ],
+  },
 
   // 00: {
   //     title:
