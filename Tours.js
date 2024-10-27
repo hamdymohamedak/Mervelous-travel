@@ -6377,31 +6377,103 @@ Optional Extras: Alexandria Day Trip, Cairo City Tour, Saqqara, Dashour & Memphi
       ],
     },
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+  86: {
+      title:"Gods of Egypt",
+      maxGuests: "Unlimited",
+      location: "Egypt",
+      left: "10 days",
+      des: `Embark on a transformative 10-day journey through ancient Egypt, immersing yourself in its rich history and cultural heritage. This comprehensive tour offers a harmonious blend of iconic Pharaonic attractions, luxurious Nile River cruising, and serene beach relaxation.`,
+      reviews: "822 Reviews",
+      priceSale: "$2335",
+      priceOriginal: "$2335",
+      rating: 5,
+      tourPlans: [
+        {
+          title: "Day 1: Arrival in Cairo",
+          des: `Arrive at Cairo International Airport, where our representative will assist you before transferring you to your hotel to settle in and relax.
+Overnight: Cairo Hotel
+Meals: None
+`,
+        },{
+          title:"Day 2: Cairo - Pyramids, Sphinx & Museum Tour with Sleeper Train",
+          des:`Begin your Egyptian adventure with a visit to Giza to explore the Sphinx and the iconic pyramids, guided by a knowledgeable Egyptologist. Afterward, visit the Egyptian Museum, home to the Tutankhamun exhibit. In the evening, board an overnight sleeper train to Aswan, enjoying dinner in your private twin-berth compartment.
+Overnight: Sleeper Train
+Meals: Breakfast, Dinner
+Optional Upgrade: Cairo to Aswan flight
+`
+        },{
+          title:"Day 3: Nile Cruise Board, Aswan Tours (Abu Simbel Option)",
+          des:`Awake to the beauty of the Nile, then explore Aswan’s markets and visit the Nubian Museum if you wish. After checking out, board your Nile cruise boat for lunch, then visit the Temple of Philae, accessible by boat. The rest of the day is free, with options for camel rides or an early morning visit to Abu Simbel.
+Overnight: Nile Cruise Boat
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 4: Nile Cruise to Edfu & Kom Ombo",
+          des:`Enjoy a leisurely cruise down the Nile, stopping at Kom Ombo Temple, dedicated to Sobek and Horus. Continue to the magnificent Temple of Horus at Edfu and spend the night aboard the cruise.
+Overnight: Nile Cruise Boat
+Meals: Breakfast, Lunch, Dinner
+`
+        },{
+          title:"Day 5: Edfu Temple, Luxor Temple at Night",
+          des:`Visit Edfu Temple, then continue to Luxor, known for its ancient ruins. Check into a luxurious 5-star hotel and relax by the pool before an evening guided tour of Luxor Temple, beautifully illuminated at night.
+Overnight: Luxor 5-star Hotel
+Meals: Breakfast
+Extras: None
+`
+        },{
+          title:"Day 6: Luxor - West Bank Tour & Karnak Temple",
+          des:`Cross the Nile to explore Luxor's West Bank, visiting the Valley of the Kings and other significant sites. Optional hot air balloon ride available in the morning. After lunch, explore Karnak Temple, the religious epicenter of Thebes.
+Overnight: Luxor 5-star Hotel
+Meals: Breakfast
+Extras: Hot air balloon in Luxor
+`
+        },{
+          title:"Day 7: Luxor to Hurghada - Red Sea",
+          des:`Depart for the Red Sea resort town of Hurghada. Check into a luxurious 5-star resort and enjoy a ‘soft all-inclusive’ package with meals and soft drinks included.
+Overnight: Hurghada 5-star Resort
+Meals: Breakfast, Lunch, Dinner
+Extras: None
+`
+        },{
+          title:"Day 8: Hurghada - Free Day at the Red Sea",
+          des:`Relax or engage in water sports, with options for scuba diving, windsurfing, or exploring Hurghada's marina and old town. Our local representative will assist with any activity arrangements.
+Overnight: Hurghada 5-star Resort
+Meals: Breakfast, Lunch, Dinner
+Extras: None
+`
+        },{
+          title:"Day 9: Transfer from Hurghada to Cairo",
+          des:`After breakfast, travel from Hurghada to Cairo (approximately 5 hours). Option for an internal flight available. Spend the day exploring Cairo, with an optional guided walking tour of Old Cairo and Khan-el-Khalili bazaar.
+Overnight: Cairo Hotel
+Meals: Breakfast
+Extras: Hurghada to Cairo flight upgrade, Old Cairo and Khan Khalili Walking Tour
+`
+        },{
+          title:"Day 10: Cairo - Free Day & Departure Transfer",
+          des:`Enjoy free time for last-minute sightseeing or shopping until your airport transfer. Optional half-day tours available, including Coptic Cairo, Saqqara, or a day trip to Alexandria. Flexible options for extending your stay are available.
+Overnight: N/A
+Meals: Breakfast
+Extras: Alexandria day trip, Cairo city tour, Saqqara, Dashour & Memphis tours, extra day in Cairo (5-star)
+`
+        }
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+      ],
+      included: [
+        "Accommodation: Luxurious accommodations in 5-star hotels throughout the tour, including a Nile River cruise with spacious en-suite cabins.",
+        "Transportation: Private air-conditioned transportation, domestic flights, and airport transfers",
+        "Guided Tours: Expert Egyptologist guides for all sightseeing excursions, including private guiding during the Nile cruise.",
+        "Meals: Carefully selected meals as indicated in the itinerary, ensuring a delightful culinary experience.",
+        "Entrance Fees: Entrance fees to all included sightseeing attractions, allowing you to fully immerse yourself in ancient Egypt's wonders."
+      ],
+      excluded: [
+        "International Flights: International flights to and from Cairo are not included, but we can assist with arrangements upon request.",
+        "Entry Visa: Obtaining an Egyptian entry visa is required and not included in the tour price.",
+        "Additional Activities: Optional activities and excursions, such as hot air balloon rides or additional Nile River cruises, are available at an extra cost.",
+        "Personal Expenses: Personal expenses, including drinks, laundry, souvenirs, and tips for optional services, are not included.",
+        "Tipping: Tipping is not included.",
+        "Gala Dinners: Hotel gala dinners on December 24th and/or 31st, if applicable, are not included and may incur additional charges."
+      ],
+    },
 
   // 00: {
   //     title:
