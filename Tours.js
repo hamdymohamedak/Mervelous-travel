@@ -8852,25 +8852,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Clear results if the input is empty
     if (searchValue.trim() === "") {
-      searchModal.hide(); // Hide modal if input is empty
+      searchModal.hide(); 
       return;
     }
 
-    let foundResults = false; // Track if any results are found
+    let foundResults = false; 
 
     for (const id in tourDetails) {
       const tour = tourDetails[id];
       if (tour.title.toLowerCase().includes(searchValue)) {
-        foundResults = true; // Mark that we've found at least one result
+        foundResults = true; 
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
-              <div class="badge-top flex-two">
-                <span class="feature">Featured</span>
-                <div class="badge-media flex-five">
-                  <span class="media"><i class="icon-Group-1000002909"></i>${tour.reviews}</span>
-                </div>
-              </div>
               <img style="height: 19rem; object-fit: cover" src="${tour.image}" alt="Image Listing" />
             </a>
             <div class="tour-listing-content">
@@ -8888,7 +8882,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <div class="flex-two">
                 <div class="price-box flex-three">
-                  <p>من <span class="price-sale">${tour.priceSale}</span></p>
+                  <p>From <span class="price-sale">${tour.priceSale}</span></p>
                 </div>
                 <div class="icon-bookmark">
                   <i class="icon-Vector-151"></i>
