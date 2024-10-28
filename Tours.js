@@ -7733,9 +7733,10 @@ Overnight:
 
 Onboard the Cruise.
 `,
-      },{
-        title:"Free Day On the Cruise",
-        des:`
+      },
+      {
+        title: "Free Day On the Cruise",
+        des: `
 
 Enjoy a free day on board the cruise while sailing to Edfu.
 Meals:
@@ -7744,10 +7745,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Edfu Temple",
-        des:`
+`,
+      },
+      {
+        title: "Edfu Temple",
+        des: `
 
 Early breakfast, followed by a trip to Edfu Temple:
 Edfu Temple:
@@ -7761,10 +7763,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise (Aswan late night arrival).
-`
-      },{
-        title:"Aswan Highlights",
-        des:`
+`,
+      },
+      {
+        title: "Aswan Highlights",
+        des: `
 
 Enjoy your breakfast, then move to complete your 7 night Nile cruise from Luxor by a tour to Aswan Highlights where you will visit:
 Aswan High Dam:
@@ -7784,10 +7787,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Abu Simbel Temples",
-        des:`
+`,
+      },
+      {
+        title: "Abu Simbel Temples",
+        des: `
 
 Early morning, get your breakfast and we will transfer you by a private A/C car to the southwest of Aswan to discover the impressive temple of King Ramses ii:
 Abu Simbel Temples:
@@ -7801,10 +7805,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Kom Ombo Temple",
-        des:`
+`,
+      },
+      {
+        title: "Kom Ombo Temple",
+        des: `
 
 Breakfast on board, then you will join your Egyptologist by a modern A/C vehicle to visit:
 Kom Ombo Temple:
@@ -7818,10 +7823,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Luxor West Bank",
-        des:`
+`,
+      },
+      {
+        title: "Luxor West Bank",
+        des: `
 
 Enjoy your breakfast on the cruise, prepare yourself to explore Luxor West Bank tourist attractions with your private tour guide.
 Valley of the Kings:
@@ -7841,18 +7847,19 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Departure from Luxor",
-        des:`
+`,
+      },
+      {
+        title: "Departure from Luxor",
+        des: `
 Check-out:
 
 Check out after breakfast, transfer to your desired location in Luxor.
 Meals:
 
 Breakfast.
-`
-      }
+`,
+      },
     ],
     included: [
       "Accommodation for 7 nights on board a 5-star cruise on a full board basis",
@@ -7861,30 +7868,26 @@ Breakfast.
       "All Nile Cruise excursions as mentioned in the itinerary.",
       "Entrance fees to all sights between Luxor and Aswan",
       "Egyptologist guide during your tour",
-      "All services, charges, and taxes. "
+      "All services, charges, and taxes. ",
     ],
-    excluded: [
-      "Tipping",
-      "Personal Expenses",
-      "Optional tours"
-    ],
+    excluded: ["Tipping", "Personal Expenses", "Optional tours"],
   },
 
   97: {
-      title:
-        "Private Journey for 4 Days Dahabiya Nile River Cruise Aswan to Luxor",
-      maxGuests: "Unlimited",
-      location: "Egypt",
-      left: "4 days",
-      des: `4 days Dahabiya Nile River cruise from Aswan to Luxor will offer a magical experience showcasing the eternal wonders of Upper Egypt that achieved everlasting beauty and bliss. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical dahabiya Nile River Cruise to enjoy the finest sense of privacy and tranquility, and a private A/C Vehicle. All our guests will get the chance to explore the ancient Egyptian landmarks in upper Egypt during a wonderful journey through the Nile valley for a totally private 3 nights Dahabiya Nile River cruise from Aswan to Luxor to discover the great civilization of ancient Egyptian pharaohs in the most famous archaeological temples such as Karnak temple, Queen Hatshepsut Temple, Valley of the Kings, Philae temple, the High Dam, Kom Ombo temple, and Edfu temple. Book this unique tour and discover the majestic wonders of Upper Egypt.`,
-      reviews: "202 Reviews",
-      priceSale: "$900",
-      priceOriginal: "$900",
-      rating: 5,
-      tourPlans: [
-        {
-          title: "Aswan Highlights",
-          des: `
+    title:
+      "Private Journey for 4 Days Dahabiya Nile River Cruise Aswan to Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "4 days",
+    des: `4 days Dahabiya Nile River cruise from Aswan to Luxor will offer a magical experience showcasing the eternal wonders of Upper Egypt that achieved everlasting beauty and bliss. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical dahabiya Nile River Cruise to enjoy the finest sense of privacy and tranquility, and a private A/C Vehicle. All our guests will get the chance to explore the ancient Egyptian landmarks in upper Egypt during a wonderful journey through the Nile valley for a totally private 3 nights Dahabiya Nile River cruise from Aswan to Luxor to discover the great civilization of ancient Egyptian pharaohs in the most famous archaeological temples such as Karnak temple, Queen Hatshepsut Temple, Valley of the Kings, Philae temple, the High Dam, Kom Ombo temple, and Edfu temple. Book this unique tour and discover the majestic wonders of Upper Egypt.`,
+    reviews: "202 Reviews",
+    priceSale: "$900",
+    priceOriginal: "$900",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Aswan Highlights",
+        des: `
 
 Morning time, we will pick you up from Aswan Airport/ your hotel or anywhere you decide in Aswan by a private air-conditioned car to start your 3 nights Dahabiya Nile cruise by visiting Aswan Highlights including:
 Aswan High Dam:
@@ -7905,9 +7908,10 @@ Overnight:
 
 Onboard the Cruise.
 `,
-        },{
-          title:"Kom Ombo Temple",
-          des:`
+      },
+      {
+        title: "Kom Ombo Temple",
+        des: `
 
 In the morning, enjoy your delicious breakfast before joining your private tour guide to visit:
 Kom Ombo Temple:
@@ -7935,10 +7939,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-        },{
-          title:"Edfu Temple",
-          des:`
+`,
+      },
+      {
+        title: "Edfu Temple",
+        des: `
 
 In the morning, enjoy a delicious breakfast onboard the cruise. Then join your tour guide to visit:
 Edfu Temple:
@@ -7952,10 +7957,11 @@ Breakfast, Lunch, Dinner
 Overnight:
 
 Onboard the Cruise
-`
-        },{
-          title:"Luxor Attractions",
-          des:`
+`,
+      },
+      {
+        title: "Luxor Attractions",
+        des: `
 
 Disembarkation from your Dahabiya Nile cruise boat in Esna after enjoying your breakfast, then you will be escorted to Luxor to visit the best tourist attractions:
 Valley of the Kings:
@@ -7979,51 +7985,628 @@ Later you will be transferred to any place you want in Luxor to end your 4 days 
 Meals:
 
 Breakfast.
-`
-        }
+`,
+      },
+    ],
+    included: [
+      "Accommodation for 3 Nights on board a 5-star Dahabiya on a full board basis",
+      "The assistance of our personnel during your trip.",
+      "All transfers by modern air-conditioned deluxe vehicle.",
+      "All excursions as mentioned in the itinerary",
+      "Entrance fees to all sights between Luxor and Aswan",
+      "Egyptologist guide during your journey",
+      "All service charges and taxes",
+    ],
+    excluded: [
+      "Tipping",
+      "Personal Expenses",
+      "Any extras not mentioned in the program.",
+    ],
+  },
 
-      ],
-      included: [
-        "Accommodation for 3 Nights on board a 5-star Dahabiya on a full board basis",
-        "The assistance of our personnel during your trip.",
-        "All transfers by modern air-conditioned deluxe vehicle.",
-        "All excursions as mentioned in the itinerary",
-        "Entrance fees to all sights between Luxor and Aswan",
-        "Egyptologist guide during your journey",
-        "All service charges and taxes"
-      ],
-      excluded: [
-        "Tipping",
-        "Personal Expenses",
-        "Any extras not mentioned in the program."
-      ],
-    },
+  98: {
+    title: "Private 4 Nights Dahabiya Nile River Cruise Luxor to Aswan",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "5 days",
+    des: `5 Days Dahabiya Nile River Cruise from Luxor to Aswan will be a miraculous voyage of bliss and thrilling showcasing the finest examples of archaeological marvels dating more than 4500 years. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, an excellent Dahabiya Nile Cruise, and a private A/C Vehicle so everyone can enjoy a delightful Nile Cruise holiday. All our guests will take part in a great journey through the heart of Upper Egypt for 5 days / 4 nights Dahabiya Nile River cruise Luxor to Aswan to visit the most famous archaeological sites in upper Egypt which are Karnak temple, Queen Hatshepsut Temple, Valley of the kings, Philae temple, the High Dam, Kom Ombo temple, Edfu temple, and more, where everyone will explore the greatest ancient civilization on the face of the earth by discovering the grace and greatness of ancient Egyptian archaeological structures and other marvels found across Upper Egypt. Book this majestic 5 days Dahabiya Nile Cruise and discover the living miracles of the ancient Egyptian Civilization.`,
+    reviews: "502 Reviews",
+    priceSale: "$1000",
+    priceOriginal: "$1000",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor Highlights",
+        des: `
 
-  // 00: {
-  //     title:
-  //       "",
-  //     maxGuests: "Unlimited",
-  //     location: "Egypt",
-  //     left: "1 days",
-  //     des: "",
-  //     reviews: "000 Reviews",
-  //     priceSale: "$000",
-  //     priceOriginal: "$000",
-  //     rating: 5,
-  //     tourPlans: [
-  //       {
-  //         title: "",
-  //         des: "",
-  //       },
+Morning time, we will pick you up from Luxor hotel/ Airport to start your 5 days Dahabiya Nile cruise from Luxor to Aswan joining your private tour guide where you will visit Luxor highlights:
+Valley of the Kings:
 
-  //     ],
-  //     included: [
-  //       ""
-  //     ],
-  //     excluded: [
-  //       ""
-  //     ],
-  //   },
+Explore the Valley of the Kings, the burial site for pharaohs from the 18th to the 20th dynasties (1570-1050 BC). Discover the tombs of King Ramses II, King Tutankhamun, and more.
+Hatshepsut Temple:
+
+Visit the impressive Hatshepsut Temple, built in 1479 BC by Queen Hatshepsut (1508-1458 BC), one of the best-preserved monuments in Luxor.
+Colossi of Memnon:
+
+Marvel at the Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III (1386-1349 BC).
+
+After that, enjoy your lunch onboard the Dahabiya cruise, then escort your guide to visit:
+Karnak Temple:
+
+Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall.
+Luxor Temple:
+
+The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.
+
+Then you will be transferred from Luxor to Esna for embarking your Nile boat where you will enjoy the dinner meal on the boat. Overnight in Esna on board your Nile boat.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Edfu Temple and Gebel El Silsila",
+        des: `
+
+Enjoy the best delicious breakfast onboard the cruise and sailing to Edfu, arrive around noon time to visit:
+Edfu Temple:
+
+The most preserved Greco-Roman temple in Egypt, dedicated to Horus. Built between 237 BC and 57 BC, it showcases the battle between Horus and the devil god Seth.
+
+Then continue your perfect Dahabiya Nile cruise Luxor to Aswan sailing to visit:
+Gebel El Silsila:
+
+The golden chain of Mountain the immortal place of rowing can be found between Edfu temple and the north side of Kom Ombo temple, just 65 km in the north of Aswan. It used to be a highly famous quarry location located on both sides of the Nile River from the 18th Dynasty of the New Kingdom (1550 – 1070 BC) to construct some of the most legendary construction of that era which include the Karnak temples Complex, Luxor temple, Medinet Habu, Kom Ombo, and many more.
+
+The lunch and dinner will be onboard the cruise. Sail to Kom Ombo and spend the overnight onboard the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Kom Ombo Temple",
+        des: `
+
+Enjoy the breakfast, then join your private tour guide to visit:
+Kom Ombo Temple:
+
+Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
+
+At the end of the day, enjoy sailing to Aswan. The lunch and dinner meals will be served onboard the Dahabiya boat.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Aswan Highlights",
+        des: `
+
+Morning time, have your breakfast and join your private Egyptologist guide to continue your 5 days Dahabiya Nile cruise from Luxor to Aswan by visiting the most famous attractions in Aswan:
+Aswan High Dam:
+
+Created between 1960 and 1970, this marvelous structure had a significant effect on the economy and culture of Egypt by producing electricity.
+The Unfinished Obelisk:
+
+The largest known ancient obelisk in the history of ancient Egypt, created by Hatshepsut (1508-1458 BC) to complement the Lateran Obelisk at the Karnak temples complex.
+Philae Temple:
+
+Dedicated to the eternal goddess Isis of love and beauty. It was relocated to Agilkia Island as part of the UNESCO Nubia Campaign project before the completion of the Aswan High Dam in 1970.
+
+At the end of the day, you will back to the Nile cruise for the overnight. The lunch and dinner will be on board the boat.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Departure from Aswan",
+        des: `
+Check-out:
+
+Disembarkation after enjoying your breakfast, then we will transfer you to any place in Aswan for final departure to end your beautiful experience 5 days Dahabiya Nile cruise in upper Egypt.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation for 4 nights onboard 5-star Dahabiya on a full board basis",
+      "Assistance of our personnel during your tour. ",
+      "All transfers by modern air-conditioned deluxe vehicle. ",
+      "All Nile Cruise excursions as mentioned in the itinerary.",
+      "Entrance fees to all sights between Luxor and Aswan.",
+      "Egyptologist guide during your journey. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Personal Expenses. ",
+      "Any extras not mentioned in the program.",
+    ],
+  },
+
+  99: {
+    title: "Amazing 8 Days Dahabiya Nile River Cruise From Luxor",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "8 days",
+    des: `
+
+8 Days Dahabiya Nile River Cruise From Luxor will be the marvelous adventure of a lifetime. The fantastic travel agency Marvelous Egypt Travel will provide all our guests with the most outstanding services of a private A/C Vehicle, comfortable accommodations, an amazing Nile Cruise, and an experienced Egyptologist tour guide at the most affordable prices which is expected from the best travel agency in Egypt.
+
+All our clients will enjoy a marvelous 8 days Dahabiya Nile cruise from Luxor to the best historical attractions in Upper Egypt with one of our best professional tour guides. We will take you in elegance and luxury to uncover the majestic secrets of the blissful Nile River and sail between Luxor and Aswan to witness the ruins of the pharaohs such as the Valley of the Kings, Karnak temple, Queen Hatshepsut Temple, Philae Temple, Edfu, and Kom Ombo temples in addition to Abu Simbel temple, and many more of the most glorious sightseeing. Book this epic Dahabiya Nile cruise and live the journey of a lifetime.
+`,
+    reviews: "822 Reviews",
+    priceSale: "$1780",
+    priceOriginal: "$1780",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Visit Luxor East Bank",
+        des: `
+
+In the morning, one of our fluent Egyptologists will pick you up from your hotel or anywhere you decide in Luxor by a modern air-conditioned vehicle to explore the best of Luxor East Bank including:
+Karnak Temple:
+
+Conclude your journey with a visit to the Karnak Temple complex, dedicated to the Theban triad of Amun, Mut, and Khonsu. This vast religious site, built over many generations from 2000 BC to 30 BC, features the Avenue of Sphinxes and the great hypostyle hall.
+Check-in:
+
+Then we will transfer you to the 5-star deluxe Dahabiya Nile cruise to check in, have lunch and relax. Evening time, we will pick you up to enjoy:
+Luxor Temple by Night:
+
+The lunar and golden marvel of Thebes Luxor temple are a living miracle that became known as the southern Sanctuary for the crowning and the rejuvenation of kings. The temple of Luxor was built in 1400 BC by Amenhotep III and Rameses II to host the Opet festival.
+
+Back to your cruise to enjoy dinner and spend the overnight.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Free Day On the Cruise",
+        des: `
+
+Enjoy a free day on board the cruise while sailing to Edfu.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Edfu Temple",
+        des: `
+
+Early breakfast, followed by a trip to Edfu Temple:
+Edfu Temple:
+
+This well-preserved temple, dedicated to the deity Horus, was built between 237 BC and 57 BC and is believed to be on the site of Horus' battle with Set.
+
+Return to the cruise for enjoying lunch and dinner as you sail to Aswan.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Abu Simbel Temples",
+        des: `
+
+Early morning, get your breakfast and we will transfer you by a private A/C car to the southwest of Aswan to discover the impressive temple of King Ramses ii:
+Abu Simbel Temples:
+
+The colossal Temple of Abu Simbel is the guardian of the southern borders which were created by Ozymandias Ramses the Great (1292-1186 BC) and were established in 1200 BC to honor his win at the epic battle of Kadesh which ended in the signing of the first peace treaty in Egypt plus honor his wife Queen Nefertari the beloved of Hathor.
+
+Return to the cruise for enjoying lunch and dinner and folkloric and belly dancing shows.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Aswan Highlights",
+        des: `
+
+Enjoy your breakfast, then move to complete your 7 night Nile cruise from Luxor by a tour to Aswan Highlights where you will visit:
+Aswan High Dam:
+
+Created between 1960 and 1970, this marvelous structure had a significant effect on the economy and culture of Egypt by producing electricity.
+The Unfinished Obelisk:
+
+The largest known ancient obelisk in the history of ancient Egypt, created by Hatshepsut (1508-1458 BC) to complement the Lateran Obelisk at the Karnak temples complex.
+Philae Temple:
+
+Dedicated to the eternal goddess Isis of love and beauty. It was relocated to Agilkia Island as part of the UNESCO Nubia Campaign project before the completion of the Aswan High Dam in 1970.
+
+Back to your cruise to have your lunch and dinner. Overnight in the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Kom Ombo Temple",
+        des: `
+
+Breakfast on board, then you will join your Egyptologist by a modern A/C vehicle to visit:
+Kom Ombo Temple:
+
+Divided into 2 temples with 2 entrances, 2 hypostyle halls, and 2 sanctuaries. Built between 180 BC and 47 BC to honor Haroeris “Horus the Elder” and Sobek the crocodile god of the Nile.
+
+Enjoy lunch and dinner on the cruise as you continue sailing to Luxor.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise`,
+      },
+      {
+        title: "Luxor West Bank",
+        des: `
+
+Enjoy your breakfast on the cruise, prepare yourself to explore Luxor West Bank tourist attractions with your private tour guide.
+Valley of the Kings:
+
+Explore the Valley of the Kings, the burial site for pharaohs from the 18th to the 20th dynasties (1570-1050 BC). Discover the tombs of King Ramses II, King Tutankhamun, and more.
+Hatshepsut Temple:
+
+Visit the impressive Hatshepsut Temple, built in 1479 BC by Queen Hatshepsut (1508-1458 BC), one of the best-preserved monuments in Luxor.
+Colossi of Memnon:
+
+Marvel at the Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III (1386-1349 BC).
+
+Back to your cruise to have your lunch and dinner. Overnight in the cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Departure from Luxor",
+        des: `
+Check-out:
+
+Check out after breakfast, transfer to your desired location in Luxor.
+Meals:
+
+Breakfast.
+
+Another available option is to book 7 nights Dahabiya Nile cruise from Aswan. For more details about the tour itinerary, please contact us.
+`,
+      },
+    ],
+    included: [
+      "Accommodation onboard the Dahabiya Nile cruise is based on full board",
+      "The assistance of our personnel during your trip. ",
+      "The service of pick up and drop off",
+      "All transfers by modern air-conditioned deluxe vehicle. ",
+      "All Nile Cruise excursions as mentioned in the itinerary",
+      "Entrance fees to all sights between Luxor and Aswan",
+      "Egyptologist guide during your tour.",
+      "All services, charges, and taxes",
+    ],
+    excluded: ["Tipping", "Personal Expenses", "Optional tours"],
+  },
+
+  100: {
+    title: "Wonderful 4 Days Aswan Abu Simbel Nile River Cruise",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "4 days",
+    des: `4 Days Abu Simbel Nile River Cruise Package is a majestic voyage between the rare and exotic wonders of southern Egypt. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical Nile Cruise, and a private A/C Vehicle so everyone can live a magical adventure filled with grace and wonder.
+All our guests will live a magical adventure on board a luxury Nile cruise and sail through the heart of Egypt to enjoy an amazing 3 nights Aswan Abu Simbel Nile River cruise to visit the majestic Abu Simbel temple, Amada, Wadi EL Seboua, and Kalabsha Temple. Book this marvelous Nile Cruise tour and make every moment in southern Egypt worthy of remembering.`,
+    reviews: "546 Reviews",
+    priceSale: "$630",
+    priceOriginal: "$630",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Abu Simbel Temple",
+        des: `
+13:00
+
+Check-In.
+13:30
+
+Lunch on board.
+14:00
+
+Visit Abu Simbel Temple: The grand temples of Abu Simbel are living miracles that were created by King Ramesses II (the Great) around 1264 BC to honor the four seated gods of Amun‑Ra, Ra‑Horakhty, Ptah, and himself who are celebrated on the 22nd of February and 22nd of October during the sun festival. The temple of Ramesses II’s Great Queen Wife Nefertari which is just 100 km away dedicated to the goddess of love and beauty Hathor.
+16:00
+
+Tea Time.
+20:00
+
+Optional Visit to Sound and Light Show.
+21:00
+
+Dinner On Board.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`,
+      },
+      {
+        title: "Kasr Ibrim and Amada Temples",
+        des: `
+07:30
+
+Sail to Kasr Ibrim.
+08:00
+
+Enjoy the Breakfast.
+11:30
+
+Overview Kasr Ibrim (15 Minutes for photos only from Sundeck).
+16:30
+
+Visit Amada (Amada + Derr + Tomb of Pennut): The informative Amada temple is a highly important archaeological site found just 180 km away in the south of the High Dam. It was constructed by Thutmose III (1479 - 1425 BC) to pay honor to Re-Horakhty and Amun. It is the oldest temple ever created which is filled with a number of great works of historical art.
+18:30
+
+Sail to Wadi El Seboua.
+19:15
+
+Cocktail Party (Head Departments Presentation).
+21:30
+
+Nubian Show (by the Staff).
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+At Wadi El Seboua.
+`,
+      },
+      {
+        title: "Wadi El Seboua Temples",
+        des: `
+07:30
+
+Breakfast Meal.
+08:00
+
+Visit Wadi El Seboua Temples: The Golden Valley of the kings is known by this name due to the avenue of sphinxes found at the front of the temple which is located southern Part of Aswan by 50 km. Wadi El Seboua was created by Amenhotep III (1391-1353 BC) and enlarged by Ramsess II (1279-1213 BC) which is dedicated to the gods of Amun and Ra-Horakhty.
+09:00
+
+Sail To Aswan.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+In Aswan.
+`,
+      },
+      {
+        title: "Kalabsha Temple",
+        des: `
+07:00
+
+Enjoy Breakfast Meal.
+08:00
+
+Check Out from the Cruise.
+09:00
+
+Visit Kalabsha Temple: The illuminating Kalabsha temple is a rare archaeological site found just 30 miles away from south of the Aswan high dam which was constructed in 30 BC during the Roman age by an order from Augustus that was dedicated to the lower Nubian sun god Mandulis. The Temple features some of the finest examples of Egyptian and Roman artwork.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "The assistance of our personnel during your stay and excursions",
+      "All transfers by modern air-conditioned deluxe vehicle",
+      "Accommodation for 3 nights onboard 5-star cruise on a full board basis",
+      "All Nile Cruise excursions as mentioned in the itinerary",
+      "Entrance fees to all mentioned sights in the Itinerary",
+      "Egyptologist guide during your journey",
+      "All service charges and taxes.",
+    ],
+    excluded: [
+      "Tipping",
+      "Personal Expenses",
+      "Any extras not mentioned in the program",
+    ],
+  },
+
+  101: {
+    title: "5 Days Abu Simbel Nile River Cruise Package",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "5 days",
+    des: `5 days Abu Simbel Nile River cruise package will provide a magical exotic quest leading across all the rare wonders of southern Egypt. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical Nile Cruise, and a private A/C Vehicle so everyone can live a magical adventure filled with grace and wonder.
+All our guests will get to enjoy 5 days Abu Simbel Nile River cruise package that will be the key to discovering rare ancient Egyptian history and archaeological sites for 5 days/ 4 nights Abu Simbel Nile River cruise package in upper Egypt such as Abu Simbel temple, Wadi EL Seboua, Kalabsha, and more. Book this magical tour and discover the marvelous treasures of ancient Egypt.`,
+    reviews: "456 Reviews",
+    priceSale: "$890",
+    priceOriginal: "$890",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Arrival and Boarding",
+        des: `
+13:00
+
+Lunch on board.
+17:00
+
+Tea Time.
+20:00
+
+Dinner On Board.
+Meals:
+
+Lunch, Dinner.
+Overnight:
+
+At Aswan.
+`,
+      },
+      {
+        title: "Kalabsha Temples and Wadi El Seboua",
+        des: `
+07:30
+
+Breakfast Meal.
+08:00
+
+Visit Kalabsha Temples: The Temple of Kalabsha is found on the Nubia border on the west bank of the Nile River just 50 km in southern Aswan. The marvelous temples of Mandulis stand as a magical model of Nubian architecture which was built in 30 BC in the Roman era during the reign of Augustus that was for the Lower Nubian sun god Mandulis.
+10:30
+
+Sail to Wadi El Seboua.
+13:00
+
+Lunch on Board.
+17:00
+
+Tea Time.
+19:15
+
+Cocktail Party (Head Departments Presentation).
+20:00
+
+Dinner On Board.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+At Wadi El Seboua.
+`,
+      },
+      {
+        title: "Wadi El Seboua and Amada Temples",
+        des: `
+07:30
+
+Breakfast Meal.
+08:00
+
+Visit Wadi El Seboua Temples: The majestic Valley of the Lions is a magical part of the Nubian monuments found in Southern Egypt which was created by Amenhotep III (1391 – 1353 BC) and enlarged by Ramsess II which was for the god Amun and Ra-Horakhty. It is found just 50 KM south of Aswan Dam. The area holds a majestic row of lion-headed sphinxes at the front entrance of the temple.
+10:30
+
+Sail to Amada.
+13:30
+
+Lunch on Board.
+16:00
+
+Visit Amada (Amada + Derr + Tomb of Pennut): The great temple of Amada is considered to be the oldest Nubian Egyptian temple which was created by Thutmose III (1479 – 1425 BC) to honor Re-Horakhty and Amun and is found 160 km south of Aswan. It holds a very significant historical value showcasing a number of very important facts.
+20:00
+
+Dinner On Board.
+21:30
+
+Nubian Show (by the Staff).
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+At Amada.
+`,
+      },
+      {
+        title: "Kasr Ibrim and Abu Simbel Temples",
+        des: `
+06:30
+
+Sail to Kasr Ibrim.
+07:30
+
+Breakfast Meal.
+08:45
+
+Overview Kasr Ibrim (15 Minutes for photos only from Sundeck).
+12:15
+
+Abu Simbel Temple Panorama (15 Minutes for photos only from Sundeck).
+12:30
+
+Visit Abu Simbel Temple: The grand temples of Abu Simbel beloved by Amun are glorious gems of greatness and divinity that were constructed by Ramses the Great (1279-1213 BCE) between 1264 BC and 1244 BC which honored Ptah, Ra-Horakty, Amun-Re, and the king himself during the divine sun festival that took place in 22 of each year on October and February. The small temple of his wife Nefertiti which was dedicated to Hathor is just 100 m away standing as an example of Ramses' love for his beautiful queen's wife.
+19:00
+
+Dinner On Board.
+20:00
+
+Optional Visit Sound and Light Show of Abu Simbel.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+At Abu Simbel.
+`,
+      },
+      {
+        title: "Disembarkation",
+        des: `
+08:30
+
+Breakfast Meal.
+09:00
+
+Check Out from the Cruise.
+Meals:
+
+Breakfast.
+`,
+      },
+    ],
+    included: [
+      "Accommodation for 4 nights onboard 5-star cruise on a full board basis",
+      "Assistance of our personnel during your tour",
+      "All transfers by modern air-conditioned deluxe vehicle",
+      "All Nile Cruise excursions as mentioned in the itinerary",
+      "Entrance fees to all sights between Luxor and Aswan.",
+      "Egyptologist guide during your journey",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Personal Expenses. ",
+      "Any extras not mentioned in the program",
+    ],
+  },
+
 };
 
 // Tour js Templete
