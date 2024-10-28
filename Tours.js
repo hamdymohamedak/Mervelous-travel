@@ -8606,7 +8606,6 @@ Breakfast.
       "Any extras not mentioned in the program",
     ],
   },
-
 };
 
 // Tour js Templete
@@ -8636,7 +8635,6 @@ Breakfast.
 //     ],
 //   },
 // /Tour js Templete
-
 const tour = tourDetails[tourId];
 
 if (tour) {
@@ -8647,29 +8645,29 @@ if (tour) {
     descriptionWrap.style.display = "none";
   } else {
     descriptionWrap.innerHTML = `
-        <div class="description-wrap mb-40">
-            <span class="description">Description:</span>
-            <p class="des">${tour.des}</p>
-        </div>
+      <div class="description-wrap mb-40">
+        <span class="description">Description:</span>
+        <p class="des">${tour.des}</p>
+      </div>
     `;
   }
 
   // Render Excluded Items
   document.querySelector("#excluded").innerHTML = `
-      <div class="col-md-6">
-        <ul class="listing-clude">
-          ${tour.excluded
-            .map(
-              (item) => `
+    <div class="col-md-6">
+      <ul class="listing-clude">
+        ${tour.excluded
+          .map(
+            (item) => `
               <li class="flex-three" style="width: 193%;">
                 <img style="height: 1.3rem; width: auto; margin-right: 1rem;" src="./assets/images/confidence_icons/Wrong.png" alt="Not Excluded">
                 <p style="font-size: 14px;">${item}</p>
               </li>
             `
-            )
-            .join("")}
-        </ul>
-      </div>
+          )
+          .join("")}
+      </ul>
+    </div>
   `;
 
   // Render Included Items
@@ -8679,24 +8677,23 @@ if (tour) {
         ${tour.included
           .map(
             (item) => `
-            <li class="flex-three" style="width: 193%;">
-              <i class="icon-Vector-7"></i>
-              <p style="font-size: 14px;">${item}</p>
-            </li>
-          `
+              <li class="flex-three" style="width: 193%;">
+                <i class="icon-Vector-7"></i>
+                <p style="font-size: 14px;">${item}</p>
+              </li>
+            `
           )
           .join("")}
       </ul>
     </div>
   `;
 
-  // Handle Tour Plan Section
   const tourPlanningContainer = document.querySelector("#tour_planing");
 
   if (tour.tourPlans && tour.tourPlans.length > 0) {
     tour.tourPlans.forEach((plan, index) => {
       const planHTML = `
-        <div  class="tour-planing-section flex">
+        <div class="tour-planing-section flex">
           <div class="number-box flex-five">${(index + 1)
             .toString()
             .padStart(2, "0")}</div>
@@ -8712,43 +8709,6 @@ if (tour) {
     tourPlanningContainer.innerHTML =
       "<p>No tour plans available at the moment.</p>";
   }
-
-  // Inner Heading and Tour Info
-  document.querySelector(".inner-heading-wrap").innerHTML = `
-    <div class="inner-heading">
-      <span class="feature">Featured</span>
-      <h2 class="title">${tour.title}</h2>
-      <ul class="flex-three list-wrap-heading">
-        <li class="flex-three">
-          <i class="icon-user"></i>
-          <span>Max Guests: ${tour.maxGuests}</span>
-        </li>
-        <li class="flex-three">
-          <i class="icon-18"></i>
-          <span>${tour.location}</span>
-        </li>
-        <div class="icons flex-three">
-          <i style="color:green;margin-right:1rem" class="icon-time-left"></i>
-          <span>${tour.left}</span>
-        </div>
-      </ul>
-    </div>
-    <div class="inner-price">
-      <div class="flex-three">
-        <div class="start">
-          ${generateStars(tour.rating)}
-        </div>
-        <span class="review">(${tour.reviews})</span>
-      </div>
-      <p class="price-sale text-main">
-        ${tour.priceSale} <span class="price">${tour.priceOriginal}</span>
-      </p>
-    </div>
-  `;
-} else {
-  document.querySelector(".inner-heading-wrap").innerHTML = `
-    <h3 class="title">404 Content Not Found To report, contact us on +201278859768</h3>
-  `;
 }
 
 function generateStars(rating) {
@@ -8759,21 +8719,91 @@ function generateStars(rating) {
   return starsHtml;
 }
 
-//
-
+// Open Chat and TripAdvisor
 function goToChat() {
   window.open("https://wa.me/+201143328885");
 }
+
 function goToTripadvisorSite() {
   window.open(
     "https://www.tripadvisor.com/Attraction_Review-g294201-d2149513-Reviews-Marvelous_Egypt_Travel-Cairo_Cairo_Governorate.html"
   );
 }
 
+// Set Copyright
 let copyRight = (() => {
   let CopyRightElement = document.querySelectorAll(".copy-right");
-  console.log(CopyRightElement);
   let d = new Date();
   let Year = d.getFullYear();
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
+
+function handleSearch() {
+  const searchInput = document.querySelector("#searchInput");
+  const searchResults = document.querySelector("#searchResults");
+  const searchContainer = document.querySelector("#searchContainer");
+
+  const searchValue = searchInput.value.toLowerCase();
+
+  if (searchValue.trim() === "") {
+    if (searchResults) {
+      searchResults.remove(); 
+    }
+    return; 
+  } else {
+    if (!searchResults) {
+      const newSearchResults = document.createElement("div");
+      newSearchResults.id = "searchResults";
+      searchContainer.appendChild(newSearchResults); 
+    }
+  }
+
+  searchResults.innerHTML = "";
+
+  for (const id in tourDetails) {
+    const tour = tourDetails[id];
+    if (tour.title.toLowerCase().includes(searchValue)) {
+      const tourHTML = `
+        <div class="tour-listing box-sd">
+          <a href="./tour-single.html?id=${id}" class="tour-listing-image">
+            <div class="badge-top flex-two">
+              <span class="feature">مميز</span>
+              <div class="badge-media flex-five">
+                <span class="media"><i class="icon-Group-1000002909"></i>${tour.reviews}</span>
+              </div>
+            </div>
+            <img style="height: 19rem; object-fit: cover" src="${tour.image}" alt="Image Listing" />
+          </a>
+          <div class="tour-listing-content">
+            <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
+            <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
+            <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+            <div class="icon-box flex-three">
+              <div class="icons flex-three">
+                <i class="icon-time-left"></i>
+                <span>${tour.left}</span>
+              </div>
+              <div class="icons flex-three">
+                <span>${tour.maxGuests} ضيف</span>
+              </div>
+            </div>
+            <div class="flex-two">
+              <div class="price-box flex-three">
+                <p>من <span class="price-sale">${tour.priceSale}</span></p>
+              </div>
+              <div class="icon-bookmark">
+                <i class="icon-Vector-151"></i>
+              </div>
+            </div>
+            <div class="inquire-now">
+              <a href="./tour-single.html?id=${id}" class="btn-inquire">استفسر الآن</a>
+            </div>
+          </div>
+        </div>
+      `;
+      searchResults.innerHTML = tourHTML; // عرض نتيجة واحدة فقط
+      break; // الخروج من الحلقة بعد العثور على النتيجة الأولى
+    }
+  }
+}
+
