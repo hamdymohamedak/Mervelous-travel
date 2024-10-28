@@ -1,2 +1,0 @@
-# Marvelous Egypt Travel 
-## Project
