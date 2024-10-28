@@ -3123,7 +3123,7 @@ Lunch.
     location: "Egypt",
     left: "1 days",
     des: `Embark on an extraordinary journey from El Gouna to the heart of Cairo, where the timeless wonders of ancient Egypt await you. This Cairo Day Trip by plane, arranged by Marvelous Egypt Travel, offers unparalleled service with a professional Egyptologist tour guide and a private A/C vehicle. Visit the iconic Pyramids of Giza, the enigmatic Great Sphinx, the historical Egyptian Museum, and experience the vibrant atmosphere of Khan El Khalili Bazaar. Discover the essence of Cairo’s historical grandeur and cultural richness in a single day and return to El Gouna filled with unforgettable memories.`,
-    reviews: "000 Reviews",
+    reviews: "464 Reviews",
     priceSale: "$420",
     priceOriginal: "$420",
     rating: 5,
