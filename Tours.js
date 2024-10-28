@@ -8797,9 +8797,7 @@ if (tour) {
     </div>
   `;
 } else {
-  document.querySelector(".inner-heading-wrap").innerHTML = `
-    <h3 class="title">404 Content Not Found To report, contact us on +201278859768</h3>
-  `;
+  
 }
 
 function generateStars(rating) {
@@ -8830,7 +8828,9 @@ let copyRight = (() => {
 })();
 
 
-// Search Functionality
+//  Handle the Search Bar
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
@@ -8846,8 +8846,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Handle search function
-  const handleSearch = debounce(() => {
-    const searchValue = searchInput.value.toLowerCase();
+  const handleSearch = (searchValue) => {
     searchResults.innerHTML = ""; // Clear previous results
 
     // Clear results if the input is empty
@@ -8860,7 +8859,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     for (const id in tourDetails) {
       const tour = tourDetails[id];
-      if (tour.title.toLowerCase().includes(searchValue)) {
+
+      // Check relevant properties for the search term
+      if (
+        tour.title.toLowerCase().includes(searchValue) || 
+        tour.location.toLowerCase().includes(searchValue) || 
+        tour.des.toLowerCase().includes(searchValue) || 
+        tour.left.toLowerCase().includes(searchValue) || 
+        tour.priceSale.replace('$', '').trim() === searchValue // Search by priceSale
+      ) {
         foundResults = true; 
         const tourHTML = `
           <div class="tour-listing box-sd">
@@ -8903,8 +8910,27 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       searchModal.hide(); // Hide modal if no results found
     }
-  }, 300); // Debounce delay in milliseconds
+  };
 
-  // Attach event listener
-  searchInput.addEventListener('input', handleSearch);
+  // Attach click event listener to the search button
+  const searchButton = document.querySelector(".btn-success");
+  searchButton.addEventListener('click', () => {
+    const searchValue = searchInput.value.toLowerCase();
+    handleSearch(searchValue); // Trigger search with input value
+  });
+
+  // Attach input event listener for the search input
+  searchInput.addEventListener('input', () => {
+    // Optional: You can add logic here if you want to show suggestions or perform other actions while typing
+  });
+
+  // Add click event listeners to the filter options
+  const filterOptions = document.querySelectorAll('.nice-select .option');
+  filterOptions.forEach(option => {
+    option.addEventListener('click', (event) => {
+      const selectedValue = event.target.textContent;
+      searchInput.value = selectedValue; // Set the search input value
+      handleSearch(selectedValue.toLowerCase()); // Trigger the search immediately on selection
+    });
+  });
 });
