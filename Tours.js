@@ -8830,7 +8830,112 @@ let copyRight = (() => {
 
 //  Handle the Search Bar
 
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.querySelector("#searchInput");
+  const minPriceInput = document.querySelector("#minPrice");
+  const maxPriceInput = document.querySelector("#maxPrice");
+  const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
+  const searchResults = document.querySelector("#searchResults");
 
+  // Debounce function
+  const debounce = (func, delay) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+  };
+
+  // Handle search function
+  const handleSearch = (searchValue, minPrice, maxPrice) => {
+    searchResults.innerHTML = ""; // Clear previous results
+
+    if (searchValue.trim() === "" && isNaN(minPrice) && isNaN(maxPrice)) {
+      searchModal.hide();
+      return;
+    }
+
+    let foundResults = false;
+
+    for (const id in tourDetails) {
+      const tour = tourDetails[id];
+      const tourPrice = parseFloat(tour.priceSale.replace('$', '').trim());
+
+      // Check if the tour meets search criteria and falls within price range
+      const isInPriceRange =
+        (!isNaN(minPrice) ? tourPrice >= minPrice : true) &&
+        (!isNaN(maxPrice) ? tourPrice <= maxPrice : true);
+
+      if (
+        isInPriceRange &&
+        (tour.title.toLowerCase().includes(searchValue) ||
+         tour.location.toLowerCase().includes(searchValue) ||
+         tour.des.toLowerCase().includes(searchValue) ||
+         tour.left.toLowerCase().includes(searchValue))
+      ) {
+        foundResults = true;
+        const tourHTML = `
+          <div class="tour-listing box-sd">
+            <a href="./tour-single.html?id=${id}" class="tour-listing-image">
+              <img style="height: 19rem; object-fit: cover" src="${tour.image}" alt="Image Listing" />
+            </a>
+            <div class="tour-listing-content">
+              <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
+              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
+              <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+              <div class="icon-box flex-three">
+                <div class="icons flex-three">
+                  <i class="icon-time-left"></i>
+                  <span>${tour.left}</span>
+                </div>
+                <div class="icons flex-three">
+                  <span>${tour.maxGuests} Guest</span>
+                </div>
+              </div>
+              <div class="flex-two">
+                <div class="price-box flex-three">
+                  <p>From <span class="price-sale">${tour.priceSale}</span></p>
+                </div>
+                <div class="icon-bookmark">
+                  <i class="icon-Vector-151"></i>
+                </div>
+              </div>
+              <div class="inquire-now">
+                <a href="./tour-single.html?id=${id}" class="btn-inquire">Inquire Now</a>
+              </div>
+            </div>
+          </div>
+        `;
+        searchResults.innerHTML += tourHTML; // Add tour to results
+      }
+    }
+
+    if (foundResults) {
+      searchModal.show(); // Show modal if results are found
+    } else {
+      searchModal.hide(); // Hide modal if no results found
+    }
+  };
+
+  // Attach click event listener to the search button
+  const searchButton = document.querySelector(".btn-success");
+  searchButton.addEventListener('click', () => {
+    const searchValue = searchInput.value.toLowerCase();
+    const minPrice = parseFloat(minPriceInput.value);
+    const maxPrice = parseFloat(maxPriceInput.value);
+    handleSearch(searchValue, minPrice, maxPrice); // Trigger search with input values
+  });
+
+  // Add click event listeners to the filter options
+  const filterOptions = document.querySelectorAll('.nice-select .option');
+  filterOptions.forEach(option => {
+    option.addEventListener('click', (event) => {
+      const selectedValue = event.target.textContent;
+      searchInput.value = selectedValue; // Set the search input value
+      handleSearch(selectedValue.toLowerCase(), parseFloat(minPriceInput.value), parseFloat(maxPriceInput.value)); // Trigger the search immediately on selection
+    });
+  });
+});
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
@@ -8849,26 +8954,43 @@ document.addEventListener('DOMContentLoaded', () => {
   const handleSearch = (searchValue) => {
     searchResults.innerHTML = ""; // Clear previous results
 
-    // Clear results if the input is empty
     if (searchValue.trim() === "") {
-      searchModal.hide(); 
+      searchModal.hide();
       return;
     }
 
-    let foundResults = false; 
+    let foundResults = false;
+    let minPrice = null;
+    let maxPrice = null;
+
+    // Check if searchValue is in a "min - max" price format
+    const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
+    const match = searchValue.match(priceRangePattern);
+
+    if (match) {
+      minPrice = parseFloat(match[1]);
+      maxPrice = parseFloat(match[2]);
+      searchValue = ""; // Clear searchValue for pure price range search
+    }
 
     for (const id in tourDetails) {
       const tour = tourDetails[id];
+      const tourPrice = parseFloat(tour.priceSale.replace('$', '').trim());
 
-      // Check relevant properties for the search term
+      // Check if the tour meets price range and other criteria
+      const isInPriceRange = 
+        (minPrice !== null ? tourPrice >= minPrice : true) &&
+        (maxPrice !== null ? tourPrice <= maxPrice : true);
+
       if (
-        tour.title.toLowerCase().includes(searchValue) || 
-        tour.location.toLowerCase().includes(searchValue) || 
-        tour.des.toLowerCase().includes(searchValue) || 
-        tour.left.toLowerCase().includes(searchValue) || 
-        tour.priceSale.replace('$', '').trim() === searchValue // Search by priceSale
+        isInPriceRange &&
+        (!searchValue || // Proceed if no keyword search or keyword matches
+         tour.title.toLowerCase().includes(searchValue) || 
+         tour.location.toLowerCase().includes(searchValue) || 
+         tour.des.toLowerCase().includes(searchValue) || 
+         tour.left.toLowerCase().includes(searchValue))
       ) {
-        foundResults = true; 
+        foundResults = true;
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
@@ -8917,20 +9039,5 @@ document.addEventListener('DOMContentLoaded', () => {
   searchButton.addEventListener('click', () => {
     const searchValue = searchInput.value.toLowerCase();
     handleSearch(searchValue); // Trigger search with input value
-  });
-
-  // Attach input event listener for the search input
-  searchInput.addEventListener('input', () => {
-    // Optional: You can add logic here if you want to show suggestions or perform other actions while typing
-  });
-
-  // Add click event listeners to the filter options
-  const filterOptions = document.querySelectorAll('.nice-select .option');
-  filterOptions.forEach(option => {
-    option.addEventListener('click', (event) => {
-      const selectedValue = event.target.textContent;
-      searchInput.value = selectedValue; // Set the search input value
-      handleSearch(selectedValue.toLowerCase()); // Trigger the search immediately on selection
-    });
   });
 });
