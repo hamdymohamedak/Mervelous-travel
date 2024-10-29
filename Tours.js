@@ -8856,7 +8856,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let minPrice = null, maxPrice = null;
     let minDays = null, maxDays = null;
 
-    // Check if searchValue is in a "min - max" price format
+    // Patterns for price and day range
     const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
     const dayRangePattern = /^\s*(\d+)\s*day\s*-\s*(\d+)\s*day[s]?\s*$/i;
 
@@ -8866,19 +8866,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (priceMatch) {
       minPrice = parseFloat(priceMatch[1]);
       maxPrice = parseFloat(priceMatch[2]);
-      searchValue = ""; // Clear searchValue for pure price range search
+      searchValue = "";
     } else if (dayMatch) {
       minDays = parseInt(dayMatch[1]);
       maxDays = parseInt(dayMatch[2]);
-      searchValue = ""; // Clear searchValue for pure day range search
+      searchValue = "";
     }
 
     for (const id in tourDetails) {
       const tour = tourDetails[id];
       const tourPrice = parseFloat(tour.priceSale.replace('$', '').trim());
-      const tourDays = parseInt(tour.left.replace(/[^0-9]/g, '')); // Extract days from tour.left
+      const tourDays = parseInt(tour.left.replace(/[^0-9]/g, ''));
 
-      // Check if the tour meets price range, day range, and other criteria
+      // Filter by price and day range
       const isInPriceRange = 
         (minPrice !== null ? tourPrice >= minPrice : true) &&
         (maxPrice !== null ? tourPrice <= maxPrice : true);
@@ -8887,10 +8887,11 @@ document.addEventListener('DOMContentLoaded', () => {
         (minDays !== null ? tourDays >= minDays : true) &&
         (maxDays !== null ? tourDays <= maxDays : true);
 
+      // Keyword and range filtering
       if (
         isInPriceRange &&
         isInDayRange &&
-        (!searchValue || // Proceed if no keyword search or keyword matches
+        (!searchValue || 
          tour.title.toLowerCase().includes(searchValue) || 
          tour.location.toLowerCase().includes(searchValue) || 
          tour.des.toLowerCase().includes(searchValue) || 
@@ -8929,21 +8930,61 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         `;
-        searchResults.innerHTML += tourHTML; // Add tour to results
+        searchResults.innerHTML += tourHTML;
       }
     }
 
     if (foundResults) {
-      searchModal.show(); // Show modal if results are found
+      searchModal.show();
     } else {
-      searchModal.hide(); // Hide modal if no results found
+      searchModal.hide();
     }
   };
 
-  // Attach click event listener to the search button
+  // Attach search button event listener
   const searchButton = document.querySelector(".btn-success");
   searchButton.addEventListener('click', () => {
     const searchValue = searchInput.value.toLowerCase();
-    handleSearch(searchValue); // Trigger search with input value
+    handleSearch(searchValue);
+  });
+
+  // Attach input event listener for the search input
+  searchInput.addEventListener('input', debounce(() => {
+    // Optional: Show suggestions or handle input events if needed
+  }, 300));
+
+  // Add click event listeners to filter options
+  const filterOptions = document.querySelectorAll('.nice-select .option');
+  filterOptions.forEach(option => {
+    option.addEventListener('click', (event) => {
+      const selectedValue = event.target.textContent;
+      searchInput.value = selectedValue;
+      handleSearch(selectedValue.toLowerCase());
+    });
+  });
+  
+  // Sorting feature
+  const sortTours = (tours, criterion) => {
+    return tours.sort((a, b) => {
+      if (criterion === 'priceLowToHigh') {
+        return parseFloat(a.priceSale.replace('$', '')) - parseFloat(b.priceSale.replace('$', ''));
+      } else if (criterion === 'priceHighToLow') {
+        return parseFloat(b.priceSale.replace('$', '')) - parseFloat(a.priceSale.replace('$', ''));
+      } else if (criterion === 'daysShortToLong') {
+        return parseInt(a.left.replace(/[^0-9]/g, '')) - parseInt(b.left.replace(/[^0-9]/g, ''));
+      } else if (criterion === 'daysLongToShort') {
+        return parseInt(b.left.replace(/[^0-9]/g, '')) - parseInt(a.left.replace(/[^0-9]/g, ''));
+      }
+    });
+  };
+
+  // Apply sorting
+  document.querySelectorAll('.sort-option').forEach(option => {
+    option.addEventListener('click', (event) => {
+      const criterion = event.target.dataset.sort;
+      const sortedTours = sortTours(Object.values(tourDetails), criterion);
+      searchResults.innerHTML = ""; // Clear results
+      sortedTours.forEach(tour => searchResults.innerHTML += tourHTML(tour)); // Re-display sorted results
+    });
   });
 });
