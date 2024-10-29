@@ -8826,7 +8826,6 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
-
 // Handle the Search Bar
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
@@ -8936,7 +8935,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/images/Giza_Images/img1.webp",
           "./assets/images/Giza_Images/GUEST50.jpeg",
           "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
-          "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg"
+          "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
         ];
         let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
 
@@ -8944,12 +8943,18 @@ document.addEventListener("DOMContentLoaded", () => {
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
-               <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing" />
+               <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing" >
             </a>
             <div class="tour-listing-content">
-              <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
-              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
-              <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+              <span class="map"><i class="icon-Vector4"></i>${
+                tour.location
+              }</span>
+              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${
+          tour.title
+        }</a></h3>
+              <div class="review">${generateStars(tour.rating)}<span>(${
+          tour.reviews
+        })</span></div>
               <div class="icon-box flex-three">
                 <div class="icons flex-three">
                   <i class="icon-time-left"></i>
@@ -9010,22 +9015,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Attach event listeners for duration inputs
-// Select duration inputs and search button
-const durationFromInput = document.querySelector("#durationFrom");
-const durationToInput = document.querySelector("#durationTo");
+  // Select duration inputs and search button
+  const durationFromInput = document.querySelector("#durationFrom");
+  const durationToInput = document.querySelector("#durationTo");
 
-// Attach click event listener to the search button
-searchButton.addEventListener("click", () => {
-  const fromValue = durationFromInput.value.trim();
-  const toValue = durationToInput.value.trim();
-  
-  // Only trigger search if both values are provided
-  if (fromValue && toValue) {
-    searchInput.value = `${fromValue}-${toValue}`; 
-    handleSearch(searchInput.value.toLowerCase());
-  }
-});
+  // Attach click event listener to the search button
+  searchButton.addEventListener("click", () => {
+    const fromValue = durationFromInput.value.trim();
+    const toValue = durationToInput.value.trim();
 
+    // Only trigger search if both values are provided
+    if (fromValue && toValue) {
+      searchInput.value = `${fromValue}-${toValue}`;
+      handleSearch(searchInput.value.toLowerCase());
+    }
+  });
 
   // Sorting feature
   const sortTours = (tours, criterion) => {
@@ -9064,6 +9068,3 @@ function generateStars(rating) {
   }
   return starsHTML;
 }
-
-
-

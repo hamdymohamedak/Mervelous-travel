@@ -244,7 +244,7 @@ asynctest(
           blob,
           '<p>    <img loading="lazy" src="data:image/gif;base64,' +
             base64 +
-            '" />a</p>'
+            '" >a</p>'
         ),
       ]);
     };
