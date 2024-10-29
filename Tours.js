@@ -8858,7 +8858,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Patterns for price and day range
     const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
-    const dayRangePattern = /^\s*(\d+)\s*day\s*-\s*(\d+)\s*day[s]?\s*$/i;
+    const dayRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*days?\s*$/i;
 
     const priceMatch = searchValue.match(priceRangePattern);
     const dayMatch = searchValue.match(dayRangePattern);
