@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email content
-    $to = "info@marvelousegypttravel.com, shafekgobran@gmail.com";
+    $to = "elmaramshods@gmail.com, mohameddhamdy407@gmail.com";
     $subject = "New Tour Inquiry from " . $first_name . " " . $last_name;
     $message = "
         Name: $first_name $last_name
