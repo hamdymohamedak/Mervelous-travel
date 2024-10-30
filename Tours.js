@@ -8797,7 +8797,6 @@ if (tour) {
     </div>
   `;
 } else {
-  
 }
 
 function generateStars(rating) {
@@ -8827,13 +8826,12 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
-
-//  Handle the Search Bar
-
-
-document.addEventListener('DOMContentLoaded', () => {
+// Handle the Search Bar
+document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
-  const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
+  const searchModal = new bootstrap.Modal(
+    document.getElementById("searchModal")
+  );
   const searchResults = document.querySelector("#searchResults");
 
   // Debounce function
@@ -8849,35 +8847,114 @@ document.addEventListener('DOMContentLoaded', () => {
   const handleSearch = (searchValue) => {
     searchResults.innerHTML = ""; // Clear previous results
 
-    // Clear results if the input is empty
     if (searchValue.trim() === "") {
-      searchModal.hide(); 
+      searchModal.hide();
       return;
     }
 
-    let foundResults = false; 
+    let foundResults = false;
+    let minPrice = null,
+      maxPrice = null;
+    let minDays = null,
+      maxDays = null;
+
+    // Patterns for price and day range
+    const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
+    const dayRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*days?\s*$/i;
+
+    const priceMatch = searchValue.match(priceRangePattern);
+    const dayMatch = searchValue.match(dayRangePattern);
+
+    if (priceMatch) {
+      minPrice = parseFloat(priceMatch[1]);
+      maxPrice = parseFloat(priceMatch[2]);
+      searchValue = "";
+    } else if (dayMatch) {
+      minDays = parseInt(dayMatch[1]);
+      maxDays = parseInt(dayMatch[2]);
+      searchValue = "";
+    }
 
     for (const id in tourDetails) {
       const tour = tourDetails[id];
+      const tourPrice = parseFloat(tour.priceSale.replace("$", "").trim());
+      const tourDays = parseInt(tour.left.replace(/[^0-9]/g, ""));
 
-      // Check relevant properties for the search term
+      // Filter by price and day range
+      const isInPriceRange =
+        (minPrice !== null ? tourPrice >= minPrice : true) &&
+        (maxPrice !== null ? tourPrice <= maxPrice : true);
+
+      const isInDayRange =
+        (minDays !== null ? tourDays >= minDays : true) &&
+        (maxDays !== null ? tourDays <= maxDays : true);
+
+      // Keyword and range filtering
       if (
-        tour.title.toLowerCase().includes(searchValue) || 
-        tour.location.toLowerCase().includes(searchValue) || 
-        tour.des.toLowerCase().includes(searchValue) || 
-        tour.left.toLowerCase().includes(searchValue) || 
-        tour.priceSale.replace('$', '').trim() === searchValue // Search by priceSale
+        isInPriceRange &&
+        isInDayRange &&
+        (!searchValue ||
+          tour.title.toLowerCase().includes(searchValue) ||
+          tour.location.toLowerCase().includes(searchValue) ||
+          tour.des.toLowerCase().includes(searchValue) ||
+          tour.left.toLowerCase().includes(searchValue))
       ) {
-        foundResults = true; 
+        foundResults = true;
+        // Select Random Image To Card
+        let imgsPath = [
+          "./assets/images/Giza_Images/img60 (16).jpeg",
+          "./assets/images/Giza_Images/img60 (15).jpeg",
+          "./assets/images/Giza_Images/img60 (14).jpeg",
+          "./assets/images/Giza_Images/img60 (13).jpeg",
+          "./assets/images/Giza_Images/img60 (12).jpeg",
+          "./assets/images/Giza_Images/img60 (11).jpeg",
+          "./assets/images/Giza_Images/img60 (10).jpeg",
+          "./assets/images/Giza_Images/img60 (9).jpeg",
+          "./assets/images/Giza_Images/img60 (8).jpeg",
+          "./assets/images/Giza_Images/img60 (7).jpeg",
+          "./assets/images/Giza_Images/img60 (6).jpeg",
+          "./assets/images/Giza_Images/img60 (5).jpeg",
+          "./assets/images/Giza_Images/img60 (4).jpeg",
+          "./assets/images/Giza_Images/img60 (3).jpeg",
+          "./assets/images/Giza_Images/img60 (2).jpg",
+          "./assets/images/Giza_Images/img60 (1).jpg",
+          "./assets/images/Giza_Images/img60 (1).jpeg",
+          "./assets/images/Giza_Images/img60 (2).jpeg",
+          "./assets/images/Giza_Images/img18.webp",
+          "./assets/images/Giza_Images/img17.webp",
+          "./assets/images/Giza_Images/img16.webp",
+          "./assets/images/Giza_Images/img15.webp",
+          "./assets/images/Giza_Images/img13.webp",
+          "./assets/images/Giza_Images/img14.webp",
+          "./assets/images/Giza_Images/img12.webp",
+          "./assets/images/Giza_Images/img10.webp",
+          "./assets/images/Giza_Images/img9.webp",
+          "./assets/images/Giza_Images/img6.webp",
+          "./assets/images/Giza_Images/img4.webp",
+          "./assets/images/Giza_Images/img2.webp",
+          "./assets/images/Giza_Images/img1.webp",
+          "./assets/images/Giza_Images/GUEST50.jpeg",
+          "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
+          "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
+        ];
+        let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
+
+        // Select Random Image To Card
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
-              <img style="height: 19rem; object-fit: cover" src="${tour.image}" alt="Image Listing" />
+               <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing" >
             </a>
             <div class="tour-listing-content">
-              <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
-              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
-              <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+              <span class="map"><i class="icon-Vector4"></i>${
+                tour.location
+              }</span>
+              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${
+          tour.title
+        }</a></h3>
+              <div class="review">${generateStars(tour.rating)}<span>(${
+          tour.reviews
+        })</span></div>
               <div class="icon-box flex-three">
                 <div class="icons flex-three">
                   <i class="icon-time-left"></i>
@@ -8901,36 +8978,93 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         `;
-        searchResults.innerHTML += tourHTML; // Add tour to results
+        searchResults.innerHTML += tourHTML;
       }
     }
 
     if (foundResults) {
-      searchModal.show(); // Show modal if results are found
+      searchModal.show();
     } else {
-      searchModal.hide(); // Hide modal if no results found
+      searchModal.hide();
     }
   };
 
-  // Attach click event listener to the search button
+  // Attach search button event listener
   const searchButton = document.querySelector(".btn-success");
-  searchButton.addEventListener('click', () => {
+  searchButton.addEventListener("click", () => {
     const searchValue = searchInput.value.toLowerCase();
-    handleSearch(searchValue); // Trigger search with input value
+    handleSearch(searchValue);
   });
 
   // Attach input event listener for the search input
-  searchInput.addEventListener('input', () => {
-    // Optional: You can add logic here if you want to show suggestions or perform other actions while typing
-  });
+  searchInput.addEventListener(
+    "input",
+    debounce(() => {
+      // Optional: Show suggestions or handle input events if needed
+    }, 300)
+  );
 
-  // Add click event listeners to the filter options
-  const filterOptions = document.querySelectorAll('.nice-select .option');
-  filterOptions.forEach(option => {
-    option.addEventListener('click', (event) => {
+  // Add click event listeners to filter options
+  const filterOptions = document.querySelectorAll(".nice-select .option");
+  filterOptions.forEach((option) => {
+    option.addEventListener("click", (event) => {
       const selectedValue = event.target.textContent;
-      searchInput.value = selectedValue; // Set the search input value
-      handleSearch(selectedValue.toLowerCase()); // Trigger the search immediately on selection
+      searchInput.value = selectedValue;
+      handleSearch(selectedValue.toLowerCase());
     });
   });
+
+  // Attach event listeners for duration inputs
+  // Select duration inputs and search button
+  const durationFromInput = document.querySelector("#durationFrom");
+  const durationToInput = document.querySelector("#durationTo");
+
+  // Attach click event listener to the search button
+  searchButton.addEventListener("click", () => {
+    const fromValue = durationFromInput.value.trim();
+    const toValue = durationToInput.value.trim();
+
+    // Only trigger search if both values are provided
+    if (fromValue && toValue) {
+      searchInput.value = `${fromValue}-${toValue}`;
+      handleSearch(searchInput.value.toLowerCase());
+    }
+  });
+
+  // Sorting feature
+  const sortTours = (tours, criterion) => {
+    return tours.sort((a, b) => {
+      if (criterion === "priceLowToHigh") {
+        return (
+          parseFloat(a.priceSale.replace("$", "")) -
+          parseFloat(b.priceSale.replace("$", ""))
+        );
+      } else if (criterion === "priceHighToLow") {
+        return (
+          parseFloat(b.priceSale.replace("$", "")) -
+          parseFloat(a.priceSale.replace("$", ""))
+        );
+      } else if (criterion === "durationShortToLong") {
+        return (
+          parseInt(a.left.replace(/[^0-9]/g, "")) -
+          parseInt(b.left.replace(/[^0-9]/g, ""))
+        );
+      } else if (criterion === "durationLongToShort") {
+        return (
+          parseInt(b.left.replace(/[^0-9]/g, "")) -
+          parseInt(a.left.replace(/[^0-9]/g, ""))
+        );
+      }
+      return 0;
+    });
+  };
 });
+
+function generateStars(rating) {
+  const starCount = Math.round(rating);
+  let starsHTML = "";
+  for (let i = 0; i < 5; i++) {
+    starsHTML += `<i class="icon-star${i < starCount ? "" : "-empty"}"></i>`;
+  }
+  return starsHTML;
+}
