@@ -8767,7 +8767,7 @@ if (tour) {
   // Inner Heading and Tour Info
   document.querySelector(".inner-heading-wrap").innerHTML = `
     <div class="inner-heading">
-      <span class="feature">Featured</span>
+      <span style="background:green" class="feature">Featured</span>
       <h2 class="title">${tour.title}</h2>
       <ul class="flex-three list-wrap-heading">
         <li class="flex-three">
@@ -9068,3 +9068,37 @@ function generateStars(rating) {
   }
   return starsHTML;
 }
+
+
+
+
+
+
+
+
+
+// Form
+
+
+document.getElementById('form-book-tour').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData.entries()); 
+
+  fetch('/', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+  })
+  .then(response => response.text())
+  .then(data => {
+      alert(data); 
+      this.reset();
+  })
+  .catch((error) => {
+      console.error('Error:', error);
+  });
+});

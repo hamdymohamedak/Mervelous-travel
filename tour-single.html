@@ -346,7 +346,7 @@
                   </div>
                 </div>
               </div>
-              <!-- <img loading="lazy" src="./assets/images/page/fl1.webp" alt="Image"class="fly-ab" > -->
+              <!-- <img loading="lazy" src="./assets/images/page/fl1.webp" alt="Image" alt="img" class="fly-ab" /> -->
             </div>
           </div>
 
@@ -1009,13 +1009,18 @@
                           <div class="side-bar-right">
                             <div class="sidebar-widget">
                               <h6 class="block-heading">Book This Tour</h6>
-                              <form action="/" id="form-book-tour">
+                              <form
+                                action="process_form.php"
+                                id="form-book-tour"
+                                method="POST"
+                              >
                                 <!-- First Name -->
                                 <div class="input-wrap mb-30">
                                   <label for="first-name">First Name *</label>
                                   <input
                                     type="text"
                                     id="first-name"
+                                    name="first_name"
                                     placeholder="Please enter your first name"
                                     required
                                   />
@@ -1026,6 +1031,7 @@
                                   <input
                                     type="text"
                                     id="last-name"
+                                    name="last_name"
                                     placeholder="Please enter your last name"
                                     required
                                   />
@@ -1036,6 +1042,7 @@
                                   <input
                                     type="email"
                                     id="email"
+                                    name="email"
                                     placeholder="Please enter your email address"
                                     required
                                   />
@@ -1046,6 +1053,7 @@
                                   <input
                                     type="number"
                                     id="adults"
+                                    name="adults"
                                     placeholder="Please enter the number of adults"
                                     required
                                   />
@@ -1058,6 +1066,7 @@
                                   <input
                                     type="number"
                                     id="children"
+                                    name="children"
                                     placeholder="Please enter the number of children (if applicable)"
                                   />
                                 </div>
@@ -1069,30 +1078,40 @@
                                   <input
                                     type="text"
                                     id="age-children"
+                                    name="age_children"
                                     placeholder="Please enter ages in this format: 10,8,2"
                                   />
                                 </div>
                                 <!-- Date From -->
                                 <div class="input-wrap mb-30">
                                   <label for="start-date">From *</label>
-                                  <input type="date" id="start-date" required />
+                                  <input
+                                    type="date"
+                                    id="start-date"
+                                    name="start_date"
+                                    required
+                                  />
                                 </div>
                                 <!-- Date To -->
                                 <div class="input-wrap mb-30">
                                   <label for="end-date">To *</label>
-                                  <input type="date" id="end-date" required />
+                                  <input
+                                    type="date"
+                                    id="end-date"
+                                    name="end_date"
+                                    required
+                                  />
                                 </div>
                                 <!-- Nationality -->
                                 <div class="input-wrap mb-30">
                                   <label for="nationality">Nationality *</label>
-                                  <select id="nationality" required>
-                                    <option value="">
-                                      Select your nationality
-                                    </option>
-                                    <option value="American">American</option>
-                                    <option value="British">British</option>
-                                    <!-- Add more nationalities as needed -->
-                                  </select>
+                                  <input
+                                    type="text"
+                                    id="nationality"
+                                    name="nationality"
+                                    placeholder="Nationality"
+                                    required
+                                  />
                                 </div>
                                 <!-- Accommodation Rating -->
                                 <div class="input-wrap mb-30">
@@ -1101,6 +1120,7 @@
                                     <input
                                       type="checkbox"
                                       id="boutique"
+                                      name="accommodation_rating[]"
                                       value="Boutique"
                                     />
                                     <label for="boutique">Boutique</label>
@@ -1109,6 +1129,7 @@
                                     <input
                                       type="checkbox"
                                       id="2stars"
+                                      name="accommodation_rating[]"
                                       value="2 Stars"
                                     />
                                     <label for="2stars">2 Stars</label>
@@ -1117,6 +1138,7 @@
                                     <input
                                       type="checkbox"
                                       id="3stars"
+                                      name="accommodation_rating[]"
                                       value="3 Stars"
                                     />
                                     <label for="3stars">3 Stars</label>
@@ -1125,6 +1147,7 @@
                                     <input
                                       type="checkbox"
                                       id="4stars"
+                                      name="accommodation_rating[]"
                                       value="4 Stars"
                                     />
                                     <label for="4stars">4 Stars</label>
@@ -1133,6 +1156,7 @@
                                     <input
                                       type="checkbox"
                                       id="5stars"
+                                      name="accommodation_rating[]"
                                       value="5 Stars"
                                     />
                                     <label for="5stars">5 Stars</label>
@@ -1146,6 +1170,7 @@
                                   <input
                                     type="text"
                                     id="preferred-hotels"
+                                    name="preferred_hotels"
                                     placeholder="Please enter the details of any preferred hotels"
                                   />
                                 </div>
@@ -1158,11 +1183,13 @@
                                     <input
                                       type="checkbox"
                                       id="whatsapp"
+                                      name="contact_preference[]"
                                       value="WhatsApp"
                                     />
                                     <label for="whatsapp">WhatsApp</label>
                                     <input
                                       type="text"
+                                      name="whatsapp_number"
                                       placeholder="Please enter your WhatsApp number"
                                     />
                                   </div>
@@ -1170,6 +1197,7 @@
                                     <input
                                       type="checkbox"
                                       id="contact-email"
+                                      name="contact_preference[]"
                                       value="Email"
                                     />
                                     <label for="contact-email">Email</label>
@@ -1183,6 +1211,7 @@
                                   <input
                                     type="text"
                                     id="hear-about"
+                                    name="hear_about"
                                     placeholder="Please let us know how you found out about us"
                                   />
                                 </div>
@@ -1194,6 +1223,7 @@
                                   <input
                                     type="text"
                                     id="human-verification"
+                                    name="human_verification"
                                     placeholder="What is 4 + 3?"
                                     required
                                   />
@@ -2132,13 +2162,18 @@
                           <div class="side-bar-right">
                             <div class="sidebar-widget">
                               <h6 class="block-heading">Book This Tour</h6>
-                              <form action="/" id="form-book-tour">
+                              <form
+                                action="/send-email"
+                                id="form-book-tour"
+                                method="POST"
+                              >
                                 <!-- First Name -->
                                 <div class="input-wrap mb-30">
                                   <label for="first-name">First Name *</label>
                                   <input
                                     type="text"
                                     id="first-name"
+                                    name="first_name"
                                     placeholder="Please enter your first name"
                                     required
                                   />
@@ -2149,6 +2184,7 @@
                                   <input
                                     type="text"
                                     id="last-name"
+                                    name="last_name"
                                     placeholder="Please enter your last name"
                                     required
                                   />
@@ -2159,6 +2195,7 @@
                                   <input
                                     type="email"
                                     id="email"
+                                    name="email"
                                     placeholder="Please enter your email address"
                                     required
                                   />
@@ -2169,6 +2206,7 @@
                                   <input
                                     type="number"
                                     id="adults"
+                                    name="adults"
                                     placeholder="Please enter the number of adults"
                                     required
                                   />
@@ -2181,6 +2219,7 @@
                                   <input
                                     type="number"
                                     id="children"
+                                    name="children"
                                     placeholder="Please enter the number of children (if applicable)"
                                   />
                                 </div>
@@ -2192,25 +2231,39 @@
                                   <input
                                     type="text"
                                     id="age-children"
+                                    name="age_children"
                                     placeholder="Please enter ages in this format: 10,8,2"
                                   />
                                 </div>
                                 <!-- Date From -->
                                 <div class="input-wrap mb-30">
                                   <label for="start-date">From *</label>
-                                  <input type="date" id="start-date" required />
+                                  <input
+                                    type="date"
+                                    id="start-date"
+                                    name="start_date"
+                                    required
+                                  />
                                 </div>
                                 <!-- Date To -->
                                 <div class="input-wrap mb-30">
                                   <label for="end-date">To *</label>
-                                  <input type="date" id="end-date" required />
+                                  <input
+                                    type="date"
+                                    id="end-date"
+                                    name="end_date"
+                                    required
+                                  />
                                 </div>
                                 <!-- Nationality -->
                                 <div class="input-wrap mb-30">
                                   <label for="nationality">Nationality *</label>
                                   <input
                                     type="text"
-                                    placeholder="Nationality "
+                                    id="nationality"
+                                    name="nationality"
+                                    placeholder="Nationality"
+                                    required
                                   />
                                 </div>
                                 <!-- Accommodation Rating -->
@@ -2220,6 +2273,7 @@
                                     <input
                                       type="checkbox"
                                       id="boutique"
+                                      name="accommodation_rating[]"
                                       value="Boutique"
                                     />
                                     <label for="boutique">Boutique</label>
@@ -2228,6 +2282,7 @@
                                     <input
                                       type="checkbox"
                                       id="2stars"
+                                      name="accommodation_rating[]"
                                       value="2 Stars"
                                     />
                                     <label for="2stars">2 Stars</label>
@@ -2236,6 +2291,7 @@
                                     <input
                                       type="checkbox"
                                       id="3stars"
+                                      name="accommodation_rating[]"
                                       value="3 Stars"
                                     />
                                     <label for="3stars">3 Stars</label>
@@ -2244,6 +2300,7 @@
                                     <input
                                       type="checkbox"
                                       id="4stars"
+                                      name="accommodation_rating[]"
                                       value="4 Stars"
                                     />
                                     <label for="4stars">4 Stars</label>
@@ -2252,6 +2309,7 @@
                                     <input
                                       type="checkbox"
                                       id="5stars"
+                                      name="accommodation_rating[]"
                                       value="5 Stars"
                                     />
                                     <label for="5stars">5 Stars</label>
@@ -2265,6 +2323,7 @@
                                   <input
                                     type="text"
                                     id="preferred-hotels"
+                                    name="preferred_hotels"
                                     placeholder="Please enter the details of any preferred hotels"
                                   />
                                 </div>
@@ -2277,11 +2336,13 @@
                                     <input
                                       type="checkbox"
                                       id="whatsapp"
+                                      name="contact_preference[]"
                                       value="WhatsApp"
                                     />
                                     <label for="whatsapp">WhatsApp</label>
                                     <input
                                       type="text"
+                                      name="whatsapp_number"
                                       placeholder="Please enter your WhatsApp number"
                                     />
                                   </div>
@@ -2289,6 +2350,7 @@
                                     <input
                                       type="checkbox"
                                       id="contact-email"
+                                      name="contact_preference[]"
                                       value="Email"
                                     />
                                     <label for="contact-email">Email</label>
@@ -2302,6 +2364,7 @@
                                   <input
                                     type="text"
                                     id="hear-about"
+                                    name="hear_about"
                                     placeholder="Please let us know how you found out about us"
                                   />
                                 </div>
@@ -2313,6 +2376,7 @@
                                   <input
                                     type="text"
                                     id="human-verification"
+                                    name="human_verification"
                                     placeholder="What is 4 + 3?"
                                     required
                                   />
@@ -3305,7 +3369,7 @@
       </div>
       <div class="offcanvas-body">
         <div class="logo-canvas">
-          <img loading="lazy" src="./assets/images/logo.png" alt="image" />
+          <img src="./assets/images/logo.png" alt="image" />
         </div>
         <p class="des">
           The world’s first and largest digital market for crypto collectibles
