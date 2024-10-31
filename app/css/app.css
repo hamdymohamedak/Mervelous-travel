@@ -8430,8 +8430,8 @@
   .clip-text {
     color: transparent;
     -webkit-background-clip: text;
-    background-image: url(../../assets/images/page/clip-text.jpg);
-    background-size: cover;
+    background-image: url(../../assets/images/sharm_cover_11zon.jpg);
+    background-size: contain;
     background-position: center;
   }
 }
