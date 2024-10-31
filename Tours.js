@@ -9397,3 +9397,4 @@ function generateStars(rating) {
   }
   return starsHTML;
 }
+
