@@ -5732,43 +5732,154 @@ After a day full of exploration, transfer back to Alexandria Port and return to 
   },
 
   75: {
-    title: "",
+    title: "Day Trip to Alexandria Sights from Alexandria Port",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
-    des: "",
-    reviews: "000 Reviews",
-    priceSale: "$000",
-    priceOriginal: "$000",
+    des: `Embark on a captivating day trip from Alexandria Port to explore the historical and cultural wonders of Alexandria. With Marvelous Egypt Travel’s exceptional service, including a private air-conditioned vehicle and a knowledgeable Egyptologist guide, you will experience the rich Greco-Roman heritage and unique attractions of this legendary city. Enjoy visits to the Alexandria Library, Catacombs, Pompey’s Pillar, Qaitbay Citadel, and Morsi Abu Abbas Mosque, before returning to Alexandria Port.`,
+    reviews: "413 Reviews",
+    priceSale: "$80",
+    priceOriginal: "$80",
     rating: 5,
     tourPlans: [
       {
-        title: "",
-        des: "",
+        title: "Day Trip to Alexandria Sights from Alexandria Port",
+        des: ` Pickup from Alexandria Port:
+
+Our representative and guide will meet you at Alexandria Port and transfer you to your first destination.
+Catacombs of Kom El Shoqafa:
+
+Start your tour with the Catacombs of Kom El Shoqafa, a Roman burial site renowned for its fascinating blend of Egyptian and Roman architectural styles. This 2nd-century AD tomb is one of the Seven Wonders of the Middle Ages and provides a unique glimpse into ancient burial practices.
+Pompey's Pillar:
+
+Visit Pompey's Pillar, an impressive 25-meter (82-foot) granite column erected in 302 AD in honor of Emperor Diocletian. This monument is the only one of its kind in Egypt and is believed to hold the remains of General Pompey.
+Qaitbay Citadel:
+
+Explore the Qaitbay Citadel, a formidable fortress built in 1477 AD by Sultan Al-Ashraf Qa'it Bay. Situated on the Mediterranean coast at the site of the ancient Lighthouse of Alexandria, the citadel offers stunning views and showcases exquisite Islamic architectural design.
+Lunch Time:
+
+Enjoy a delightful lunch at a local restaurant in Alexandria, sampling local flavors and cuisine.
+Alexandria Library:
+
+Discover the Bibliotheca Alexandrina, a modern architectural marvel that pays homage to the ancient Library of Alexandria. Opened in 2002, it houses a vast collection of books, manuscripts, and artifacts reflecting Egypt's rich historical and cultural heritage.
+Morsi Abu Abbas Mosque:
+
+Visit the Morsi Abu Abbas Mosque, built in 1307 AD. This mosque is renowned for its stunning Islamic architectural design and intricate decorations, serving as inspiration for the Sheikh Zayed Mosque in Abu Dhabi.
+Return to Alexandria Port:
+
+After a day of exploration, return to Alexandria Port for drop-off.`,
       },
     ],
-    included: [""],
-    excluded: [""],
+    included: [
+      "Pick-up and drop-off at Alexandria Port. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey.",
+      "Mineral water on board the vehicle",
+      "Lunch at a local restaurant during your day trip",
+      "Entrance fees for all sightseeing are mentioned.",
+      "All service charges and taxes"
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost."
+    ],
   },
 
   76: {
-    title: "",
+    title: "2 Days Tour to Cairo and Luxor from Alexandria Port",
     maxGuests: "Unlimited",
     location: "Egypt",
-    left: "1 days",
-    des: "",
-    reviews: "000 Reviews",
-    priceSale: "$000",
-    priceOriginal: "$000",
+    left: "2 days",
+    des: `Experience the splendor of ancient Egypt with a breathtaking 2-day tour from Alexandria Port to Cairo and Luxor. This journey will take you through the rich history of Egypt’s greatest civilizations, featuring iconic landmarks and treasures. With Marvelous Egypt Travel’s top-notch services, including private transfers, expert Egyptologist guides, and luxurious accommodations, you’ll explore the wonders of Cairo and Luxor in comfort and style.`,
+    reviews: "413 Reviews",
+    priceSale: "$410",
+    priceOriginal: "$410",
     rating: 5,
     tourPlans: [
       {
-        title: "",
-        des: "",
-      },
+        title: "Alexandria Port to Luxor",
+        des: ` Pickup from Alexandria Port:
+
+Our representative will meet you at Alexandria Port and transfer you to Cairo airport for your flight to Luxor.
+Arrival in Luxor:
+
+Upon arrival, meet your guide and transfer to your first destination.
+Valley of the Kings:
+
+Discover the Valley of the Kings, a royal necropolis containing the tombs of ancient Egyptian pharaohs, including Ramses II and Tutankhamun. Marvel at the intricate tomb paintings and golden treasures.
+Hatshepsut Temple:
+
+Visit the impressive Temple of Queen Hatshepsut, a stunning architectural marvel dedicated to one of Egypt’s most powerful female rulers.
+Colossi of Memnon:
+
+See the Colossi of Memnon, two enormous statues of Pharaoh Amenhotep III, which have stood for centuries as guardians of the ancient city.
+Lunch:
+
+Enjoy lunch on a boat on the Nile River, offering a unique dining experience.
+Karnak Temple:
+
+Explore the Karnak Temple Complex, an expansive religious site dedicated to the gods Amun, Mut, and Khonsu. Admire the grandeur of the Hypostyle Hall and the Avenue of Sphinxes.
+Luxor Temple:
+
+The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
+Overnight:
+
+Check-in to a 5-star hotel in Luxor for an overnight stay.
+Meals:
+
+Lunch.`,
+      },{
+        title:"Luxor to Cairo",
+        des:` Breakfast:
+
+Enjoy breakfast at your hotel, then check out and fly from Luxor to Cairo.
+Giza Pyramids Complex:
+
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
+The Great Pyramid:
+
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
+The Great Sphinx:
+
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
+The Valley Temple:
+
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
+
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. For an enhanced experience, inquire about VIP tickets that offer access to additional artifacts.
+Lunch Time:
+
+Enjoy a delicious meal at a restaurant with views of the Pyramids or the Nile.
+The Egyptian Museum:
+
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Alexandria Port:
+
+After your tour, transfer back to Alexandria Port by private air-conditioned vehicle.
+Meals:
+
+Breakfast, Lunch.`
+      }
     ],
-    included: [""],
-    excluded: [""],
+    included: [
+      "Pick-up and drop-off at Alexandria Port.",
+      "All transfers by a private modern A/C vehicle",
+      "Private Egyptologist guide during your journey",
+      "One-night accommodation in Luxor at a 5-star hotel.",
+      "Flight tickets from Cairo to Luxor and return",
+      "Mineral water on board the vehicle",
+      "2 Lunch, and 1 Breakfast meals. ",
+      "Entrance fees for all sightseeing are mentioned",
+      "All service charges and taxes",
+
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost",
+    ],
   },
 
   77: {
