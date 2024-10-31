@@ -305,14 +305,49 @@
                                     </div>
 
                                 </div>
+                            </div>                    <!-- Bootstrap Modal -->
+                            <div
+                              class="modal fade"
+                              id="searchModal"
+                              tabindex="-1"
+                              aria-labelledby="searchModalLabel"
+                              aria-hidden="true"
+                            >
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="searchModalLabel">
+                                      Seach Results
+                                    </h5>
+                                    <button
+                                      type="button"
+                                      class="btn-close"
+                                      data-bs-dismiss="modal"
+                                      aria-label="Close"
+                                    ></button>
+                                  </div>
+                                  <div class="modal-body" id="searchResults">
+                                    <!-- Search results will be injected here -->
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button
+                                      type="button"
+                                      class="btn btn-secondary"
+                                      data-bs-dismiss="modal"
+                                    >
+                                      Close
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="side-bar-right">
                                     <div class="sidebar-widget">
                                         <h4 class="block-heading">search here</h4>
                                         <form action="/" id="search-bar-widget">
-                                            <input type="text" placeholder="Search here...">
-                                            <button type="button"><i class="icon-search-2"></i></button>
+                                            <input class="search_input_element" type="text" placeholder="Search here...">
+                                            <button class="btn_submit" type="button"><i class="icon-search-2"></i></button>
                                         </form>
                                     </div>
                                     <div class="sidebar-widget">

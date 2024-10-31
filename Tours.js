@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const tourId = params.get("id");
 
-const tourDetails = {
+ const tourDetails = {
   1: {
     title: "Cairo Tour Packages",
     maxGuests: "Unlimited",
@@ -9397,37 +9397,3 @@ function generateStars(rating) {
   }
   return starsHTML;
 }
-
-
-
-
-
-
-
-
-
-// Form
-
-
-document.getElementById('form-book-tour').addEventListener('submit', function(event) {
-  event.preventDefault();
-  
-  const formData = new FormData(this);
-  const data = Object.fromEntries(formData.entries()); 
-
-  fetch('/', {
-      method: 'POST',
-      headers: {
-          'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-  })
-  .then(response => response.text())
-  .then(data => {
-      alert(data); 
-      this.reset();
-  })
-  .catch((error) => {
-      console.error('Error:', error);
-  });
-});
