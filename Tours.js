@@ -1964,39 +1964,309 @@ Breakfast.
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "8 days",
-    des: "",
+    des: `Experience the divine beauty and rich history of Egypt with this 8 Days Christmas Cairo and Nile Cruise tour. This luxurious journey covers the magnificent cities of Cairo, Luxor, and Aswan, featuring private air-conditioned vehicles, exceptional accommodations, and a 5-star Nile cruise. Guided by an experienced Egyptologist, you’ll unravel the mysteries and splendors of iconic destinations while enjoying a blend of relaxation and excitement.`,
     reviews: "335 Reviews",
     priceSale: "$1980",
     priceOriginal: "$2475",
     rating: 5,
     tourPlans: [
       {
-        title: "",
-        des: "",
+        title: "Arrival in Cairo:",
+        des: ` A representative will meet you at Cairo International Airport, assist with entry formalities, and transfer you to a luxurious 5-star hotel.
+Sound and Light Show:
+
+In the evening, enjoy the spellbinding Sound and Light Show at the Giza Complex, followed by dinner at an oriental restaurant.
+Meals:
+
+Dinner.
+Overnight:
+
+Cairo Hotel.
+`,
+      },{
+        title:"Giza Pyramids: ",
+        des:` Visit the Great Pyramid, the Sphinx, and the Valley Temple.
+Saqqara Step Pyramid:
+
+Explore the world's first pyramid built for Pharaoh Djoser.
+Memphis City:
+
+Discover the ancient capital of Egypt.
+Flight to Luxor:
+
+Fly to Luxor, check in to your hotel.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Luxor Hotel.
+`
+      },{
+        title:"Karnak Temple: ",
+        des:` Explore this sprawling complex dedicated to the Theban triad.
+Luxor Temple by Night:
+
+Visit Luxor Temple, a haven for the crowning of kings.
+Nile Cruise:
+
+Check in, have lunch, and relax.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Valley of the Kings: ",
+        des:` Visit the tombs of ancient Egyptian pharaohs.
+Colossi of Memnon:
+
+See the two massive stone statues of Pharaoh Amenhotep III.
+Hatshepsut Temple:
+
+Explore the temple dedicated to Queen Hatshepsut.
+Sail to Edfu:
+
+Enjoy lunch and dinner onboard.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Edfu Temple: ",
+        des:` Visit the temple dedicated to Horus.
+Kom Ombo Temple:
+
+Explore the temple dedicated to Sobek and Haroeris.
+Sail to Aswan:
+
+Enjoy lunch and dinner onboard.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Aswan High Dam: ",
+        des:` Visit the monumental dam.
+Unfinished Obelisk:
+
+See the ancient obelisk dedicated to Queen Hatshepsut.
+Philae Temple:
+
+Explore the temple dedicated to the goddess Isis.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Flight to Cairo: ",
+        des:` Transfer to Aswan Airport, fly to Cairo.
+Egyptian Museum:
+
+Visit the museum housing Egypt's historical treasures.
+National Museum of Egyptian Civilization:
+
+Explore this grand museum.
+Hanging Church:
+
+Visit the church with captivating decorations.
+Al Muizz Street and Khan El Khalili Bazaar:
+
+Explore the historic street and market.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Cairo Hotel.
+`
+      },{
+        title:"Departure: ",
+        des:` Enjoy breakfast at the hotel, then transfer to Cairo International Airport for your flight home.
+Meals:
+
+Breakfast.
+`
       },
     ],
-    included: [""],
-    excluded: [""],
+    included: [
+      "Accommodation: 4 Nights accommodation on board 5-star Nile Cruise, 2 Nights Accommodation at a 5-star Hotel in Cairo, and 1 Night Accommodation at a 5-star Hotel in Luxor. ",
+      `Domestic Flights: Flight Tickets from Cairo to Luxor, and from Aswan to Cairo.`,
+      "Entrance Fees: Entrance fees to all the places in the itinerary ",
+      "Meals:Meals as mentioned in the itinerary. ",
+      "Guided Tours: Expert Egyptologist guides in English, French, and Spanish throughout the whole tour.",
+      "Transport: Private A.C. vehicle during the whole of your tours. ",
+      "Additional Services: Free airport meet and greet transfer, and all Service Charges and Taxes."
+    ],
+    excluded: [
+      "International Flights: International flights before and after the tour.",
+      "Insurance: Travel insurance is mandatory. ",
+      "Optional Experiences: Available at an additional cost.",
+      "Egypt Visa: USD 25 per passport. ",
+      "Tipping: Recommended ",
+      "Personal Expenses: Laundry, sauna, telephones, etc",
+      "SIM Card: Available for purchase at Cairo International Airport."
+    ],
   },
   22: {
     title:
-      "8 Days Easter Cairo, Giza, Aswan, Kom Ombo, Edfu, Luxor and Hurghada Tour",
+      "9 Days Easter Giza, Cairo, Aswan, Kom Ombo, Edfu, Luxor and Alexandria Tour",
     maxGuests: "Unlimited",
     location: "Egypt",
-    left: "4 days",
-    des: "",
+    left: "9 days",
+    des: `Embark on a 9-day Easter tour through the magical lands of Egypt, designed to immerse you in the ancient civilization’s wonders. With Marvelous Egypt Travel, you’ll enjoy professional services, including a private A/C Vehicle, a splendid Nile Cruise, luxurious accommodations, and expert Egyptologist tour guides. This tour will take you through the historic and cultural treasures of Cairo, Alexandria, Luxor, and Aswan, promising a vacation filled with awe and discovery.
+Explore legendary sites such as the Giza Pyramids, Sphinx, Khan El Khalili Bazaar, Hanging Church, Ben Ezra Synagogue, Alexandria Library, Qaitbay Citadel, Catacombs of Alexandria, Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Philae Temple, and the majestic temples of Abu Simbel.`,
     reviews: "365 Reviews",
-    priceSale: "$1250",
-    priceOriginal: "$1562",
+    priceSale: "$1090",
+    priceOriginal: "$1362.5",
     rating: 5,
     tourPlans: [
       {
-        title: "",
-        des: "",
-      },
+        title: "Welcome to Egypt",
+        des: `
+Experience:
+
+Arrival at Cairo airport, assistance with passport formalities, and transfer to a 5-star hotel in Cairo. Enjoy evening dinner cruise overlooking the Nile.
+Meals:
+
+Dinner.
+Overnight:
+
+Cairo Hotel.
+`,
+      },{
+        title:"Greet the Pharaohs at the Pyramids in Cairo",
+        des:`
+Experience:
+
+Visit Giza Pyramids Complex, Great Pyramid, Great Sphinx, Valley Temple, and Grand Egyptian Museum. Enjoy lunch at a local restaurant followed by a visit to Saqqara Step Pyramid.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Cairo Hotel.
+`
+      },{
+        title:"Spoil Yourself with Alexandria Attractions",
+        des:`
+Experience:
+
+Travel to Alexandria to visit Catacombs of Kom El Shoqafa, Pompey’s Pillar, Qaitbay Citadel, and Alexandria Library. Then we will transfer you back to your hotel in Cairo to spend the overnight.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Cairo Hotel.
+`
+      },{
+        title:"Nourish Your Soul with the Beauty of Aswan and the Nile",
+        des:`
+Experience:
+
+Fly to Aswan, visit Aswan High Dam, Unfinished Obelisk, and Philae Temple. Check-in on a 5-star deluxe Nile cruise.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Visit Kom Ombo Temple",
+        des:`
+Experience:
+
+Explore Kom Ombo Temple and continue sailing north to Edfu.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Discover the Artistic Details of Edfu Temple",
+        des:`
+Experience:
+
+Visit Edfu Temple and sail to Luxor.
+Meals:
+
+Breakfast, Lunch, Dinner.
+Overnight:
+
+Onboard the Cruise.
+`
+      },{
+        title:"Witness the Treasures of the Capital of the Pharaohs",
+        des:`
+Experience:
+
+Visit Valley of the Kings, Hatshepsut Temple, Colossi of Memnon, and Karnak Temple. Check-in at a 5-star hotel in Luxor.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Luxor Hotel.
+`
+      },{
+        title:"Explore the Hidden Gems of Old Cairo",
+        des:`
+Experience:
+
+Fly back to Cairo, visit the Egyptian Museum, Amr Ibn Al Aas Mosque, Hanging Church, Ben Ezra Synagogue, National Museum of Egyptian Civilization, Al Muizz Street, and Khan El Khalili Bazaar.
+Meals:
+
+Breakfast, Lunch.
+Overnight:
+
+Cairo Hotel.
+`
+      },{
+        title:"End Your Easter Experience in Egypt",
+        des:`
+Experience:
+
+Transfer to Cairo airport for departure.
+Meals:
+
+Breakfast.
+`
+      }
     ],
-    included: [""],
-    excluded: [""],
+    included: [
+      `Domestic Flights:Domestic flights between Cairo, Luxor, and Aswan.`,
+      "Accommodation:Accommodation in 5-stars hotels and deluxe cruises. ",
+      "Meals: Meals as mentioned in the itinerary. ",
+      "Guided Tours: Expert Egyptologist guide throughout your tour. ",
+      "Entrance Fees: Entrance fees to all sites indicated on the itinerary. ",
+      "Transport: All transfers by private A/C vehicles. ",
+      "Additional Services: Free airport meet and greet transfer, and all service charges and taxes. ",
+    ],
+    excluded: [
+      "International Airfare: International flights before and after the tour. ",
+      "Insurance: Travel insurance is mandatory.",
+      "Optional Experiences: Available at an additional cost. ",
+      "Egypt Visa: USD 25 per passport.  ",
+      "Tipping: Recommended",
+      "Personal Expenses: Laundry, sauna, telephones, etc.",
+      "Drinks: Not included in meals. ",
+      "SIM Card: Available for purchase at Cairo International Airport. "
+    ],
   },
   23: {
     title: "One-Day Pyramids Tour from Cairo Airport",
