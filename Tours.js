@@ -6119,7 +6119,7 @@ Extras: Optional day trips available
     location: "Egypt",
     left: "8 days",
     des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
-    reviews: "000 Reviews",
+    reviews: "456 Reviews",
     priceSale: "$1,090",
     priceOriginal: "$1,090",
     rating: 5,
