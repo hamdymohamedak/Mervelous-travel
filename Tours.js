@@ -9361,32 +9361,138 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Sorting feature
-  const sortTours = (tours, criterion) => {
-    return tours.sort((a, b) => {
-      if (criterion === "priceLowToHigh") {
-        return (
-          parseFloat(a.priceSale.replace("$", "")) -
-          parseFloat(b.priceSale.replace("$", ""))
-        );
-      } else if (criterion === "priceHighToLow") {
-        return (
-          parseFloat(b.priceSale.replace("$", "")) -
-          parseFloat(a.priceSale.replace("$", ""))
-        );
-      } else if (criterion === "durationShortToLong") {
-        return (
-          parseInt(a.left.replace(/[^0-9]/g, "")) -
-          parseInt(b.left.replace(/[^0-9]/g, ""))
-        );
-      } else if (criterion === "durationLongToShort") {
-        return (
-          parseInt(b.left.replace(/[^0-9]/g, "")) -
-          parseInt(a.left.replace(/[^0-9]/g, ""))
-        );
-      }
-      return 0;
+  function sortTours(tourDetails, criteria) {
+    const toursArray = Object.entries(tourDetails).map(([id, tour]) => {
+      return {
+        id,
+        ...tour,
+        priceSale: parseFloat(tour.priceSale.replace('$', '')),
+        duration: tour.duration || parseInt(tour.left, 10), // Derived from 'left'
+      };
     });
-  };
+  
+    switch (criteria) {
+      case 'highToLow':
+        toursArray.sort((a, b) => b.priceSale - a.priceSale);
+        break;
+      case 'lowToHigh':
+        toursArray.sort((a, b) => a.priceSale - b.priceSale);
+        break;
+      case 'shortToLong':
+        toursArray.sort((a, b) => a.duration - b.duration);
+        break;
+      case 'longToShort':
+        toursArray.sort((a, b) => b.duration - a.duration);
+        break;
+      default:
+        break;
+    }
+  
+    return toursArray;
+  }
+  
+  // Function to display sorted tours
+  function displaySortedTours(criteria) {
+    const sortedTours = sortTours(tourDetails, criteria);
+    const resultsContainer = document.getElementById('searchResults');
+  
+    // Clear existing results
+    resultsContainer.innerHTML = '';
+  
+    if (sortedTours.length === 0) {
+      resultsContainer.innerHTML = '<p>No tours found.</p>';
+      return;
+    }
+  
+    sortedTours.forEach(tour => {
+      let imgsPath = [
+        "./assets/images/Giza_Images/img60 (16).jpeg",
+        "./assets/images/Giza_Images/img60 (15).jpeg",
+        "./assets/images/Giza_Images/img60 (14).jpeg",
+        "./assets/images/Giza_Images/img60 (13).jpeg",
+        "./assets/images/Giza_Images/img60 (12).jpeg",
+        "./assets/images/Giza_Images/img60 (11).jpeg",
+        "./assets/images/Giza_Images/img60 (10).jpeg",
+        "./assets/images/Giza_Images/img60 (9).jpeg",
+        "./assets/images/Giza_Images/img60 (8).jpeg",
+        "./assets/images/Giza_Images/img60 (7).jpeg",
+        "./assets/images/Giza_Images/img60 (6).jpeg",
+        "./assets/images/Giza_Images/img60 (5).jpeg",
+        "./assets/images/Giza_Images/img60 (4).jpeg",
+        "./assets/images/Giza_Images/img60 (3).jpeg",
+        "./assets/images/Giza_Images/img60 (2).jpg",
+        "./assets/images/Giza_Images/img60 (1).jpg",
+        "./assets/images/Giza_Images/img60 (1).jpeg",
+        "./assets/images/Giza_Images/img60 (2).jpeg",
+        "./assets/images/Giza_Images/img18.webp",
+        "./assets/images/Giza_Images/img17.webp",
+        "./assets/images/Giza_Images/img16.webp",
+        "./assets/images/Giza_Images/img15.webp",
+        "./assets/images/Giza_Images/img13.webp",
+        "./assets/images/Giza_Images/img14.webp",
+        "./assets/images/Giza_Images/img12.webp",
+        "./assets/images/Giza_Images/img10.webp",
+        "./assets/images/Giza_Images/img9.webp",
+        "./assets/images/Giza_Images/img6.webp",
+        "./assets/images/Giza_Images/img4.webp",
+        "./assets/images/Giza_Images/img2.webp",
+        "./assets/images/Giza_Images/img1.webp",
+        "./assets/images/Giza_Images/GUEST50.jpeg",
+        "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
+        "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
+      ];
+      let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
+      const id = tour.id;
+  
+      const tourHTML = `
+        <div class="tour-listing box-sd">
+          <a href="./tour-single.html?id=${id}" class="tour-listing-image">
+            <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing">
+          </a>
+          <div class="tour-listing-content">
+            <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
+            <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
+            <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+            <div class="icon-box flex-three">
+              <div class="icons flex-three">
+                <i class="icon-time-left"></i>
+                <span>${tour.left}</span>
+              </div>
+              <div class="icons flex-three">
+                <span>${tour.maxGuests} Guest</span>
+              </div>
+            </div>
+            <div class="flex-two">
+              <div class="price-box flex-three">
+                <p>From <span class="price-sale">${tour.priceSale}</span></p>
+              </div>
+              <div class="icon-bookmark">
+                <i class="icon-Vector-151"></i>
+              </div>
+            </div>
+            <div class="inquire-now">
+              <a href="./tour-single.html?id=${id}" class="btn-inquire">Inquire Now</a>
+            </div>
+          </div>
+        </div>
+      `;
+  
+      resultsContainer.insertAdjacentHTML('beforeend', tourHTML);
+    });
+  
+    const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
+    searchModal.show();
+  }
+  
+  // Event listeners for sorting options
+  document.querySelectorAll('.option').forEach(option => {
+    option.addEventListener('click', function () {
+      const criteria = this.getAttribute('data-value');
+      displaySortedTours(criteria);
+    });
+  });
+
+
 });
 
 function generateStars(rating) {
