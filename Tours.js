@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const tourId = params.get("id");
 
- const tourDetails = {
+const tourDetails = {
   1: {
     title: "Cairo Tour Packages",
     maxGuests: "Unlimited",
@@ -1983,9 +1983,10 @@ Overnight:
 
 Cairo Hotel.
 `,
-      },{
-        title:"Giza Pyramids: ",
-        des:` Visit the Great Pyramid, the Sphinx, and the Valley Temple.
+      },
+      {
+        title: "Giza Pyramids: ",
+        des: ` Visit the Great Pyramid, the Sphinx, and the Valley Temple.
 Saqqara Step Pyramid:
 
 Explore the world's first pyramid built for Pharaoh Djoser.
@@ -2001,10 +2002,11 @@ Breakfast, Lunch.
 Overnight:
 
 Luxor Hotel.
-`
-      },{
-        title:"Karnak Temple: ",
-        des:` Explore this sprawling complex dedicated to the Theban triad.
+`,
+      },
+      {
+        title: "Karnak Temple: ",
+        des: ` Explore this sprawling complex dedicated to the Theban triad.
 Luxor Temple by Night:
 
 Visit Luxor Temple, a haven for the crowning of kings.
@@ -2017,10 +2019,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Valley of the Kings: ",
-        des:` Visit the tombs of ancient Egyptian pharaohs.
+`,
+      },
+      {
+        title: "Valley of the Kings: ",
+        des: ` Visit the tombs of ancient Egyptian pharaohs.
 Colossi of Memnon:
 
 See the two massive stone statues of Pharaoh Amenhotep III.
@@ -2036,10 +2039,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Edfu Temple: ",
-        des:` Visit the temple dedicated to Horus.
+`,
+      },
+      {
+        title: "Edfu Temple: ",
+        des: ` Visit the temple dedicated to Horus.
 Kom Ombo Temple:
 
 Explore the temple dedicated to Sobek and Haroeris.
@@ -2052,10 +2056,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Aswan High Dam: ",
-        des:` Visit the monumental dam.
+`,
+      },
+      {
+        title: "Aswan High Dam: ",
+        des: ` Visit the monumental dam.
 Unfinished Obelisk:
 
 See the ancient obelisk dedicated to Queen Hatshepsut.
@@ -2068,10 +2073,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Flight to Cairo: ",
-        des:` Transfer to Aswan Airport, fly to Cairo.
+`,
+      },
+      {
+        title: "Flight to Cairo: ",
+        des: ` Transfer to Aswan Airport, fly to Cairo.
 Egyptian Museum:
 
 Visit the museum housing Egypt's historical treasures.
@@ -2090,14 +2096,15 @@ Breakfast, Lunch.
 Overnight:
 
 Cairo Hotel.
-`
-      },{
-        title:"Departure: ",
-        des:` Enjoy breakfast at the hotel, then transfer to Cairo International Airport for your flight home.
+`,
+      },
+      {
+        title: "Departure: ",
+        des: ` Enjoy breakfast at the hotel, then transfer to Cairo International Airport for your flight home.
 Meals:
 
 Breakfast.
-`
+`,
       },
     ],
     included: [
@@ -2107,7 +2114,7 @@ Breakfast.
       "Meals:Meals as mentioned in the itinerary. ",
       "Guided Tours: Expert Egyptologist guides in English, French, and Spanish throughout the whole tour.",
       "Transport: Private A.C. vehicle during the whole of your tours. ",
-      "Additional Services: Free airport meet and greet transfer, and all Service Charges and Taxes."
+      "Additional Services: Free airport meet and greet transfer, and all Service Charges and Taxes.",
     ],
     excluded: [
       "International Flights: International flights before and after the tour.",
@@ -2116,7 +2123,7 @@ Breakfast.
       "Egypt Visa: USD 25 per passport. ",
       "Tipping: Recommended ",
       "Personal Expenses: Laundry, sauna, telephones, etc",
-      "SIM Card: Available for purchase at Cairo International Airport."
+      "SIM Card: Available for purchase at Cairo International Airport.",
     ],
   },
   22: {
@@ -2145,9 +2152,10 @@ Overnight:
 
 Cairo Hotel.
 `,
-      },{
-        title:"Greet the Pharaohs at the Pyramids in Cairo",
-        des:`
+      },
+      {
+        title: "Greet the Pharaohs at the Pyramids in Cairo",
+        des: `
 Experience:
 
 Visit Giza Pyramids Complex, Great Pyramid, Great Sphinx, Valley Temple, and Grand Egyptian Museum. Enjoy lunch at a local restaurant followed by a visit to Saqqara Step Pyramid.
@@ -2157,10 +2165,11 @@ Breakfast, Lunch.
 Overnight:
 
 Cairo Hotel.
-`
-      },{
-        title:"Spoil Yourself with Alexandria Attractions",
-        des:`
+`,
+      },
+      {
+        title: "Spoil Yourself with Alexandria Attractions",
+        des: `
 Experience:
 
 Travel to Alexandria to visit Catacombs of Kom El Shoqafa, Pompey’s Pillar, Qaitbay Citadel, and Alexandria Library. Then we will transfer you back to your hotel in Cairo to spend the overnight.
@@ -2170,10 +2179,11 @@ Breakfast, Lunch.
 Overnight:
 
 Cairo Hotel.
-`
-      },{
-        title:"Nourish Your Soul with the Beauty of Aswan and the Nile",
-        des:`
+`,
+      },
+      {
+        title: "Nourish Your Soul with the Beauty of Aswan and the Nile",
+        des: `
 Experience:
 
 Fly to Aswan, visit Aswan High Dam, Unfinished Obelisk, and Philae Temple. Check-in on a 5-star deluxe Nile cruise.
@@ -2183,10 +2193,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Visit Kom Ombo Temple",
-        des:`
+`,
+      },
+      {
+        title: "Visit Kom Ombo Temple",
+        des: `
 Experience:
 
 Explore Kom Ombo Temple and continue sailing north to Edfu.
@@ -2196,10 +2207,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Discover the Artistic Details of Edfu Temple",
-        des:`
+`,
+      },
+      {
+        title: "Discover the Artistic Details of Edfu Temple",
+        des: `
 Experience:
 
 Visit Edfu Temple and sail to Luxor.
@@ -2209,10 +2221,11 @@ Breakfast, Lunch, Dinner.
 Overnight:
 
 Onboard the Cruise.
-`
-      },{
-        title:"Witness the Treasures of the Capital of the Pharaohs",
-        des:`
+`,
+      },
+      {
+        title: "Witness the Treasures of the Capital of the Pharaohs",
+        des: `
 Experience:
 
 Visit Valley of the Kings, Hatshepsut Temple, Colossi of Memnon, and Karnak Temple. Check-in at a 5-star hotel in Luxor.
@@ -2222,10 +2235,11 @@ Breakfast, Lunch.
 Overnight:
 
 Luxor Hotel.
-`
-      },{
-        title:"Explore the Hidden Gems of Old Cairo",
-        des:`
+`,
+      },
+      {
+        title: "Explore the Hidden Gems of Old Cairo",
+        des: `
 Experience:
 
 Fly back to Cairo, visit the Egyptian Museum, Amr Ibn Al Aas Mosque, Hanging Church, Ben Ezra Synagogue, National Museum of Egyptian Civilization, Al Muizz Street, and Khan El Khalili Bazaar.
@@ -2235,18 +2249,19 @@ Breakfast, Lunch.
 Overnight:
 
 Cairo Hotel.
-`
-      },{
-        title:"End Your Easter Experience in Egypt",
-        des:`
+`,
+      },
+      {
+        title: "End Your Easter Experience in Egypt",
+        des: `
 Experience:
 
 Transfer to Cairo airport for departure.
 Meals:
 
 Breakfast.
-`
-      }
+`,
+      },
     ],
     included: [
       `Domestic Flights:Domestic flights between Cairo, Luxor, and Aswan.`,
@@ -2265,7 +2280,7 @@ Breakfast.
       "Tipping: Recommended",
       "Personal Expenses: Laundry, sauna, telephones, etc.",
       "Drinks: Not included in meals. ",
-      "SIM Card: Available for purchase at Cairo International Airport. "
+      "SIM Card: Available for purchase at Cairo International Airport. ",
     ],
   },
   23: {
@@ -5777,12 +5792,12 @@ After a day of exploration, return to Alexandria Port for drop-off.`,
       "Mineral water on board the vehicle",
       "Lunch at a local restaurant during your day trip",
       "Entrance fees for all sightseeing are mentioned.",
-      "All service charges and taxes"
+      "All service charges and taxes",
     ],
     excluded: [
       "Tipping",
       "Any extras not mentioned in the itinerary. ",
-      "Optional Experiences available at an additional cost."
+      "Optional Experiences available at an additional cost.",
     ],
   },
 
@@ -5829,9 +5844,10 @@ Check-in to a 5-star hotel in Luxor for an overnight stay.
 Meals:
 
 Lunch.`,
-      },{
-        title:"Luxor to Cairo",
-        des:` Breakfast:
+      },
+      {
+        title: "Luxor to Cairo",
+        des: ` Breakfast:
 
 Enjoy breakfast at your hotel, then check out and fly from Luxor to Cairo.
 Giza Pyramids Complex:
@@ -5860,8 +5876,8 @@ Return to Alexandria Port:
 After your tour, transfer back to Alexandria Port by private air-conditioned vehicle.
 Meals:
 
-Breakfast, Lunch.`
-      }
+Breakfast, Lunch.`,
+      },
     ],
     included: [
       "Pick-up and drop-off at Alexandria Port.",
@@ -5873,7 +5889,6 @@ Breakfast, Lunch.`
       "2 Lunch, and 1 Breakfast meals. ",
       "Entrance fees for all sightseeing are mentioned",
       "All service charges and taxes",
-
     ],
     excluded: [
       "Tipping",
@@ -6231,8 +6246,8 @@ Extras: Optional day trips available
     left: "8 days",
     des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
     reviews: "456 Reviews",
-    priceSale: "$1,090",
-    priceOriginal: "$1,090",
+    priceSale: "$1090",
+    priceOriginal: "$1090",
     rating: 5,
     tourPlans: [
       {
@@ -9366,45 +9381,45 @@ document.addEventListener("DOMContentLoaded", () => {
       return {
         id,
         ...tour,
-        priceSale: parseFloat(tour.priceSale.replace('$', '')),
+        priceSale: parseFloat(tour.priceSale.replace("$", "")),
         duration: tour.duration || parseInt(tour.left, 10), // Derived from 'left'
       };
     });
-  
+
     switch (criteria) {
-      case 'highToLow':
+      case "highToLow":
         toursArray.sort((a, b) => b.priceSale - a.priceSale);
         break;
-      case 'lowToHigh':
+      case "lowToHigh":
         toursArray.sort((a, b) => a.priceSale - b.priceSale);
         break;
-      case 'shortToLong':
+      case "shortToLong":
         toursArray.sort((a, b) => a.duration - b.duration);
         break;
-      case 'longToShort':
+      case "longToShort":
         toursArray.sort((a, b) => b.duration - a.duration);
         break;
       default:
         break;
     }
-  
+
     return toursArray;
   }
-  
+
   // Function to display sorted tours
   function displaySortedTours(criteria) {
     const sortedTours = sortTours(tourDetails, criteria);
-    const resultsContainer = document.getElementById('searchResults');
-  
+    const resultsContainer = document.getElementById("searchResults");
+
     // Clear existing results
-    resultsContainer.innerHTML = '';
-  
+    resultsContainer.innerHTML = "";
+
     if (sortedTours.length === 0) {
-      resultsContainer.innerHTML = '<p>No tours found.</p>';
+      resultsContainer.innerHTML = "<p>No tours found.</p>";
       return;
     }
-  
-    sortedTours.forEach(tour => {
+
+    sortedTours.forEach((tour) => {
       let imgsPath = [
         "./assets/images/Giza_Images/img60 (16).jpeg",
         "./assets/images/Giza_Images/img60 (15).jpeg",
@@ -9443,16 +9458,22 @@ document.addEventListener("DOMContentLoaded", () => {
       ];
       let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
       const id = tour.id;
-  
+
       const tourHTML = `
         <div class="tour-listing box-sd">
           <a href="./tour-single.html?id=${id}" class="tour-listing-image">
             <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing">
           </a>
           <div class="tour-listing-content">
-            <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
-            <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${tour.title}</a></h3>
-            <div class="review">${generateStars(tour.rating)}<span>(${tour.reviews})</span></div>
+            <span class="map"><i class="icon-Vector4"></i>${
+              tour.location
+            }</span>
+            <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${
+        tour.title
+      }</a></h3>
+            <div class="review">${generateStars(tour.rating)}<span>(${
+        tour.reviews
+      })</span></div>
             <div class="icon-box flex-three">
               <div class="icons flex-three">
                 <i class="icon-time-left"></i>
@@ -9476,23 +9497,19 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         </div>
       `;
-  
-      resultsContainer.insertAdjacentHTML('beforeend', tourHTML);
+
+      resultsContainer.insertAdjacentHTML("beforeend", tourHTML);
     });
-  
-    const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
+
     searchModal.show();
   }
-  
   // Event listeners for sorting options
-  document.querySelectorAll('.option').forEach(option => {
-    option.addEventListener('click', function () {
-      const criteria = this.getAttribute('data-value');
+  document.querySelectorAll(".option").forEach((option) => {
+    option.addEventListener("click", function () {
+      const criteria = this.getAttribute("data-value");
       displaySortedTours(criteria);
     });
   });
-
-
 });
 
 function generateStars(rating) {
@@ -9503,4 +9520,3 @@ function generateStars(rating) {
   }
   return starsHTML;
 }
-
