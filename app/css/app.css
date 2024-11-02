@@ -2250,10 +2250,6 @@
 /*----------------------Tour Package--------------------*/
 .tour-package {
   background-color: #f3f8f6;
-  background-image: url(../../assets/images/page/bg1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .tour-package2 {
@@ -2790,10 +2786,6 @@
 .widget-testimonial-style01 {
   padding-top: 185px;
   padding-bottom: 50px;  background-color: #f1f6f4;
-  background-image: url(../../assets/images/page/bg2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .widget-testimonial-style01 .box-testimonial1 {
   margin-top: -5px;
@@ -2871,10 +2863,6 @@
 }
 .testimonial-section-h4 .gallery-testimonial-h4 {
   background-color: #212622;
-  background-image: url(../../assets/images/page/bg1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   margin-left: 60px;
   padding-top: 8em;
