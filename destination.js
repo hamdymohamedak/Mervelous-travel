@@ -12,12 +12,6 @@ const destinationDetails = {
             "./assets/images/Cairo_Images/img9.jpeg"
         ],
         cover_image: "./assets/images/Blog_images/pexels-helgampallares-11039757.jpg",
-        highlights: [
-            "View the City",
-            "Hiking in the forest",
-            "Discover the famous viewpoint 'The Lark'",
-            "Sunset on the cruise"
-        ],
         secoundDes: `Cairo is a city that never sleeps, filled with life and energy. Its streets are alive with the sounds of bustling markets, vibrant street art, and the aroma of delicious local cuisine. This dynamic metropolis offers a unique blend of historical landmarks and contemporary attractions, making it a must-visit destination for travelers seeking both adventure and culture. Experience the warmth of Egyptian hospitality as you explore the city's hidden gems and iconic sites.`,
         Municipalities:`Cairo, the sprawling capital of Egypt, is a vibrant metropolis where history and modernity coexist. It is home to iconic landmarks such as the Great Pyramids of Giza, the Sphinx, and the Egyptian Museum, showcasing ancient treasures that tell the story of one of the world's oldest civilizations. The city is characterized by its bustling streets, rich cultural heritage, and warm hospitality. Explore the narrow alleyways of Islamic Cairo, where traditional markets, or souks, offer a kaleidoscope of colors, scents, and sounds. From the historic architecture of the Al-Azhar Mosque to the lively atmosphere of Tahrir Square, Cairo is a city that captivates the imagination and invites exploration.`
     },
@@ -33,12 +27,6 @@ Alexandria’s seaside charm offers more than just history. Stroll along the Cor
             "./assets/images/Cairo_Images/img60.JPG"
         ],
         cover_image: "./assets/images/Destinations_Images/Alex_1_11zon.jpg",
-        highlights: [
-            "Explore the Mediterranean coast",
-            "Stroll along the historic Corniche",
-            "Visit the ancient Qaitbay Citadel",
-            "Discover the Bibliotheca Alexandrina"
-        ],
         secoundDes: `Alexandria, Egypt’s charming coastal city, blends history with a laid-back Mediterranean atmosphere. Once home to the Great Library of Alexandria, the city holds a legacy of knowledge, culture, and art. From bustling seaside promenades to ancient ruins, Alexandria invites travelers to experience its unique spirit and warm hospitality, offering a mix of iconic landmarks and leisurely relaxation along the sea.`,
         Municipalities: `Founded by Alexander the Great, Alexandria boasts a rich history, combining Egyptian, Greek, and Roman influences. Discover the fascinating Catacombs of Kom El Shoqafa, stroll through the beautiful Montaza Gardens, or take in the views at the Qaitbay Citadel, which stands where the legendary Lighthouse of Alexandria once guided sailors. The city’s scenic Corniche is perfect for a leisurely walk by the sea, while the Bibliotheca Alexandrina serves as a modern tribute to the ancient library. Alexandria’s diverse heritage, Mediterranean cuisine, and scenic beauty make it a captivating destination for every traveler.`
     },
@@ -53,12 +41,6 @@ Alexandria’s seaside charm offers more than just history. Stroll along the Cor
             "./assets/images/Luxor_Images/img16.webp"
         ],
         cover_image: "./assets/images/Luxor_Images/img3.webp",
-        highlights: [
-            "Explore the Valley of the Kings",
-            "Marvel at the Temple of Karnak",
-            "Sail along the Nile on a traditional felucca",
-            "Discover the Colossi of Memnon"
-        ],
         secoundDes: `Luxor, often regarded as Egypt’s ancient capital, is a city filled with historic grandeur and awe-inspiring monuments. It’s home to some of Egypt’s most famous landmarks, including the Temple of Luxor and the Valley of the Queens. The city seamlessly blends ancient history with the charm of Nile-side life, offering travelers both captivating sights and tranquil landscapes.`,
         Municipalities: `Once the great capital of the New Kingdom, Luxor boasts an impressive legacy of Egyptian history. The Valley of the Kings holds the tombs of pharaohs, including that of Tutankhamun, while the Temples of Karnak and Luxor offer breathtaking examples of ancient Egyptian architecture and art. Luxor’s vibrant culture, stunning views along the Nile, and remarkable monuments make it an unforgettable destination for all who visit.`        
     },
@@ -73,12 +55,6 @@ Alexandria’s seaside charm offers more than just history. Stroll along the Cor
             "./assets/images/Aswan_Images/img4.webp"
         ],
         cover_image: "./assets/images/Aswan_Images/aswancover.jpg",
-        highlights: [
-            "Visit the Philae Temple",
-            "See the Aswan High Dam",
-            "Sail along the Nile to Elephantine Island",
-            "Explore the Nubian villages"
-        ],
         secoundDes: `Aswan, with its beautiful river views and laid-back atmosphere, is a city that celebrates Egypt’s Nubian heritage. Home to historic temples and charming islands, Aswan invites travelers to experience both cultural discoveries and peaceful moments along the Nile.`,
         Municipalities: `Aswan offers a unique blend of history and tranquility. Explore the Temple of Philae, a stunning island temple dedicated to Isis, visit the Nubian Museum to understand the region’s heritage, or stroll through the botanical gardens on Kitchener's Island. The city’s warm climate, friendly people, and natural beauty make Aswan a memorable stop for any Egypt traveler.`
     },
@@ -93,12 +69,6 @@ Alexandria’s seaside charm offers more than just history. Stroll along the Cor
             "./assets/images/Cairo_Images/img10.jpeg"
         ],
         cover_image: "./assets/images/hurghada.jpg",
-        highlights: [
-            "Snorkel in the Red Sea",
-            "Explore vibrant coral reefs",
-            "Enjoy a desert safari adventure",
-            "Relax on pristine beaches"
-        ],
         secoundDes: `Hurghada, with its serene beaches and turquoise waters, is the perfect escape for beach lovers and adventure seekers alike. Its coral reefs and marine life attract divers from around the world, while the town’s lively atmosphere and beautiful resorts make it a top coastal destination.`,
         Municipalities: `Hurghada offers a blend of excitement and relaxation. From diving and snorkeling in the crystal-clear Red Sea to exploring the desert landscapes, Hurghada is a paradise for nature enthusiasts. Visit the Marina Boulevard for dining and nightlife, or take a boat trip to the nearby Giftun Islands for an unforgettable Red Sea experience. With warm weather year-round, Hurghada’s beauty and diverse activities make it a must-visit for all travelers.`
     } ,
@@ -113,12 +83,6 @@ Alexandria’s seaside charm offers more than just history. Stroll along the Cor
             "./assets/images/Cairo_Images/img (1).webp"
         ],
         cover_image: "./assets/images/sharm_cover_11zon.jpg",
-        highlights: [
-            "Snorkel or dive in the Red Sea",
-            "Explore Ras Mohammed National Park",
-            "Enjoy a quad bike desert safari",
-            "Relax at Naama Bay's vibrant beaches"
-        ],
         secoundDes: `Sharm El Sheikh, with its pristine waters and luxurious resorts, is a paradise for travelers seeking both excitement and relaxation. Known for its world-class diving spots and vibrant nightlife, Sharm El Sheikh seamlessly blends natural beauty with modern comfort.`,
         Municipalities: `Sharm El Sheikh offers an incredible range of experiences, from the marine life of the Red Sea to the scenic deserts of the Sinai Peninsula. Dive at the famous Blue Hole, visit the lively markets of Old Sharm, or unwind at the luxurious resorts along the coast. With its perfect mix of nature and adventure, Sharm El Sheikh is an essential stop for anyone exploring Egypt's coastal charm.`
     }
