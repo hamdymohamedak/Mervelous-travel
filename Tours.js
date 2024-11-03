@@ -9032,12 +9032,90 @@ Breakfast.
 //   },
 // /Tour js Templete
 
+// const currentTour = tourDetails[tourId];
+// if (tourId && tourDetails[tourId]) {
+//   const currentTour = tourDetails[tourId];
+
+//   const titleForUrl = currentTour.title.split(" ").join("-");
+//   const newUrl = `tour-single.html/${encodeURIComponent(titleForUrl)}`;
+//   window.history.pushState({ path: newUrl }, '', newUrl);
+
+//   renderTourDetails(currentTour);
+// } else {
+//   console.error("Tour not found");
+// }
+
 const tour = tourDetails[tourId];
 
 if (tour) {
   const descriptionWrap = document.querySelector("#des");
 
   // Handle Description
+
+  document.addEventListener("DOMContentLoaded", () => {
+    if (tour) {
+      const newTitle = tour.title.replace(/\s+/g, "-");
+      history.replaceState(null, "", `tour-single.html/${newTitle}`);
+      document.getElementById("tour-title").innerText = tour.title;
+    }
+  
+    const currentPath = window.location.pathname;
+    const pathSegments = currentPath.split("/");
+    const titleFromUrl = pathSegments[pathSegments.length - 1];
+  
+    // Function to load tour details by formatted title
+    const loadTourByTitle = (formattedTitle) => {
+      for (const [id, tour] of Object.entries(tourDetails)) {
+        const formattedTourTitle = tour.title.replace(/\s+/g, "-");
+        if (formattedTourTitle === formattedTitle) {
+          loadTourDetails(id);
+          return true; // Found and loaded
+        }
+      }
+      return false; 
+    };
+  
+    if (titleFromUrl) {
+      if (!loadTourByTitle(titleFromUrl)) {
+        loadTourDetails(tourId); 
+      }
+    } else {
+      loadTourDetails(tourId); 
+    }
+  
+    document.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const href = link.getAttribute("href");
+    
+        // Check if the link points to tour-single.html
+        if (href.startsWith("./tour-single.html")) {
+          event.preventDefault(); 
+          
+          // Get the text content of the <a> tag and replace spaces with dashes
+          const newId = link.textContent.trim().replace(/\s+/g, "-");
+          
+          // Find the tour based on the newId
+          const newTour = Object.values(tourDetails).find(t => t.title === newId);
+          
+          if (newTour) {
+            history.replaceState(null, "", ""); // Replace the current history state
+            loadTourDetails(newTour.id); // Load the tour details
+          } else {
+            console.error(`Tour not found for ID: ${newId}`);
+          }
+        } else {
+          // For all other links, navigate normally
+          window.location.href = href; 
+        }
+      });
+    });
+    
+    
+
+    
+  });
+  
+
   if (tour.des.length === 0) {
     descriptionWrap.style.display = "none";
   } else {
@@ -9085,7 +9163,6 @@ if (tour) {
     </div>
   `;
 
-  // Handle Tour Plan Section
   const tourPlanningContainer = document.querySelector("#tour_planing");
 
   if (tour.tourPlans && tour.tourPlans.length > 0) {
@@ -9170,7 +9247,6 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
-// Handle the Search Bar
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(
@@ -9178,7 +9254,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const searchResults = document.querySelector("#searchResults");
 
-  // Debounce function
   const debounce = (func, delay) => {
     let timeout;
     return (...args) => {
@@ -9187,9 +9262,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   };
 
-  // Handle search function
   const handleSearch = (searchValue) => {
-    searchResults.innerHTML = ""; // Clear previous results
+    searchResults.innerHTML = "";
 
     if (searchValue.trim() === "") {
       searchModal.hide();
@@ -9202,7 +9276,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let minDays = null,
       maxDays = null;
 
-    // Patterns for price and day range
     const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
     const dayRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*days?\s*$/i;
 
@@ -9224,7 +9297,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const tourPrice = parseFloat(tour.priceSale.replace("$", "").trim());
       const tourDays = parseInt(tour.left.replace(/[^0-9]/g, ""));
 
-      // Filter by price and day range
       const isInPriceRange =
         (minPrice !== null ? tourPrice >= minPrice : true) &&
         (maxPrice !== null ? tourPrice <= maxPrice : true);
@@ -9233,7 +9305,6 @@ document.addEventListener("DOMContentLoaded", () => {
         (minDays !== null ? tourDays >= minDays : true) &&
         (maxDays !== null ? tourDays <= maxDays : true);
 
-      // Keyword and range filtering
       if (
         isInPriceRange &&
         isInDayRange &&
@@ -9244,7 +9315,6 @@ document.addEventListener("DOMContentLoaded", () => {
           tour.left.toLowerCase().includes(searchValue))
       ) {
         foundResults = true;
-        // Select Random Image To Card
         let imgsPath = [
           "./assets/images/Giza_Images/img60 (16).jpeg",
           "./assets/images/Giza_Images/img60 (15).jpeg",
@@ -9283,7 +9353,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ];
         let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
 
-        // Select Random Image To Card
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
@@ -9333,22 +9402,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // Attach search button event listener
   const searchButton = document.querySelector(".btn-success");
   searchButton.addEventListener("click", () => {
     const searchValue = searchInput.value.toLowerCase();
     handleSearch(searchValue);
   });
 
-  // Attach input event listener for the search input
   searchInput.addEventListener(
     "input",
-    debounce(() => {
-      // Optional: Show suggestions or handle input events if needed
-    }, 300)
+    debounce(() => {}, 300)
   );
 
-  // Add click event listeners to filter options
   const filterOptions = document.querySelectorAll(".nice-select .option");
   filterOptions.forEach((option) => {
     option.addEventListener("click", (event) => {
@@ -9358,31 +9422,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Attach event listeners for duration inputs
-  // Select duration inputs and search button
   const durationFromInput = document.querySelector("#durationFrom");
   const durationToInput = document.querySelector("#durationTo");
 
-  // Attach click event listener to the search button
   searchButton.addEventListener("click", () => {
     const fromValue = durationFromInput.value.trim();
     const toValue = durationToInput.value.trim();
 
-    // Only trigger search if both values are provided
     if (fromValue && toValue) {
       searchInput.value = `${fromValue}-${toValue}`;
       handleSearch(searchInput.value.toLowerCase());
     }
   });
 
-  // Sorting feature
   function sortTours(tourDetails, criteria) {
     const toursArray = Object.entries(tourDetails).map(([id, tour]) => {
       return {
         id,
         ...tour,
         priceSale: parseFloat(tour.priceSale.replace("$", "")),
-        duration: tour.duration || parseInt(tour.left, 10), // Derived from 'left'
+        duration: tour.duration || parseInt(tour.left, 10),
       };
     });
 
@@ -9406,12 +9465,10 @@ document.addEventListener("DOMContentLoaded", () => {
     return toursArray;
   }
 
-  // Function to display sorted tours
   function displaySortedTours(criteria) {
     const sortedTours = sortTours(tourDetails, criteria);
     const resultsContainer = document.getElementById("searchResults");
 
-    // Clear existing results
     resultsContainer.innerHTML = "";
 
     if (sortedTours.length === 0) {
