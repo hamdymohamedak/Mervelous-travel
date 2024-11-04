@@ -1,6 +1,3 @@
-const params = new URLSearchParams(window.location.search);
-const tourId = params.get("id");
-
 const tourDetails = {
   1: {
     title: "Cairo Tour Packages",
@@ -9004,231 +9001,10 @@ Breakfast.
   },
 };
 
-// Tour js Templete
-// 00: {
-//     title:
-//       "",
-//     maxGuests: "Unlimited",
-//     location: "Egypt",
-//     left: "1 days",
-//     des: "",
-//     reviews: "000 Reviews",
-//     priceSale: "$000",
-//     priceOriginal: "$000",
-//     rating: 5,
-//     tourPlans: [
-//       {
-//         title: "",
-//         des: "",
-//       },
 
-//     ],
-//     included: [
-//       ""
-//     ],
-//     excluded: [
-//       ""
-//     ],
-//   },
-// /Tour js Templete
 
-// const currentTour = tourDetails[tourId];
-// if (tourId && tourDetails[tourId]) {
-//   const currentTour = tourDetails[tourId];
 
-//   const titleForUrl = currentTour.title.split(" ").join("-");
-//   const newUrl = `tour-single.html/${encodeURIComponent(titleForUrl)}`;
-//   window.history.pushState({ path: newUrl }, '', newUrl);
 
-//   renderTourDetails(currentTour);
-// } else {
-//   console.error("Tour not found");
-// }
-
-const tour = tourDetails[tourId];
-
-if (tour) {
-  const descriptionWrap = document.querySelector("#des");
-
-  // Handle Description
-
-  document.addEventListener("DOMContentLoaded", () => {
-    if (tour) {
-      const newTitle = tour.title.replace(/\s+/g, "-");
-      history.replaceState(null, "", `tour-single.html/${newTitle}`);
-      document.getElementById("tour-title").innerText = tour.title;
-    }
-  
-    const currentPath = window.location.pathname;
-    const pathSegments = currentPath.split("/");
-    const titleFromUrl = pathSegments[pathSegments.length - 1];
-  
-    // Function to load tour details by formatted title
-    const loadTourByTitle = (formattedTitle) => {
-      for (const [id, tour] of Object.entries(tourDetails)) {
-        const formattedTourTitle = tour.title.replace(/\s+/g, "-");
-        if (formattedTourTitle === formattedTitle) {
-          loadTourDetails(id);
-          return true; // Found and loaded
-        }
-      }
-      return false; 
-    };
-  
-    if (titleFromUrl) {
-      if (!loadTourByTitle(titleFromUrl)) {
-        loadTourDetails(tourId); 
-      }
-    } else {
-      loadTourDetails(tourId); 
-    }
-  
-    document.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", (event) => {
-        const href = link.getAttribute("href");
-    
-        // Check if the link points to tour-single.html
-        if (href.startsWith("./tour-single.html")) {
-          event.preventDefault(); 
-          
-          // Get the text content of the <a> tag and replace spaces with dashes
-          const newId = link.textContent.trim().replace(/\s+/g, "-");
-          
-          // Find the tour based on the newId
-          const newTour = Object.values(tourDetails).find(t => t.title === newId);
-          
-          if (newTour) {
-            history.replaceState(null, "", ""); // Replace the current history state
-            loadTourDetails(newTour.id); // Load the tour details
-          } else {
-            console.error(`Tour not found for ID: ${newId}`);
-          }
-        } else {
-          // For all other links, navigate normally
-          window.location.href = href; 
-        }
-      });
-    });
-    
-    
-
-    
-  });
-  
-
-  if (tour.des.length === 0) {
-    descriptionWrap.style.display = "none";
-  } else {
-    descriptionWrap.innerHTML = `
-        <div class="description-wrap mb-40">
-            <span class="description">Description:</span>
-            <p class="des">${tour.des}</p>
-        </div>
-    `;
-  }
-
-  // Render Excluded Items
-  document.querySelector("#excluded").innerHTML = `
-      <div class="col-md-6">
-        <ul class="listing-clude">
-          ${tour.excluded
-            .map(
-              (item) => `
-              <li class="flex-three" style="width: 193%;">
-                <img style="height: 1.3rem; width: auto; margin-right: 1rem;" src="./assets/images/confidence_icons/Wrong.png" alt="Not Excluded">
-                <p style="font-size: 14px;">${item}</p>
-              </li>
-            `
-            )
-            .join("")}
-        </ul>
-      </div>
-  `;
-
-  // Render Included Items
-  document.querySelector("#Included").innerHTML = `
-    <div class="col-md-6">
-      <ul class="listing-clude">
-        ${tour.included
-          .map(
-            (item) => `
-            <li class="flex-three" style="width: 193%;">
-              <i class="icon-Vector-7"></i>
-              <p style="font-size: 14px;">${item}</p>
-            </li>
-          `
-          )
-          .join("")}
-      </ul>
-    </div>
-  `;
-
-  const tourPlanningContainer = document.querySelector("#tour_planing");
-
-  if (tour.tourPlans && tour.tourPlans.length > 0) {
-    tour.tourPlans.forEach((plan, index) => {
-      const planHTML = `
-        <div  class="tour-planing-section flex">
-          <div class="number-box flex-five">${(index + 1)
-            .toString()
-            .padStart(2, "0")}</div>
-          <div class="content-box">
-            <h5 class="title">${plan.title}</h5>
-            <p class="des">${plan.des}</p>
-          </div>
-        </div>
-      `;
-      tourPlanningContainer.innerHTML += planHTML;
-    });
-  } else {
-    tourPlanningContainer.innerHTML =
-      "<p>No tour plans available at the moment.</p>";
-  }
-
-  // Inner Heading and Tour Info
-  document.querySelector(".inner-heading-wrap").innerHTML = `
-    <div class="inner-heading">
-      <span style="background:green" class="feature">Featured</span>
-      <h2 class="title">${tour.title}</h2>
-      <ul class="flex-three list-wrap-heading">
-        <li class="flex-three">
-          <i class="icon-user"></i>
-          <span>Max Guests: ${tour.maxGuests}</span>
-        </li>
-        <li class="flex-three">
-          <i class="icon-18"></i>
-          <span>${tour.location}</span>
-        </li>
-        <div class="icons flex-three">
-          <i style="color:green;margin-right:1rem" class="icon-time-left"></i>
-          <span>${tour.left}</span>
-        </div>
-      </ul>
-    </div>
-    <div class="inner-price">
-      <div class="flex-three">
-        <div class="start">
-          ${generateStars(tour.rating)}
-        </div>
-        <span class="review">(${tour.reviews})</span>
-      </div>
-      <p class="price-sale text-main">
-        ${tour.priceSale} <span class="price">${tour.priceOriginal}</span>
-      </p>
-    </div>
-  `;
-} else {
-}
-
-function generateStars(rating) {
-  let starsHtml = "";
-  for (let i = 0; i < rating; i++) {
-    starsHtml += '<i class="icon-Star"></i>';
-  }
-  return starsHtml;
-}
-
-//
 
 function goToChat() {
   window.open("https://wa.me/+201143328885");
@@ -9247,6 +9023,7 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(
@@ -9262,8 +9039,9 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   };
 
+
   const handleSearch = (searchValue) => {
-    searchResults.innerHTML = "";
+    searchResults.innerHTML = ""; 
 
     if (searchValue.trim() === "") {
       searchModal.hide();
@@ -9297,6 +9075,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const tourPrice = parseFloat(tour.priceSale.replace("$", "").trim());
       const tourDays = parseInt(tour.left.replace(/[^0-9]/g, ""));
 
+      // Filter by price and day range
       const isInPriceRange =
         (minPrice !== null ? tourPrice >= minPrice : true) &&
         (maxPrice !== null ? tourPrice <= maxPrice : true);
@@ -9305,6 +9084,7 @@ document.addEventListener("DOMContentLoaded", () => {
         (minDays !== null ? tourDays >= minDays : true) &&
         (maxDays !== null ? tourDays <= maxDays : true);
 
+      // Keyword and range filtering
       if (
         isInPriceRange &&
         isInDayRange &&
@@ -9315,6 +9095,7 @@ document.addEventListener("DOMContentLoaded", () => {
           tour.left.toLowerCase().includes(searchValue))
       ) {
         foundResults = true;
+        // Select Random Image To Card
         let imgsPath = [
           "./assets/images/Giza_Images/img60 (16).jpeg",
           "./assets/images/Giza_Images/img60 (15).jpeg",
@@ -9353,6 +9134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ];
         let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
 
+        // Select Random Image To Card
         const tourHTML = `
           <div class="tour-listing box-sd">
             <a href="./tour-single.html?id=${id}" class="tour-listing-image">
@@ -9402,17 +9184,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  // Attach search button event listener
   const searchButton = document.querySelector(".btn-success");
   searchButton.addEventListener("click", () => {
     const searchValue = searchInput.value.toLowerCase();
     handleSearch(searchValue);
   });
 
+  // Attach input event listener for the search input
   searchInput.addEventListener(
     "input",
-    debounce(() => {}, 300)
+    debounce(() => {
+      // Optional: Show suggestions or handle input events if needed
+    }, 300)
   );
 
+  // Add click event listeners to filter options
   const filterOptions = document.querySelectorAll(".nice-select .option");
   filterOptions.forEach((option) => {
     option.addEventListener("click", (event) => {
@@ -9422,26 +9209,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Attach event listeners for duration inputs
+  // Select duration inputs and search button
   const durationFromInput = document.querySelector("#durationFrom");
   const durationToInput = document.querySelector("#durationTo");
 
+  // Attach click event listener to the search button
   searchButton.addEventListener("click", () => {
     const fromValue = durationFromInput.value.trim();
     const toValue = durationToInput.value.trim();
 
+    // Only trigger search if both values are provided
     if (fromValue && toValue) {
       searchInput.value = `${fromValue}-${toValue}`;
       handleSearch(searchInput.value.toLowerCase());
     }
   });
 
+  // Sorting feature
   function sortTours(tourDetails, criteria) {
     const toursArray = Object.entries(tourDetails).map(([id, tour]) => {
       return {
         id,
         ...tour,
         priceSale: parseFloat(tour.priceSale.replace("$", "")),
-        duration: tour.duration || parseInt(tour.left, 10),
+        duration: tour.duration || parseInt(tour.left, 10), // Derived from 'left'
       };
     });
 
@@ -9465,10 +9257,12 @@ document.addEventListener("DOMContentLoaded", () => {
     return toursArray;
   }
 
+  // Function to display sorted tours
   function displaySortedTours(criteria) {
     const sortedTours = sortTours(tourDetails, criteria);
     const resultsContainer = document.getElementById("searchResults");
 
+    // Clear existing results
     resultsContainer.innerHTML = "";
 
     if (sortedTours.length === 0) {
