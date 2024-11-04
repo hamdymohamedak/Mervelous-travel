@@ -168,6 +168,7 @@ Breakfast included.
       " SIM Card:  Available for purchase at Cairo International Airport. ",
     ],
   },
+
   3: {
     title: "Cairo, Giza, Luxor & Aswan Tour",
     maxGuests: "Unlimited",
@@ -312,6 +313,7 @@ Nile Cruise
       "Egypt Visa:  USD 25 per passport. ",
     ],
   },
+
   4: {
     title: "Cleopatra Egypt Tour Package",
     maxGuests: "Unlimited",
@@ -392,6 +394,7 @@ Nile Cruise
       "SIM Card: Available for purchase at Cairo International Airport.",
     ],
   },
+
   5: {
     title: "One-Day Pyramids Tour from Cairo Airport",
     maxGuests: "Unlimited",
@@ -449,6 +452,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
       "Optional Experiences available at an additional cost.",
     ],
   },
+
   6: {
     title: "Day Trip to Cairo from Hurghada by Plane",
     maxGuests: "Unlimited",
@@ -9001,11 +9005,6 @@ Breakfast.
   },
 };
 
-
-
-
-
-
 function goToChat() {
   window.open("https://wa.me/+201143328885");
 }
@@ -9023,7 +9022,6 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
-
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(
@@ -9039,9 +9037,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   };
 
-
   const handleSearch = (searchValue) => {
-    searchResults.innerHTML = ""; 
+    searchResults.innerHTML = "";
 
     if (searchValue.trim() === "") {
       searchModal.hide();
