@@ -1,6 +1,3 @@
-const params = new URLSearchParams(window.location.search);
-const tourId = params.get("id");
-
 const tourDetails = {
   1: {
     title: "Cairo Tour Packages",
@@ -9004,154 +9001,10 @@ Breakfast.
   },
 };
 
-// Tour js Templete
-// 00: {
-//     title:
-//       "",
-//     maxGuests: "Unlimited",
-//     location: "Egypt",
-//     left: "1 days",
-//     des: "",
-//     reviews: "000 Reviews",
-//     priceSale: "$000",
-//     priceOriginal: "$000",
-//     rating: 5,
-//     tourPlans: [
-//       {
-//         title: "",
-//         des: "",
-//       },
 
-//     ],
-//     included: [
-//       ""
-//     ],
-//     excluded: [
-//       ""
-//     ],
-//   },
-// /Tour js Templete
 
-const tour = tourDetails[tourId];
 
-if (tour) {
-  const descriptionWrap = document.querySelector("#des");
 
-  // Handle Description
-  if (tour.des.length === 0) {
-    descriptionWrap.style.display = "none";
-  } else {
-    descriptionWrap.innerHTML = `
-        <div class="description-wrap mb-40">
-            <span class="description">Description:</span>
-            <p class="des">${tour.des}</p>
-        </div>
-    `;
-  }
-
-  // Render Excluded Items
-  document.querySelector("#excluded").innerHTML = `
-      <div class="col-md-6">
-        <ul class="listing-clude">
-          ${tour.excluded
-            .map(
-              (item) => `
-              <li class="flex-three" style="width: 193%;">
-                <img style="height: 1.3rem; width: auto; margin-right: 1rem;" src="./assets/images/confidence_icons/Wrong.png" alt="Not Excluded">
-                <p style="font-size: 14px;">${item}</p>
-              </li>
-            `
-            )
-            .join("")}
-        </ul>
-      </div>
-  `;
-
-  // Render Included Items
-  document.querySelector("#Included").innerHTML = `
-    <div class="col-md-6">
-      <ul class="listing-clude">
-        ${tour.included
-          .map(
-            (item) => `
-            <li class="flex-three" style="width: 193%;">
-              <i class="icon-Vector-7"></i>
-              <p style="font-size: 14px;">${item}</p>
-            </li>
-          `
-          )
-          .join("")}
-      </ul>
-    </div>
-  `;
-
-  // Handle Tour Plan Section
-  const tourPlanningContainer = document.querySelector("#tour_planing");
-
-  if (tour.tourPlans && tour.tourPlans.length > 0) {
-    tour.tourPlans.forEach((plan, index) => {
-      const planHTML = `
-        <div  class="tour-planing-section flex">
-          <div class="number-box flex-five">${(index + 1)
-            .toString()
-            .padStart(2, "0")}</div>
-          <div class="content-box">
-            <h5 class="title">${plan.title}</h5>
-            <p class="des">${plan.des}</p>
-          </div>
-        </div>
-      `;
-      tourPlanningContainer.innerHTML += planHTML;
-    });
-  } else {
-    tourPlanningContainer.innerHTML =
-      "<p>No tour plans available at the moment.</p>";
-  }
-
-  // Inner Heading and Tour Info
-  document.querySelector(".inner-heading-wrap").innerHTML = `
-    <div class="inner-heading">
-      <span style="background:green" class="feature">Featured</span>
-      <h2 class="title">${tour.title}</h2>
-      <ul class="flex-three list-wrap-heading">
-        <li class="flex-three">
-          <i class="icon-user"></i>
-          <span>Max Guests: ${tour.maxGuests}</span>
-        </li>
-        <li class="flex-three">
-          <i class="icon-18"></i>
-          <span>${tour.location}</span>
-        </li>
-        <div class="icons flex-three">
-          <i style="color:green;margin-right:1rem" class="icon-time-left"></i>
-          <span>${tour.left}</span>
-        </div>
-      </ul>
-    </div>
-    <div class="inner-price">
-      <div class="flex-three">
-        <div class="start">
-          ${generateStars(tour.rating)}
-        </div>
-        <span class="review">(${tour.reviews})</span>
-      </div>
-      <p class="price-sale text-main">
-        ${tour.priceSale} <span class="price">${tour.priceOriginal}</span>
-      </p>
-    </div>
-  `;
-} else {
-}
-
-function generateStars(rating) {
-  let starsHtml = "";
-  for (let i = 0; i < rating; i++) {
-    starsHtml += '<i class="icon-Star"></i>';
-  }
-  return starsHtml;
-}
-
-//
 
 function goToChat() {
   window.open("https://wa.me/+201143328885");
@@ -9170,7 +9023,7 @@ let copyRight = (() => {
   CopyRightElement.innerHTML = `Copyright 2007-${Year} Marvelous Egypt Travel All Rights Reserved`;
 })();
 
-// Handle the Search Bar
+
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector("#searchInput");
   const searchModal = new bootstrap.Modal(
@@ -9178,7 +9031,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const searchResults = document.querySelector("#searchResults");
 
-  // Debounce function
   const debounce = (func, delay) => {
     let timeout;
     return (...args) => {
@@ -9187,9 +9039,9 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   };
 
-  // Handle search function
+
   const handleSearch = (searchValue) => {
-    searchResults.innerHTML = ""; // Clear previous results
+    searchResults.innerHTML = ""; 
 
     if (searchValue.trim() === "") {
       searchModal.hide();
@@ -9202,7 +9054,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let minDays = null,
       maxDays = null;
 
-    // Patterns for price and day range
     const priceRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*$/;
     const dayRangePattern = /^\s*(\d+)\s*-\s*(\d+)\s*days?\s*$/i;
 
