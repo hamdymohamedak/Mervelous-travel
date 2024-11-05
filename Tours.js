@@ -1,4 +1,320 @@
 const tourDetails = {
+  1: {
+    title: "Cairo Tour Packages",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "4 Days",
+    des: "Embark on an unforgettable 4-day journey through Cairo and Giza with our exclusive tour package. Experience the perfect blend of ancient wonders and vibrant culture. This private tour, guided by expert Egyptologists, is ideal for solo travelers, couples, and families looking to explore the heart of Egypt.",
+    reviews: "246 Reviews",
+    priceSale: "$345",
+    priceOriginal: "$345",
+    rating: 5,
+    path: "",
+    tourPlans: [
+      {
+        title: "Day 1: Arrival and Nile Dinner Cruise",
+        des: "Arrive at Cairo International Airport where you'll be greeted by our team and transferred to your hotel. Enjoy the rest of the day at leisure before a welcome dinner at a local restaurant.",
+      },
+      {
+        title: "Day 2: Giza Pyramids, Sphinx, Saqqara, Memphis",
+        des: `
+Experience:
+
+After breakfast, visit the iconic Giza Pyramids Complex, including the Great Pyramid, the Sphinx, and the Valley Temple. Enjoy lunch at a local restaurant before exploring the Saqqara Step Pyramid and the ancient city of Memphis.
+Meals:
+
+Breakfast, Lunch
+Overnight:
+
+Cairo hotel
+`,
+      },
+      {
+        title: "Day 3: Egyptian Museum, Cairo Citadel, Khan El Khalili",
+        des: `
+Experience:
+
+Begin your day with breakfast, followed by a visit to The Egyptian Museum, home to an extensive collection of ancient artifacts. After lunch at a local restaurant, explore the Salah El Din Citadel, Mohamed Ali Mosque, the National Museum of Egyptian Civilization, Al Muizz Street, and the bustling Khan El Khalili Bazaar
+Meals:
+
+Breakfast, Lunch
+Overnight:
+
+Cairo hotel
+`,
+      },
+      {
+        title: "Day 4: Departure",
+        des: `
+Experience:
+
+Enjoy breakfast at your hotel before being transferred to Cairo airport for your departure.
+Meals:
+
+Breakfast
+`,
+      },
+    ],
+    included: [
+      "Accommodation: 3 nights in Cairo. ",
+      "Meals: 3 Breakfasts, 2 Lunches, 1 Dinner Cruise Meal. ",
+      " Guided Tours:  Expert Egyptologist guides in English, French, and Spanish. ",
+      "Transport: Private air-conditioned vehicle. ",
+      "Entrance Fees for all sites listed",
+      "Entrance Fees: Included for all sites listed in the itinerary.  ",
+      "Additional Services: Free airport meet and greet transfer.",
+    ],
+    excluded: [
+      "Flights: International flights before and after the tour. ",
+      "Insurance: Travel insurance is mandatory. ",
+      "Optional: experiences at additional cost",
+      " Egypt Visa:  Egypt Entry Visa (USD 25 per passport).  ",
+      "Tipping: (Recommended)",
+      "Personal expenses (laundry, sauna, telephones, etc.)",
+      "SIM card: Available for purchase at Cairo International Airport. ",
+    ],
+  },
+
+  2: {
+    title: "Essential Egypt",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "5 Days",
+    des: "Embark on a journey through time with our 5 Days Cairo, Luxor and Abu Simbel Tour Package. This tour captures the essence of Egypt’s magnificent history and culture, offering a blend of ancient wonders and modern comfort. From the pyramids of Giza to the temples of Luxor and the grandeur of Abu Simbel, this package provides an unforgettable adventure. Marvelous Egypt Travel ensures exceptional service with professional Egyptologist guides, luxurious accommodations, and private A/C transportation, making it the ideal choice for exploring Egypt.",
+    reviews: "362 Reviews",
+    priceSale: "$770",
+    priceOriginal: "$770",
+    rating: 5,
+    path: "",
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `Experience:
+Arrival at Cairo Airport, meet and assist by our representative, transfer to a 5-star hotel, and enjoy a welcome dinner.
+Meals:
+Dinner included.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Day 2: Cairo Sightseeing",
+        des: `
+Experience:
+
+Guided tour of the Giza Pyramids Complex, including the Great Pyramid, the Sphinx, and the Valley Temple, followed by visits to the Grand Egyptian Museum and the Egyptian Museum.
+Meals:
+
+Breakfast and lunch included.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Day 3: Abu Simbel Temples and Aswan",
+        des: `
+Experience:
+
+Flight to Aswan, tour the Abu Simbel Temples, lunch in Aswan, and transfer to a 5-star hotel.
+Meals:
+
+Breakfast and lunch included.
+Overnight:
+
+Aswan Hotel.
+`,
+      },
+      {
+        title: "Day 4: Luxor Sightseeing",
+        des: `
+Experience:
+
+Morning flight to Luxor, visit the Valley of the Kings, Hatshepsut Temple, Colossi of Memnon, and Karnak Temple, lunch in Luxor, and return flight to Cairo.
+Meals:
+
+Breakfast and lunch included.
+Overnight:
+
+Cairo Hotel.
+`,
+      },
+      {
+        title: "Day 5:",
+        des: `
+Experience:
+
+Breakfast at the hotel, transfer to Cairo Airport for your departure flight.
+Meals:
+
+Breakfast included.
+`,
+      },
+    ],
+    included: [
+      "Accommodation: 3 nights in Cairo, 1 night in Aswan . ",
+      "Meals: 4 breakfasts, 3 lunches, 1 dinner. ",
+      " Guided Tours:  Expert Egyptologist guides in English, French, and Spanish.  ",
+      "Transport:  A/C vehicles for tours and excursions, domestic flights from Cairo to Aswan and Luxor to Cairo.  ",
+      "Additional Services:  Free airport meet and greet transfer, And meet and assist at all destinations, All taxes, and charges. ",
+    ],
+    excluded: [
+      "International flights:  International flights before and after the tour. . ",
+      " Domestic Flights:  Domestic Flights tickets.  ",
+      "Insurance:   Travel insurance is mandatory. ",
+      "Optional Experiences: Available at an additional cost.    ",
+      "Egypt Visa: USD 25 per passport.  ",
+      "Tipping: Recommended ",
+      "Personal Expenses:  Laundry, sauna, telephones, etc.   ",
+      " SIM Card:  Available for purchase at Cairo International Airport. ",
+    ],
+  },
+  3: {
+    title: "Cairo, Giza, Luxor & Aswan Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "5 Days",
+    des: "Embark on a mesmerizing journey through ancient Egypt with the 8 Days Cairo, Giza, Luxor, and Aswan Adventure Tour. This 8-day package, operated by Marvelous Tours, takes you from Cairo to Aswan, exploring iconic sites and offering an unforgettable Nile cruise experience.",
+    reviews: "302 Reviews",
+    priceSale: "$888",
+    priceOriginal: "$888",
+    rating: 5,
+    path: "",
+    tourPlans: [
+      {
+        title: "Day 1: Arrival in Cairo",
+        des: `
+Experience:
+
+Arrive in Cairo and transfer to your hotel.
+Overnight:
+
+Cairo
+`,
+      },
+      {
+        title: "Day 2: Giza Pyramids - Sphinx - Egyptian Museum",
+        des: `
+Experience:
+
+Visit the Great Pyramids, Sphinx, and Egyptian Museum.
+Meals:
+
+Breakfast included.
+Overnight:
+
+Cairo
+`,
+      },
+      {
+        title: "Day 3: Luxor - Nile Cruise - Luxor and Karnak Temples",
+        des: `
+Experience:
+
+Fly to Luxor, embark on a Nile Cruise, visit Luxor and Karnak Temples.
+Meals:
+
+Breakfast, Lunch, Dinner included.
+Overnight:
+
+Nile Cruise
+`,
+      },
+      {
+        title:
+          "Day 4: Nile Cruise - Valley of the Kings - Queen Hatshepsut - Esna - Edfu",
+        des: `
+Experience:
+
+Explore Valley of the Kings, Queen Hatshepsut's temple, sail to Esna and Edfu.
+Meals:
+
+Breakfast, Lunch, Dinner included.
+Overnight:
+
+Nile Cruise
+`,
+      },
+      {
+        title: "Day 5: Nile Cruise - Edfu - Kom Ombo - Aswan",
+        des: `
+
+
+          Experience:
+
+          Visit Edfu and Kom Ombo temples, sail to Aswan.
+          Meals:
+          
+          Breakfast, Lunch, Dinner included.
+          Overnight:
+          
+          Nile Cruise
+          
+          
+`,
+      },
+      {
+        title: "Day 6: Aswan - Abu Simbel - Nubian Village",
+        des: `
+
+
+          Experience:
+
+          Visit Abu Simbel and a Nubian village.
+          Meals:
+          
+          Breakfast, Lunch, Dinner included.
+          Overnight:
+          
+          Nile Cruise
+          
+          
+`,
+      },
+      {
+        title: "Day 7: Philae Temple - High Dam - Aswan - Cairo",
+        des: `
+          Experience:
+
+          Explore Philae Temple, High Dam, fly back to Cairo.
+          Meals:
+          
+          Breakfast included.
+          Overnight:
+          
+          Cairo    
+`,
+      },
+      {
+        title: "Day 8: Cairo - Departure",
+        des: `
+
+          Experience:
+
+          Transfer to the airport for departure.
+          Meals:
+          
+          Breakfast included.
+           
+`,
+      },
+    ],
+    included: [
+      "Accommodation: - Cairo: 4+ Star hotel with daily breakfast. - Nile Cruise: 5-star standard Nile cruise with full-board meals.  ",
+      "Meals: - 7 Breakfasts - 5 Lunches - 4 Dinners",
+      "Guided Tours: Expert Egyptologist guides in English, French, and Spanish. ",
+      "Flights:  Return domestic flights from Cairo to Luxor and Aswan to Cairo. . ",
+      "Transport:  Air-conditioned mini-coach throughout the tour.- 5-star luxury Nile cruise ship - Return domestic flights included.",
+      "Additional Services:- Arrival and departure transfers VIP treatment throughout the tour 24/7 Support",
+    ],
+    excluded: [
+      "Insurance: Travel insurance is required and not included.  ",
+      " Optional Experiences: - Abu Simbel Temple visit - Sunrise Hot Air  Balloon Ride - Nubian village - Old Cairo - Alexandria.  ",
+      " Additional Services:  - Entrance fees.- Tipping kitty for crew, drivers, and tour guide - Pre and post-tour accommodation - Other meals, snacks, and drinks - Single supplement (mandatory) ",
+      "Egypt Visa:  USD 25 per passport. ",
+    ],
+  },
   4: {
     title: "Cleopatra Egypt Tour Package",
     maxGuests: "Unlimited",
@@ -9,6 +325,7 @@ const tourDetails = {
     priceSale: "$1530",
     priceOriginal: "$1530",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -79,7 +396,6 @@ const tourDetails = {
       "SIM Card: Available for purchase at Cairo International Airport.",
     ],
   },
-
   5: {
     title: "One-Day Pyramids Tour from Cairo Airport",
     maxGuests: "Unlimited",
@@ -90,6 +406,7 @@ const tourDetails = {
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Day Tour To Pyramids From Cairo Airport",
@@ -147,6 +464,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
     priceSale: "$400",
     priceOriginal: "$400",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Day Tour To Pyramids From Cairo Airport",
@@ -207,7 +525,6 @@ You can share your thoughts about adding or removing any tours from your tour it
       "Optional Experiences available at an additional cost.",
     ],
   },
-
   7: {
     title: "Tour to Luxor East and West Banks",
     maxGuests: "Unlimited",
@@ -224,6 +541,7 @@ You can share your thoughts about adding or removing any tours from your tour it
     priceSale: "$70",
     priceOriginal: "$70",
     rating: 5,
+    path: "",
 
     tourPlans: [
       {
@@ -283,6 +601,7 @@ Finally, we drive you back to your hotel/ Nile cruise.
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
+    path: "",
 
     tourPlans: [
       {
@@ -348,6 +667,7 @@ Lunch.
     priceSale: "$550",
     priceOriginal: "$550",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1:Aswan",
@@ -469,6 +789,7 @@ Breakfast.
     priceSale: "$700",
     priceOriginal: "$700",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Luxor and East Bank Tour",
@@ -608,6 +929,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Aswan Attractions",
@@ -773,7 +1095,7 @@ Breakfast.
   },
 
   12: {
-    title: "7 Nights Nile River Cruise from Luxor",
+    title: "7 Nights Nile River Cruise from Aswan",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "8 days",
@@ -782,6 +1104,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Luxor East Bank",
@@ -953,6 +1276,7 @@ Breakfast.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Tour to Cairo and Giza Pyramids from Port Said",
@@ -1013,6 +1337,7 @@ Finally, you'll be driven back to your cruise in Port Said.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Alexandria Sights from Alexandria Port",
@@ -1073,6 +1398,7 @@ After a day of exploration, return to Alexandria Port for drop-off.`,
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Trip to Pyramids and Cairo from Sokhna Port",
@@ -1141,6 +1467,7 @@ Finally, we drive you back to Sokhna Port by the cruise door.
     priceSale: "$160",
     priceOriginal: "$160",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour from Safaga to Luxor",
@@ -1201,6 +1528,7 @@ Finally, we will transfer you back to Safaga Port to end your day tour from Safa
     priceSale: "$600",
     priceOriginal: "$600",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Cairo: ",
@@ -1300,6 +1628,7 @@ Breakfast.
     priceSale: "$855",
     priceOriginal: "$855",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival To Egypt Land Of Pharaohs",
@@ -1416,6 +1745,7 @@ Breakfast at the hotel`,
     priceSale: "$1980",
     priceOriginal: "$1980",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Cairo: ",
@@ -1584,6 +1914,7 @@ Breakfast.
     priceSale: "$988",
     priceOriginal: "$988",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Cairo Arrival",
@@ -1655,6 +1986,7 @@ Breakfast.
     priceSale: "$1980",
     priceOriginal: "$2475",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Cairo:",
@@ -1824,6 +2156,7 @@ Explore legendary sites such as the Giza Pyramids, Sphinx, Khan El Khalili Bazaa
     priceSale: "$1090",
     priceOriginal: "$1362.5",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Welcome to Egypt",
@@ -1979,6 +2312,7 @@ Breakfast.
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour To Pyramids From Cairo Airport",
@@ -2036,6 +2370,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
     priceSale: "$385",
     priceOriginal: "$385",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour to Abu Simbel from Cairo by Plane",
@@ -2079,6 +2414,7 @@ Catch your flight back to Cairo and transfer to your hotel, concluding your day 
     priceSale: "$45",
     priceOriginal: "$45",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Alexandria from Cairo by Car",
@@ -2132,6 +2468,7 @@ Drive back to Cairo and transfer you to your hotel.
     priceSale: "$380",
     priceOriginal: "$380",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour from Cairo to Luxor By Plane",
@@ -2186,6 +2523,7 @@ Finally, transfer to Luxor airport for a flight back to Cairo and then transfer 
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Coptic Cairo Day Tour",
@@ -2237,6 +2575,7 @@ Finally, we will transfer you back to your hotel in Cairo/Giza in one of our pri
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Islamic Cairo",
@@ -2299,6 +2638,7 @@ Finally, we will drive you back to your hotel to end your day trip.
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Scuba Diving Excursion in Hurghada",
@@ -2341,6 +2681,7 @@ Finally, transfer back to your hotel.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Private Snorkeling in Hurghada",
@@ -2372,6 +2713,7 @@ Finally, transfer back to your hotel.
     priceSale: "$20",
     priceOriginal: "$20",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Hurghada Super Safari by Quads",
@@ -2410,6 +2752,7 @@ Dinner.
     priceSale: "$75",
     priceOriginal: "$75",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour to Luxor from Hurghada",
@@ -2466,6 +2809,7 @@ You can share your thoughts about adding or removing any tours from your tour it
     priceSale: "$400",
     priceOriginal: "$400",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Cairo from Hurghada by Plane",
@@ -2541,6 +2885,7 @@ Book this amazing holiday and discover the golden legacy and wealth of southern 
     priceSale: "$175",
     priceOriginal: "$175",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1",
@@ -2621,6 +2966,7 @@ Everyone will enjoy a private Luxor day tour to the East and West Banks to visit
     priceSale: "$70",
     priceOriginal: "$70",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Tour to Luxor East and West Banks",
@@ -2681,6 +3027,7 @@ The Luxor Hot Air Balloon ride is a journey of dreams across the heavens that re
     priceSale: "$120",
     priceOriginal: "$120",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor Hot Air Balloon Ride",
@@ -2720,6 +3067,7 @@ After your land, you will be picked up and transferred back to your hotel/cruise
     priceSale: "$25",
     priceOriginal: "$25",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Trip to Dandara and Abydos from Luxor",
@@ -2768,6 +3116,7 @@ Finally, we drive you back to your hotel/ Nile Cruise.
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Aswan Sightseeing Tour",
@@ -2824,6 +3173,7 @@ Finally, we drive you back to your hotel/ Nile Cruise.
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Nubian Village Tour From Aswan",
@@ -2880,6 +3230,7 @@ Lunch.
     priceSale: "$20",
     priceOriginal: "$20",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Felucca Ride on the Nile in Aswan",
@@ -2931,6 +3282,7 @@ After your delightful felucca ride, you will be transferred back to your hotel o
     priceSale: "$95",
     priceOriginal: "$95",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor Day Tour from Aswan",
@@ -2994,6 +3346,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
@@ -3050,6 +3403,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Abu Simbel from Aswan",
@@ -3098,6 +3452,7 @@ Lunch.
     priceSale: "$420",
     priceOriginal: "$420",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Cairo Day Trip from El Gouna By Plane",
@@ -3180,6 +3535,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor Day Trip from El Gouna",
@@ -3244,6 +3600,7 @@ Lunch.
     priceSale: "$215",
     priceOriginal: "$215",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -3323,6 +3680,7 @@ Breakfast, Lunch.
     priceSale: "$280",
     priceOriginal: "$280",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip from Marsa Alam to Cairo by Plane",
@@ -3396,6 +3754,7 @@ From Marsa Alam to Cairo and From Cairo to Hurghada.
     priceSale: "$150",
     priceOriginal: "$150",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "One Day Trip from Marsa Alam to Luxor",
@@ -3457,6 +3816,7 @@ Lunch.
     priceSale: "$350",
     priceOriginal: "$350",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -3535,6 +3895,7 @@ Breakfast, Lunch.
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
@@ -3617,6 +3978,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Full-Day Tour to Luxor from Makadi Bay",
@@ -3677,6 +4039,7 @@ Lunch.
     priceSale: "$185",
     priceOriginal: "$185",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -3756,6 +4119,7 @@ Breakfast, Lunch.
     priceSale: "$420",
     priceOriginal: "$420",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Cairo Tour from Sharm El Sheikh by Plane",
@@ -3838,6 +4202,7 @@ From Sharm to Cairo and Return.
     priceSale: "$695",
     priceOriginal: "$000",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor Day Trip from Sharm El Sheikh by Plane",
@@ -3899,6 +4264,7 @@ Lunch.
     priceSale: "$840",
     priceOriginal: "$840",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Cairo",
@@ -4008,6 +4374,7 @@ From Luxor to Cairo and From Cairo to Sharm.
     priceSale: "$450",
     priceOriginal: "$450",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Cairo Day Trip from Port Ghalib by Plane",
@@ -4090,6 +4457,7 @@ From Marsa Alam to Cairo and From Cairo to Hurghada.
     priceSale: "$105",
     priceOriginal: "$105",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Full Day Tour to Luxor from Port Ghalib",
@@ -4150,6 +4518,7 @@ Lunch.
     priceSale: "$250",
     priceOriginal: "$250",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Luxor",
@@ -4235,6 +4604,7 @@ Breakfast, Lunch.
     priceSale: "$430",
     priceOriginal: "$430",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Cairo Day Tour from Soma Bay by Plane",
@@ -4317,6 +4687,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Full Day Tour to Luxor from Soma Bay",
@@ -4377,6 +4748,7 @@ Lunch.
     priceSale: "$220",
     priceOriginal: "$220",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -4463,6 +4835,7 @@ Experience an unforgettable holiday amidst the majestic wonders of Luxor by book
     priceSale: "$160",
     priceOriginal: "$160",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Tour from Safaga to Luxor",
@@ -4530,6 +4903,7 @@ Book this incredible tour to discover the wonders and treasures of Upper Egypt.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Tour to Dandara and Abydos Temples from Safaga Port",
@@ -4588,6 +4962,7 @@ Book this incredible excursion and embark on the adventure of a lifetime.
     priceSale: "$490",
     priceOriginal: "$490",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Cairo",
@@ -4696,6 +5071,7 @@ Guests will enjoy a magical diving trip from Safaga Port, experiencing an amazin
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Scuba Diving from Safaga Port",
@@ -4753,6 +5129,7 @@ Guests will have the chance to snorkel at various spots in the Red Sea, encounte
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Snorkeling Trip from Safaga Port",
@@ -4811,6 +5188,7 @@ During this thrilling adventure, guests will experience the magical Safaga Port 
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Super Safari by Quads from Safaga Port",
@@ -4872,6 +5250,7 @@ During this magical tour, You will visit the iconic Giza Pyramids, the Great Sph
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Trip to Pyramids and Cairo from Sokhna Port",
@@ -4936,6 +5315,7 @@ Finally, we drive you back to Sokhna Port by the cruise door.
     priceSale: "$245",
     priceOriginal: "$245",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Tour of Giza Tourist Attractions",
@@ -5038,6 +5418,7 @@ Breakfast, Lunch
     priceSale: "$430",
     priceOriginal: "$430",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1 Luxor",
@@ -5144,6 +5525,7 @@ From Luxor to Cairo.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Tour to Cairo and Giza Pyramids from Port Said",
@@ -5205,6 +5587,7 @@ Finally, you'll be driven back to your cruise in Port Said.
     priceSale: "$235",
     priceOriginal: "$235",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Comprehensive 2-Day Cairo Adventure",
@@ -5273,6 +5656,7 @@ Drive to Alexandria Port to board your ship.
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor’s Ancient Treasures",
@@ -5382,6 +5766,7 @@ Luxor to Cairo.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Cairo Day Tour from Alexandria Port",
@@ -5442,6 +5827,7 @@ After a day full of exploration, transfer back to Alexandria Port and return to 
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day Trip to Alexandria Sights from Alexandria Port",
@@ -5497,6 +5883,7 @@ After a day of exploration, return to Alexandria Port for drop-off.`,
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Alexandria Port to Luxor",
@@ -5595,6 +5982,7 @@ Since all our tours are private, this journey is tailored to your preferences, e
     priceSale: "$2845",
     priceOriginal: "$2845",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -5706,6 +6094,7 @@ Experience traditional Bedouin life in a Siwan village; visit the Old City of Si
     priceSale: "$1250",
     priceOriginal: "$1250",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -5805,6 +6194,7 @@ Meals: Breakfast
     priceSale: "$1970",
     priceOriginal: "$1970",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -5932,9 +6322,10 @@ Extras: Optional day trips available
     left: "8 days",
     des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
     reviews: "456 Reviews",
-    priceSale: "$1090",
-    priceOriginal: "$1090",
+    priceSale: "$1,090",
+    priceOriginal: "$1,090",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6032,6 +6423,7 @@ Extras: Saqqara/Dashour/Memphis Tour, Extra Night in Cairo
     priceSale: "$2195",
     priceOriginal: "$2195",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6122,6 +6514,7 @@ Extras: Cairo city tour, Saqqara, Dashour & Memphis tours`,
     priceSale: "$1645",
     priceOriginal: "$1645",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival Cairo",
@@ -6222,6 +6615,7 @@ Meals: Breakfast
     priceSale: "$2050",
     priceOriginal: "$2050",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6319,6 +6713,7 @@ Meals: Breakfast
     priceSale: "$1615",
     priceOriginal: "$1615",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6422,6 +6817,7 @@ Optional Upgrade: Hurghada to Cairo flight
     priceSale: "$1010",
     priceOriginal: "$1010",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6488,6 +6884,7 @@ Optional Extras: Alexandria Day Trip, Cairo City Tour, Saqqara, Dashour & Memphi
     priceSale: "$2335",
     priceOriginal: "$2335",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6599,6 +6996,7 @@ Note: This tour is customizable to include Dahab instead of Hurghada.
     priceSale: "$1840",
     priceOriginal: "$1840",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6704,6 +7102,7 @@ Meals: Breakfast
     priceSale: "$1660",
     priceOriginal: "$1660",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6817,6 +7216,7 @@ Extras: Alexandria day trip, Saqqara, Dashour & Memphis tours, Khan-el-Khalili b
     priceSale: "$3560",
     priceOriginal: "$3560",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6943,6 +7343,7 @@ Overnight: N/A Meals: N/A Extras: N/A
     priceSale: "$3060",
     priceOriginal: "$3060",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Day 1: Amman Arrival: Hotel Transfers & City Exploration",
@@ -7082,6 +7483,7 @@ EXTRAS: Hot air balloon ride
     priceSale: "$450",
     priceOriginal: "$450",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Aswan",
@@ -7209,6 +7611,7 @@ Experience a magical 3-Night Nile River Cruise from Aswan, including a visit to 
     priceSale: "$550",
     priceOriginal: "$550",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Aswan",
@@ -7329,6 +7732,7 @@ Breakfast.
     priceSale: "$580",
     priceOriginal: "$580",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Luxor and East Bank Tour",
@@ -7474,6 +7878,7 @@ Cruise between the heavenly cities of Luxor and Aswan, marveling at the remarkab
     priceSale: "$700",
     priceOriginal: "$700",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival in Luxor and East Bank Tour",
@@ -7617,6 +8022,7 @@ Experience a mythical journey of dreams across the immortal wonders of ancient E
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Aswan Attractions",
@@ -7791,6 +8197,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor East Bank",
@@ -7966,6 +8373,7 @@ Breakfast.
     priceSale: "$900",
     priceOriginal: "$900",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Aswan Highlights",
@@ -8096,6 +8504,7 @@ Breakfast.
     priceSale: "$1000",
     priceOriginal: "$1000",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Luxor Highlights",
@@ -8237,6 +8646,7 @@ All our clients will enjoy a marvelous 8 days Dahabiya Nile cruise from Luxor to
     priceSale: "$1780",
     priceOriginal: "$1780",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Visit Luxor East Bank",
@@ -8414,6 +8824,7 @@ All our guests will live a magical adventure on board a luxury Nile cruise and s
     priceSale: "$630",
     priceOriginal: "$630",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Abu Simbel Temple",
@@ -8541,6 +8952,7 @@ All our guests will get to enjoy 5 days Abu Simbel Nile River cruise package tha
     priceSale: "$890",
     priceOriginal: "$890",
     rating: 5,
+    path: "",
     tourPlans: [
       {
         title: "Arrival and Boarding",
@@ -8690,22 +9102,6 @@ Breakfast.
   },
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function goToChat() {
   window.open("https://wa.me/+201143328885");
 }
@@ -8833,14 +9229,14 @@ document.addEventListener("DOMContentLoaded", () => {
         // Select Random Image To Card
         const tourHTML = `
           <div class="tour-listing box-sd">
-            <a href="./tour-single.html?id=${id}" class="tour-listing-image">
+            <a href="${tour.path}" class="tour-listing-image">
                <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing" >
             </a>
             <div class="tour-listing-content">
               <span class="map"><i class="icon-Vector4"></i>${
                 tour.location
               }</span>
-              <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${
+              <h3 class="title-tour-list"><a href="${tour.path}">${
           tour.title
         }</a></h3>
               <div class="review">${generateStars(tour.rating)}<span>(${
@@ -8864,7 +9260,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
               </div>
               <div class="inquire-now">
-                <a href="./tour-single.html?id=${id}" class="btn-inquire">Inquire Now</a>
+                <a href="${tour.path}" class="btn-inquire">Inquire Now</a>
               </div>
             </div>
           </div>
