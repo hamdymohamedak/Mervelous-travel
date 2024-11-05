@@ -2,14 +2,14 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "2 Days Aswan and Abu Simbel Tour from El Gouna",
+  title: "2 Days Aswan and Abu Simbel Trip from Marsa Alam",
   maxGuests: "Unlimited",
   location: "Egypt",
   left: "1 days",
-  des: `Embark on a splendid two-day tour from El Gouna to the majestic attractions of Aswan and Abu Simbel, showcasing the timeless wonders of southern Egypt. Marvelous Egypt Travel, the best travel agency in Egypt, ensures a comfortable and enriching experience with private A/C vehicles and professional tour guides. This tour will take you to explore Aswan’s top tourist attractions, including the High Dam, the Unfinished Obelisk, and Philae Temple, with an overnight stay at a 5-star hotel in Aswan. The next day, visit the awe-inspiring temples of Abu Simbel. Book this tour to witness the grandeur of ancient Egypt.`,
-  reviews: "360 Reviews",
-  priceSale: "$215",
-  priceOriginal: "$215",
+  des: `Embark on a captivating two-day tour from Marsa Alam to Aswan and Abu Simbel to witness the extraordinary legacy of ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, guarantees top-notch service with a private A/C vehicle and a professional tour guide. Explore the most famous attractions in Aswan, including the High Dam, the Unfinished Obelisk, and Philae Temple. On the second day, marvel at the illuminating heritage of Southern Egypt at the Two Temples of Abu Simbel. Book now to experience the eternal glory of ancient Egypt come to life.`,
+  reviews: "315 Reviews",
+  priceSale: "$350",
+  priceOriginal: "$350",
   rating: 5,
   tourPlans: [
     {
@@ -17,7 +17,7 @@ let Data = {
       des: `
 Pick-Up and Transfer:
 
-You will be picked up from your hotel in El Gouna by a private A/C vehicle and transferred to Luxor to catch the first-class train to Aswan. Upon arrival, you will start your Aswan tour with your private tour guide.
+Start your Aswan and Abu Simbel tour from Marsa Alam with a pick-up from your hotel by a private A/C vehicle to Aswan. Upon arrival, join your Egyptologist tour guide to explore the ancient Egyptian civilization by visiting Aswan's tourist attractions:
 Visit the Aswan High Dam:
 
 Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
@@ -53,9 +53,9 @@ These temples are part of the UNESCO World Heritage Site known as the "Nubian Mo
 Lunch Time:
 
 Return to Aswan for lunch at a local restaurant.
-Return to El Gouna:
+Return to Marsa Alam:
 
-Catch the train to Luxor and then transfer back to your hotel in El Gouna, concluding your two-day tour.
+Conclude your trip with a transfer back to your hotel in Marsa Alam by a private A/C vehicle.
 Meals:
 
 Breakfast, Lunch.
@@ -63,20 +63,19 @@ Breakfast, Lunch.
     },
   ],
   included: [
-    "Pick-up service from your hotel in El Gouna and return. ",
+    "Pick-up service from your hotel in Marsa Alam and return.",
     "2 lunch meals in Aswan. ",
-    "All transfers by a private modern air-conditioned vehicle.",
-    "Private Egyptologist guide during your tour.",
+    "All transfers by a private modern air-conditioned vehicle. ",
+    "Private Egyptologist guide during your tour. ",
     "Entrance fees to all the mentioned sights. ",
     "One-night accommodation in Aswan at a 5-star Hotel. ",
-    "	Train tickets from Luxor to Aswan and return.",
     "Mineral water and soft drinks onboard the vehicle. ",
     "All service charges and taxes. ",
   ],
   excluded: [
     "Any extras not mentioned in the program. ",
-    "Tipping",
-    "Optional Experiences available at an additional cost",
+    "Tipping.",
+    "Optional Experiences available at an additional cost. ",
   ],
 };
 
@@ -175,7 +174,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-ElGouna-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-MarsaAlam-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
