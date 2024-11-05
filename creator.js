@@ -2,43 +2,37 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "Port Ghalib to Luxor and Abu Simbel in Two Days",
-  maxGuests: "Unlimited",
-  location: "Egypt",
-  left: "2 days",
-  des: `Experience the ultimate chance to witness the greatest archaeological wonders on earth with this special two-day tour from Port Ghalib to Luxor and Abu Simbel. Marvelous Egypt Travel, the best travel agency in Egypt, provides ideal services including a private A/C Vehicle, relaxing accommodations, and a skilled Egyptologist tour guide. Uncover the mystical secrets of ancient Egyptian culture through visits to the Karnak Temple complex, the Valley of the Kings, Hatshepsut Temple, and the majestic Abu Simbel Temples. Book your ticket to ancient times and live the wonders of ancient history.`,
-  reviews: "456 Reviews",
-  priceSale: "$250",
-  priceOriginal: "$250",
-  rating: 5,
-  tourPlans: [
-    {
-      title: "Day 1 Luxor",
-      des: `
+  title: "2 Days Aswan and Abu Simbel Trip from Soma Bay",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "1 days",
+    des: `Embark on a 2-day journey from Soma Bay to the legendary lands of Southern Egypt, shedding light on the extraordinary heritage of ancient Egyptian civilization. With Marvelous Egypt Travel, the best travel agency in Egypt, guests will enjoy excellent service, including a private A/C vehicle and a professional tour guide. This tour covers distant destinations and showcases wonders created with pure skill and beauty for honoring religious beliefs. Visit the beautiful Philae Temple, the High Dam, the Unfinished Obelisk, and the legendary Two Temples of Abu Simbel. Book this magical two-day tour from Soma Bay to Aswan & Abu Simbel and witness the enchanting constructions of ancient Egypt.`,
+    reviews: "315 Reviews",
+    priceSale: "$220",
+    priceOriginal: "$220",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Aswan",
+        des: `
 Pick-Up and Transfer:
 
-Pickup from your hotel in Port Ghalib by an A/C vehicle to Luxor.
-Explore the Valley of the Kings:
+Pick up from your hotel by a private modern A.C car to catch a 1st class train to Aswan. Upon arrival, meet your private professional tour guide and begin your tour:
+Visit the Aswan High Dam:
 
-This sacred site on the west bank of the Nile opposite Luxor is a golden history book buried deep within a sacred hill. Home to 63 royal tombs of the greatest Pharaohs of the 18th, 19th, and 20th dynasties of the New Kingdom (1570–1050 BC), including Ramses II, Hatshepsut, Seti I, and Tutankhamen. The valley gained global fame with the discovery of Tutankhamen's tomb, making it one of the most famous archaeological sites on earth. It was declared a World Heritage Site in 1979, along with the entire Theban Necropolis.
-Visit Hatshepsut Temple:
+Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
+Explore the Unfinished Obelisk:
 
-This beautiful temple, known as the "Holy of Holies," was constructed over 15 years on the golden rock hills of Deir El Bahari in 1479 BC. Built to honor the sun god Amun and immortalize the legacy of Queen Hatshepsut, one of the most successful pharaohs in ancient Egyptian history, it is the most preserved example of classical ancient Egyptian architecture.
-Admire the Colossi of Memnon:
-
-These two grand statues of Pharaoh Amenhotep III (1386 - 1349 BC) were built in 1350 BC to guard the entrance of his long-faded temple. The statues underwent numerous renovations and became known for their Vocal Phenomenon at dawn during the Greco-Roman period. The Colossi are adorned with mystical decorations depicting Amenhotep III's history, family, and the Nile god Hapi.
+This is the largest known obelisk from ancient Egypt, commissioned by Queen Hatshepsut (1508-1458 BC). The obelisk showcases the carving techniques of the ancient Egyptians and is now an open-air museum.
 Lunch Time:
 
-Enjoy a meal at an oriental Nile view restaurant.
-Discover Karnak Temple:
+Enjoy lunch at a local restaurant in Aswan.
+Discover Philae Temple:
 
-This colossal temple complex, covering 247 acres, was built between 2000 BC and 30 BC during the Middle Kingdom to the Greco-Roman period. It served as the main religious center for worshipping the Theban triad of Amun, Mut, and Khonsu for over 1500 years. The complex features the Avenue of Sphinxes, the grand Hypostyle Hall, and numerous carvings, paintings, and shrines dedicated to various gods.
-Explore Luxor Temple:
+Dedicated to the goddess Isis, Philae Temple was built in 280 BC during the reign of Ptolemy II. It was relocated to Agilkia Island by UNESCO to save it from the rising waters of the Nile.
+Check-in:
 
-The Luxor Temple, the southern Sanctuary, was created to be a center of celebration and admiration. Built in 1400 BC, it is dedicated to the Theban triad of Amun, Mut, and Khonsu and to host the Opet festival for the rejuvenation of kingship. It became part of the UNESCO World Heritage site in 1979.
-Evening:
-
-Transfer to the train station to catch the 1st class train to Aswan. Upon arrival, transfer to your hotel in Aswan for the overnight stay.
+Transfer to a 5-star hotel in Aswan for an overnight stay.
 Meals:
 
 Lunch.
@@ -46,10 +40,10 @@ Overnight:
 
 Aswan Hotel.
 `,
-    },
-    {
-      title: "Day 2 Abu Simbel",
-      des: `
+      },
+      {
+        title: "Day 2 Abu Simbel",
+        des: `
 Early Morning:
 
 Enjoy breakfast as you prepare for an early start.
@@ -59,31 +53,31 @@ These temples are part of the UNESCO World Heritage Site known as the "Nubian Mo
 Lunch Time:
 
 Return to Aswan for lunch at a local restaurant.
-Afternoon:
+Evening:
 
-Catch the train back to Luxor and then drive back to your hotel in Port Ghalib, concluding your two-day tour.
+Catch a train to Luxor, then transfer by a private car to your hotel in Soma Bay, concluding your two-day trip from Soma Bay to Aswan and Abu Simbel.
 Meals:
 
 Breakfast, Lunch.
 `,
-    },
-  ],
-  included: [
-    "1st class train tickets from Luxor to Aswan and return. ",
-    "1-night accommodation at a 5-star hotel in Aswan. ",
-    "All transfers by a private modern air-conditioned vehicle. ",
-    "Private Egyptologist guide during your tour. ",
-    "Entrance fees to all the mentioned sights.",
-    "Bottled water during your trip. ",
-    "Pickup services from your hotel and return. ",
-    "Two lunch meals. ",
-    "All service charges and taxes. ",
-  ],
-  excluded: [
-    "Any extras not mentioned in the program. ",
-    "Tipping",
-    "Optional Experiences available at an additional cost. ",
-  ],
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Soma Bay and return. ",
+      "2 lunch meals in Aswan. ",
+      "All transfers by a private modern air-conditioned vehicle. ",
+      "Private Egyptologist guide during your tour. ",
+      "Entrance fees to all the mentioned sights. ",
+      "One-night accommodation in Aswan at a 5-star Hotel. ",
+      "Train tickets from Luxor to Aswan and return. ",
+      "Mineral water and soft drinks onboard the vehicle.",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {
@@ -181,7 +175,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-Port-Ghalib-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-Soma-Bay-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
