@@ -1,5 +1,4 @@
 const tourDetails = {
-
   4: {
     title: "Cleopatra Egypt Tour Package",
     maxGuests: "Unlimited",
@@ -81,8 +80,6 @@ const tourDetails = {
     ],
   },
 
-  
-
   5: {
     title: "One-Day Pyramids Tour from Cairo Airport",
     maxGuests: "Unlimited",
@@ -140,8 +137,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
       "Optional Experiences available at an additional cost.",
     ],
   },
- 6: {
- 
+  6: {
     title: "Day Trip to Cairo from Hurghada by Plane",
     maxGuests: "Unlimited",
     location: "Egypt",
@@ -211,8 +207,7 @@ You can share your thoughts about adding or removing any tours from your tour it
       "Optional Experiences available at an additional cost.",
     ],
   },
-  
-  
+
   7: {
     title: "Tour to Luxor East and West Banks",
     maxGuests: "Unlimited",
@@ -3530,13 +3525,6 @@ Breakfast, Lunch.
     ],
   },
 
-
-
-
-
-
-
-
   50: {
     title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
     maxGuests: "Unlimited",
@@ -4868,26 +4856,6 @@ After the celebrations, you will be transferred back to Safaga Port to end your 
       "Optional Experiences available at an additional cost. ",
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   68: {
     title: "Trip to Pyramids and Cairo from Sokhna Port",
@@ -7104,17 +7072,6 @@ EXTRAS: Hot air balloon ride
     ],
   },
 
-
-
-
-
-
-
-
-
-
-
-  
   91: {
     title: "3 Nights Nile River Cruise Aswan to Luxor",
     maxGuests: "Unlimited",
@@ -8749,18 +8706,6 @@ Breakfast.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function goToChat() {
   window.open("https://wa.me/+201143328885");
 }
@@ -8837,7 +8782,6 @@ document.addEventListener("DOMContentLoaded", () => {
         (minDays !== null ? tourDays >= minDays : true) &&
         (maxDays !== null ? tourDays <= maxDays : true);
 
-      // Keyword and range filtering
       if (
         isInPriceRange &&
         isInDayRange &&
@@ -8848,7 +8792,6 @@ document.addEventListener("DOMContentLoaded", () => {
           tour.left.toLowerCase().includes(searchValue))
       ) {
         foundResults = true;
-        // Select Random Image To Card
         let imgsPath = [
           "./assets/images/Giza_Images/img60 (16).jpeg",
           "./assets/images/Giza_Images/img60 (15).jpeg",
