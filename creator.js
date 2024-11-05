@@ -2,80 +2,62 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "2 Days Aswan and Abu Simbel Trip from Soma Bay",
+  title: "Super Safari by Quads from Safaga Port",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "1 days",
-    des: `Embark on a 2-day journey from Soma Bay to the legendary lands of Southern Egypt, shedding light on the extraordinary heritage of ancient Egyptian civilization. With Marvelous Egypt Travel, the best travel agency in Egypt, guests will enjoy excellent service, including a private A/C vehicle and a professional tour guide. This tour covers distant destinations and showcases wonders created with pure skill and beauty for honoring religious beliefs. Visit the beautiful Philae Temple, the High Dam, the Unfinished Obelisk, and the legendary Two Temples of Abu Simbel. Book this magical two-day tour from Soma Bay to Aswan & Abu Simbel and witness the enchanting constructions of ancient Egypt.`,
-    reviews: "315 Reviews",
-    priceSale: "$220",
-    priceOriginal: "$220",
+    des: `
+
+The Safaga Super Safari Trip offers an illuminating journey through the golden treasures of the Egyptian Sahara. Marvelous Egypt Travel, the leading travel agency in Egypt, ensures all our clients receive exceptional service, including a private safari guide, comfortable quad bikes, and an A/C vehicle for the trip across the divine eastern desert.
+
+During this thrilling adventure, guests will experience the magical Safaga Port Super Safari by quad bike, followed by a delightful BBQ dinner in a Bedouin village. After an unforgettable day, we will drive you back to Safaga Port. Book this exciting adventure to create magical memories.
+`,
+    reviews: "488 Reviews",
+    priceSale: "$30",
+    priceOriginal: "$30",
     rating: 5,
     tourPlans: [
       {
-        title: "Day 1 Aswan",
+        title: "Super Safari by Quads from Safaga Port",
         des: `
-Pick-Up and Transfer:
+Afternoon:
+Pickup from Safaga Port:
 
-Pick up from your hotel by a private modern A.C car to catch a 1st class train to Aswan. Upon arrival, meet your private professional tour guide and begin your tour:
-Visit the Aswan High Dam:
+You will be transferred from your cruise at Safaga Port by a private A/C vehicle and driven to the quad bike station.
+Quad Bike Adventure:
 
-Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
-Explore the Unfinished Obelisk:
-
-This is the largest known obelisk from ancient Egypt, commissioned by Queen Hatshepsut (1508-1458 BC). The obelisk showcases the carving techniques of the ancient Egyptians and is now an open-air museum.
-Lunch Time:
-
-Enjoy lunch at a local restaurant in Aswan.
-Discover Philae Temple:
-
-Dedicated to the goddess Isis, Philae Temple was built in 280 BC during the reign of Ptolemy II. It was relocated to Agilkia Island by UNESCO to save it from the rising waters of the Nile.
-Check-in:
-
-Transfer to a 5-star hotel in Aswan for an overnight stay.
-Meals:
-
-Lunch.
-Overnight:
-
-Aswan Hotel.
-`,
-      },
-      {
-        title: "Day 2 Abu Simbel",
-        des: `
-Early Morning:
-
-Enjoy breakfast as you prepare for an early start.
-Visit the Abu Simbel Temples:
-
-These temples are part of the UNESCO World Heritage Site known as the "Nubian Monuments." The temples, built by Pharaoh Ramses the Great in 1200 BC, honor Ptah, Amun, Ra, and commemorate Ramses' victory at the Battle of Kadesh and his devotion to Queen Nefertari.
-Lunch Time:
-
-Return to Aswan for lunch at a local restaurant.
+Begin your mystical quest across the heavenly sands of the eastern Sahara from Safaga Port, driving the quad 45 km in 2 ways.
 Evening:
+Bedouin Village Visit:
 
-Catch a train to Luxor, then transfer by a private car to your hotel in Soma Bay, concluding your two-day trip from Soma Bay to Aswan and Abu Simbel.
-Meals:
+Once everyone has reached the Bedouin village, you will be greeted by the Bedouin tribe.
+BBQ Dinner:
 
-Breakfast, Lunch.
+Enjoy a tasty BBQ dinner in a magical atmosphere in the company of the Bedouin tribe.
+Camel Ride:
+
+Experience an hour Camel ride session across the Eastern Sahara.
+Night:
+Bedouin Celebration:
+
+Participate in the Bedouin hosts' celebration under the most beautiful starry skies.
+Return to Safaga Port:
+
+After the celebrations, you will be transferred back to Safaga Port to end your Super Safari adventure.
 `,
       },
     ],
     included: [
-      "Pick-up service from your hotel in Soma Bay and return. ",
-      "2 lunch meals in Aswan. ",
-      "All transfers by a private modern air-conditioned vehicle. ",
-      "Private Egyptologist guide during your tour. ",
-      "Entrance fees to all the mentioned sights. ",
-      "One-night accommodation in Aswan at a 5-star Hotel. ",
-      "Train tickets from Luxor to Aswan and return. ",
-      "Mineral water and soft drinks onboard the vehicle.",
-      "All service charges and taxes. ",
+      "Pick up services from Safaga port and return. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Driving the quad 45 km in 2 ways. ",
+      "Visiting the Bedouin village. ",
+      "BBQ dinner. ",
+      "All service charges and taxes.",
     ],
     excluded: [
-      "Any extras not mentioned in the program. ",
       "Tipping",
+      "Any extras not mentioned in the itinerary. ",
       "Optional Experiences available at an additional cost. ",
     ],
 };
@@ -175,7 +157,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-Soma-Bay-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Shore-Excursion-safaga/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
