@@ -2,81 +2,58 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "2 Days Aswan and Abu Simbel Tour from Hurghada",
+  title: "Aswan Sightseeing Tour",
   maxGuests: "Unlimited",
   location: "Egypt",
   left: "1 days",
-  des: `
-
-2 Days Aswan and Abu Simbel tour from Hurghada is a magical voyage showcasing the wonders of the blessed city of Aswan. Marvelous Egypt Travel, the best travel agency in Egypt, will ensure all our guests enjoy the most efficient and relaxing service of a private A/C vehicle and a professional tour guide during their exploration tour in the mythical city of Aswan.
-
-Book this amazing holiday and discover the golden legacy and wealth of southern Egypt.
-`,
-  reviews: "123 Reviews",
-  priceSale: "$175",
-  priceOriginal: "$175",
+  des: `Embark on an enchanting full-day tour of Aswan, guided by a professional Egyptologist and traveling in the comfort of a private air-conditioned vehicle. This meticulously curated itinerary includes visits to some of Aswan’s most historically significant and visually stunning landmarks. Experience the monumental Aswan High Dam, the fascinating Unfinished Obelisk, and the magnificent Philae Temple. This tour provides a deep dive into the rich history and culture of the Nubian City, offering a memorable and educational experience.`,
+  reviews: "354 Reviews",
+  priceSale: "$40",
+  priceOriginal: "$40",
   rating: 5,
   tourPlans: [
     {
-      title: "Day 1",
+      title: "Aswan Sightseeing Tour",
       des: `
-Morning:
+      Morning:
+      Pick-Up:
 
-We will pick you up from your hotel by a modern private A.C car to Luxor to catch the 1st class train to Aswan. Upon arrival at the Nubia country, you will join your private Egyptologist tour guide to visit Aswan tourist attractions starting at:
-The High Dam:
+      Your private tour guide will meet you at your hotel or Nile cruise to commence your Aswan sightseeing adventure.
+      Aswan High Dam:
 
-The marvelous High Dam of Aswan came into being during the 60s and 70s to offer a new way of life by producing electricity and saving power.
-The Unfinished Obelisk:
+      Begin with a visit to the Aswan High Dam, a monumental engineering feat constructed between 1960 and 1970. This structure has had a profound impact on Egypt's economy and culture. Learn about the dam's historical significance and its role in modern Egypt.
+      Unfinished Obelisk:
 
-The enlightening Unfinished Obelisk was initiated by Queen Hatshepsut (1508-1458 BC) to stand as a symbol of power and grace at the golden entrance of the Karnak temples complex. It now stands at the great open-air museum displaying the skill of ancient Egyptian carvers and craftsmen.
-Philae Temple:
+      Next, visit the Unfinished Obelisk, the largest obelisk ever attempted by the ancient Egyptians. Commissioned by Queen Hatshepsut, it remains partially carved from the bedrock, offering unique insights into ancient construction techniques.
+      Lunch:
 
-The legendary Philae Temple is a celestial open book made of holy stone narrating the everlasting story of the “Myth of Osiris.” It was built as the last example of ancient Egyptian architecture in 280 BC through an order from King Ptolemy II. The temple was part of a rescue operation in the mid-60s and 70s known as the UNESCO Nubia Campaign project which relocated the temple to Agilkia Island where it is found today.
-Lunch:
+      Enjoy a delectable lunch at a local restaurant in Aswan, savoring some of the region's culinary specialties.
+      Afternoon:
+      Philae Temple:
 
-You will have your lunch at a local restaurant and check in at the 5* hotel in Aswan to spend the night.
-Meals:
+      After lunch, explore the exquisite Philae Temple, dedicated to the goddess Isis of Love and Beauty. The temple complex was relocated to Agilkia Island as part of the UNESCO Nubia Campaign, which aimed to protect it from flooding following the construction of the Aswan High Dam. Marvel at the intricate reliefs and learn about the myths and legends associated with this sacred site.
+      Evening:
+      Return:
 
-Lunch.
-Overnight:
+      After a day of extensive exploration, you will be transferred back to your hotel or Nile cruise, concluding your comprehensive Aswan sightseeing tour.
+      Meals:
 
-Aswan Hotel.
-`,
-    },
-    {
-      title: "Day 2",
-      des: `
-Morning:
-
-After breakfast, you will check out from the hotel, then you will join your private tour guide to visit:
-Abu Simbel Temples:
-
-The two temples of Abu Simbel are among the most magnificent monuments in the world. They were built by Ramses II, and their significance and grandeur are unparalleled. The great temple was dedicated to Ramses II himself, while the smaller temple was dedicated to his beloved wife, Queen Nefertari.
-Lunch:
-
-You will enjoy a lunch meal at a local restaurant.
-Evening:
-
-Return to Aswan, catch the train to Luxor, and transfer by a private A.C car to Hurghada.
-Meals:
-
-Breakfast, Lunch.
+      Lunch.
 `,
     },
   ],
   included: [
-    "Pick up service from your hotel in Hurghada and return.",
-    "Egyptologist tour guide during the tour. ",
-    "Entrance fees to the mentioned historical places.",
-    "All transfers by a modern air-conditioned vehicle.",
-    "Mineral water on board your vehicle. ",
-    "One-night accommodation in Aswan at a 5-star Hotel.",
-    "1 Breakfast, and 2 Lunch meals in Aswan",
+    "Pick up service from your hotel in Aswan/ Nile Cruise and return. ",
+    "All transfers by a private modern air-conditioned vehicle.",
+    "Private Egyptologist guides during your tours",
+    "Entrance fees to all the mentioned sights.",
+    "Lunch at a local restaurant. ",
+    "Mineral water on board the vehicle during the tour. ",
     "All service charges and taxes.",
   ],
   excluded: [
     "Any extras not mentioned in the program. ",
-    "Tipping. ",
+    "Tipping",
     "Optional Experiences available at an additional cost. ",
   ],
 };
@@ -176,7 +153,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-Hurghada-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-Luxor-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
