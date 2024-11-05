@@ -2,51 +2,42 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "Aswan Sightseeing Tour",
+  title: "Day Trip to Abu Simbel from Aswan",
   maxGuests: "Unlimited",
   location: "Egypt",
   left: "1 days",
-  des: `Embark on an enchanting full-day tour of Aswan, guided by a professional Egyptologist and traveling in the comfort of a private air-conditioned vehicle. This meticulously curated itinerary includes visits to some of Aswan’s most historically significant and visually stunning landmarks. Experience the monumental Aswan High Dam, the fascinating Unfinished Obelisk, and the magnificent Philae Temple. This tour provides a deep dive into the rich history and culture of the Nubian City, offering a memorable and educational experience.`,
-  reviews: "354 Reviews",
-  priceSale: "$40",
-  priceOriginal: "$40",
+  des: `Embark on a fascinating day trip from Aswan to Abu Simbel, where the monumental grandeur of ancient Egypt awaits you. This tour, provided by Marvelous Egypt Travel -the premier travel agency in Egypt- includes the expertise of a private Egyptologist guide and a comfortable, air-conditioned vehicle. Experience the breathtaking Temples of Abu Simbel, marvel at their grandeur, and delve into the rich history of ancient Egyptian civilization. Conclude your adventure with a return to your hotel or Nile river cruise, enriched by the majesty of Egypt’s past.`,
+  reviews: "165 Reviews",
+  priceSale: "$50",
+  priceOriginal: "$50",
   rating: 5,
   tourPlans: [
     {
-      title: "Aswan Sightseeing Tour",
+      title: "Day Trip to Abu Simbel from Aswan",
       des: `
-      Morning:
-      Pick-Up:
+Pick-Up and Transfer:
 
-      Your private tour guide will meet you at your hotel or Nile cruise to commence your Aswan sightseeing adventure.
-      Aswan High Dam:
+Begin your journey with a pickup from your hotel or Nile cruise in Aswan. Travel by private vehicle to the awe-inspiring Temples of Abu Simbel.
+Explore the Temples of Abu Simbel:
 
-      Begin with a visit to the Aswan High Dam, a monumental engineering feat constructed between 1960 and 1970. This structure has had a profound impact on Egypt's economy and culture. Learn about the dam's historical significance and its role in modern Egypt.
-      Unfinished Obelisk:
+The two rock-cut temples at Abu Simbel, masterpieces of ancient Egyptian architecture, were constructed during the reign of King Ramses II around 1200 B.C. The first temple is dedicated to Ramses II himself, showcasing colossal statues and intricate carvings. The second temple honors Queen Nefertari, adorned with exquisite artwork and inscriptions. Discover the grandeur of these monuments and their historical significance.
+Lunch:
 
-      Next, visit the Unfinished Obelisk, the largest obelisk ever attempted by the ancient Egyptians. Commissioned by Queen Hatshepsut, it remains partially carved from the bedrock, offering unique insights into ancient construction techniques.
-      Lunch:
+After visiting Abu Simbel, return to Aswan for a delightful lunch at a local restaurant.
+Transfer Back:
 
-      Enjoy a delectable lunch at a local restaurant in Aswan, savoring some of the region's culinary specialties.
-      Afternoon:
-      Philae Temple:
+Conclude your day with a return transfer to your hotel or Nile cruise in Aswan, ending your memorable trip to Abu Simbel.
+Meals:
 
-      After lunch, explore the exquisite Philae Temple, dedicated to the goddess Isis of Love and Beauty. The temple complex was relocated to Agilkia Island as part of the UNESCO Nubia Campaign, which aimed to protect it from flooding following the construction of the Aswan High Dam. Marvel at the intricate reliefs and learn about the myths and legends associated with this sacred site.
-      Evening:
-      Return:
-
-      After a day of extensive exploration, you will be transferred back to your hotel or Nile cruise, concluding your comprehensive Aswan sightseeing tour.
-      Meals:
-
-      Lunch.
+Lunch.
 `,
     },
   ],
   included: [
     "Pick up service from your hotel in Aswan/ Nile Cruise and return. ",
-    "All transfers by a private modern air-conditioned vehicle.",
-    "Private Egyptologist guides during your tours",
-    "Entrance fees to all the mentioned sights.",
+    "All transfers by a private modern air-conditioned vehicle. ",
+    "Private Egyptologist guides during your tours. ",
+    "Entrance fees to all the mentioned sights. ",
     "Lunch at a local restaurant. ",
     "Mineral water on board the vehicle during the tour. ",
     "All service charges and taxes.",
@@ -54,7 +45,7 @@ let Data = {
   excluded: [
     "Any extras not mentioned in the program. ",
     "Tipping",
-    "Optional Experiences available at an additional cost. ",
+    "Optional Experiences available at an additional cost",
   ],
 };
 
@@ -153,7 +144,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-Luxor-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-Aswan-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
