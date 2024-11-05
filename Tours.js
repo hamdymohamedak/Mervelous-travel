@@ -4888,7 +4888,7 @@ After the celebrations, you will be transferred back to Safaga Port to end your 
 
 
 
-  
+
   68: {
     title: "Trip to Pyramids and Cairo from Sokhna Port",
     maxGuests: "Unlimited",
@@ -7104,6 +7104,17 @@ EXTRAS: Hot air balloon ride
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+  
   91: {
     title: "3 Nights Nile River Cruise Aswan to Luxor",
     maxGuests: "Unlimited",
