@@ -2,109 +2,112 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "Two Days Trip to Cairo and Luxor from Sokhna Port",
-  maxGuests: "Unlimited",
-  location: "Egypt",
-  left: "2 days",
-  des: `Experience the golden legacy of ancient Egyptian civilization with our 2-day trip to Cairo and Luxor from Sokhna Port. With Marvelous Egypt Travel, expect exceptional services, including a private air-conditioned vehicle and a professional Egyptologist tour guide. This adventure covers the finest and most famous tourist attractions in Cairo and Luxor, including the Karnak Temple, the Valley of the Kings, Queen Hatshepsut’s Temple in Luxor, the Giza Pyramids, the Great Sphinx, and the Egyptian Museum in Cairo. Book this incredible two-day adventure and explore the magical wonders of Egypt.`,
-  reviews: "465 Reviews",
-  priceSale: "$430",
-  priceOriginal: "$430",
-  rating: 5,
-  tourPlans: [
-    {
-      title: "Day 1 Luxor",
-      des: `
-Pickup from Sokhna Port:
+  title: "Overnight Tour to Cairo and Luxor from Port Said",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `Embark on a heavenly 2-day journey exploring the timeless wonders of Cairo and Luxor. Marvel at ancient Egypt’s greatest monuments with exceptional service provided by Marvelous Egypt Travel, including a private Egyptologist guide and air-conditioned transportation.`,
+    reviews: "165 Reviews",
+    priceSale: "$410",
+    priceOriginal: "$410",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Luxor’s Ancient Treasures",
+        des: `
+Pickup from Port Said:
 
-Our representative will pick you up from your Cruise in Sokhna Port and transfer you to Cairo airport to fly to Luxor. Upon arrival at Luxor, you'll meet your tour guide and a private air-conditioned vehicle.
+Meet your guide at Port Said and transfer to Cairo Airport for your flight to Luxor.
+Arrival in Luxor:
+
+Upon arrival, be met by your guide and start your exploration with a private air-conditioned vehicle.
 Valley of the Kings:
 
-Discover the hidden artistic architecture in the underground Valley of the Kings with 63 royal tombs from the New Kingdom (1570 – 1050 BC).
+Discover the Valley of the Kings, an ancient burial site for the most influential pharaohs of the New Kingdom. Explore tombs filled with intricate decorations and treasures of renowned rulers like Ramses II, Hatshepsut, and Tutankhamun.
 Hatshepsut Temple:
 
-Explore the holy temple of Queen Hatshepsut (1507–1458 BC), showcasing her legacy as one of Egypt's most successful rulers.
+Visit the stunning Temple of Hatshepsut, a mortuary temple dedicated to one of Egypt’s most successful female pharaohs. Admire its unique architecture and learn about Hatshepsut’s reign.
 Colossi of Memnon:
 
-Visit the colossal statues of Pharaoh Amenhotep III (1386 - 1349 BC) known for their incredible vocal sounds during the Greco-Roman Period.
-Lunch Time:
+Marvel at the colossal statues of Amenhotep III, known as the Colossi of Memnon. These imposing figures once guarded his mortuary temple and now stand as silent sentinels.
+Lunch:
 
-Enjoy lunch on an island, including a boat trip on the Nile River.
+Enjoy lunch on a Nile island with a scenic boat trip included.
 Karnak Temple:
 
-Visit the Karnak Temple Complex, the largest religious capital on earth, honoring the Theban triad of Amun, Mut, and Khonsu.
-Luxor Temple:
-
-Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Explore the Karnak Temple Complex, the largest religious building ever constructed. Walk through the Avenue of Sphinxes and discover the grand halls and sanctuaries dedicated to the Theban triad of Amun, Mut, and Khonsu.
 Overnight:
 
-Transfer to a 5-star hotel for the overnight stay.
+Check-in at a 5-star hotel in Luxor. Relax and enjoy dinner at your leisure.
 Meals:
 
 Lunch.
 Flight:
 
-From Cairo to Luxor.
+Cairo to Luxor.
 Overnight:
 
 Luxor Hotel.
 `,
-    },
-    {
-      title: "Day 2 Cairo",
-      des: `
-Breakfast and Checkout:
+      },
+      {
+        title: "Cairo’s Majestic Highlights",
+        des: `
+Breakfast:
 
-After breakfast, check-out from the hotel and catch the flight to Cairo.
+Start your day with breakfast at the hotel in Luxor.
+Flight to Cairo:
+
+Check out and catch your flight back to Cairo.
 Giza Pyramids Complex:
 
-Visit the Giza Pyramids complex, built by the kings of the 4th dynasty during the Old Kingdom (2686 – 2134 BC).
+Begin your tour by visiting the cosmic Giza Pyramids complex, an angelic embrace containing the ancient legacy and eternal wonders of the ancient Egyptian civilization during the Old Kingdom (2686-2134 BC), which includes:
 The Great Pyramid:
 
-Marvel at the Great Pyramid of Giza, built for Pharaoh Khufu (2609 BC - 2584 BC), standing 147 meters tall.
+The Grand Pyramid of King Khufu (2609 BC - 2584 BC) is a beacon of divinity and enlightenment, designed by Hemiunu. Standing 147 meters tall, it was constructed using 2.3 million limestone blocks, making up a total weight of six million tons. The pyramid contains several chambers, including the King’s Chamber, the Grand Hall, and the Queen’s Chamber.
 The Great Sphinx:
 
-Admire the Great Sphinx, a symbol of Pharaoh Khafre (2558 BC - 2532 BC), with the body of a lion and the face of Khafre.
+The Mythical Sphinx is a masterpiece of divine art and architecture, showcasing the power and wisdom of Pharaoh Khafre (2558-2532 BC). Between its legs lies an extraordinary dream stele.
 The Valley Temple:
 
-Explore the Valley Temple, a granite mortuary temple from the 4th dynasty used for the mummification process.
-The Grand Egyptian Museum:
+This sacred temple, built in 2600 BC, was used for the mummification process of the kings and queens of the Old Kingdom, guiding them to the heavens.
+The Grand Egyptian Museum
 
-Discover ancient Egyptian creations at the Grand Egyptian Museum, featuring artifacts like the Hanging Obelisk and King Ramses II Statue.
-Lunch Time:
+Explore the Grand Egyptian Museum, a golden portal to the ancient Egyptian creations cultivated over 5000 years of continuous innovation and vivid artistic imagination. Discover some of the greatest archaeological monuments and artifacts ever made, including the Hanging Obelisk, King Ramses II Statue, the 10 Statues of King Senusert, the Grand Staircase, statues of Ptolemaic Kings and Queens, the Victory Column of King Merneptah, the epic Royal Regalia, and the Grand Atrium and Gift Shop. VIP tickets are available for access to additional artifacts; for more information, contact us.
+Lunch:
 
-Lunch will be served at a Pyramids/Nile view restaurant.
+Savor lunch at a restaurant with views of the Pyramids or the Nile.
 The Egyptian Museum:
 
-Visit the Egyptian Museum in Cairo, showcasing some of the greatest monuments and artifacts from ancient Egypt.
-Return to Sokhna Port:
+Visit the extraordinary Egyptian Museum, a house of mythical and archaeological beauty constructed in 1901 in the heart of Cairo.
+Return to Port Said:
 
-In the evening, transfer back to Sokhna Port by a private air-conditioned vehicle.
+After a day of exploration, transfer back to Port Said by private vehicle.
 Meals:
 
 Breakfast, Lunch.
 Flight:
 
-From Luxor to Cairo.
+Luxor to Cairo.
 `,
-    },
-  ],
-  included: [
-    "Pick up from your cruise exit at Sokhna Port and return. ",
-    "All transfers by a private modern A/C vehicle.",
-    "Private Egyptologist guide during the 2-day tours. ",
-    "One Night Accommodation in Luxor at 5-star Hotel. ",
-    "Flight tickets from Cairo to Luxor and return. ",
-    "2 Lunch meals during your tours. ",
-    "Mineral water on board the vehicles during the tours.",
-    "Entrance fees for all sightseeing are mentioned. ",
-    "All service charges and taxes. ",
-  ],
-  excluded: [
-    "Tipping",
-    "Any extras not mentioned in the itinerary. ",
-    "Optional Experiences available at an additional cost. ",
-  ],
+      },
+    ],
+    included: [
+      "Pick-up and drop-off from Port Said. ",
+      "All transfers by a private modern A/C vehicle. ",
+      "Private Egyptologist guide during your journey. ",
+      "Mineral water on board the vehicle. ",
+      "2 Lunches and 1 breakfast. ",
+      "Entrance fees for all sightseeing are mentioned. ",
+      "1 Night Accommodation in Luxor at a 5-star hotel. ",
+      "Flights from Cairo to Luxor and return. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Tipping",
+      "Any extras not mentioned in the itinerary. ",
+      "Optional Experiences available at an additional cost.",
+    ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {
@@ -202,7 +205,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Shore-Excursion-safaga/${newFileName}.html`;
+  const newPath = `./Egypt-Shore-Excursion-Said/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
