@@ -2,65 +2,82 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "Day Trip to Islamic Cairo",
+  title: "2 Days Aswan and Abu Simbel Tour from Hurghada",
   maxGuests: "Unlimited",
   location: "Egypt",
   left: "1 days",
-  des: `A day trip to Islamic Cairo is a divine voyage showcasing the golden glory of the greatest civilization on earth. Marvelous Egypt Travel will provide all our clients with the most ideal services, including a private A/C vehicle and a professional Egyptologist tour guide, as expected from the best travel agency in Egypt. All our clients will witness the beauty and greatness of the best Islamic Cairo attractions. Join us on a fabulous day trip to Islamic Cairo. Your expert tour guide will take you to explore Khan El Khalili bazaar, Salah El-Din Citadel, Sultan Hassan and Ibn Tulun Mosques, and many more Old Cairo masterpieces by a deluxe air-conditioned car, then transfer you back to your hotel. Book this blessed excursion and explore all the immortal treasures of Islamic Cairo.`,
+  des: `
+
+2 Days Aswan and Abu Simbel tour from Hurghada is a magical voyage showcasing the wonders of the blessed city of Aswan. Marvelous Egypt Travel, the best travel agency in Egypt, will ensure all our guests enjoy the most efficient and relaxing service of a private A/C vehicle and a professional tour guide during their exploration tour in the mythical city of Aswan.
+
+Book this amazing holiday and discover the golden legacy and wealth of southern Egypt.
+`,
   reviews: "123 Reviews",
-  priceSale: "$40",
-  priceOriginal: "$40",
+  priceSale: "$175",
+  priceOriginal: "$175",
   rating: 5,
   tourPlans: [
     {
-      title: "Day Trip to Islamic Cairo",
+      title: "Day 1",
       des: `
 Morning:
 
-We will pick you up from your hotel in Cairo to join our professional tour guide in a private air-conditioned vehicle to visit the best historical highlights of Islamic Cairo.
-Salah El Din Citadel:
+We will pick you up from your hotel by a modern private A.C car to Luxor to catch the 1st class train to Aswan. Upon arrival at the Nubia country, you will join your private Egyptologist tour guide to visit Aswan tourist attractions starting at:
+The High Dam:
 
-Salah El-Din Citadel is one of the most prestigious military castles constructed in the Middle Ages. Its strategic location controls the cities of Cairo and Al Fustat, providing defensive importance. The Citadel was erected during the 12th century to defend Cairo against the Crusaders and served as the seat of the government during the ruling periods of the Ayyubids, Mamluks, and Ottomans.
-Mohamed Ali Mosque:
+The marvelous High Dam of Aswan came into being during the 60s and 70s to offer a new way of life by producing electricity and saving power.
+The Unfinished Obelisk:
 
-Mohamed Ali Mosque proudly stands as the highest point inside Cairo Citadel. It was established by Mohammed Ali Pasha in 1830 AD, with construction continuing until his death in 1848 AD. The exterior design was inspired by the Sultan Ahmad Mosque in Istanbul, and it is one of the most significant Islamic attractions in Cairo.
-Lunch Time:
+The enlightening Unfinished Obelisk was initiated by Queen Hatshepsut (1508-1458 BC) to stand as a symbol of power and grace at the golden entrance of the Karnak temples complex. It now stands at the great open-air museum displaying the skill of ancient Egyptian carvers and craftsmen.
+Philae Temple:
 
-Enjoy a lunch meal at a local restaurant before continuing your day tour.
-Sultan Hassan Madrassa and Mosque:
+The legendary Philae Temple is a celestial open book made of holy stone narrating the everlasting story of the “Myth of Osiris.” It was built as the last example of ancient Egyptian architecture in 280 BC through an order from King Ptolemy II. The temple was part of a rescue operation in the mid-60s and 70s known as the UNESCO Nubia Campaign project which relocated the temple to Agilkia Island where it is found today.
+Lunch:
 
-Sultan Hassan Madrassa and Mosque is one of the rarest examples of early Mamluk architecture, founded between 1356 AD and 1363 AD. Built out of giant blocks of stone, it symbolizes the culmination of architectural projects during the Mamluk reign.
-Al Rifai Mosque:
+You will have your lunch at a local restaurant and check in at the 5* hotel in Aswan to spend the night.
+Meals:
 
-Another impressive Islamic monument in Cairo, Al Rifai Mosque, was founded by Khoshiar Hanim, the mother of Khedive Ismail. Construction began in 1869 AD and was completed in 1911 AD, with a 25-year hiatus from 1880 to 1905 AD. The mosque serves as the burial site for Mohamed Ali's family members.
-Ibn Tulun Mosque:
+Lunch.
+Overnight:
 
-The oldest and largest mosque in Cairo, Ibn Tulun Mosque, was established between 876 and 879 AD by Ahmed Ibn Tulun, commissioned by the Abbasid Caliph to govern Al Fustat. The mosque's interior design reflects the Abbasid architectural style, featuring beautifully decorated arches and a large courtyard.
-Al Muizz Street:
+Aswan Hotel.
+`,
+    },
+    {
+      title: "Day 2",
+      des: `
+Morning:
 
-Al Muizz Street provides a magical journey through Cairo's living miracles. This attractive cultural marvel showcases the golden street of Cairo, which dates back to the Fatimid period in the 10th century AD. It is a golden labyrinth filled with incredible monuments, artifacts, and houses.
-Khan El Khalili Bazaar:
+After breakfast, you will check out from the hotel, then you will join your private tour guide to visit:
+Abu Simbel Temples:
 
-Khan El Khalili Bazaar is an ancient renowned souk in central Cairo, founded as a large trade center during the Mamluk reign. Dating back to the 14th century, the bazaar is filled with cafes and restaurants, including El Fishawy, the city's oldest café.
-Afternoon:
+The two temples of Abu Simbel are among the most magnificent monuments in the world. They were built by Ramses II, and their significance and grandeur are unparalleled. The great temple was dedicated to Ramses II himself, while the smaller temple was dedicated to his beloved wife, Queen Nefertari.
+Lunch:
 
-Finally, we will drive you back to your hotel to end your day trip.
+You will enjoy a lunch meal at a local restaurant.
+Evening:
+
+Return to Aswan, catch the train to Luxor, and transfer by a private A.C car to Hurghada.
+Meals:
+
+Breakfast, Lunch.
 `,
     },
   ],
   included: [
-    "The service of pick-up from your hotel and return. ",
-    "Egyptologist tour guide during the tours",
-    "A deluxe private air-conditioned vehicle throughout your trip",
-    "Admission fees to all the sights listed in the itinerary.",
-    "Lunch meal",
-    "Bottled water on the vehicle",
-    "All service charges and taxes. ",
+    "Pick up service from your hotel in Hurghada and return.",
+    "Egyptologist tour guide during the tour. ",
+    "Entrance fees to the mentioned historical places.",
+    "All transfers by a modern air-conditioned vehicle.",
+    "Mineral water on board your vehicle. ",
+    "One-night accommodation in Aswan at a 5-star Hotel.",
+    "1 Breakfast, and 2 Lunch meals in Aswan",
+    "All service charges and taxes.",
   ],
   excluded: [
-    "Any extras not mentioned in the program",
-    "Tipping",
-    "Optional Experiences available at an additional cost",
+    "Any extras not mentioned in the program. ",
+    "Tipping. ",
+    "Optional Experiences available at an additional cost. ",
   ],
 };
 
@@ -159,7 +176,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-Hurghada-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {

@@ -8695,6 +8695,34 @@ Breakfast.
   },
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function goToChat() {
   window.open("https://wa.me/+201143328885");
 }
