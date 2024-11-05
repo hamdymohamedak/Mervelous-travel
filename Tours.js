@@ -140,8 +140,8 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
       "Optional Experiences available at an additional cost.",
     ],
   },
-
-  6: {
+ 6: {
+ 
     title: "Day Trip to Cairo from Hurghada by Plane",
     maxGuests: "Unlimited",
     location: "Egypt",
@@ -211,6 +211,8 @@ You can share your thoughts about adding or removing any tours from your tour it
       "Optional Experiences available at an additional cost.",
     ],
   },
+  
+  
   7: {
     title: "Tour to Luxor East and West Banks",
     maxGuests: "Unlimited",
@@ -776,7 +778,7 @@ Breakfast.
   },
 
   12: {
-    title: "7 Nights Nile River Cruise from Aswan",
+    title: "7 Nights Nile River Cruise from Luxor",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "8 days",
