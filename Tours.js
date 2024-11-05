@@ -9404,14 +9404,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const tourHTML = `
         <div class="tour-listing box-sd">
-          <a href="./tour-single.html?id=${id}" class="tour-listing-image">
+          <a href="${tour.path}" class="tour-listing-image">
             <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing">
           </a>
           <div class="tour-listing-content">
             <span class="map"><i class="icon-Vector4"></i>${
               tour.location
             }</span>
-            <h3 class="title-tour-list"><a href="./tour-single.html?id=${id}">${
+            <h3 class="title-tour-list"><a href="${tour.path}">${
         tour.title
       }</a></h3>
             <div class="review">${generateStars(tour.rating)}<span>(${
@@ -9435,7 +9435,7 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
             </div>
             <div class="inquire-now">
-              <a href="./tour-single.html?id=${id}" class="btn-inquire">Inquire Now</a>
+              <a href="${tour.path}" class="btn-inquire">Inquire Now</a>
             </div>
           </div>
         </div>
