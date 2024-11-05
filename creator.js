@@ -2,22 +2,22 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "2 Days Aswan and Abu Simbel Trip from Marsa Alam",
-  maxGuests: "Unlimited",
-  location: "Egypt",
-  left: "1 days",
-  des: `Embark on a captivating two-day tour from Marsa Alam to Aswan and Abu Simbel to witness the extraordinary legacy of ancient Egyptian civilization. Marvelous Egypt Travel, the best travel agency in Egypt, guarantees top-notch service with a private A/C vehicle and a professional tour guide. Explore the most famous attractions in Aswan, including the High Dam, the Unfinished Obelisk, and Philae Temple. On the second day, marvel at the illuminating heritage of Southern Egypt at the Two Temples of Abu Simbel. Book now to experience the eternal glory of ancient Egypt come to life.`,
-  reviews: "315 Reviews",
-  priceSale: "$350",
-  priceOriginal: "$350",
-  rating: 5,
-  tourPlans: [
-    {
-      title: "Day 1 Aswan",
-      des: `
+  title: "Makadi Bay Excursion to Aswan and Abu Simbel in Two Days Tour",
+    maxGuests: "Unlimited",
+    location: "Egypt",
+    left: "2 days",
+    des: `The Makadi Bay excursion to Aswan & Abu Simbel over two days showcases the extraordinary legacy of the ancient Egyptian Civilization, brimming with glory and magnificence. Marvelous Egypt Travel, the top travel agency in Egypt, ensures guests receive excellent service, including a private A/C vehicle and a professional tour guide during their holiday tour in the legendary lands of Southern Egypt. Witness ancient visions of class and glory in Upper Egypt, including the Unfinished Obelisk and the majestic Philae Temple in Aswan, and the grand Abu Simbel temples at the southern border of Egypt. This tour offers a journey into the true meaning of ageless allure, allowing you to explore the pride of southern Egypt in full comfort and relaxation. Book this enchanting tour and dive into the beauty and history of Aswan and Abu Simbel.`,
+    reviews: "315 Reviews",
+    priceSale: "$185",
+    priceOriginal: "$185",
+    rating: 5,
+    tourPlans: [
+      {
+        title: "Day 1 Aswan",
+        des: `
 Pick-Up and Transfer:
 
-Start your Aswan and Abu Simbel tour from Marsa Alam with a pick-up from your hotel by a private A/C vehicle to Aswan. Upon arrival, join your Egyptologist tour guide to explore the ancient Egyptian civilization by visiting Aswan's tourist attractions:
+Begin your journey with a transfer from your hotel in Makadi Bay to Luxor in a private A/C vehicle. Board the 1st class train to Aswan. Upon arrival, meet your private Egyptologist tour guide and start your exploration.
 Visit the Aswan High Dam:
 
 Built in the 1960s and 1970s, the Aswan High Dam is one of the largest embankment dams in the world. It plays a crucial role in the economy and culture of Egypt.
@@ -40,10 +40,10 @@ Overnight:
 
 Aswan Hotel.
 `,
-    },
-    {
-      title: "Day 2 Abu Simbel",
-      des: `
+      },
+      {
+        title: "Day 2 Abu Simbel",
+        des: `
 Early Morning:
 
 Enjoy breakfast as you prepare for an early start.
@@ -52,31 +52,32 @@ Visit the Abu Simbel Temples:
 These temples are part of the UNESCO World Heritage Site known as the "Nubian Monuments." The temples, built by Pharaoh Ramses the Great in 1200 BC, honor Ptah, Amun, Ra, and commemorate Ramses' victory at the Battle of Kadesh and his devotion to Queen Nefertari.
 Lunch Time:
 
-Return to Aswan for lunch at a local restaurant.
-Return to Marsa Alam:
+Return to Aswan for lunch before boarding the 1st class train back to Luxor.
+Return to Makadi Bay:
 
-Conclude your trip with a transfer back to your hotel in Marsa Alam by a private A/C vehicle.
+Transfer to your hotel, ending the Makadi Bay excursion to Aswan and Abu Simbel in two days.
 Meals:
 
 Breakfast, Lunch.
 `,
-    },
-  ],
-  included: [
-    "Pick-up service from your hotel in Marsa Alam and return.",
-    "2 lunch meals in Aswan. ",
-    "All transfers by a private modern air-conditioned vehicle. ",
-    "Private Egyptologist guide during your tour. ",
-    "Entrance fees to all the mentioned sights. ",
-    "One-night accommodation in Aswan at a 5-star Hotel. ",
-    "Mineral water and soft drinks onboard the vehicle. ",
-    "All service charges and taxes. ",
-  ],
-  excluded: [
-    "Any extras not mentioned in the program. ",
-    "Tipping.",
-    "Optional Experiences available at an additional cost. ",
-  ],
+      },
+    ],
+    included: [
+      "Pick-up service from your hotel in Makadi Bay and return. ",
+      "2 lunch meals in Aswan.",
+      "All transfers by a private modern air-conditioned vehicle",
+      "Private Egyptologist guide during your tour.",
+      "Entrance fees to all the mentioned sights. ",
+      "One-night accommodation in Aswan at a 5-star Hotel. ",
+      "1st class Train tickets from Luxor to Aswan and return. ",
+      "Mineral water and soft drinks onboard the vehicle. ",
+      "All service charges and taxes. ",
+    ],
+    excluded: [
+      "Any extras not mentioned in the program. ",
+      "Tipping",
+      "Optional Experiences available at an additional cost. ",
+    ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {
@@ -174,7 +175,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./Egypt-Day-Tours-MarsaAlam-Excursions/${newFileName}.html`;
+  const newPath = `./Egypt-Day-Tours-Makadi-Bay-Excursions/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {

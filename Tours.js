@@ -3530,6 +3530,13 @@ Breakfast, Lunch.
     ],
   },
 
+
+
+
+
+
+
+  
   50: {
     title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
     maxGuests: "Unlimited",
