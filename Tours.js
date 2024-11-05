@@ -3536,7 +3536,7 @@ Breakfast, Lunch.
 
 
 
-  
+
   50: {
     title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
     maxGuests: "Unlimited",
@@ -4869,6 +4869,26 @@ After the celebrations, you will be transferred back to Safaga Port to end your 
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   68: {
     title: "Trip to Pyramids and Cairo from Sokhna Port",
     maxGuests: "Unlimited",

@@ -2,64 +2,109 @@ const fs = require("fs");
 const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title: "Super Safari by Quads from Safaga Port",
-    maxGuests: "Unlimited",
-    location: "Egypt",
-    left: "1 days",
-    des: `
+  title: "Two Days Trip to Cairo and Luxor from Sokhna Port",
+  maxGuests: "Unlimited",
+  location: "Egypt",
+  left: "2 days",
+  des: `Experience the golden legacy of ancient Egyptian civilization with our 2-day trip to Cairo and Luxor from Sokhna Port. With Marvelous Egypt Travel, expect exceptional services, including a private air-conditioned vehicle and a professional Egyptologist tour guide. This adventure covers the finest and most famous tourist attractions in Cairo and Luxor, including the Karnak Temple, the Valley of the Kings, Queen Hatshepsut’s Temple in Luxor, the Giza Pyramids, the Great Sphinx, and the Egyptian Museum in Cairo. Book this incredible two-day adventure and explore the magical wonders of Egypt.`,
+  reviews: "465 Reviews",
+  priceSale: "$430",
+  priceOriginal: "$430",
+  rating: 5,
+  tourPlans: [
+    {
+      title: "Day 1 Luxor",
+      des: `
+Pickup from Sokhna Port:
 
-The Safaga Super Safari Trip offers an illuminating journey through the golden treasures of the Egyptian Sahara. Marvelous Egypt Travel, the leading travel agency in Egypt, ensures all our clients receive exceptional service, including a private safari guide, comfortable quad bikes, and an A/C vehicle for the trip across the divine eastern desert.
+Our representative will pick you up from your Cruise in Sokhna Port and transfer you to Cairo airport to fly to Luxor. Upon arrival at Luxor, you'll meet your tour guide and a private air-conditioned vehicle.
+Valley of the Kings:
 
-During this thrilling adventure, guests will experience the magical Safaga Port Super Safari by quad bike, followed by a delightful BBQ dinner in a Bedouin village. After an unforgettable day, we will drive you back to Safaga Port. Book this exciting adventure to create magical memories.
+Discover the hidden artistic architecture in the underground Valley of the Kings with 63 royal tombs from the New Kingdom (1570 – 1050 BC).
+Hatshepsut Temple:
+
+Explore the holy temple of Queen Hatshepsut (1507–1458 BC), showcasing her legacy as one of Egypt's most successful rulers.
+Colossi of Memnon:
+
+Visit the colossal statues of Pharaoh Amenhotep III (1386 - 1349 BC) known for their incredible vocal sounds during the Greco-Roman Period.
+Lunch Time:
+
+Enjoy lunch on an island, including a boat trip on the Nile River.
+Karnak Temple:
+
+Visit the Karnak Temple Complex, the largest religious capital on earth, honoring the Theban triad of Amun, Mut, and Khonsu.
+Luxor Temple:
+
+Luxor Temple is a majestic temple complex located on the east bank of the Nile River. Built around 1400 BC, it was dedicated to the rejuvenation of kingship and was constructed by Amenhotep III and completed by Tutankhamun and Horemheb. The temple features massive pylons, a grand colonnade, and numerous statues and carvings, showcasing the grandeur of ancient Egyptian architecture and art.
+Overnight:
+
+Transfer to a 5-star hotel for the overnight stay.
+Meals:
+
+Lunch.
+Flight:
+
+From Cairo to Luxor.
+Overnight:
+
+Luxor Hotel.
 `,
-    reviews: "488 Reviews",
-    priceSale: "$30",
-    priceOriginal: "$30",
-    rating: 5,
-    tourPlans: [
-      {
-        title: "Super Safari by Quads from Safaga Port",
-        des: `
-Afternoon:
-Pickup from Safaga Port:
+    },
+    {
+      title: "Day 2 Cairo",
+      des: `
+Breakfast and Checkout:
 
-You will be transferred from your cruise at Safaga Port by a private A/C vehicle and driven to the quad bike station.
-Quad Bike Adventure:
+After breakfast, check-out from the hotel and catch the flight to Cairo.
+Giza Pyramids Complex:
 
-Begin your mystical quest across the heavenly sands of the eastern Sahara from Safaga Port, driving the quad 45 km in 2 ways.
-Evening:
-Bedouin Village Visit:
+Visit the Giza Pyramids complex, built by the kings of the 4th dynasty during the Old Kingdom (2686 – 2134 BC).
+The Great Pyramid:
 
-Once everyone has reached the Bedouin village, you will be greeted by the Bedouin tribe.
-BBQ Dinner:
+Marvel at the Great Pyramid of Giza, built for Pharaoh Khufu (2609 BC - 2584 BC), standing 147 meters tall.
+The Great Sphinx:
 
-Enjoy a tasty BBQ dinner in a magical atmosphere in the company of the Bedouin tribe.
-Camel Ride:
+Admire the Great Sphinx, a symbol of Pharaoh Khafre (2558 BC - 2532 BC), with the body of a lion and the face of Khafre.
+The Valley Temple:
 
-Experience an hour Camel ride session across the Eastern Sahara.
-Night:
-Bedouin Celebration:
+Explore the Valley Temple, a granite mortuary temple from the 4th dynasty used for the mummification process.
+The Grand Egyptian Museum:
 
-Participate in the Bedouin hosts' celebration under the most beautiful starry skies.
-Return to Safaga Port:
+Discover ancient Egyptian creations at the Grand Egyptian Museum, featuring artifacts like the Hanging Obelisk and King Ramses II Statue.
+Lunch Time:
 
-After the celebrations, you will be transferred back to Safaga Port to end your Super Safari adventure.
+Lunch will be served at a Pyramids/Nile view restaurant.
+The Egyptian Museum:
+
+Visit the Egyptian Museum in Cairo, showcasing some of the greatest monuments and artifacts from ancient Egypt.
+Return to Sokhna Port:
+
+In the evening, transfer back to Sokhna Port by a private air-conditioned vehicle.
+Meals:
+
+Breakfast, Lunch.
+Flight:
+
+From Luxor to Cairo.
 `,
-      },
-    ],
-    included: [
-      "Pick up services from Safaga port and return. ",
-      "All transfers by a private modern A/C vehicle. ",
-      "Driving the quad 45 km in 2 ways. ",
-      "Visiting the Bedouin village. ",
-      "BBQ dinner. ",
-      "All service charges and taxes.",
-    ],
-    excluded: [
-      "Tipping",
-      "Any extras not mentioned in the itinerary. ",
-      "Optional Experiences available at an additional cost. ",
-    ],
+    },
+  ],
+  included: [
+    "Pick up from your cruise exit at Sokhna Port and return. ",
+    "All transfers by a private modern A/C vehicle.",
+    "Private Egyptologist guide during the 2-day tours. ",
+    "One Night Accommodation in Luxor at 5-star Hotel. ",
+    "Flight tickets from Cairo to Luxor and return. ",
+    "2 Lunch meals during your tours. ",
+    "Mineral water on board the vehicles during the tours.",
+    "Entrance fees for all sightseeing are mentioned. ",
+    "All service charges and taxes. ",
+  ],
+  excluded: [
+    "Tipping",
+    "Any extras not mentioned in the itinerary. ",
+    "Optional Experiences available at an additional cost. ",
+  ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {
