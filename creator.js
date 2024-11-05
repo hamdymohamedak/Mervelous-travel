@@ -1,162 +1,67 @@
 const fs = require("fs");
-const path = "./tour-single.html";
+const path = "./Egypt-Day-Tours/tour-single.html";
 
 let Data = {
-  title:
-  "9 Days Easter Giza, Cairo, Aswan, Kom Ombo, Edfu, Luxor and Alexandria Tour",
-maxGuests: "Unlimited",
-location: "Egypt",
-left: "9 days",
-des: `Embark on a 9-day Easter tour through the magical lands of Egypt, designed to immerse you in the ancient civilization’s wonders. With Marvelous Egypt Travel, you’ll enjoy professional services, including a private A/C Vehicle, a splendid Nile Cruise, luxurious accommodations, and expert Egyptologist tour guides. This tour will take you through the historic and cultural treasures of Cairo, Alexandria, Luxor, and Aswan, promising a vacation filled with awe and discovery.
-Explore legendary sites such as the Giza Pyramids, Sphinx, Khan El Khalili Bazaar, Hanging Church, Ben Ezra Synagogue, Alexandria Library, Qaitbay Citadel, Catacombs of Alexandria, Karnak Temple, Queen Hatshepsut Temple, Valley of the Kings, Philae Temple, and the majestic temples of Abu Simbel.`,
-reviews: "365 Reviews",
-priceSale: "$1090",
-priceOriginal: "$1362.5",
-rating: 5,
-tourPlans: [
-  {
-    title: "Welcome to Egypt",
-    des: `
-Experience:
+  title: "Day Trip to Islamic Cairo",
+  maxGuests: "Unlimited",
+  location: "Egypt",
+  left: "1 days",
+  des: `A day trip to Islamic Cairo is a divine voyage showcasing the golden glory of the greatest civilization on earth. Marvelous Egypt Travel will provide all our clients with the most ideal services, including a private A/C vehicle and a professional Egyptologist tour guide, as expected from the best travel agency in Egypt. All our clients will witness the beauty and greatness of the best Islamic Cairo attractions. Join us on a fabulous day trip to Islamic Cairo. Your expert tour guide will take you to explore Khan El Khalili bazaar, Salah El-Din Citadel, Sultan Hassan and Ibn Tulun Mosques, and many more Old Cairo masterpieces by a deluxe air-conditioned car, then transfer you back to your hotel. Book this blessed excursion and explore all the immortal treasures of Islamic Cairo.`,
+  reviews: "123 Reviews",
+  priceSale: "$40",
+  priceOriginal: "$40",
+  rating: 5,
+  tourPlans: [
+    {
+      title: "Day Trip to Islamic Cairo",
+      des: `
+Morning:
 
-Arrival at Cairo airport, assistance with passport formalities, and transfer to a 5-star hotel in Cairo. Enjoy evening dinner cruise overlooking the Nile.
-Meals:
+We will pick you up from your hotel in Cairo to join our professional tour guide in a private air-conditioned vehicle to visit the best historical highlights of Islamic Cairo.
+Salah El Din Citadel:
 
-Dinner.
-Overnight:
+Salah El-Din Citadel is one of the most prestigious military castles constructed in the Middle Ages. Its strategic location controls the cities of Cairo and Al Fustat, providing defensive importance. The Citadel was erected during the 12th century to defend Cairo against the Crusaders and served as the seat of the government during the ruling periods of the Ayyubids, Mamluks, and Ottomans.
+Mohamed Ali Mosque:
 
-Cairo Hotel.
+Mohamed Ali Mosque proudly stands as the highest point inside Cairo Citadel. It was established by Mohammed Ali Pasha in 1830 AD, with construction continuing until his death in 1848 AD. The exterior design was inspired by the Sultan Ahmad Mosque in Istanbul, and it is one of the most significant Islamic attractions in Cairo.
+Lunch Time:
+
+Enjoy a lunch meal at a local restaurant before continuing your day tour.
+Sultan Hassan Madrassa and Mosque:
+
+Sultan Hassan Madrassa and Mosque is one of the rarest examples of early Mamluk architecture, founded between 1356 AD and 1363 AD. Built out of giant blocks of stone, it symbolizes the culmination of architectural projects during the Mamluk reign.
+Al Rifai Mosque:
+
+Another impressive Islamic monument in Cairo, Al Rifai Mosque, was founded by Khoshiar Hanim, the mother of Khedive Ismail. Construction began in 1869 AD and was completed in 1911 AD, with a 25-year hiatus from 1880 to 1905 AD. The mosque serves as the burial site for Mohamed Ali's family members.
+Ibn Tulun Mosque:
+
+The oldest and largest mosque in Cairo, Ibn Tulun Mosque, was established between 876 and 879 AD by Ahmed Ibn Tulun, commissioned by the Abbasid Caliph to govern Al Fustat. The mosque's interior design reflects the Abbasid architectural style, featuring beautifully decorated arches and a large courtyard.
+Al Muizz Street:
+
+Al Muizz Street provides a magical journey through Cairo's living miracles. This attractive cultural marvel showcases the golden street of Cairo, which dates back to the Fatimid period in the 10th century AD. It is a golden labyrinth filled with incredible monuments, artifacts, and houses.
+Khan El Khalili Bazaar:
+
+Khan El Khalili Bazaar is an ancient renowned souk in central Cairo, founded as a large trade center during the Mamluk reign. Dating back to the 14th century, the bazaar is filled with cafes and restaurants, including El Fishawy, the city's oldest café.
+Afternoon:
+
+Finally, we will drive you back to your hotel to end your day trip.
 `,
-  },
-  {
-    title: "Greet the Pharaohs at the Pyramids in Cairo",
-    des: `
-Experience:
-
-Visit Giza Pyramids Complex, Great Pyramid, Great Sphinx, Valley Temple, and Grand Egyptian Museum. Enjoy lunch at a local restaurant followed by a visit to Saqqara Step Pyramid.
-Meals:
-
-Breakfast, Lunch.
-Overnight:
-
-Cairo Hotel.
-`,
-  },
-  {
-    title: "Spoil Yourself with Alexandria Attractions",
-    des: `
-Experience:
-
-Travel to Alexandria to visit Catacombs of Kom El Shoqafa, Pompey’s Pillar, Qaitbay Citadel, and Alexandria Library. Then we will transfer you back to your hotel in Cairo to spend the overnight.
-Meals:
-
-Breakfast, Lunch.
-Overnight:
-
-Cairo Hotel.
-`,
-  },
-  {
-    title: "Nourish Your Soul with the Beauty of Aswan and the Nile",
-    des: `
-Experience:
-
-Fly to Aswan, visit Aswan High Dam, Unfinished Obelisk, and Philae Temple. Check-in on a 5-star deluxe Nile cruise.
-Meals:
-
-Breakfast, Lunch, Dinner.
-Overnight:
-
-Onboard the Cruise.
-`,
-  },
-  {
-    title: "Visit Kom Ombo Temple",
-    des: `
-Experience:
-
-Explore Kom Ombo Temple and continue sailing north to Edfu.
-Meals:
-
-Breakfast, Lunch, Dinner.
-Overnight:
-
-Onboard the Cruise.
-`,
-  },
-  {
-    title: "Discover the Artistic Details of Edfu Temple",
-    des: `
-Experience:
-
-Visit Edfu Temple and sail to Luxor.
-Meals:
-
-Breakfast, Lunch, Dinner.
-Overnight:
-
-Onboard the Cruise.
-`,
-  },
-  {
-    title: "Witness the Treasures of the Capital of the Pharaohs",
-    des: `
-Experience:
-
-Visit Valley of the Kings, Hatshepsut Temple, Colossi of Memnon, and Karnak Temple. Check-in at a 5-star hotel in Luxor.
-Meals:
-
-Breakfast, Lunch.
-Overnight:
-
-Luxor Hotel.
-`,
-  },
-  {
-    title: "Explore the Hidden Gems of Old Cairo",
-    des: `
-Experience:
-
-Fly back to Cairo, visit the Egyptian Museum, Amr Ibn Al Aas Mosque, Hanging Church, Ben Ezra Synagogue, National Museum of Egyptian Civilization, Al Muizz Street, and Khan El Khalili Bazaar.
-Meals:
-
-Breakfast, Lunch.
-Overnight:
-
-Cairo Hotel.
-`,
-  },
-  {
-    title: "End Your Easter Experience in Egypt",
-    des: `
-Experience:
-
-Transfer to Cairo airport for departure.
-Meals:
-
-Breakfast.
-`,
-  },
-],
-included: [
-  `Domestic Flights:Domestic flights between Cairo, Luxor, and Aswan.`,
-  "Accommodation:Accommodation in 5-stars hotels and deluxe cruises. ",
-  "Meals: Meals as mentioned in the itinerary. ",
-  "Guided Tours: Expert Egyptologist guide throughout your tour. ",
-  "Entrance Fees: Entrance fees to all sites indicated on the itinerary. ",
-  "Transport: All transfers by private A/C vehicles. ",
-  "Additional Services: Free airport meet and greet transfer, and all service charges and taxes. ",
-],
-excluded: [
-  "International Airfare: International flights before and after the tour. ",
-  "Insurance: Travel insurance is mandatory.",
-  "Optional Experiences: Available at an additional cost. ",
-  "Egypt Visa: USD 25 per passport.  ",
-  "Tipping: Recommended",
-  "Personal Expenses: Laundry, sauna, telephones, etc.",
-  "Drinks: Not included in meals. ",
-  "SIM Card: Available for purchase at Cairo International Airport. ",
-],
+    },
+  ],
+  included: [
+    "The service of pick-up from your hotel and return. ",
+    "Egyptologist tour guide during the tours",
+    "A deluxe private air-conditioned vehicle throughout your trip",
+    "Admission fees to all the sights listed in the itinerary.",
+    "Lunch meal",
+    "Bottled water on the vehicle",
+    "All service charges and taxes. ",
+  ],
+  excluded: [
+    "Any extras not mentioned in the program",
+    "Tipping",
+    "Optional Experiences available at an additional cost",
+  ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {
@@ -254,8 +159,7 @@ fs.readFile(path, "utf8", (err, data) => {
   // Define a new filename
   let newFileName = Data.title.replace(/ /g, "-"); // Replace all spaces with hyphens
 
-  const newPath = `./${newFileName}.html`;
-
+  const newPath = `./Egypt-Day-Tours/${newFileName}.html`;
   // Write the updated content to a new HTML file
   fs.writeFile(newPath, updatedData, "utf8", (err) => {
     if (err) {
