@@ -9,7 +9,7 @@ const tourDetails = {
     priceSale: "$345",
     priceOriginal: "$345",
     rating: 5,
-    path: "",
+    path: "./Cairo-Tour-Packages.html",
     tourPlans: [
       {
         title: "Day 1: Arrival and Nile Dinner Cruise",
@@ -85,7 +85,7 @@ Breakfast
     priceSale: "$770",
     priceOriginal: "$770",
     rating: 5,
-    path: "",
+    path: "./Essential-Egypt.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -180,7 +180,7 @@ Breakfast included.
     priceSale: "$888",
     priceOriginal: "$888",
     rating: 5,
-    path: "",
+    path: "./Cairo-Giza-Luxor-&-Aswan-Tour.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -325,7 +325,7 @@ Nile Cruise
     priceSale: "$1530",
     priceOriginal: "$1530",
     rating: 5,
-    path: "",
+    path: "./Cleopatra-Egypt-Tour-Package.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -406,7 +406,7 @@ Nile Cruise
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
     tourPlans: [
       {
         title: "Day 1: Day Tour To Pyramids From Cairo Airport",
@@ -464,7 +464,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
     priceSale: "$400",
     priceOriginal: "$400",
     rating: 5,
-    path: "",
+    path: "./Day-Trip-to-Cairo-from-Hurghada-by-Plane.html",
     tourPlans: [
       {
         title: "Day 1: Day Tour To Pyramids From Cairo Airport",
@@ -541,7 +541,7 @@ You can share your thoughts about adding or removing any tours from your tour it
     priceSale: "$70",
     priceOriginal: "$70",
     rating: 5,
-    path: "",
+    path: "./Tour-to-Luxor-East-and-West-Banks.html",
 
     tourPlans: [
       {
@@ -601,7 +601,7 @@ Finally, we drive you back to your hotel/ Nile cruise.
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "",
+    path: "./Aswan-Sightseeing-Tour.html",
 
     tourPlans: [
       {
@@ -651,7 +651,7 @@ Lunch.
     ],
   },
   9: {
-    title: "3 Nights Nile River Cruise Aswan to Luxor Including Abu Simbel ",
+    title: "3 Nights Nile River Cruise Aswan to Luxor Including Abu Simbel",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "4 days",
@@ -667,7 +667,7 @@ Lunch.
     priceSale: "$550",
     priceOriginal: "$550",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/3-Nights-Nile-River-Cruise-Aswan-to-Luxor-Including-Abu-Simbel.html",
     tourPlans: [
       {
         title: "Day 1:Aswan",
@@ -777,7 +777,7 @@ Breakfast.
   },
 
   10: {
-    title: "4 Nights Nile River Cruise Luxor to Aswan Including Abu Simbel ",
+    title: "4 Nights Nile River Cruise Luxor to Aswan Including Abu Simbel",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "5 days",
@@ -789,7 +789,7 @@ Breakfast.
     priceSale: "$700",
     priceOriginal: "$700",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/4-Nights-Nile-River-Cruise-Luxor-to-Aswan-Including-Abu-Simbel.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Luxor and East Bank Tour",
@@ -920,7 +920,7 @@ Breakfast.
     ],
   },
   11: {
-    title: "7 Nights Nile River Cruise from Aswan ",
+    title: "7 Nights Nile River Cruise from Aswan",
     maxGuests: "Unlimited",
     location: "Egypt",
     left: "8 days",
@@ -929,7 +929,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/7-Nights-Nile-River-Cruise-from-Aswan.html",
     tourPlans: [
       {
         title: "Day 1: Aswan Attractions",
@@ -1104,7 +1104,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/7-Nights-Nile-River-Cruise-from-Aswan.html",
     tourPlans: [
       {
         title: "Day 1: Luxor East Bank",
@@ -1276,7 +1276,7 @@ Breakfast.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
-    path: "",
+    path: "./Tour-to-Cairo-and-Giza-Pyramids-from-Port-Said.html",
     tourPlans: [
       {
         title: "Tour to Cairo and Giza Pyramids from Port Said",
@@ -1337,7 +1337,7 @@ Finally, you'll be driven back to your cruise in Port Said.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursions-Alexandria/Day-Trip-to-Alexandria-Sights-from-Alexandria-Port.html",
     tourPlans: [
       {
         title: "Day Trip to Alexandria Sights from Alexandria Port",
@@ -1398,7 +1398,7 @@ After a day of exploration, return to Alexandria Port for drop-off.`,
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-sokhna/Trip-to-Pyramids-and-Cairo-from-Sokhna-Port.html",
     tourPlans: [
       {
         title: "Trip to Pyramids and Cairo from Sokhna Port",
@@ -1467,7 +1467,7 @@ Finally, we drive you back to Sokhna Port by the cruise door.
     priceSale: "$160",
     priceOriginal: "$160",
     rating: 5,
-    path: "",
+    path: "./Day-Tour-from-Safaga-to-Luxor.html",
     tourPlans: [
       {
         title: "Day Tour from Safaga to Luxor",
@@ -1528,7 +1528,7 @@ Finally, we will transfer you back to Safaga Port to end your day tour from Safa
     priceSale: "$600",
     priceOriginal: "$600",
     rating: 5,
-    path: "",
+    path: "./4-Days-Christmas-Cairo-and-Giza-Tour.html",
     tourPlans: [
       {
         title: "Arrival in Cairo: ",
@@ -1628,7 +1628,7 @@ Breakfast.
     priceSale: "$855",
     priceOriginal: "$855",
     rating: 5,
-    path: "",
+    path: "./6-Days-Easter-Cairo,-Giza,-Luxor,-Aswan-and-Abu-Simbel-Tour.html",
     tourPlans: [
       {
         title: "Arrival To Egypt Land Of Pharaohs",
@@ -1745,7 +1745,7 @@ Breakfast at the hotel`,
     priceSale: "$1980",
     priceOriginal: "$1980",
     rating: 5,
-    path: "",
+    path: "./8-Days-Christmas-Cairo-and-Nile-Cruise-Tour.html",
     tourPlans: [
       {
         title: "Arrival in Cairo: ",
@@ -1914,7 +1914,7 @@ Breakfast.
     priceSale: "$988",
     priceOriginal: "$988",
     rating: 5,
-    path: "",
+    path: "./9-Days-Cairo,-Giza,-Luxor,-Aswan,-and-Hurghada-Tour.html",
     tourPlans: [
       {
         title: "Day 1: Cairo Arrival",
@@ -1986,7 +1986,7 @@ Breakfast.
     priceSale: "$1980",
     priceOriginal: "$2475",
     rating: 5,
-    path: "",
+    path: "./8-Days-Christmas-Cairo-and-Nile-Cruise-Tour.html",
     tourPlans: [
       {
         title: "Arrival in Cairo:",
@@ -2156,7 +2156,7 @@ Explore legendary sites such as the Giza Pyramids, Sphinx, Khan El Khalili Bazaa
     priceSale: "$1090",
     priceOriginal: "$1362.5",
     rating: 5,
-    path: "",
+    path: "./9-Days-Easter-Giza,-Cairo,-Aswan,-Kom-Ombo,-Edfu,-Luxor-and-Alexandria-Tour.html",
     tourPlans: [
       {
         title: "Welcome to Egypt",
@@ -2312,7 +2312,7 @@ Breakfast.
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
     tourPlans: [
       {
         title: "Day Tour To Pyramids From Cairo Airport",
