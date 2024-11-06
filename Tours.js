@@ -9353,6 +9353,12 @@ function generateStars(rating) {
 function sortTours(sortType) {
   const tourArray = Object.values(tourDetails); // Convert tourDetails object to an array
 
+  if (sortType === "default") {
+    // عند اختيار "default"، قم بتحميل المحتوى الأصلي بدون ترتيب
+    displayTours(tourArray);
+    return;
+  }
+
   switch (sortType) {
     case "highToLow":
       // Sort by price, high to low
@@ -9391,6 +9397,7 @@ function sortTours(sortType) {
   // Display the sorted tours
   displayTours(tourArray);
 }
+
 
 // Function to render the sorted tours in the parent element
 function displayTours(tourArray) {
