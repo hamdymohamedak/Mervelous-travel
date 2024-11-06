@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/images/fav.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://marvelousegypttravel.com" />
+    <meta
+      property="og:title"
+      content="Marvelous Egypt Travel - Your Gateway to Egypt's Wonders"
+    />
+    <meta
+      property="og:description"
+      content="Marvelous Egypt Travel offers unforgettable tours, Nile cruises, and vacation packages across Egypt's magical destinations. With over 20 years of experience, we provide the best services for travelers."
+    />
+    <meta property="og:image" content="./assets/images/logo.webp" />
+    <meta name="author" content="hamdymohamedak" />
+    <meta itemprop="name" content="Marvelous Egypt Travel" />
+    <meta property="og:url" content="https://marvelousegypttravel.com/en/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Marvelous | Egypt Tours" />
+    <meta
+      property="og:description"
+      content="Marvelous Egypt Travel offers unforgettable tours, Nile cruises, and vacation packages across Egypt s magical destinations. With over 20 years of experience, we provide the best services for travelers"
+    />
+    <meta name="twitter:card" content="./assets/images/logo.webp" />
+    <meta name="twitter:title" content="Marvelous | Egypt Tours" />
+    <meta
+      name="twitter:description"
+      content="Marvelous Egypt Travel offers unforgettable tours, Nile cruises, and vacation packages across Egypt s magical destinations. With over 20 years of experience, we provide the best services for travelers"
+    />
+    <meta
+      name="description"
+      content="Discover Egypt with Marvelous Egypt Travel, offering top-tier tours, vacation packages, and Nile cruises tailored to your needs. Explore Egypt's rich history and culture in comfort and style."
+    />
+    <meta
+      name="keywords"
+      content="Marvelous Egypt Travel, Egypt Tours, Nile Cruises, Vacation Packages, Cairo, Luxor, Aswan, Hurghada, Alexandria, Travel Agency"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="app/css/app.css" />
+    <link rel="stylesheet" href="app/css/map.min.css" />
+    <link rel="stylesheet" href="app/css/jquery.fancybox.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <title>Marvelous | Egypt Tours</title>
+    <link rel="stylesheet" href="app/css/app.css" />
+    <link rel="stylesheet" href="app/css/map.min.css" />
+    <link rel="stylesheet" href="app/css/jquery.fancybox.min.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/favico.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/favico.png" />
+  </head>
+
+  <body class="body header-fixed">
+    <div class="preload preload-container">
+      <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+        <circle
+          class="pl__ring pl__ring--a"
+          cx="120"
+          cy="120"
+          r="105"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 660"
+          stroke-dashoffset="-330"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--b"
+          cx="120"
+          cy="120"
+          r="35"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 220"
+          stroke-dashoffset="-110"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--c"
+          cx="85"
+          cy="120"
+          r="70"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 440"
+          stroke-linecap="round"
+        ></circle>
+        <circle
+          class="pl__ring pl__ring--d"
+          cx="155"
+          cy="120"
+          r="70"
+          fill="none"
+          stroke="#000"
+          stroke-width="20"
+          stroke-dasharray="0 440"
+          stroke-linecap="round"
+        ></circle>
+      </svg>
+    </div>
+
+    <!-- /preload -->
+
+    <div id="wrapper">
+      <div id="pagee" class="clearfix">
+        <!-- Main Header -->
+        <header class="main-header flex">
+          <!-- Header Lower -->
+          <div id="header">
+            <div class="header-top">
+              <div class="header-top-wrap flex-two">
+                <div class="header-top-right">
+                  <ul class="flex-three">
+                    <li class="flex-three"></li>
+                    <li class="flex-three">
+                      <i class="icon-mail"></i>
+                      <span>info@marvelousegypttravel.com</span>
+                    </li>
+                    <li class="contact-item">
+                      <div
+                        style="display: flex; gap: 1rem"
+                        class="contact-info"
+                      >
+                        <p>
+                          <a href="tel:+201288811423"
+                            ><i class="fas fa-phone-alt"></i> +201288811423</a
+                          >
+                        </p>
+                        <p>
+                          <a href="https://wa.me/201143328885" target="_blank"
+                            ><i class="fab fa-whatsapp"></i> +201143328885</a
+                          >
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-top-left flex-two">
+                  <a href="./tailor-made.html" class="booking">
+                    <i class="icon-19"></i>
+                    <span>Inquire Now</span>
+                  </a>
+                  <div style="display: flex; justify-content: space-between">
+                    <button
+                      aria-label="Booking"
+                      onclick="goToChat()"
+                      style="
+                        padding: 10px 20px;
+                        background-color: transparent;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                      "
+                    >
+                      <a
+                        href="https://wa.me/+201143328885"
+                        style="
+                          text-decoration: none;
+                          color: #4da528;
+                          font-weight: bold;
+                        "
+                        >WhatsApp</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header-lower">
+              <div class="tf-container full">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div
+                      class="inner-container flex justify-space align-center"
+                    >
+                      <!-- Logo Box -->
+                      <div class="mobile-nav-toggler mobie-mt mobile-button">
+                        <i class="icon-Vector3"></i>
+                      </div>
+                      <div class="logo-box">
+                        <div class="logo">
+                          <a href="index.html">
+                            <img
+                              loading="lazy"
+                              src="assets/images/logo.webp"
+                              alt="Logo"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-outer flex align-center">
+                        <!-- Main Menu -->
+                        <nav
+                          style="width: 58rem; padding: rem; padding-left: 1rem"
+                          class="main-menu show navbar-expand-md"
+                        >
+                          <div
+                            class="navbar-collapse collapse clearfix"
+                            id="navbarSupportedContent"
+                          >
+                            <ul class="navigation clearfix">
+                              <li class="">
+                                <a href="./index.html">Home</a>
+                              </li>
+                              <li class="">
+                                <a href="./Egypt-Travel-Packages.html"
+                                  >Travel packages</a
+                                >
+                              </li>
+                              <li class="dropdown2">
+                                <a href="#">Day Tours</a>
+                                <ul>
+                                  <li class="">
+                                    <a
+                                      href="./Egypt-Day-Tours-cairo-Excursions.html"
+                                      >Cairo Excursion</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Day-Tours-Hurghada-Excursions.html"
+                                      >Hurghada Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Day-Tours-Luxor-Excursions.html"
+                                      >Luxor Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Day-Tours-Aswan-Excursions.html"
+                                      >Aswan Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Day-Tours-Elgouna-Excursions.html"
+                                      >El Gouna Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./Egypt-Day-Tours-MarsaAlam.html"
+                                      >Marsa Alam Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./Egypt-Day-Tours-Makadi-Bay.html"
+                                      >Makadi Bay Excursions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Day-Tours-Sharm-Elshekh.html"
+                                      >Sharm El Sheikh Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./Egypt-Day-Tours-Port-Ghalib.html"
+                                      >Port Ghalib Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./Egypt-Day-Tours-Soma-Bay.html"
+                                      >Soma Bay Excursions</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="">
+                                <a
+                                  href="./Egypt-Nile-Cruises.html"
+                                  aria-label="Go to Nile Cruises"
+                                  >Nile Cruises</a
+                                >
+                              </li>
+
+                              <li class="dropdown2">
+                                <a href="#" aria-label="Go to Shore Excursion"
+                                  >Shore Excursion</a
+                                >
+                                <ul>
+                                  <li class="">
+                                    <a
+                                      href="./Egypt-Shore-Excursions-Safaga.html"
+                                      >Safaga Port Excursions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Shore-Excursions-sokhna.html"
+                                      >sokhna Port Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Shore-Excursions-Said.html"
+                                    >
+                                      Port Said Excursions</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="./Egypt-Shore-Excursions-Alexandria.html"
+                                      >Alexandria Excursions</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="./tailor-made.html">Tailor Made</a>
+                              </li>
+
+                              <li class="">
+                                <a
+                                  href="./about-us.html"
+                                  aria-label="Go to About Us"
+                                  >About us</a
+                                >
+                              </li>
+                              <li><a href="./contact-us.html">contact</a></li>
+                            </ul>
+                          </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                      </div>
+                      <div class="header-account flex align-center">
+                        <div class="language"></div>
+                        <div class="currency">
+                          <div tabindex="0">
+                            <strong style="font-weight: bold" class="current"
+                              >Euro</strong
+                            >
+                          </div>
+                        </div>
+                        <div class="search-mobie relative">
+                          <div class="dropdown"></div>
+                        </div>
+                        <div class="register">
+                          <ul class="flex align-center"></ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <img loading="lazy" src="./assets/images/page/fl1.webp" alt="Image" alt="img" class="fly-ab" /> -->
+            </div>
+          </div>
+
+          <!-- End Header Lower -->
+          <a
+            href="#"
+            aria-label="Go to Home Page"
+            class="header-sidebar flex-three"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="icon-Bars"></i>
+          </a>
+
+          <!-- Mobile Menu  -->
+          <div class="close-btn">
+            <span class="icon flaticon-cancel-1"></span>
+          </div>
+          <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <nav class="menu-box">
+              <div class="nav-logo">
+                <a href="index.html">
+                  <img
+                    loading="lazy"
+                    src="assets/images/logo.webp"
+                    alt="Image"
+                    alt="img"
+                /></a>
+              </div>
+              <div class="bottom-canvas">
+                <div class="menu-outer"></div>
+              </div>
+            </nav>
+          </div>
+          <!-- End Mobile Menu -->
+        </header>
+        <!-- End Main Header -->
+        <main id="main">
+          <section>
+            <div class="tf-container full">
+              <div class="row">
+                <div class="col-md-12">
+                  <img
+                    class="cover_img"
+                    style="height: 14rem; object-fit: cover"
+                    src="./assets/images/Destinations_Images/Alex_1_11zon.jpg"
+                    alt="destination-tour"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="pd-main">
+            <div class="tf-container">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="single-destinaion-content">
+                    <div class="inner-haeder mb-50">
+                      <h2 class="title">Alexandria Adventure</h2>
+                      <p class="des_intro">Discover Egypt’s Coastal Gem.</p>
+                    </div>
+                    <div class="description-wrap mb-40">
+                      <span class="description">Description:</span>
+                      <p class="des">
+                        Nestled along the Mediterranean coast, Alexandria is a
+                        city that beautifully combines history, romance, and
+                        vibrant urban life. Founded by Alexander the Great, this
+                        storied city was once a center of ancient knowledge and
+                        home to the Great Library of Alexandria. Today, visitors
+                        can explore iconic sites like the stunning Qaitbay
+                        Citadel, built on the ruins of the fabled Lighthouse of
+                        Alexandria, and the ancient Catacombs of Kom El Shoqafa,
+                        one of the Seven Wonders of the Middle Ages.
+                        Alexandria’s seaside charm offers more than just
+                        history. Stroll along the Corniche to enjoy breathtaking
+                        sea views, visit the grand Alexandria Library
+                        (Bibliotheca Alexandrina), or relax on the beaches
+                        dotted along the coast. With its unique blend of Greek,
+                        Roman, and Egyptian heritage, this city captivates
+                        travelers with its enchanting atmosphere, rich history,
+                        and warm Mediterranean breezes.
+                      </p>
+                    </div>
+                    <div class="image-wrap flex-three mb-40">
+                      <img
+                        style="height: 20rem; width: auto; object-fit: cover"
+                        src="./assets/images/Giza_Images/GUEST-43.jpeg"
+                        alt="image"
+                      />
+                      <img
+                        style="height: 20rem;object-fit: cover"
+                        src="./assets/images/Cairo_Images/img60.JPG"
+                        alt="image"
+                      />
+                    </div>
+                    <div class="description-wrap mb-40">
+                      <span class="description">Description:</span>
+                      <p id="secoundDes" class="des mb-18">
+                        Founded by Alexander the Great, Alexandria boasts a rich
+                        history, combining Egyptian, Greek, and Roman
+                        influences. Discover the fascinating Catacombs of Kom El
+                        Shoqafa, stroll through the beautiful Montaza Gardens,
+                        or take in the views at the Qaitbay Citadel, which
+                        stands where the legendary Lighthouse of Alexandria once
+                        guided sailors. The city’s scenic Corniche is perfect
+                        for a leisurely walk by the sea, while the Bibliotheca
+                        Alexandrina serves as a modern tribute to the ancient
+                        library. Alexandria’s diverse heritage, Mediterranean
+                        cuisine, and scenic beauty make it a captivating
+                        destination for every traveler.
+                      </p>
+                    </div>
+                    <div class="row mb-40">
+                      <div class="col-4">
+                        <img
+                          style="height: 23rem; object-fit: cover"
+                          src="./assets/images/imgs (1-1).webp"
+                          alt="image"
+                        />
+                      </div>
+                      <div class="col-4">
+                        <img
+                          style="height: 23rem; object-fit: cover"
+                          src="./assets/images/imgs (2).webp"
+                          alt="image"
+                        />
+                      </div>
+                      <div class="col-4">
+                        <img
+                          style="height: 23rem; object-fit: cover"
+                          src="./assets/images/img1.webp"
+                          alt="image"
+                        />
+                      </div>
+                    </div>
+                    <div class="description-wrap mb-30">
+                      <p id="MunicipalitiesDes" class="des mb-25">
+                        Cairo, the sprawling capital of Egypt, is a vibrant
+                        metropolis where history and modernity coexist. It is
+                        home to iconic landmarks such as the Great Pyramids of
+                        Giza, the Sphinx, and the Egyptian Museum, showcasing
+                        ancient treasures that tell the story of one of the
+                        world's oldest civilizations. The city is characterized
+                        by its bustling streets, rich cultural heritage, and
+                        warm hospitality. Explore the narrow alleyways of
+                        Islamic Cairo, where traditional markets, or souks,
+                        offer a kaleidoscope of colors, scents, and sounds. From
+                        the historic architecture of the Al-Azhar Mosque to the
+                        lively atmosphere of Tahrir Square, Cairo is a city that
+                        captivates the imagination and invites exploration.
+                      </p>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <img
+                          style="
+                            height: 26rem;
+                            object-fit: cover;
+                            margin-bottom: 6rem;
+                          "
+                          src="./assets/images/Aswan_Images/img60 (8).jpeg"
+                          alt="image"
+                        />
+                      </div>
+                      <div class="col-6">
+                        <img
+                          style="
+                            height: 26rem;
+                            object-fit: cover;
+                            margin-bottom: 6rem;
+                          "
+                          src="./assets/images/Giza_Images/img60 (15).jpeg"
+                          alt="image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Bootstrap Modal -->
+                <div
+                  class="modal fade"
+                  id="searchModal"
+                  tabindex="-1"
+                  aria-labelledby="searchModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="searchModalLabel">
+                          Seach Results
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body" id="searchResults">
+                        <!-- Search results will be injected here -->
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="side-bar-right">
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">search here</h4>
+                      <form action="/" id="search-bar-widget">
+                        <input
+                          class="search_input_element"
+                          type="text"
+                          placeholder="Search here..."
+                        />
+                        <button class="btn_submit" type="button">
+                          <i class="icon-search-2"></i>
+                        </button>
+                      </form>
+                    </div>
+                    <div class="sidebar-widget">
+                      <h4 class="block-heading">Tags</h4>
+                      <ul class="tag">
+                        <li><a href="#">Abu Simbel Temples</a></li>
+                        <li><a href="#">Adventure Tours</a></li>
+                        <li><a href="#">Alexandria Tours</a></li>
+                        <li><a href="#">Ancient Egypt</a></li>
+                        <li><a href="#">Ancient Egyptian Sites</a></li>
+                        <li><a href="#">Archaeological Sites</a></li>
+                        <li><a href="#">Archaeology</a></li>
+                        <li><a href="#">Aswan High Dam</a></li>
+                        <!-- <li><a href="#">Budget Travel</a></li>
+                                                            <li><a href="#">Cairo</a></li>
+                                                            <li><a href="#">Cairo Sightseeing</a></li>
+                                                            <li><a href="#">Cultural Heritage</a></li>
+                                                            <li><a href="#">Cultural Tours</a></li>
+                                                            <li><a href="#">Dahshur Pyramids</a></li>
+                                                            <li><a href="#">Desert Adventures</a></li>
+                                                            <li><a href="#">Desert Safari</a></li>
+                                                            <li><a href="#">Egypt</a></li>
+                                                            <li><a href="#">Egypt Tour Packages</a></li>
+                                                            <li><a href="#">Egypt Tours</a></li>
+                                                            <li><a href="#">Egypt Travel Guide</a></li>
+                                                            <li><a href="#">Egypt Vacations</a></li>
+                                                            <li><a href="#">Egyptian Artifacts</a></li>
+                                                            <li><a href="#">Egyptian Cuisine</a></li>
+                                                            <li><a href="#">Egyptian Culture</a></li>
+                                                            <li><a href="#">Egyptian Food</a></li>
+                                                            <li><a href="#">Egyptian Heritage</a></li>
+                                                            <li><a href="#">Egyptian History</a></li>
+                                                            <li><a href="#">Egyptian Markets</a></li>
+                                                            <li><a href="#">Egyptian Museum</a></li>
+                                                            <li><a href="#">Egyptian Museums</a></li>
+                                                            <li><a href="#">Egyptian Temples</a></li>
+                                                            <li><a href="#">El Gouna</a></li>
+                                                            <li><a href="#">Family Tours</a></li>
+                                                            <li><a href="#">Historical Landmarks</a></li>
+                                                            <li><a href="#">Historical Sites</a></li>
+                                                            <li><a href="#">Historical Treasures</a></li>
+                                                            <li><a href="#">Honeymoon Tours</a></li>
+                                                            <li><a href="#">Hurghada</a></li>
+                                                            <li><a href="#">Karnak Temple</a></li>
+                                                            <li><a href="#">Luxor</a></li>
+                                                            <li><a href="#">Luxor Temple</a></li>
+                                                            <li><a href="#">Luxor Tours</a></li>
+                                                            <li><a href="#">Luxury Egypt Tours</a></li>
+                                                            <li><a href="#">Luxury Travel</a></li>
+                                                            <li><a href="#">Marsa Alam</a></li>
+                                                            <li><a href="#">Mummy Discoveries</a></li>
+                                                            <li><a href="#">Nile River Cruises</a></li>
+                                                            <li><a href="#">Pharaonic Monuments</a></li>
+                                                            <li><a href="#">Pyramids of Giza</a></li>
+                                                            <li><a href="#">Red Sea</a></li>
+                                                            <li><a href="#">Red Sea Diving</a></li>
+                                                            <li><a href="#">Red Sea Resorts</a></li>
+                                                            <li><a href="#">Saqqara Pyramid</a></li>
+                                                            <li><a href="#">Senior Tours</a></li>
+                                                            <li><a href="#">Sharm El Sheikh</a></li>
+                                                            <li><a href="#">Short Egypt Tours</a></li>
+                                                            <li><a href="#">Siwa Oasis</a></li>
+                                                            <li><a href="#">Small Group Tours</a></li>
+                                                            <li><a href="#">Sphinx of Giza</a></li>
+                                                            <li><a href="#">Tourism</a></li>
+                                                            <li><a href="#">Tourist Attractions</a></li>
+                                                            <li><a href="#">Tours</a></li>
+                                                            <li><a href="#">Travel Tips</a></li>
+                                                            <li><a href="#">Tutankhamun Tomb</a></li>
+                                                            <li><a href="#">Valley of the Kings</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="mb--93">
+            <div class="tf-container"></div>
+          </section>
+        </main>
+
+        <footer class="footer footer-style1">
+          <div class="tf-container">
+            <div class="footer-main">
+              <div class="footer-logo">
+                <div class="logo-footer"></div>
+                <p class="des-footer"></p>
+                <ul class="footer-info">
+                  <li class="flex-three">
+                    <i class="icon-noun-mail-5780740-1"></i>
+                    <p>info@marvelousegypttravel.com</p>
+                  </li>
+                  <li class="flex-three">
+                    <i class="icon-Group-9"></i>
+                    <p>+201288811423</p>
+                  </li>
+
+                  <li
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      flex: 3;
+                      width: 97%;
+                      font-family: Arial, sans-serif;
+                      color: #333;
+                    "
+                  >
+                    <p
+                      style="
+                        margin-bottom: 15px;
+                        display: flex;
+                        align-items: center;
+                      "
+                    >
+                      <i
+                        class="icon-Layer-19"
+                        style="
+                          font-size: 18px;
+                          color: #3498db;
+                          margin-right: 10px;
+                        "
+                      ></i>
+                      <span
+                        >Headquarter Office: Järvevana Street 9, Tallinn, 11314,
+                        Estonia</span
+                      >
+                    </p>
+                    <p style="display: flex; align-items: center">
+                      <i
+                        class="icon-Layer-19"
+                        style="
+                          font-size: 18px;
+                          color: #3498db;
+                          margin-right: 10px;
+                        "
+                      ></i>
+                      <span
+                        >Administrative Office: 26 Mahmoud Bassiouny, Marouf,
+                        Qasr El Nil, Cairo Governorate 4272141, Floor 2, Apt
+                        14</span
+                      >
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-service">
+                <h5 class="title">Services Req</h5>
+
+                <ul class="footer-menu">
+                  <li>
+                    <a href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="./blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="./gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="team.html">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="./contact-us.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-gallery">
+                <h5 class="title">Gallery</h5>
+
+                <div class="gallery-img">
+                  <a
+                    href="./assets/images/Luxor_Images/img11.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img11.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                  <a
+                    href="./assets/images/Luxor_Images/img14.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img14.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                  <a
+                    href="./assets/images/Luxor_Images/img16.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img16.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                  <a
+                    href="./assets/images/Luxor_Images/img3.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img3.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                  <a
+                    href="./assets/images/Luxor_Images/img7.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img7.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                  <a
+                    href="./assets/images/Luxor_Images/img8.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      style="height: 5rem; object-fit: cover"
+                      src="./assets/images/Luxor_Images/img8.webp"
+                      alt="image gallery"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="footer-newsletter">
+                <h5 class="title">Newsletter</h5>
+                <form action="/" id="footer-form">
+                  <div class="input-wrap flex-three">
+                    <input type="email" placeholder="enter Email address" />
+                    <button aria-label="Event Button" type="submit">
+                      <i class="icon-paper-plane"></i>
+                    </button>
+                  </div>
+                  <div class="check-form flex-three">
+                    <i class="icon-Vector-121"></i>
+                    <p>I agree to all your terms and policies</p>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="row footer-bottom">
+              <div class="col-md-6">
+                <p class="copy-right">
+                  Copyright 2007-2024 Marvelous Egypt Travel All Rights Reserved
+                  <a href="#" aria-label="Icon" class="text-main"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Bottom -->
+      </div>
+      <!-- /#page -->
+    </div>
+
+    <!-- Modal Popup Bid -->
+
+    <a id="scroll-top" class="button-go"></a>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+        <button
+          aria-label="Event Button"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="logo-canvas">
+          <img
+            style="height: 3rem; width: auto; object-fit: cover"
+            loading="lazy"
+            src="./assets/images/logo.webp"
+            alt="image"
+          />
+        </div>
+        <ul class="canvas-info">
+          <li class="flex-three">
+            <i class="icon-noun-mail-5780740-1"></i>
+            <p>info@marvelousegypttravel.com</p>
+          </li>
+          <li class="contact-item">
+            <div style="display: flex; gap: 1rem" class="contact-info">
+              <p>
+                <a href="tel:+201288811423"
+                  ><i class="fas fa-phone-alt"></i> +201288811423</a
+                >
+              </p>
+              <p>
+                <a href="https://wa.me/201143328885" target="_blank"
+                  ><i class="fab fa-whatsapp"></i> +201143328885</a
+                >
+              </p>
+            </div>
+          </li>
+          <br />
+          <li
+            style="
+              display: flex;
+              flex-direction: column;
+              width: 97%;
+              font-family: Arial, sans-serif;
+              color: #333;
+            "
+          >
+            <p style="display: flex; align-items: center">
+              <i
+                class="icon-Layer-19"
+                style="font-size: 18px; color: #3498db; margin-right: 10px"
+              ></i>
+              <span
+                >Headquarter Office: Järvevana Street 9, Tallinn, 11314,
+                Estonia</span
+              >
+            </p>
+            <p style="display: flex; align-items: center; margin-top: 0">
+              <!-- يمكنك إضافة هذا إذا كنت بحاجة لتأكيد عدم وجود مسافة -->
+              <i
+                class="icon-Layer-19"
+                style="font-size: 18px; color: #3498db; margin-right: 10px"
+              ></i>
+              <span
+                >Administrative Office: 26 Mahmoud Bassiouny, Marouf, Qasr El
+                Nil, Cairo Governorate 4272141, Floor 2, Apt 14</span
+              >
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="./destination.js"></script>
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.nice-select.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/swiper-bundle.min.js"></script>
+    <script src="app/js/swiper.js"></script>
+    <script src="app/js/plugin.js"></script>
+    <script src="app/js/jquery.fancybox.js"></script>
+    <script src="app/js/map.min.js"></script>
+    <script src="app/js/map.js"></script>
+    <script src="app/js/shortcodes.js"></script>
+    <script src="app/js/main.js"></script>
+  </body>
+</html>

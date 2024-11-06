@@ -3,18 +3,6 @@ const params = new URLSearchParams(window.location.search);
 const tourId = params.get("id");
 
 const destinationDetails = {
-    1: {
-        title: "Cairo Adventure",
-        intro: "Explore the heart of Egypt.",
-        description: `Embark on an unforgettable journey through Cairo, where ancient history meets vibrant culture. Marvel at the awe-inspiring Pyramids of Giza, stroll through the bustling streets of Islamic Cairo, and immerse yourself in the rich heritage of the Egyptian Museum. Experience the city's unique blend of old and new, from traditional markets to modern cafes. Cairo offers a captivating adventure that promises to leave lasting memories.`,
-        images: [
-            "./assets/images/Cairo_Images/img (3).webp",
-            "./assets/images/Cairo_Images/img9.jpeg"
-        ],
-        cover_image: "./assets/images/Blog_images/pexels-helgampallares-11039757.jpg",
-        secoundDes: `Cairo is a city that never sleeps, filled with life and energy. Its streets are alive with the sounds of bustling markets, vibrant street art, and the aroma of delicious local cuisine. This dynamic metropolis offers a unique blend of historical landmarks and contemporary attractions, making it a must-visit destination for travelers seeking both adventure and culture. Experience the warmth of Egyptian hospitality as you explore the city's hidden gems and iconic sites.`,
-        Municipalities:`Cairo, the sprawling capital of Egypt, is a vibrant metropolis where history and modernity coexist. It is home to iconic landmarks such as the Great Pyramids of Giza, the Sphinx, and the Egyptian Museum, showcasing ancient treasures that tell the story of one of the world's oldest civilizations. The city is characterized by its bustling streets, rich cultural heritage, and warm hospitality. Explore the narrow alleyways of Islamic Cairo, where traditional markets, or souks, offer a kaleidoscope of colors, scents, and sounds. From the historic architecture of the Al-Azhar Mosque to the lively atmosphere of Tahrir Square, Cairo is a city that captivates the imagination and invites exploration.`
-    },
 
     2: {
         title: "Alexandria  Adventure",
