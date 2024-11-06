@@ -689,10 +689,9 @@ Spiritual & Meditation Retreets</pre
                               <h5>Select Price</h5>
                               <div class="col">
                                 <input
-                                  c
                                   type="text"
                                   class="form-control"
-                                  id="durationFrom"
+                                  id="priceFrom"
                                   placeholder="From"
                                 />
                               </div>
@@ -700,7 +699,7 @@ Spiritual & Meditation Retreets</pre
                                 <input
                                   type="text"
                                   class="form-control"
-                                  id="durationTo"
+                                  id="priceTo"
                                   placeholder="To"
                                 />
                               </div>
@@ -745,22 +744,43 @@ Spiritual & Meditation Retreets</pre
                         <div class="listing-all-wrap">
                           <div class="flex-three">
                             <div class="group-select-recently">
-                              <div class="nice-select" tabindex="0">
-                                <i class="icon-Vector6"></i
-                                ><span class="current">Price Sorting</span>
-                                <ul class="list">
+                              <div
+                                class="nice-select"
+                                tabindex="0"
+                                id="priceSorting"
+                              >
+                                <i class="icon-Vector6"></i>
+                                <span class="current">Price Sorting</span>
+                                <ul
+                                  style="
+                                    min-height: 12rem;
+                                    width: 12rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: start;
+                                    gap: 1.5rem;
+                                    font-size: 1rem;
+                                    padding: 1rem;
+                                  "
+                                  class="list"
+                                >
                                   <!-- Price -->
+                                  <div id="tour-container">
+                                    <!-- عناصر الـ HTML الأصلية هنا -->
+                                  </div>
+
                                   <pre
                                     id="highToLow"
                                     data-value="highToLow"
-                                    class="option"
+                                    class="optionS"
                                   >
 High to Low</pre
                                   >
                                   <pre
                                     id="lowToHigh"
                                     data-value="lowToHigh"
-                                    class="option"
+                                    class="optionS"
                                   >
 Low to High</pre
                                   >
@@ -768,14 +788,14 @@ Low to High</pre
                                   <pre
                                     id="shortToLong"
                                     data-value="shortToLong"
-                                    class="option"
+                                    class="optionS"
                                   >
 Short to Long</pre
                                   >
                                   <pre
                                     id="longToShort"
                                     data-value="longToShort"
-                                    class="option"
+                                    class="optionS"
                                   >
 Long to Short</pre
                                   >
