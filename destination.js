@@ -4,62 +4,7 @@ const tourId = params.get("id");
 
 const destinationDetails = {
 
-    2: {
-        title: "Alexandria  Adventure",
-        intro: "Discover Egypt’s Coastal Gem",
-        description: `Nestled along the Mediterranean coast, Alexandria is a city that beautifully combines history, romance, and vibrant urban life. Founded by Alexander the Great, this storied city was once a center of ancient knowledge and home to the Great Library of Alexandria. Today, visitors can explore iconic sites like the stunning Qaitbay Citadel, built on the ruins of the fabled Lighthouse of Alexandria, and the ancient Catacombs of Kom El Shoqafa, one of the Seven Wonders of the Middle Ages.
 
-Alexandria’s seaside charm offers more than just history. Stroll along the Corniche to enjoy breathtaking sea views, visit the grand Alexandria Library (Bibliotheca Alexandrina), or relax on the beaches dotted along the coast. With its unique blend of Greek, Roman, and Egyptian heritage, this city captivates travelers with its enchanting atmosphere, rich history, and warm Mediterranean breezes.`,
-        images: [
-            "./assets/images/Giza_Images/GUEST-43.jpeg",
-            "./assets/images/Cairo_Images/img60.JPG"
-        ],
-        cover_image: "./assets/images/Destinations_Images/Alex_1_11zon.jpg",
-        secoundDes: `Alexandria, Egypt’s charming coastal city, blends history with a laid-back Mediterranean atmosphere. Once home to the Great Library of Alexandria, the city holds a legacy of knowledge, culture, and art. From bustling seaside promenades to ancient ruins, Alexandria invites travelers to experience its unique spirit and warm hospitality, offering a mix of iconic landmarks and leisurely relaxation along the sea.`,
-        Municipalities: `Founded by Alexander the Great, Alexandria boasts a rich history, combining Egyptian, Greek, and Roman influences. Discover the fascinating Catacombs of Kom El Shoqafa, stroll through the beautiful Montaza Gardens, or take in the views at the Qaitbay Citadel, which stands where the legendary Lighthouse of Alexandria once guided sailors. The city’s scenic Corniche is perfect for a leisurely walk by the sea, while the Bibliotheca Alexandrina serves as a modern tribute to the ancient library. Alexandria’s diverse heritage, Mediterranean cuisine, and scenic beauty make it a captivating destination for every traveler.`
-    },
-    3: {
-        title: "Luxor Adventure",
-        intro: "Uncover the Heart of Ancient Egypt",
-        description: `Set along the Nile River, Luxor is often called the "world's greatest open-air museum" due to its incredible concentration of ancient monuments. This city, once known as Thebes, was the capital of ancient Egypt and remains a treasure trove of history. Visitors can explore the Valley of the Kings, where the tomb of Tutankhamun was discovered, and the stunning Temple of Karnak, a vast complex with towering columns and intricate carvings.
-        
-        Beyond its ancient wonders, Luxor offers a glimpse into traditional Egyptian life along the Nile. Sail on a felucca boat, visit local markets, or enjoy the sunset views from the banks of the river. With its rich heritage, Luxor is a must-visit destination for anyone interested in Egypt's ancient history, culture, and breathtaking landscapes.`,
-        images: [
-            "./assets/images/Luxor_Images/img14.webp",
-            "./assets/images/Luxor_Images/img16.webp"
-        ],
-        cover_image: "./assets/images/Luxor_Images/img3.webp",
-        secoundDes: `Luxor, often regarded as Egypt’s ancient capital, is a city filled with historic grandeur and awe-inspiring monuments. It’s home to some of Egypt’s most famous landmarks, including the Temple of Luxor and the Valley of the Queens. The city seamlessly blends ancient history with the charm of Nile-side life, offering travelers both captivating sights and tranquil landscapes.`,
-        Municipalities: `Once the great capital of the New Kingdom, Luxor boasts an impressive legacy of Egyptian history. The Valley of the Kings holds the tombs of pharaohs, including that of Tutankhamun, while the Temples of Karnak and Luxor offer breathtaking examples of ancient Egyptian architecture and art. Luxor’s vibrant culture, stunning views along the Nile, and remarkable monuments make it an unforgettable destination for all who visit.`        
-    },
-    4: {
-        title: "Aswan Adventure",
-        intro: "Experience the Serenity of Egypt's Southern Jewel",
-        description: `Situated along the Nile River, Aswan is known for its tranquil atmosphere, stunning river views, and unique blend of Nubian and Egyptian cultures. This city, often regarded as the gateway to Nubia, is home to remarkable temples, beautiful islands, and a warm, welcoming ambiance. Visitors can marvel at the iconic Philae Temple, dedicated to the goddess Isis, and the impressive Aswan High Dam, a modern engineering feat that shaped Egypt's water resources.
-    
-    Aswan offers more than ancient wonders. Explore the vibrant Nubian villages with their colorful houses, sail to Elephantine Island, or enjoy a peaceful felucca ride at sunset. Aswan’s picturesque landscapes and rich heritage make it a serene destination for travelers seeking both culture and relaxation.`,
-        images: [
-            "./assets/images/Aswan_Images/François Henry Christolhomme (2).jpeg",
-            "./assets/images/Aswan_Images/img4.webp"
-        ],
-        cover_image: "./assets/images/Aswan_Images/aswancover.jpg",
-        secoundDes: `Aswan, with its beautiful river views and laid-back atmosphere, is a city that celebrates Egypt’s Nubian heritage. Home to historic temples and charming islands, Aswan invites travelers to experience both cultural discoveries and peaceful moments along the Nile.`,
-        Municipalities: `Aswan offers a unique blend of history and tranquility. Explore the Temple of Philae, a stunning island temple dedicated to Isis, visit the Nubian Museum to understand the region’s heritage, or stroll through the botanical gardens on Kitchener's Island. The city’s warm climate, friendly people, and natural beauty make Aswan a memorable stop for any Egypt traveler.`
-    },
-    5: {
-        title: "Hurghada Adventure",
-        intro: "Dive into the Red Sea Paradise",
-        description: `Located on the shores of the Red Sea, Hurghada is a world-renowned beach destination celebrated for its crystal-clear waters, vibrant coral reefs, and thriving marine life. Originally a small fishing village, Hurghada has transformed into a bustling resort town where visitors can dive, snorkel, and explore underwater treasures or simply relax on sandy beaches under the Egyptian sun.
-    
-    Hurghada offers more than just beaches. Discover the colorful Souks in the old town of El Dahar, explore the desert on a thrilling safari, or enjoy a sunset cruise. With its warm climate and a range of water sports and activities, Hurghada is an ideal destination for relaxation, adventure, and experiencing Egypt's coastal beauty.`,
-        images: [
-            "./assets/images/Activeties (1).jpeg",
-            "./assets/images/Cairo_Images/img10.jpeg"
-        ],
-        cover_image: "./assets/images/hurghada.jpg",
-        secoundDes: `Hurghada, with its serene beaches and turquoise waters, is the perfect escape for beach lovers and adventure seekers alike. Its coral reefs and marine life attract divers from around the world, while the town’s lively atmosphere and beautiful resorts make it a top coastal destination.`,
-        Municipalities: `Hurghada offers a blend of excitement and relaxation. From diving and snorkeling in the crystal-clear Red Sea to exploring the desert landscapes, Hurghada is a paradise for nature enthusiasts. Visit the Marina Boulevard for dining and nightlife, or take a boat trip to the nearby Giftun Islands for an unforgettable Red Sea experience. With warm weather year-round, Hurghada’s beauty and diverse activities make it a must-visit for all travelers.`
-    } ,
     6: {
         title: "Sharm El Sheikh Adventure",
         intro: "Experience Egypt's Coastal Oasis",
