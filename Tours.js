@@ -2370,7 +2370,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
     priceSale: "$385",
     priceOriginal: "$385",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/Day-Tour-to-Abu-Simbel-from-Cairo-by-Plane.html",
     tourPlans: [
       {
         title: "Day Tour to Abu Simbel from Cairo by Plane",
@@ -2414,7 +2414,7 @@ Catch your flight back to Cairo and transfer to your hotel, concluding your day 
     priceSale: "$45",
     priceOriginal: "$45",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/Day-Trip-to-Alexandria-from-Cairo-by-Car.html",
     tourPlans: [
       {
         title: "Day Trip to Alexandria from Cairo by Car",
@@ -2468,7 +2468,7 @@ Drive back to Cairo and transfer you to your hotel.
     priceSale: "$380",
     priceOriginal: "$380",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/Day-Tour-from-Cairo-to-Luxor-By-Plane.html",
     tourPlans: [
       {
         title: "Day Tour from Cairo to Luxor By Plane",
@@ -2523,7 +2523,7 @@ Finally, transfer to Luxor airport for a flight back to Cairo and then transfer 
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/Coptic-Cairo-Day-Tour.html",
     tourPlans: [
       {
         title: "Coptic Cairo Day Tour",
@@ -2575,7 +2575,7 @@ Finally, we will transfer you back to your hotel in Cairo/Giza in one of our pri
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours/Day-Trip-to-Islamic-Cairo.html",
     tourPlans: [
       {
         title: "Day Trip to Islamic Cairo",
@@ -2638,7 +2638,7 @@ Finally, we will drive you back to your hotel to end your day trip.
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/Scuba-Diving-Excursion-in-Hurghada.html",
     tourPlans: [
       {
         title: "Scuba Diving Excursion in Hurghada",
@@ -2681,7 +2681,7 @@ Finally, transfer back to your hotel.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/Private-Snorkeling-in-Hurghada.html",
     tourPlans: [
       {
         title: "Private Snorkeling in Hurghada",
@@ -2713,7 +2713,7 @@ Finally, transfer back to your hotel.
     priceSale: "$20",
     priceOriginal: "$20",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/Hurghada-Super-Safari-by-Quads.html",
     tourPlans: [
       {
         title: "Hurghada Super Safari by Quads",
@@ -2752,7 +2752,7 @@ Dinner.
     priceSale: "$75",
     priceOriginal: "$75",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/Breathtaking-Luxor-Day-Trip-from-Hurghada.html",
     tourPlans: [
       {
         title: "Day Tour to Luxor from Hurghada",
@@ -2809,7 +2809,7 @@ You can share your thoughts about adding or removing any tours from your tour it
     priceSale: "$400",
     priceOriginal: "$400",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/Day-Trip-to-Cairo-from-Hurghada-by-Plane.html",
     tourPlans: [
       {
         title: "Day Trip to Cairo from Hurghada by Plane",
@@ -2885,7 +2885,7 @@ Book this amazing holiday and discover the golden legacy and wealth of southern 
     priceSale: "$175",
     priceOriginal: "$175",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Hurghada-Excursions/2-Days-Aswan-and-Abu-Simbel-Tour-from-Hurghada.html",
     tourPlans: [
       {
         title: "Day 1",
@@ -2966,7 +2966,7 @@ Everyone will enjoy a private Luxor day tour to the East and West Banks to visit
     priceSale: "$70",
     priceOriginal: "$70",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Luxor-Excursions/Tour-to-Luxor-East-and-West-Banks.html",
     tourPlans: [
       {
         title: "Tour to Luxor East and West Banks",
@@ -3027,7 +3027,7 @@ The Luxor Hot Air Balloon ride is a journey of dreams across the heavens that re
     priceSale: "$120",
     priceOriginal: "$120",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Luxor-Excursions/Luxor-Hot-Air-Balloon-Ride.html",
     tourPlans: [
       {
         title: "Luxor Hot Air Balloon Ride",
@@ -3067,7 +3067,7 @@ After your land, you will be picked up and transferred back to your hotel/cruise
     priceSale: "$25",
     priceOriginal: "$25",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Luxor-Excursions\Trip-to-Dandara-and-Abydos-from-Luxor.html",
     tourPlans: [
       {
         title: "Trip to Dandara and Abydos from Luxor",
@@ -3116,7 +3116,7 @@ Finally, we drive you back to your hotel/ Nile Cruise.
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Luxor-Excursions/Aswan-Sightseeing-Tour.html",
     tourPlans: [
       {
         title: "Aswan Sightseeing Tour",
@@ -3173,7 +3173,7 @@ Finally, we drive you back to your hotel/ Nile Cruise.
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Aswan-Excursions/Nubian-Village-Tour-From-Aswan.html",
     tourPlans: [
       {
         title: "Nubian Village Tour From Aswan",
@@ -3230,7 +3230,7 @@ Lunch.
     priceSale: "$20",
     priceOriginal: "$20",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Aswan-Excursions/Felucca-Ride-on-the-Nile-in-Aswan.html",
     tourPlans: [
       {
         title: "Felucca Ride on the Nile in Aswan",
@@ -3282,7 +3282,7 @@ After your delightful felucca ride, you will be transferred back to your hotel o
     priceSale: "$95",
     priceOriginal: "$95",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Aswan-Excursions/Luxor-Day-Tour-from-Aswan.html",
     tourPlans: [
       {
         title: "Luxor Day Tour from Aswan",
@@ -3346,7 +3346,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Aswan-Excursions\Day-Trip-from-Aswan-to-Edfu-and-Kom-Ombo-Temples.html",
     tourPlans: [
       {
         title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
@@ -3403,7 +3403,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Aswan-Excursions\Day-Trip-to-Abu-Simbel-from-Aswan.html",
     tourPlans: [
       {
         title: "Day Trip to Abu Simbel from Aswan",
@@ -3452,7 +3452,7 @@ Lunch.
     priceSale: "$420",
     priceOriginal: "$420",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-ElGouna-Excursions/Cairo-Day-Trip-from-El-Gouna-By-Plane.html",
     tourPlans: [
       {
         title: "Cairo Day Trip from El Gouna By Plane",
@@ -3535,7 +3535,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-ElGouna-Excursions/Luxor-Day-Trip-from-El-Gouna.html",
     tourPlans: [
       {
         title: "Luxor Day Trip from El Gouna",
@@ -3600,7 +3600,7 @@ Lunch.
     priceSale: "$215",
     priceOriginal: "$215",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-ElGouna-Excursions/2-Days-Aswan-and-Abu-Simbel-Tour-from-El-Gouna.html",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -3680,7 +3680,7 @@ Breakfast, Lunch.
     priceSale: "$280",
     priceOriginal: "$280",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-MarsaAlam-Excursions/Day-Trip-from-Marsa-Alam-to-Cairo-by-Plane.html",
     tourPlans: [
       {
         title: "Day Trip from Marsa Alam to Cairo by Plane",
@@ -3754,7 +3754,7 @@ From Marsa Alam to Cairo and From Cairo to Hurghada.
     priceSale: "$150",
     priceOriginal: "$150",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-MarsaAlam-Excursions/One-Day-Trip-from-Marsa-Alam-to-Luxor.html",
     tourPlans: [
       {
         title: "One Day Trip from Marsa Alam to Luxor",
@@ -3816,7 +3816,7 @@ Lunch.
     priceSale: "$350",
     priceOriginal: "$350",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-MarsaAlam-Excursions/2-Days-Aswan-and-Abu-Simbel-Trip-from-Marsa-Alam.html",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -3895,7 +3895,7 @@ Breakfast, Lunch.
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Makadi-Bay-Excursions/Full-Day-Tour-to-Cairo-and-Pyramids-from-Makadi-Bay-by-Plane.html",
     tourPlans: [
       {
         title: "Full-Day Tour to Cairo and Pyramids from Makadi Bay by Plane",
