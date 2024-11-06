@@ -5982,7 +5982,7 @@ Since all our tours are private, this journey is tailored to your preferences, e
     priceSale: "$2845",
     priceOriginal: "$2845",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Classic-Egypt.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6094,7 +6094,7 @@ Experience traditional Bedouin life in a Siwan village; visit the Old City of Si
     priceSale: "$1250",
     priceOriginal: "$1250",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Siwa-Adventure.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6194,7 +6194,7 @@ Meals: Breakfast
     priceSale: "$1970",
     priceOriginal: "$1970",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Discover-Egypt.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6325,7 +6325,7 @@ Extras: Optional day trips available
     priceSale: "$1,090",
     priceOriginal: "$1,090",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Egypt-Express.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6423,7 +6423,7 @@ Extras: Saqqara/Dashour/Memphis Tour, Extra Night in Cairo
     priceSale: "$2195",
     priceOriginal: "$2195",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Egyptian-Legacy.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6514,7 +6514,7 @@ Extras: Cairo city tour, Saqqara, Dashour & Memphis tours`,
     priceSale: "$1645",
     priceOriginal: "$1645",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Nubian-Adventure.html",
     tourPlans: [
       {
         title: "Day 1: Arrival Cairo",
@@ -6615,7 +6615,7 @@ Meals: Breakfast
     priceSale: "$2050",
     priceOriginal: "$2050",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Nile-Family-Adventure.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6713,7 +6713,7 @@ Meals: Breakfast
     priceSale: "$1615",
     priceOriginal: "$1615",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Sand-and-Sea.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6817,7 +6817,7 @@ Optional Upgrade: Hurghada to Cairo flight
     priceSale: "$1010",
     priceOriginal: "$1010",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Cairo-Luxury-Hotel-Retreat.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6884,7 +6884,7 @@ Optional Extras: Alexandria Day Trip, Cairo City Tour, Saqqara, Dashour & Memphi
     priceSale: "$2335",
     priceOriginal: "$2335",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Gods-of-Egypt.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -6996,7 +6996,7 @@ Note: This tour is customizable to include Dahab instead of Hurghada.
     priceSale: "$1840",
     priceOriginal: "$1840",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Jewel-of-the-Nile.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -7102,7 +7102,7 @@ Meals: Breakfast
     priceSale: "$1660",
     priceOriginal: "$1660",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Egypt's-Jewels-&-The-Red-Sea.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -7216,7 +7216,7 @@ Extras: Alexandria day trip, Saqqara, Dashour & Memphis tours, Khan-el-Khalili b
     priceSale: "$3560",
     priceOriginal: "$3560",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Nabateans-and-Nubians.html",
     tourPlans: [
       {
         title: "Day 1: Arrival in Cairo",
@@ -7343,7 +7343,7 @@ Overnight: N/A Meals: N/A Extras: N/A
     priceSale: "$3060",
     priceOriginal: "$3060",
     rating: 5,
-    path: "",
+    path: "./Egypt-Travel-Packages/Petra-and-the-Nile.html",
     tourPlans: [
       {
         title: "Day 1: Amman Arrival: Hotel Transfers & City Exploration",
@@ -7483,7 +7483,7 @@ EXTRAS: Hot air balloon ride
     priceSale: "$450",
     priceOriginal: "$450",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/3-Nights-Nile-River-Cruise-Aswan-to-Luxor.html",
     tourPlans: [
       {
         title: "Arrival in Aswan",
@@ -7611,7 +7611,7 @@ Experience a magical 3-Night Nile River Cruise from Aswan, including a visit to 
     priceSale: "$550",
     priceOriginal: "$550",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/3-Nights-Nile-River-Cruise-Aswan-to-Luxor-Including-Abu-Simbel.html",
     tourPlans: [
       {
         title: "Aswan",
@@ -7732,7 +7732,7 @@ Breakfast.
     priceSale: "$580",
     priceOriginal: "$580",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/4-Nights-Nile-River-Cruise-Luxor-to-Aswan.html",
     tourPlans: [
       {
         title: "Arrival in Luxor and East Bank Tour",
@@ -7878,7 +7878,7 @@ Cruise between the heavenly cities of Luxor and Aswan, marveling at the remarkab
     priceSale: "$700",
     priceOriginal: "$700",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/4-Nights-Nile-River-Cruise-Luxor-to-Aswan-Including-Abu-Simbel.html",
     tourPlans: [
       {
         title: "Arrival in Luxor and East Bank Tour",
@@ -8022,7 +8022,7 @@ Experience a mythical journey of dreams across the immortal wonders of ancient E
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/7-Nights-Nile-River-Cruise-from-Aswan.html",
     tourPlans: [
       {
         title: "Aswan Attractions",
@@ -8197,7 +8197,7 @@ Breakfast.
     priceSale: "$870",
     priceOriginal: "$870",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/7-Nights-Nile-River-Cruise-from-Luxor.html",
     tourPlans: [
       {
         title: "Luxor East Bank",
@@ -8373,7 +8373,7 @@ Breakfast.
     priceSale: "$900",
     priceOriginal: "$900",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/Private-Journey-for-4-Days-Dahabiya-Nile-River-Cruise-Aswan-to-Luxor.html",
     tourPlans: [
       {
         title: "Aswan Highlights",
@@ -8504,7 +8504,7 @@ Breakfast.
     priceSale: "$1000",
     priceOriginal: "$1000",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/Private-4-Nights-Dahabiya-Nile-River-Cruise-Luxor-to-Aswan.html",
     tourPlans: [
       {
         title: "Luxor Highlights",
@@ -8646,7 +8646,7 @@ All our clients will enjoy a marvelous 8 days Dahabiya Nile cruise from Luxor to
     priceSale: "$1780",
     priceOriginal: "$1780",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/Amazing-8-Days-Dahabiya-Nile-River-Cruise-From-Luxor.html",
     tourPlans: [
       {
         title: "Visit Luxor East Bank",
@@ -8824,7 +8824,7 @@ All our guests will live a magical adventure on board a luxury Nile cruise and s
     priceSale: "$630",
     priceOriginal: "$630",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/Wonderful-4-Days-Aswan-Abu-Simbel-Nile-River-Cruise.html",
     tourPlans: [
       {
         title: "Abu Simbel Temple",
@@ -8952,7 +8952,7 @@ All our guests will get to enjoy 5 days Abu Simbel Nile River cruise package tha
     priceSale: "$890",
     priceOriginal: "$890",
     rating: 5,
-    path: "",
+    path: "./Egypt-Nile-Cruises/5-Days-Abu-Simbel-Nile-River-Cruise-Package.html",
     tourPlans: [
       {
         title: "Arrival and Boarding",
