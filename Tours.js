@@ -9291,6 +9291,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 300)
   );
 
+  // From and To Price Inputs
+  const priceFromElement = document.querySelector("#priceFrom");
+  const priceToElement = document.querySelector("#priceTo");
+  priceFromElement.addEventListener("input", () => {
+    searchInput.value = `${priceFromElement.value} - ${priceToElement.value}`;
+  });
+
+  priceToElement.addEventListener("input", () => {
+    searchInput.value = `${priceFromElement.value} - ${priceToElement.value}`;
+  });
+
   // Add click event listeners to filter options
   const filterOptions = document.querySelectorAll(".nice-select .option");
   filterOptions.forEach((option) => {
@@ -9301,44 +9312,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function generateStars(rating) {
   const starCount = Math.round(rating);
   let starsHTML = "";
@@ -9348,20 +9321,16 @@ function generateStars(rating) {
   return starsHTML;
 }
 
-// Sorting Function
-
 function sortTours(sortType) {
-  const tourArray = Object.values(tourDetails); // Convert tourDetails object to an array
+  const tourArray = Object.values(tourDetails);
 
   if (sortType === "default") {
-    // عند اختيار "default"، قم بتحميل المحتوى الأصلي بدون ترتيب
     displayTours(tourArray);
     return;
   }
 
   switch (sortType) {
     case "highToLow":
-      // Sort by price, high to low
       tourArray.sort(
         (a, b) =>
           parseFloat(b.priceSale.replace("$", "")) -
@@ -9369,7 +9338,6 @@ function sortTours(sortType) {
       );
       break;
     case "lowToHigh":
-      // Sort by price, low to high
       tourArray.sort(
         (a, b) =>
           parseFloat(a.priceSale.replace("$", "")) -
@@ -9377,7 +9345,6 @@ function sortTours(sortType) {
       );
       break;
     case "shortToLong":
-      // Sort by days (short to long)
       tourArray.sort((a, b) => {
         const daysA = parseInt(a.left);
         const daysB = parseInt(b.left);
@@ -9385,7 +9352,6 @@ function sortTours(sortType) {
       });
       break;
     case "longToShort":
-      // Sort by days (long to short)
       tourArray.sort((a, b) => {
         const daysA = parseInt(a.left);
         const daysB = parseInt(b.left);
@@ -9394,57 +9360,55 @@ function sortTours(sortType) {
       break;
   }
 
-  // Display the sorted tours
   displayTours(tourArray);
 }
 
-
 // Function to render the sorted tours in the parent element
 function displayTours(tourArray) {
-    const listingContainer = document.querySelector(
-      ".listing-list-car-grid.mb-60"
-    );
+  const listingContainer = document.querySelector(
+    ".listing-list-car-grid.mb-60"
+  );
   listingContainer.innerHTML = ""; // Clear the current list
 
   tourArray.forEach((tour) => {
     const tourElement = document.createElement("div");
     tourElement.classList.add("tour-item");
-          let imgsPath = [
-        "./assets/images/Giza_Images/img60 (16).jpeg",
-        "./assets/images/Giza_Images/img60 (15).jpeg",
-        "./assets/images/Giza_Images/img60 (14).jpeg",
-        "./assets/images/Giza_Images/img60 (13).jpeg",
-        "./assets/images/Giza_Images/img60 (12).jpeg",
-        "./assets/images/Giza_Images/img60 (11).jpeg",
-        "./assets/images/Giza_Images/img60 (10).jpeg",
-        "./assets/images/Giza_Images/img60 (9).jpeg",
-        "./assets/images/Giza_Images/img60 (8).jpeg",
-        "./assets/images/Giza_Images/img60 (7).jpeg",
-        "./assets/images/Giza_Images/img60 (6).jpeg",
-        "./assets/images/Giza_Images/img60 (5).jpeg",
-        "./assets/images/Giza_Images/img60 (4).jpeg",
-        "./assets/images/Giza_Images/img60 (3).jpeg",
-        "./assets/images/Giza_Images/img60 (2).jpg",
-        "./assets/images/Giza_Images/img60 (1).jpg",
-        "./assets/images/Giza_Images/img60 (1).jpeg",
-        "./assets/images/Giza_Images/img60 (2).jpeg",
-        "./assets/images/Giza_Images/img18.webp",
-        "./assets/images/Giza_Images/img17.webp",
-        "./assets/images/Giza_Images/img16.webp",
-        "./assets/images/Giza_Images/img15.webp",
-        "./assets/images/Giza_Images/img13.webp",
-        "./assets/images/Giza_Images/img14.webp",
-        "./assets/images/Giza_Images/img12.webp",
-        "./assets/images/Giza_Images/img10.webp",
-        "./assets/images/Giza_Images/img9.webp",
-        "./assets/images/Giza_Images/img6.webp",
-        "./assets/images/Giza_Images/img4.webp",
-        "./assets/images/Giza_Images/img2.webp",
-        "./assets/images/Giza_Images/img1.webp",
-        "./assets/images/Giza_Images/GUEST50.jpeg",
-        "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
-        "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
-      ];
+    let imgsPath = [
+      "./assets/images/Giza_Images/img60 (16).jpeg",
+      "./assets/images/Giza_Images/img60 (15).jpeg",
+      "./assets/images/Giza_Images/img60 (14).jpeg",
+      "./assets/images/Giza_Images/img60 (13).jpeg",
+      "./assets/images/Giza_Images/img60 (12).jpeg",
+      "./assets/images/Giza_Images/img60 (11).jpeg",
+      "./assets/images/Giza_Images/img60 (10).jpeg",
+      "./assets/images/Giza_Images/img60 (9).jpeg",
+      "./assets/images/Giza_Images/img60 (8).jpeg",
+      "./assets/images/Giza_Images/img60 (7).jpeg",
+      "./assets/images/Giza_Images/img60 (6).jpeg",
+      "./assets/images/Giza_Images/img60 (5).jpeg",
+      "./assets/images/Giza_Images/img60 (4).jpeg",
+      "./assets/images/Giza_Images/img60 (3).jpeg",
+      "./assets/images/Giza_Images/img60 (2).jpg",
+      "./assets/images/Giza_Images/img60 (1).jpg",
+      "./assets/images/Giza_Images/img60 (1).jpeg",
+      "./assets/images/Giza_Images/img60 (2).jpeg",
+      "./assets/images/Giza_Images/img18.webp",
+      "./assets/images/Giza_Images/img17.webp",
+      "./assets/images/Giza_Images/img16.webp",
+      "./assets/images/Giza_Images/img15.webp",
+      "./assets/images/Giza_Images/img13.webp",
+      "./assets/images/Giza_Images/img14.webp",
+      "./assets/images/Giza_Images/img12.webp",
+      "./assets/images/Giza_Images/img10.webp",
+      "./assets/images/Giza_Images/img9.webp",
+      "./assets/images/Giza_Images/img6.webp",
+      "./assets/images/Giza_Images/img4.webp",
+      "./assets/images/Giza_Images/img2.webp",
+      "./assets/images/Giza_Images/img1.webp",
+      "./assets/images/Giza_Images/GUEST50.jpeg",
+      "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
+      "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
+    ];
     let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
     tourElement.innerHTML = `
     <div class="tour-listing box-sd">
@@ -9454,7 +9418,9 @@ function displayTours(tourArray) {
           <div class="badge-media flex-five">
           </div>
         </div>
-        <img style="height: 19rem; object-fit: cover" src="${randomImage}" alt="${tour.title}" />
+        <img style="height: 19rem; object-fit: cover" src="${randomImage}" alt="${
+      tour.title
+    }" />
       </a>
       <div class="tour-listing-content">
         <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
@@ -9505,4 +9471,3 @@ document.querySelectorAll(".nice-select .optionS").forEach((option) => {
     sortTours(sortType);
   });
 });
-
