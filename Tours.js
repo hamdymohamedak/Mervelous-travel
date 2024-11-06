@@ -6322,8 +6322,8 @@ Extras: Optional day trips available
     left: "8 days",
     des: `Embark on an unforgettable journey through Egypt, where history and culture come alive. This captivating tour covers the magnificent sights of Cairo and the enchanting Nile Valley, from Aswan to Luxor. Begin your adventure with the iconic Pyramids and Sphinx at Giza. Experience the charm of an overnight train ride to Aswan, where you'll visit the stunning island temple of Philae and immerse yourself in the warm hospitality of a Nubian village. Enjoy a serene overnight cruise on the Nile aboard a traditional felucca sailboat, complemented by a support boat for your comfort. Discover the ancient treasures of Luxor before concluding your adventure back in Cairo.`,
     reviews: "456 Reviews",
-    priceSale: "$1,090",
-    priceOriginal: "$1,090",
+    priceSale: "$1090",
+    priceOriginal: "$1090",
     rating: 5,
     path: "./Egypt-Travel-Packages/Egypt-Express.html",
     tourPlans: [
@@ -9297,73 +9297,112 @@ document.addEventListener("DOMContentLoaded", () => {
     option.addEventListener("click", (event) => {
       const selectedValue = event.target.textContent;
       searchInput.value = selectedValue;
-      handleSearch(selectedValue.toLowerCase());
     });
   });
+});
 
-  // Attach event listeners for duration inputs
-  // Select duration inputs and search button
-  const durationFromInput = document.querySelector("#durationFrom");
-  const durationToInput = document.querySelector("#durationTo");
 
-  // Attach click event listener to the search button
-  searchButton.addEventListener("click", () => {
-    const fromValue = durationFromInput.value.trim();
-    const toValue = durationToInput.value.trim();
 
-    // Only trigger search if both values are provided
-    if (fromValue && toValue) {
-      searchInput.value = `${fromValue}-${toValue}`;
-      handleSearch(searchInput.value.toLowerCase());
-    }
-  });
 
-  // Sorting feature
-  function sortTours(tourDetails, criteria) {
-    const toursArray = Object.entries(tourDetails).map(([id, tour]) => {
-      return {
-        id,
-        ...tour,
-        priceSale: parseFloat(tour.priceSale.replace("$", "")),
-        duration: tour.duration || parseInt(tour.left, 10), // Derived from 'left'
-      };
-    });
 
-    switch (criteria) {
-      case "highToLow":
-        toursArray.sort((a, b) => b.priceSale - a.priceSale);
-        break;
-      case "lowToHigh":
-        toursArray.sort((a, b) => a.priceSale - b.priceSale);
-        break;
-      case "shortToLong":
-        toursArray.sort((a, b) => a.duration - b.duration);
-        break;
-      case "longToShort":
-        toursArray.sort((a, b) => b.duration - a.duration);
-        break;
-      default:
-        break;
-    }
 
-    return toursArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function generateStars(rating) {
+  const starCount = Math.round(rating);
+  let starsHTML = "";
+  for (let i = 0; i < 5; i++) {
+    starsHTML += `<i class="icon-star${i < starCount ? "" : "-empty"}"></i>`;
+  }
+  return starsHTML;
+}
+
+// Sorting Function
+
+function sortTours(sortType) {
+  const tourArray = Object.values(tourDetails); // Convert tourDetails object to an array
+
+  switch (sortType) {
+    case "highToLow":
+      // Sort by price, high to low
+      tourArray.sort(
+        (a, b) =>
+          parseFloat(b.priceSale.replace("$", "")) -
+          parseFloat(a.priceSale.replace("$", ""))
+      );
+      break;
+    case "lowToHigh":
+      // Sort by price, low to high
+      tourArray.sort(
+        (a, b) =>
+          parseFloat(a.priceSale.replace("$", "")) -
+          parseFloat(b.priceSale.replace("$", ""))
+      );
+      break;
+    case "shortToLong":
+      // Sort by days (short to long)
+      tourArray.sort((a, b) => {
+        const daysA = parseInt(a.left);
+        const daysB = parseInt(b.left);
+        return daysA - daysB;
+      });
+      break;
+    case "longToShort":
+      // Sort by days (long to short)
+      tourArray.sort((a, b) => {
+        const daysA = parseInt(a.left);
+        const daysB = parseInt(b.left);
+        return daysB - daysA;
+      });
+      break;
   }
 
-  // Function to display sorted tours
-  function displaySortedTours(criteria) {
-    const sortedTours = sortTours(tourDetails, criteria);
-    const resultsContainer = document.getElementById("searchResults");
+  // Display the sorted tours
+  displayTours(tourArray);
+}
 
-    // Clear existing results
-    resultsContainer.innerHTML = "";
+// Function to render the sorted tours in the parent element
+function displayTours(tourArray) {
+    const listingContainer = document.querySelector(
+      ".listing-list-car-grid.mb-60"
+    );
+  listingContainer.innerHTML = ""; // Clear the current list
 
-    if (sortedTours.length === 0) {
-      resultsContainer.innerHTML = "<p>No tours found.</p>";
-      return;
-    }
-
-    sortedTours.forEach((tour) => {
-      let imgsPath = [
+  tourArray.forEach((tour) => {
+    const tourElement = document.createElement("div");
+    tourElement.classList.add("tour-item");
+          let imgsPath = [
         "./assets/images/Giza_Images/img60 (16).jpeg",
         "./assets/images/Giza_Images/img60 (15).jpeg",
         "./assets/images/Giza_Images/img60 (14).jpeg",
@@ -9399,67 +9438,64 @@ document.addEventListener("DOMContentLoaded", () => {
         "./assets/images/Giza_Images/GUEST-Image-2019-03-06-at-16.53.07.jpeg",
         "./assets/images/Giza_Images/GUEST-Image-2019-03-02-at-10.17.00.jpeg",
       ];
-      let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
-      const id = tour.id;
-
-      const tourHTML = `
-        <div class="tour-listing box-sd">
-          <a href="${tour.path}" class="tour-listing-image">
-            <img style="height: 23rem; object-fit: cover" src="${randomImage}" alt="Image Listing">
-          </a>
-          <div class="tour-listing-content">
-            <span class="map"><i class="icon-Vector4"></i>${
-              tour.location
-            }</span>
-            <h3 class="title-tour-list"><a href="${tour.path}">${
-        tour.title
-      }</a></h3>
-            <div class="review">${generateStars(tour.rating)}<span>(${
-        tour.reviews
-      })</span></div>
-            <div class="icon-box flex-three">
-              <div class="icons flex-three">
-                <i class="icon-time-left"></i>
-                <span>${tour.left}</span>
-              </div>
-              <div class="icons flex-three">
-                <span>${tour.maxGuests} Guest</span>
-              </div>
-            </div>
-            <div class="flex-two">
-              <div class="price-box flex-three">
-                <p>From <span class="price-sale">${tour.priceSale}</span></p>
-              </div>
-              <div class="icon-bookmark">
-                <i class="icon-Vector-151"></i>
-              </div>
-            </div>
-            <div class="inquire-now">
-              <a href="${tour.path}" class="btn-inquire">Inquire Now</a>
-            </div>
+    let randomImage = imgsPath[Math.floor(Math.random() * imgsPath.length)];
+    tourElement.innerHTML = `
+    <div class="tour-listing box-sd">
+      <a href="${tour.path}" class="tour-listing-image">
+        <div class="badge-top flex-two">
+          <span class="feature">Featured</span>
+          <div class="badge-media flex-five">
           </div>
         </div>
-      `;
+        <img style="height: 19rem; object-fit: cover" src="${randomImage}" alt="${tour.title}" />
+      </a>
+      <div class="tour-listing-content">
+        <span class="map"><i class="icon-Vector4"></i>${tour.location}</span>
+        <h3 class="title-tour-list">
+          <a href="${tour.path}">${tour.title}</a>
+        </h3>
+        <div class="review">
+          ${"★".repeat(tour.rating)}<span>(${tour.reviews})</span>
+        </div>
+        <div class="icon-box flex-three">
+          <div class="icons flex-three">
+            <i class="icon-time-left"></i>
+            <span>${tour.left}</span>
+          </div>
+        <div class="icons flex-three">
+        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4.34766 4.79761C4.34766 2.94013 5.85346 1.43433 7.71094 1.43433C9.56841 1.43433 11.0742 2.94013 11.0742 4.79761C11.0742 6.65508 9.56841 8.16089 7.71094 8.16089C5.85346 8.16089 4.34766 6.65508 4.34766 4.79761Z" stroke="currentColor" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M9.5977 15.1797H2.46098C1.34827 15.1797 0.558268 14.0954 0.898984 13.0362C1.80408 10.222 4.57804 8.18566 7.69301 8.18566C9.17897 8.18566 10.5566 8.64906 11.6895 9.43922" stroke="currentColor" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M17.1035 15.1797V9.02734" stroke="currentColor" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M20.1797 12.1035H14.0273" stroke="currentColor" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span>unlimited Person</span>
+        </div>
+        </div>
+        <div class="flex-two">
+          <div class="price-box flex-three">
+            <p>From <span class="price-sale">${tour.priceSale}</span></p>
+          </div>
+          <div class="icon-bookmark">
+            <i class="icon-Vector-151"></i>
+          </div>
+        </div>
+        <div class="inquire-now">
+          <a href="${tour.path}" class="btn-inquire">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  `;
 
-      resultsContainer.insertAdjacentHTML("beforeend", tourHTML);
-    });
+    listingContainer.appendChild(tourElement);
+  });
+}
 
-    searchModal.show();
-  }
-  // Event listeners for sorting options
-  document.querySelectorAll(".option").forEach((option) => {
-    option.addEventListener("click", function () {
-      const criteria = this.getAttribute("data-value");
-      displaySortedTours(criteria);
-    });
+// Add event listeners to the dropdown options on all pages
+document.querySelectorAll(".nice-select .optionS").forEach((option) => {
+  option.addEventListener("click", () => {
+    const sortType = option.getAttribute("data-value");
+    sortTours(sortType);
   });
 });
 
-function generateStars(rating) {
-  const starCount = Math.round(rating);
-  let starsHTML = "";
-  for (let i = 0; i < 5; i++) {
-    starsHTML += `<i class="icon-star${i < starCount ? "" : "-empty"}"></i>`;
-  }
-  return starsHTML;
-}
