@@ -9272,7 +9272,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (foundResults) {
       searchModal.show();
     } else {
-      searchModal.hide();
+      searchModal.show();
+      tourHTML.All
     }
   };
 
