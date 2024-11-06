@@ -1,21 +1,21 @@
 const fs = require("fs");
-const path = "./Egypt-Day-Tours/tour-single.html";
+const path = "./Egypt-Day-Tours-cairo-Excursions/tour-single.html";
 
 let Data = {
   title: "5 Days Abu Simbel Nile River Cruise Package",
-    maxGuests: "Unlimited",
-    location: "Egypt",
-    left: "5 days",
-    des: `5 days Abu Simbel Nile River cruise package will provide a magical exotic quest leading across all the rare wonders of southern Egypt. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical Nile Cruise, and a private A/C Vehicle so everyone can live a magical adventure filled with grace and wonder.
+  maxGuests: "Unlimited",
+  location: "Egypt",
+  left: "5 days",
+  des: `5 days Abu Simbel Nile River cruise package will provide a magical exotic quest leading across all the rare wonders of southern Egypt. Marvelous Egypt Travel is the best travel agency in Egypt which will offer all our clients the best services which include the best Egyptologist tour guide, the most magical Nile Cruise, and a private A/C Vehicle so everyone can live a magical adventure filled with grace and wonder.
 All our guests will get to enjoy 5 days Abu Simbel Nile River cruise package that will be the key to discovering rare ancient Egyptian history and archaeological sites for 5 days/ 4 nights Abu Simbel Nile River cruise package in upper Egypt such as Abu Simbel temple, Wadi EL Seboua, Kalabsha, and more. Book this magical tour and discover the marvelous treasures of ancient Egypt.`,
-    reviews: "456 Reviews",
-    priceSale: "$890",
-    priceOriginal: "$890",
-    rating: 5,
-    tourPlans: [
-      {
-        title: "Arrival and Boarding",
-        des: `
+  reviews: "456 Reviews",
+  priceSale: "$890",
+  priceOriginal: "$890",
+  rating: 5,
+  tourPlans: [
+    {
+      title: "Arrival and Boarding",
+      des: `
 13:00
 
 Lunch on board.
@@ -32,10 +32,10 @@ Overnight:
 
 At Aswan.
 `,
-      },
-      {
-        title: "Kalabsha Temples and Wadi El Seboua",
-        des: `
+    },
+    {
+      title: "Kalabsha Temples and Wadi El Seboua",
+      des: `
 07:30
 
 Breakfast Meal.
@@ -64,10 +64,10 @@ Overnight:
 
 At Wadi El Seboua.
 `,
-      },
-      {
-        title: "Wadi El Seboua and Amada Temples",
-        des: `
+    },
+    {
+      title: "Wadi El Seboua and Amada Temples",
+      des: `
 07:30
 
 Breakfast Meal.
@@ -96,10 +96,10 @@ Overnight:
 
 At Amada.
 `,
-      },
-      {
-        title: "Kasr Ibrim and Abu Simbel Temples",
-        des: `
+    },
+    {
+      title: "Kasr Ibrim and Abu Simbel Temples",
+      des: `
 06:30
 
 Sail to Kasr Ibrim.
@@ -128,10 +128,10 @@ Overnight:
 
 At Abu Simbel.
 `,
-      },
-      {
-        title: "Disembarkation",
-        des: `
+    },
+    {
+      title: "Disembarkation",
+      des: `
 08:30
 
 Breakfast Meal.
@@ -142,22 +142,22 @@ Meals:
 
 Breakfast.
 `,
-      },
-    ],
-    included: [
-      "Accommodation for 4 nights onboard 5-star cruise on a full board basis",
-      "Assistance of our personnel during your tour",
-      "All transfers by modern air-conditioned deluxe vehicle",
-      "All Nile Cruise excursions as mentioned in the itinerary",
-      "Entrance fees to all sights between Luxor and Aswan.",
-      "Egyptologist guide during your journey",
-      "All service charges and taxes. ",
-    ],
-    excluded: [
-      "Tipping",
-      "Personal Expenses. ",
-      "Any extras not mentioned in the program",
-    ],
+    },
+  ],
+  included: [
+    "Accommodation for 4 nights onboard 5-star cruise on a full board basis",
+    "Assistance of our personnel during your tour",
+    "All transfers by modern air-conditioned deluxe vehicle",
+    "All Nile Cruise excursions as mentioned in the itinerary",
+    "Entrance fees to all sights between Luxor and Aswan.",
+    "Egyptologist guide during your journey",
+    "All service charges and taxes. ",
+  ],
+  excluded: [
+    "Tipping",
+    "Personal Expenses. ",
+    "Any extras not mentioned in the program",
+  ],
 };
 
 fs.readFile(path, "utf8", (err, data) => {

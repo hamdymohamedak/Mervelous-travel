@@ -406,7 +406,7 @@ Nile Cruise
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
-    path: "./Egypt-Day-Tours/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
     tourPlans: [
       {
         title: "Day 1: Day Tour To Pyramids From Cairo Airport",
@@ -2312,7 +2312,7 @@ Breakfast.
     priceSale: "$100",
     priceOriginal: "$100",
     rating: 5,
-    path: "./Egypt-Day-Tours/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/One-Day-Pyramids-Tour-from-Cairo-Airport.html",
     tourPlans: [
       {
         title: "Day Tour To Pyramids From Cairo Airport",
@@ -2370,7 +2370,7 @@ Then you will be transferred back to Cairo Airport by a private A/C vehicle.
     priceSale: "$385",
     priceOriginal: "$385",
     rating: 5,
-    path: "./Egypt-Day-Tours/Day-Tour-to-Abu-Simbel-from-Cairo-by-Plane.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/Day-Tour-to-Abu-Simbel-from-Cairo-by-Plane.html",
     tourPlans: [
       {
         title: "Day Tour to Abu Simbel from Cairo by Plane",
@@ -2414,7 +2414,7 @@ Catch your flight back to Cairo and transfer to your hotel, concluding your day 
     priceSale: "$45",
     priceOriginal: "$45",
     rating: 5,
-    path: "./Egypt-Day-Tours/Day-Trip-to-Alexandria-from-Cairo-by-Car.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/Day-Trip-to-Alexandria-from-Cairo-by-Car.html",
     tourPlans: [
       {
         title: "Day Trip to Alexandria from Cairo by Car",
@@ -2468,7 +2468,7 @@ Drive back to Cairo and transfer you to your hotel.
     priceSale: "$380",
     priceOriginal: "$380",
     rating: 5,
-    path: "./Egypt-Day-Tours/Day-Tour-from-Cairo-to-Luxor-By-Plane.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/Day-Tour-from-Cairo-to-Luxor-By-Plane.html",
     tourPlans: [
       {
         title: "Day Tour from Cairo to Luxor By Plane",
@@ -2523,7 +2523,7 @@ Finally, transfer to Luxor airport for a flight back to Cairo and then transfer 
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "./Egypt-Day-Tours/Coptic-Cairo-Day-Tour.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/Coptic-Cairo-Day-Tour.html",
     tourPlans: [
       {
         title: "Coptic Cairo Day Tour",
@@ -2575,7 +2575,7 @@ Finally, we will transfer you back to your hotel in Cairo/Giza in one of our pri
     priceSale: "$40",
     priceOriginal: "$40",
     rating: 5,
-    path: "./Egypt-Day-Tours/Day-Trip-to-Islamic-Cairo.html",
+    path: "./Egypt-Day-Tours-cairo-Excursions/Day-Trip-to-Islamic-Cairo.html",
     tourPlans: [
       {
         title: "Day Trip to Islamic Cairo",
@@ -3067,7 +3067,7 @@ After your land, you will be picked up and transferred back to your hotel/cruise
     priceSale: "$25",
     priceOriginal: "$25",
     rating: 5,
-    path: "./Egypt-Day-Tours-Luxor-Excursions\Trip-to-Dandara-and-Abydos-from-Luxor.html",
+    path: "./Egypt-Day-Tours-Luxor-ExcursionsTrip-to-Dandara-and-Abydos-from-Luxor.html",
     tourPlans: [
       {
         title: "Trip to Dandara and Abydos from Luxor",
@@ -3346,7 +3346,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "./Egypt-Day-Tours-Aswan-Excursions\Day-Trip-from-Aswan-to-Edfu-and-Kom-Ombo-Temples.html",
+    path: "./Egypt-Day-Tours-Aswan-ExcursionsDay-Trip-from-Aswan-to-Edfu-and-Kom-Ombo-Temples.html",
     tourPlans: [
       {
         title: "Day Trip from Aswan to Edfu and Kom Ombo Temples",
@@ -3403,7 +3403,7 @@ Lunch.
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "./Egypt-Day-Tours-Aswan-Excursions\Day-Trip-to-Abu-Simbel-from-Aswan.html",
+    path: "./Egypt-Day-Tours-Aswan-ExcursionsDay-Trip-to-Abu-Simbel-from-Aswan.html",
     tourPlans: [
       {
         title: "Day Trip to Abu Simbel from Aswan",
