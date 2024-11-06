@@ -3978,7 +3978,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Makadi-Bay-Excursions/Full-Day-Tour-to-Luxor-from-Makadi-Bay.html",
     tourPlans: [
       {
         title: "Full-Day Tour to Luxor from Makadi Bay",
@@ -4039,7 +4039,7 @@ Lunch.
     priceSale: "$185",
     priceOriginal: "$185",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Makadi-Bay-Excursions/Makadi-Bay-Excursion-to-Aswan-and-Abu-Simbel-in-Two-Days-Tour.html",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -4119,7 +4119,7 @@ Breakfast, Lunch.
     priceSale: "$420",
     priceOriginal: "$420",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Sharm-Elshekh-Excustions/Cairo-Tour-from-Sharm-El-Sheikh-by-Plane.html",
     tourPlans: [
       {
         title: "Cairo Tour from Sharm El Sheikh by Plane",
@@ -4200,9 +4200,9 @@ From Sharm to Cairo and Return.
     des: `Experience the majestic beauty of Luxor with a one-day trip from Sharm El Sheikh by plane. Marvelous Egypt Travel, renowned as the best travel agency in Egypt, will provide an unforgettable journey with a professional Egyptologist tour guide and a private air-conditioned vehicle. This tour offers a unique opportunity to explore the ancient Egyptian civilization by visiting the Valley of the Kings, Karnak Temple, Queen Hatshepsut Temple, and the Colossi of Memnon. Book this fantastic day trip and create timeless memories in the legendary city of Luxor.`,
     reviews: "322 Reviews",
     priceSale: "$695",
-    priceOriginal: "$000",
+    priceOriginal: "$695",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Sharm-Elshekh-Excustions/Luxor-Day-Trip-from-Sharm-El-Sheikh-by-Plane.html",
     tourPlans: [
       {
         title: "Luxor Day Trip from Sharm El Sheikh by Plane",
@@ -4264,7 +4264,7 @@ Lunch.
     priceSale: "$840",
     priceOriginal: "$840",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Sharm-Elshekh-Excustions/Overnight-Trip-to-Cairo-and-Luxor-from-Sharm-by-Flight.html",
     tourPlans: [
       {
         title: "Day 1 Cairo",
@@ -4374,7 +4374,7 @@ From Luxor to Cairo and From Cairo to Sharm.
     priceSale: "$450",
     priceOriginal: "$450",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Port-Ghalib-Excursions/Cairo-Day-Trip-from-Port-Ghalib-by-Plane.html",
     tourPlans: [
       {
         title: "Cairo Day Trip from Port Ghalib by Plane",
@@ -4457,7 +4457,7 @@ From Marsa Alam to Cairo and From Cairo to Hurghada.
     priceSale: "$105",
     priceOriginal: "$105",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Port-Ghalib-Excursions/Full-Day-Tour-to-Luxor-from-Port-Ghalib.html",
     tourPlans: [
       {
         title: "Full Day Tour to Luxor from Port Ghalib",
@@ -4518,7 +4518,7 @@ Lunch.
     priceSale: "$250",
     priceOriginal: "$250",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Port-Ghalib-Excursions/Port-Ghalib-to-Luxor-and-Abu-Simbel-in-Two-Days.html",
     tourPlans: [
       {
         title: "Day 1 Luxor",
@@ -4604,7 +4604,7 @@ Breakfast, Lunch.
     priceSale: "$430",
     priceOriginal: "$430",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Soma-Bay-Excursions/Cairo-Day-Tour-from-Soma-Bay-by-Plane.html",
     tourPlans: [
       {
         title: "Cairo Day Tour from Soma Bay by Plane",
@@ -4687,7 +4687,7 @@ From Hurghada to Cairo and Return.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Soma-Bay-Excursions/Full-Day-Tour-to-Luxor-from-Soma-Bay.html",
     tourPlans: [
       {
         title: "Full Day Tour to Luxor from Soma Bay",
@@ -4748,7 +4748,7 @@ Lunch.
     priceSale: "$220",
     priceOriginal: "$220",
     rating: 5,
-    path: "",
+    path: "./Egypt-Day-Tours-Soma-Bay-Excursions/2-Days-Aswan-and-Abu-Simbel-Trip-from-Soma-Bay.html",
     tourPlans: [
       {
         title: "Day 1 Aswan",
@@ -4835,7 +4835,7 @@ Experience an unforgettable holiday amidst the majestic wonders of Luxor by book
     priceSale: "$160",
     priceOriginal: "$160",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/Amazing-Full-Day-Tour-from-Safaga-to-Luxor.html",
     tourPlans: [
       {
         title: "Day Tour from Safaga to Luxor",
@@ -4903,7 +4903,7 @@ Book this incredible tour to discover the wonders and treasures of Upper Egypt.
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/Tour-to-Dandara-and-Abydos-Temples-from-Safaga-Port.html",
     tourPlans: [
       {
         title: "Tour to Dandara and Abydos Temples from Safaga Port",
@@ -4962,7 +4962,7 @@ Book this incredible excursion and embark on the adventure of a lifetime.
     priceSale: "$490",
     priceOriginal: "$490",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/2-Days-Cairo-and-Luxor-Tour-from-Safaga-Port.html",
     tourPlans: [
       {
         title: "Day 1: Cairo",
@@ -5071,7 +5071,7 @@ Guests will enjoy a magical diving trip from Safaga Port, experiencing an amazin
     priceSale: "$50",
     priceOriginal: "$50",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/Scuba-Diving-from-Safaga-Port.html",
     tourPlans: [
       {
         title: "Scuba Diving from Safaga Port",
@@ -5129,7 +5129,7 @@ Guests will have the chance to snorkel at various spots in the Red Sea, encounte
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/Snorkeling-Trip-from-Safaga-Port.html",
     tourPlans: [
       {
         title: "Snorkeling Trip from Safaga Port",
@@ -5188,7 +5188,7 @@ During this thrilling adventure, guests will experience the magical Safaga Port 
     priceSale: "$30",
     priceOriginal: "$30",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-safaga/Super-Safari-by-Quads-from-Safaga-Port.html",
     tourPlans: [
       {
         title: "Super Safari by Quads from Safaga Port",
@@ -5250,7 +5250,7 @@ During this magical tour, You will visit the iconic Giza Pyramids, the Great Sph
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-sokhna/Trip-to-Pyramids-and-Cairo-from-Sokhna-Port.html",
     tourPlans: [
       {
         title: "Trip to Pyramids and Cairo from Sokhna Port",
@@ -5315,7 +5315,7 @@ Finally, we drive you back to Sokhna Port by the cruise door.
     priceSale: "$245",
     priceOriginal: "$245",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-sokhna/Two-Days-Trip-to-Cairo-From-Sokhna-Port.html",
     tourPlans: [
       {
         title: "Tour of Giza Tourist Attractions",
@@ -5418,7 +5418,7 @@ Breakfast, Lunch
     priceSale: "$430",
     priceOriginal: "$430",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-sokhna/Two-Days-Trip-to-Cairo-and-Luxor-from-Sokhna-Port.html",
     tourPlans: [
       {
         title: "Day 1 Luxor",
@@ -5525,7 +5525,7 @@ From Luxor to Cairo.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-Said/Wonderful-Day-Trip-to-Cairo-From-Port-Said.html",
     tourPlans: [
       {
         title: "Tour to Cairo and Giza Pyramids from Port Said",
@@ -5587,7 +5587,7 @@ Finally, you'll be driven back to your cruise in Port Said.
     priceSale: "$235",
     priceOriginal: "$235",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-Said/Overnight-Tour-to-Cairo-and-Alexandria-from-Port-Said-and-Drop-Off-at-Alexandria-Port.html",
     tourPlans: [
       {
         title: "Comprehensive 2-Day Cairo Adventure",
@@ -5656,7 +5656,7 @@ Drive to Alexandria Port to board your ship.
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursion-Said/Overnight-Tour-to-Cairo-and-Luxor-from-Port-Said.html",
     tourPlans: [
       {
         title: "Luxor’s Ancient Treasures",
@@ -5766,7 +5766,7 @@ Luxor to Cairo.
     priceSale: "$135",
     priceOriginal: "$135",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursions-Alexandria/Cairo-Day-Tour-from-Alexandria-Port.html",
     tourPlans: [
       {
         title: "Cairo Day Tour from Alexandria Port",
@@ -5827,7 +5827,7 @@ After a day full of exploration, transfer back to Alexandria Port and return to 
     priceSale: "$80",
     priceOriginal: "$80",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursions-Alexandria/Day-Trip-to-Alexandria-Sights-from-Alexandria-Port.html",
     tourPlans: [
       {
         title: "Day Trip to Alexandria Sights from Alexandria Port",
@@ -5883,7 +5883,7 @@ After a day of exploration, return to Alexandria Port for drop-off.`,
     priceSale: "$410",
     priceOriginal: "$410",
     rating: 5,
-    path: "",
+    path: "./Egypt-Shore-Excursions-Alexandria/2-Days-Tour-to-Cairo-and-Luxor-from-Alexandria-Port.html",
     tourPlans: [
       {
         title: "Alexandria Port to Luxor",
